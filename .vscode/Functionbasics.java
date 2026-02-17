@@ -1,4 +1,4 @@
-public class Function_Basics{
+public class Functionbasics{
     public static void printhelloworld(){
         System.out.println("Hello world");
     }
