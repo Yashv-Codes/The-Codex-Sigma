@@ -3,7 +3,7 @@ public class Function_basics{
         System.out.println("hi");
     }
     public static void main(String args[]){
-        printhelloworld();
+        printhelloworld(); // function call
     }
 }
 
