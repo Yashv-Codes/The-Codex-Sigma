@@ -4,7 +4,7 @@ public class Function_basics{
         System.out.println("hi");
         return;
     }
-    public static void calculatesum(int a, int b){
+    public static void calculatesum(int a, int b){ // parameters or formal parameters
         int sum = a+b;
         System.out.println("Sum = "+ sum);
     }
@@ -14,7 +14,7 @@ public class Function_basics{
         int a = sc.nextInt();
         int b = sc.nextInt();
         sc.close();
-        calculatesum(a,b);
+        calculatesum(a,b); // arguments or actual parameters
     }
     
 }
