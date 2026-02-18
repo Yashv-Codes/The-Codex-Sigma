@@ -5,9 +5,24 @@ public class Function_overloading {
     public static float sum(float a, float b){
         return (a+b);
     }
+    public static boolean isPrime(int n){
+        if(n<=1){
+            System.out.println("Not Prime");
+            return false;
+        }
+        else{
+             boolean isPrime = true;
+            for(int j=2; j<=Math.sqrt(n); j++){
+                if(n%j==0){
+                    isPrime = false;
+                }
+            }
+            return isPrime;
+        }
+     }
     public static void main(String args[]){
-        System.out.println(sum(5,7));
-        System.out.println(sum(2.4f, 7.9f));
+        
+        
     }
 
     
