@@ -21,13 +21,16 @@ public class Function_overloading {
         }
      }
     public static void main(String args[]){
-        int n = 20;
+        int n = 30;
         for(int i=1; i<=n; i++){
-            isPrime(i);
-            System.out.println(i+" ");
+            if(isPrime(i))
+                System.out.print(i+" ");
         }
     }
 }
+
+
+
 
 
 
