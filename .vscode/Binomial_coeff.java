@@ -17,7 +17,7 @@ public class Binomial_coeff {
         System.out.println("Binomial Co-eff = "+Bino_coeff);
     }
     public static void main(String args[]){
-        bino_coeff(13, 15);
+        bino_coeff(5, 7);
 
     }
     
