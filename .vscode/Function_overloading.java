@@ -7,6 +7,7 @@ public class Function_overloading {
     }
     public static void main(String args[]){
         System.out.println(sum(5,7));
+        System.out.println(sum(2.4f, 7.9f));
     }
 
     
