@@ -10,8 +10,8 @@ public class Function_basics1 {
             fact*= i;
         }
         return fact;
-
     }
+    
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
