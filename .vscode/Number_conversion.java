@@ -11,6 +11,11 @@ public class Number_conversion {
     }
     System.out.println("Decimal = "+new_num);
 }
+    public static void Decimal_to_binary(int n){
+        int pow = 0;
+        int new_num = 0;
+        int remainder = n%2;
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
