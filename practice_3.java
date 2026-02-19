@@ -9,12 +9,13 @@ public class practice_3 {
         return true;
     }
     public static boolean isPalindrome(int n){
+        int original = n;
         int reverse = 0;
         while(n>0){
         reverse = n%10;
         n /= 10;
     }
-    if (reverse!=n)
+    if (reverse!=original)
         return false;
     return true;
 }
@@ -26,6 +27,7 @@ public class practice_3 {
         sc.close();
     }
 }
+
 
 
 
