@@ -14,16 +14,25 @@ public class Number_conversion {
     public static void Decimal_to_binary(int n){
         int pow = 0;
         int new_num = 0;
+        while(n>0){
         int remainder = n%2;
+        new_num += (remainder*Math.pow(10,pow));
+        pow++;
+        n /=2;
     }
+    System.out.println("Binary = "+new_num);
+}
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int a = sc.nextInt();
         sc.close();
-        Binary_to_decimal(a);
+        Decimal_to_binary(a);
     }
 }
+
+
+
 
 
 
