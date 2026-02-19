@@ -8,7 +8,7 @@ public class reverseofnum{
         int lastdigit;
         while (n!=0){
              lastdigit = n % 10;
-             System.out.print(lastdigit+" ");
+             System.out.print(lastdigit+" "); // just printing digits not building reverse no.
              n = n/10;
 
         }
