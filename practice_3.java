@@ -13,7 +13,7 @@ public class practice_3 {
         int reverse = 0;
         while(n>0){
         int lastdigit = n%10;
-        reverse *= 10+lastdigit;
+        reverse = reverse*10+lastdigit;
         n /= 10;
     }
     if (reverse!=original)
