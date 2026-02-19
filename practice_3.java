@@ -6,11 +6,10 @@ public class practice_3 {
     public static boolean isEven(int n){
         if(n%2!=0)
             return false;
-        else
-            return true;
-
+        return true;
     }
     public static void main(String args[]){
+
         
     }
 }
