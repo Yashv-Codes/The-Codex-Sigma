@@ -4,10 +4,10 @@ public class Number_conversion {
         int new_num = 0;
         int pow = 0;
         while(n>0){
-        int last_digit = n%10;
+        int last_digit = n%10; // Extract last digit.
         new_num += (last_digit*Math.pow(2,pow)); 
         pow++;
-        n /= 10;
+        n /= 10; // Removes last digit.
     }
     System.out.println("Decimal = "+new_num);
 }
@@ -15,10 +15,10 @@ public class Number_conversion {
         int pow = 0;
         int new_num = 0;
         while(n>0){
-        int remainder = n%2;
+        int remainder = n%2; // wants only remainder.
         new_num += (remainder*Math.pow(10,pow));
         pow++;
-        n /=2;
+        n /=2; // doing LCM.
     }
     System.out.println("Binary = "+new_num);
 }
@@ -30,6 +30,7 @@ public class Number_conversion {
         Decimal_to_binary(a);
     }
 }
+
 
 
 
