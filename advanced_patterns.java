@@ -1,5 +1,5 @@
 import java.util.*;
-public class triangle_pattern {
+public class advanced_patterns {
     public static void zero_one_pattern(int n){
         for(int line=1; line<=n; line++){
             for(int num=1; num<=line; num++){
@@ -21,6 +21,7 @@ public class triangle_pattern {
 
     }
 }
+
 
 
 
