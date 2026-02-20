@@ -8,7 +8,7 @@ public class Halfpyramid {
         //     System.out.println();
         // }
         
-        // INVERTED
+        // INVERTED AND ROTATED.
         for(int line=1; line<=n; line++){
             for(int space=1; space<=n-line; space++){
                 System.out.print(" "+" ");
@@ -20,6 +20,7 @@ public class Halfpyramid {
         }
     }
 }
+
  
 
         
