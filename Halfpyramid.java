@@ -13,15 +13,16 @@ public class Halfpyramid {
         for(int line=1; line<=n; line++){
             for(int space=1; space<=M; space++){
                 System.out.print(" "+" ");
-                M--;
             }
             for(int stars=1; stars<=line; stars++){
                 System.out.print("*"+ " ");
             }
             System.out.println();
+            M--;
         }
     }
 }
+
 
 
  
