@@ -1,8 +1,5 @@
 import java.util.*;
 public class practice_3 {
-    public static double Avg_of_num(double a, double b, double c){
-        return (a+b+c)/3;
-    }
     public static boolean isEven(int n){
         if(n%2!=0)
             return false;
@@ -20,14 +17,25 @@ public class practice_3 {
         return false;
     return true;
 }
+    public static int sumofdigits(int n){
+        int sum = 0;
+        while(n>0){
+            int last_digit = n%10;
+            sum+= last_digit;
+            n /=10;
+        }
+        return sum;
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        System.out.println(isPalindrome(n));
+        System.out.println(sumofdigits(n));
         sc.close();
     }
 }
+
+
 
 
 
