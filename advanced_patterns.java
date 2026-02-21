@@ -1,5 +1,5 @@
 import java.util.*;
-public class advanced_patterns {
+public class Advanced_patterns {
     public static void zero_one_pattern(int n){
         for(int line=1; line<=n; line++){
             for(int num=1; num<=line; num++){
@@ -46,6 +46,11 @@ public class advanced_patterns {
             }
             System.out.println(); // for next line
         }
+    }
+    public static void Solid_rhombus(int n){
+        int 
+
+
     }
     
     public static void main(String args[]){
