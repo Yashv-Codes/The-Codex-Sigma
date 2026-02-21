@@ -77,41 +77,42 @@ public class Advanced_patterns {
     }
     public static void Diamond_pattern(int n){
         // Upper half
-        int k = 1 ;
+        
         for(int line=1; line<=n; line++){
             // Spaces
             for(int space=1; space<=n-line; space++){
                 System.out.print(" "+" ");
             }
             // stars
-            for(int star=1; star<=k; star++){
+            for(int star=1; star<=(2*line)-1; star++){
                 System.out.print("*"+" ");
             }
             System.out.println();
         }
         // Lower half
-        int m = 
         for(int line=n; line>=1; line--){
             // spaces
             for(int space=1; space<=n-line; space++){
                 System.out.print(" "+" ");
             }
             // stars
-            for(int star=1; star<=)
-            
+            for(int star=1; star<=(2*line)-1; star++){
+                System.out.print("*"+ " ");
+            }
+            System.out.println();
         }
     }
-
-
-    
-    public static void main(String args[]){
+     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        Hollow_rhombus(n);
+        Diamond_pattern(n);
         sc.close();
     }
 }
+
+
+
 
 
 
