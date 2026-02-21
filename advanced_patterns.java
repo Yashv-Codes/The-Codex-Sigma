@@ -49,13 +49,16 @@ public class Advanced_patterns {
     }
     public static void Solid_rhombus(int n){
         for(int line=1; line<=n; line++){
-            for(int space=1; space<=(n-line)/2; space++){
+            for(int space=1; space<=n-line; space++){
                 System.out.print(" "+" ");
             }
+            // stars
+            for(int star=1; star<=n; star++){
+                System.out.print("*"+" ");
+            }
         }
-
-
     }
+    
     
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
