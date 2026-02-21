@@ -75,6 +75,16 @@ public class Advanced_patterns {
             System.out.println();
         }
     }
+    public static void Diamond_pattern(int n){
+        // Upper half
+        for(int line=1; line<=n; line++){
+            // Spaces
+            for(int space=0; space<=line; space++){
+                
+            }
+        }
+    }
+
 
     
     public static void main(String args[]){
