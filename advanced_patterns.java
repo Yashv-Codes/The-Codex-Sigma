@@ -90,7 +90,8 @@ public class Advanced_patterns {
             System.out.println();
         }
         // Lower half
-        for(int line=n; line>=1; line--){
+        int m = 
+        for(int line=m; line>=1; line--){
             // spaces
             for(int space=1; space<=n-line; space++){
                 System.out.print(" "+" ");
