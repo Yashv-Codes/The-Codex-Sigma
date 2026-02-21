@@ -77,14 +77,23 @@ public class Advanced_patterns {
     }
     public static void Diamond_pattern(int n){
         // Upper half
-        int k
+        int k = 1 ;
         for(int line=1; line<=n; line++){
             // Spaces
             for(int space=1; space<=n-line; space++){
                 System.out.print(" "+" ");
             }
             // stars
-            for(int star)
+            for(int star=1; star<=k; star++){
+                System.out.print("*"+" ");
+            }
+            System.out.println();
+        }
+        // Lower half
+        for(int line=n; line>=1; line--){
+            // spaces
+            for(int space=1; )
+            
         }
     }
 
