@@ -92,7 +92,11 @@ public class Advanced_patterns {
         // Lower half
         for(int line=n; line>=1; line--){
             // spaces
-            for(int space=1; )
+            for(int space=1; space<=n-line; space++){
+                System.out.print(" "+" ");
+            }
+            // stars
+            for(int star=1; star<=line)
             
         }
     }
