@@ -56,18 +56,21 @@ public class Advanced_patterns {
             for(int star=1; star<=n; star++){
                 System.out.print("*"+" ");
             }
+            System.out.println();
         }
     }
-    
+
     
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        Butterfly_pattern(n);
+        Solid_rhombus(n);
         sc.close();
     }
 }
+
+
 
 
 
