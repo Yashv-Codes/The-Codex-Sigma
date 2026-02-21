@@ -59,17 +59,33 @@ public class Advanced_patterns {
             System.out.println();
         }
     }
-    
+    public static void Hollow_rhombus(int n){
+        for(int line=1; line<=n; line++){
+            // spaces
+            for(int space=1; space<=n-line; space++){
+                System.out.print(" "+" ");
+            }
+            // stars
+            for(int star=1; star<=n; star++){
+                if(line==1 || line==n || star==1 || star==n)
+                    System.out.print("*"+" ");
+                else
+                    System.out.print(" "+" ");
+            }
+            System.out.println();
+        }
+    }
 
     
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        Solid_rhombus(n);
+        Hollow_rhombus(n);
         sc.close();
     }
 }
+
 
 
 
