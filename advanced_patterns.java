@@ -48,7 +48,11 @@ public class Advanced_patterns {
         }
     }
     public static void Solid_rhombus(int n){
-        int 
+        for(int line=1; line<=n; line++){
+            for(int space=1; space<=(n-line)/2; space++){
+                System.out.print(" "+" ");
+            }
+        }
 
 
     }
