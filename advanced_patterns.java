@@ -79,9 +79,11 @@ public class Advanced_patterns {
         // Upper half
         for(int line=1; line<=n; line++){
             // Spaces
-            for(int space=0; space<=line; space++){
-                
+            for(int space=1; space<=n-line; space++){
+                System.out.print(" "+" ");
             }
+            // stars
+            for(int star)
         }
     }
 
