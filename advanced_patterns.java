@@ -59,6 +59,7 @@ public class Advanced_patterns {
             System.out.println();
         }
     }
+    
 
     
     public static void main(String args[]){
