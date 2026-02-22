@@ -21,11 +21,29 @@ public class Array_basics {
             }
         return smallest;
     }
+    public static int Binary_search(int num[], int key){
+        int start = 0;
+        int end = num.length-1;
+        int mid = (start+end)/2;
+        while(start<=end){
+            if(num[mid]==key){
+                return mid;
+            }
+            else if(num[mid]>key){
+                end = mid-1;
+            }
+            else{
+                start = mid+1;
+            } 
+        }
+        return -1;
+    }
     public static void main(String args[]){
-        int num[]= {1, 2, 3, 78, 34, 56, 8, 7};
-        String fruits[]= {"Apple", "Mango", "Banana", "Guava"};
-        String key = "Guava";
-        System.out.println("smallest num = "+Largest_num(num));
+        int num[]= {1, 2, 3, 4, 24,56,78};
+        int key = 56;
+        // String fruits[]= {"Apple", "Mango", "Banana", "Guava"};
+        // System.out.println("smallest num = "+Largest_num(num));
+        System.out.println("Index of key = "+Binary_search(num,key));
 
     }
 }
