@@ -12,11 +12,20 @@ public class Array_basics {
              }
         return -1;
     }
+    public static int Largest_num(int num[]){
+        int largest = Integer.MIN_VALUE; // stores -infinity value
+        for(int i=0; i<num.length; i++){
+            if(largest<num[i])
+                num[i]=largest;
+            }
+        return largest;
+    }
     public static void main(String args[]){
         int num[]= {1, 2, 3, 78, 34, 56, 8, 7};
         String fruits[]= {"Apple", "Mango", "Banana", "Guava"};
         String key = "Guava";
-        System.out.println("Index of " + key + " = "+Linear_search(fruits, key));
+        System.out.println("Largest num = "+Largest_num(num));
+
     }
 }
 
