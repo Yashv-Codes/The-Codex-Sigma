@@ -16,7 +16,7 @@ public class Array_basics {
         int largest = Integer.MIN_VALUE; // stores -infinity value
         for(int i=0; i<num.length; i++){
             if(largest<num[i])
-                num[i]=largest;
+                largest = num[i];
             }
         return largest;
     }
