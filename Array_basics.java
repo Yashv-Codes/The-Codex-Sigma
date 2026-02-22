@@ -17,9 +17,9 @@ public class Array_basics {
         int smallest = Integer.MAX_VALUE;
         for(int i=0; i<num.length; i++){
             if(smallest>num[i])
-                num[i]= smallest;
+                smallest = num[i];
             }
-        return largest;
+        return smallest;
     }
     public static void main(String args[]){
         int num[]= {1, 2, 3, 78, 34, 56, 8, 7};
@@ -29,6 +29,8 @@ public class Array_basics {
 
     }
 }
+
+
 
 
 
