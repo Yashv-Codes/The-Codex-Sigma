@@ -24,8 +24,9 @@ public class Array_basics {
     public static int Binary_search(int num[], int key){
         int start = 0;
         int end = num.length-1;
-        int mid = (start+end)/2;
+        
         while(start<=end){
+            int mid = (start+end)/2;
             if(num[mid]==key){
                 return mid;
             }
@@ -47,6 +48,7 @@ public class Array_basics {
 
     }
 }
+
 
 
 
