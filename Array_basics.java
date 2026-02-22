@@ -5,14 +5,30 @@ public class Array_basics {
             num[i]+= 1;
         }
     }
+    public static int Linear_search(String fruits[], String key){
+        for(int i=0; i<fruits.length; i++){
+            if(fruits[i]==key)
+                return i;
+             }
+        return -1;
+    }
     public static void main(String args[]){
-        int num[]= {24, 45, 89};
-        update(num);
-        for(int i=0; i<num.length; i++){
-            System.out.println(num[i]);
-        }
+        int num[]= {1, 2, 3, 78, 34, 56, 8, 7};
+        String fruits[]= {"Apple", "Mango", "Banana", "Guava"};
+        String key = "Guava";
+        System.out.println("Index of " + key + " = "+Linear_search(fruits, key));
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
