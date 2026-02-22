@@ -12,6 +12,8 @@ public class Array_basics {
         System.out.println("Maths: "+marks[2]);
         marks[2] = marks[2] - 1; // can update array.
         System.out.println("Maths: "+marks[2]);
+        int percentage = (marks[0]+ marks[1]+ marks[2])/3;
+        System.out.println("Percentage = "+percentage);
         sc.close();
     }
 }
