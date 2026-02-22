@@ -14,9 +14,10 @@ public class Array_basics {
     }
     public static int Largest_num(int num[]){
         int largest = Integer.MIN_VALUE; // stores -infinity value
+        int smallest = Integer.MAX_VALUE;
         for(int i=0; i<num.length; i++){
-            if(largest<num[i])
-                largest = num[i];
+            if(smallest>num[i])
+                num[i]= smallest;
             }
         return largest;
     }
@@ -24,7 +25,7 @@ public class Array_basics {
         int num[]= {1, 2, 3, 78, 34, 56, 8, 7};
         String fruits[]= {"Apple", "Mango", "Banana", "Guava"};
         String key = "Guava";
-        System.out.println("Largest num = "+Largest_num(num));
+        System.out.println("smallest num = "+Largest_num(num));
 
     }
 }
