@@ -10,7 +10,11 @@ public class Array_basics {
         System.out.println("Physics: "+ marks[0]);
         System.out.println("Chemistry: "+ marks[1]);
         System.out.println("Maths: "+marks[2]);
+        marks[2] = marks[2] - 1; // can update array.
+        System.out.println("Maths: "+marks[2]);
         sc.close();
     }
 }
+
+
 
