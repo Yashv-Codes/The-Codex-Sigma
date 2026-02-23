@@ -1,14 +1,20 @@
 public class arrays_practice {
     public static void subarray(int arr[]){
-        for(int start=arr.length; start>arr[0]; start++){
-            
+        int end = arr.length-1;
+        for(int start=end; start>=0; start--){
+            for(int k=start; k<=end; k++){
+                System.out.print(arr[k]+ " ");
+            }
+            System.out.println();
+
         }
     }
     
 
     
     public static void main(String[] args){
-        int arr[] = {2,4,6,8,10};
+        int arr[] = {2,4,6,8};
+        subarray(arr);
         
     }
 }
