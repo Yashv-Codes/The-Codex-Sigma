@@ -14,10 +14,8 @@ public class Arrays {
     public static void Subarrays(int arr[]){
         int count = 0;
         for(int i=0; i<arr.length; i++){
-            int start = i;
-            for(int j=i; j<arr.length; j++){
-                int end = j;
-                for(int k=start; k<=end; k++){
+             for(int j=i; j<arr.length; j++){
+                for(int k=i; k<=j; k++){
                     System.out.print( + arr[k] + " ");
                 }
                 count++;
