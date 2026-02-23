@@ -19,8 +19,8 @@ public class Arrays {
                 int end = j;
                 for(int k=start; k<=end; k++){
                     System.out.print( + arr[k] + " ");
-                    count++;
                 }
+                count++;
                 System.out.println();
             }
             System.out.println();
@@ -49,6 +49,7 @@ public class Arrays {
         Subarrays(arr);
     }
 }
+
 
 
 
