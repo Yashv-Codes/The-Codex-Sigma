@@ -17,9 +17,11 @@ public class Arrays {
             for(int j=i; j<arr.length; j++){
                 int end = j;
                 for(int k=start; k<=end; k++){
-                    System.out.print("(" + arr[k] + ") ");
+                    System.out.print( + arr[k] + " ");
                 }
+                System.out.println();
             }
+            System.out.println();
         }
 
     }
@@ -44,6 +46,7 @@ public class Arrays {
         Subarrays(arr);
     }
 }
+
 
 
 
