@@ -5,7 +5,11 @@ public class arrays_practice {
             }
         }
     public static void fixed_subarray(int arr[]){
-        
+        for(int start=0; start<1; start++){
+            for(int end= start; end<arr.length; end++){
+
+            }
+        }
     }
     
     public static void main(String[] args){
