@@ -1,9 +1,8 @@
 public class prac {
     public static void subarrays(int arr[]){
-        for(int i=0; i<arr.length; i++){
+        for(int i=0; i<arr.length-1; i++){
             System.out.println("(" + arr[i] + "," + arr[i+1] + ") ");
             }
-            System.out.println();
         }
     
     public static void main(String[] args){
@@ -12,3 +11,4 @@ public class prac {
     }
     
 }
+
