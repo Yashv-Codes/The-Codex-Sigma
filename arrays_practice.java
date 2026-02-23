@@ -8,8 +8,9 @@ public class arrays_practice {
         for(int start=0; start<1; start++){
             for(int end= start; end<arr.length; end++){
                 for(int k=start; k<=end; k++){
-                    System.out.println(arr[k]+ " ");
+                    System.out.print(arr[k]+ " ");
                 }
+                System.out.println();
             }
         }
     }
@@ -19,5 +20,6 @@ public class arrays_practice {
         fixed_subarray(arr);
     }
 }
+
 
 
