@@ -12,7 +12,15 @@ public class Arrays {
         }
     }
     public static void Subarrays(int arr[]){
-        
+        for(int i=0; i<arr.length; i++){
+            int start = i;
+            for(int j=i; j<arr.length; j++){
+                int end = j;
+                for(int k=start; k<=end; k++){
+                    System.out.print("(" + arr[k] + ") ");
+                }
+            }
+        }
 
     }
     public static void pairs(int arr[]){
@@ -32,7 +40,8 @@ public class Arrays {
         // for(int i=0; i<arr.length; i++){
         //     System.out.print(arr[i]+ " ");
         // }
-        pairs(arr);
+        // pairs(arr);
+        Subarrays(arr);
     }
 }
 
