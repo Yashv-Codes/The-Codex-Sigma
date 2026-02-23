@@ -1,4 +1,4 @@
-public class Array_basics1 {
+public class Arrays {
     public static void reverse_array(int arr[]){
         int first = 0;
         int last = arr.length-1;
@@ -31,6 +31,7 @@ public class Array_basics1 {
         pairs(arr);
     }
 }
+
 
 
 
