@@ -15,7 +15,7 @@ public class Array_basics1 {
         int count = 0;
         for(int i=0; i<arr.length; i++){
             for(int j=i+1; j<arr.length; j++){
-                System.out.print((+ i + "," + j ));
+                System.out.print("(" + arr[i] + "," + arr[j] + ") ");
                 count++;
             }
             System.out.println();
@@ -31,6 +31,8 @@ public class Array_basics1 {
         pairs(arr);
     }
 }
+
+
 
 
 
