@@ -7,7 +7,9 @@ public class arrays_practice {
     public static void fixed_subarray(int arr[]){
         for(int start=0; start<1; start++){
             for(int end= start; end<arr.length; end++){
-                System.out.println("(" + arr[start] + "," + arr[end] + ") ");
+                for(int k=start; k<=end; k++){
+                    System.out.println(arr[k]+ " ");
+                }
             }
         }
     }
