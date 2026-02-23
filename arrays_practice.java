@@ -7,15 +7,15 @@ public class arrays_practice {
     public static void fixed_subarray(int arr[]){
         for(int start=0; start<1; start++){
             for(int end= start; end<arr.length; end++){
-
+                System.out.println("(" + arr[start] + "," + arr[end] + ") ");
             }
         }
     }
     
     public static void main(String[] args){
         int arr[] = {2,4,6,8,10};
-        subarrays(arr);
+        fixed_subarray(arr);
     }
-    
 }
+
 
