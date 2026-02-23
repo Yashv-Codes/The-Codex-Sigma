@@ -17,14 +17,11 @@ public class Array_basics1 {
             for(int j=i+1; j<arr.length; j++){
                 System.out.print((+ i + "," + j ));
                 count++;
-
             }
             System.out.println();
-            System.out.println("Total pairs = "+count);
         }
-
+        System.out.println("Total pairs = "+count);
     }
-
     public static void main(String args[]){
         int arr[] = {1,2,3,4,5};
         // reverse_array(arr);
