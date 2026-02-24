@@ -6,16 +6,11 @@ public class Subarrays_sum{
         for(int i=1; i<prefix.length; i++){
             prefix[i] = prefix[i-1] + arr[i];
         }
-        // calculate max sum subarray
-        int maxsum = Integer.MIN_VALUE;
-        for(int start=3; start<arr.length; start++){
-            for(int end=start; end<6; end++){
-                int currsum = start==0? prefix[end] : prefix[end] - prefix[start-1]; 
-                if(maxsum<currsum) 
-                    maxsum = currsum;
-                }
-            }
-        System.out.println("Maxsum = "+maxsum);
+        // calculate specific index sum subarray
+        int start = 3;
+        int end = 6;
+        int currsum = start==0? prefix[end] : prefix[end] - prefix[start-1]; 
+        System.out.println("Sum = "+currsum);
     }
 
     public static void main(String[] args){
@@ -23,6 +18,8 @@ public class Subarrays_sum{
     prefix_subarray_sum(arr);
     }
 }
+
+
 
 
     
