@@ -13,12 +13,12 @@ public class arrays_practice {
     public static int linear_search(int arr[], int key){
         int count = 0;
         for(int start=0; start<arr.length; start++){
-            if(start==key){
+            if(arr[start]==key){
                 System.out.println("Key Found");
                 count++;
             }
         }
-        System.out.println("Key occured"+ count + "times");
+        System.out.println("Key occured " + count + " times ");
         return -1;
 
     }
@@ -29,6 +29,7 @@ public class arrays_practice {
         
     }
 }
+
 
 
 
