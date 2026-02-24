@@ -11,6 +11,21 @@ public class Arrays {
             last--;
         }
     }
+    public static void Max_subarrays_sum(int arr[]){
+        int maxsum = Integer.MIN_VALUE;
+        for(int start=0; start<arr.length; start++){
+            for(int end=start; end<arr.length; end++){
+                int sum = 0;
+                for(int k=start; k<=end; k++){
+                    sum += arr[k];
+                }
+                System.out.println(sum);
+                if(maxsum<sum)
+                    maxsum = sum;
+            }
+        }
+        System.out.println("Maxsum = "+maxsum);
+     }
     public static void Subarrays(int arr[]){
         int count = 0;
         for(int i=0; i<arr.length; i++){
@@ -46,7 +61,9 @@ public class Arrays {
         //     System.out.print(arr[i]+ " ");
         // }
         // pairs(arr);
-        Subarrays(arr);
+        // Subarrays(arr);
+        Max_subarrays_sum(arr);
+
     }
 }
 
