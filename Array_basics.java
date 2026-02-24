@@ -13,8 +13,8 @@ public class Array_basics {
         return -1;
     }
     public static int Largest_num(int num[]){
-        int largest = Integer.MIN_VALUE; // stores -infinity value
-        int smallest = Integer.MAX_VALUE;
+        int largest = Integer.MIN_VALUE; // stores -infinity 
+        int smallest = Integer.MAX_VALUE; // stores +infinity 
         for(int i=0; i<num.length; i++){
             if(smallest>num[i])
                 smallest = num[i];
