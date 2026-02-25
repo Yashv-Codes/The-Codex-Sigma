@@ -15,7 +15,7 @@ public class Subarrays_sum{
         System.out.println("Maxsum = "+maxsum);
     }
 
-    public static void Kadanes(int arr[]){
+    public static void Kadanes_algo(int arr[]){
         int currsum = 0;
         int maxsum = Integer.MIN_VALUE;
         for(int start=0; start<arr.length; start++){
@@ -44,9 +44,10 @@ public class Subarrays_sum{
     public static void main(String[] args){
     int arr[] = {-2, -3, 4, -1, -2, 1, 5, -3};
     // prefix_subarray_sum(arr);
-    Kadanes(arr);
+    Kadanes_algo(arr);
 }
 }
+
 
 
 
