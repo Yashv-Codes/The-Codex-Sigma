@@ -15,6 +15,18 @@ public class Subarrays_sum{
         System.out.println("Maxsum = "+maxsum);
     }
 
+    public static void Kadanes(int arr[]){
+        int currsum = 0;
+        int maxsum = Integer.MIN_VALUE;
+        for(int start=0; start<arr.length; start++){
+            currsum += arr[start];
+            if(currsum<0)
+                currsum = 0;
+            maxsum = Math.max(currsum, maxsum);
+        }
+        System.out.println("Max sum = "+ maxsum);
+    }
+
     public static void prefix_subarray_sum(int arr[]){
         int prefix[] = new int[arr.length];
         prefix[0] = arr[0];
@@ -30,10 +42,14 @@ public class Subarrays_sum{
     }
 
     public static void main(String[] args){
-    int arr[] = {2,4,6,8,10,15,67,13};
-    prefix_subarray_sum(arr);
-    }
+    int arr[] = {-2, -3, 4, -1, -2, 1, 5, -3};
+    // prefix_subarray_sum(arr);
+    Kadanes(arr);
 }
+}
+
+
+
 
 
 
