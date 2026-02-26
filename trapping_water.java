@@ -1,4 +1,4 @@
-public class Water_problem {
+public class trapping_water {
     public static int trapped_water(int height[]){
         int n = height.length;
         int leftmax[] = new int[n];
@@ -27,5 +27,6 @@ public class Water_problem {
         System.out.println("Total water trapped = "+(trapped_water(height)));
     }
 }
+
 
 
