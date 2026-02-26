@@ -7,7 +7,8 @@ public class Buyandsell_stocks {
                 int profit = prices[i] - buyprice; // today's profit.
                 maxprofit = Math.max(maxprofit, profit);
             }
-            buyprice = prices[i];
+            else
+                buyprice = prices[i];
         }
         return maxprofit;
     }
@@ -16,5 +17,7 @@ public class Buyandsell_stocks {
         System.out.println("Max profit = "+(stocks(prices)));
     }
 }
+
+
 
 
