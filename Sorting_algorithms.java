@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class Sorting_algorithms {
     public static void Bubble_sort(int arr[]){
         int n = arr.length;
@@ -11,17 +12,23 @@ public class Sorting_algorithms {
                     arr[element] = arr[element+1];
                     arr[element+1] = temp;
                 }
-                System.out.println();
-            }
-            System.out.println();
+            // Print after each pass
+            System.out.println("After pass " + (turn+1) + ": " + Arrays.toString(arr));
         }
-        System.out.println("New Sorted Array: "+arr);
+        System.out.println("Final Sorted Array: " + Arrays.toString(arr));
+        System.out.println();
     }
+}
     public static void main(String[] args){
         int arr[] = {5, 4, 1, 3, 2};
         Bubble_sort(arr);
     }
 }
+
+
+
+
+
 
 
 
