@@ -32,7 +32,7 @@ public class Subarrays_sum{
         prefix[0] = arr[0];
         // calculate prefix array
         for(int i=1; i<prefix.length; i++){
-            prefix[i] = prefix[i-1] + arr[i]; // store in prefix array to use later.
+            prefix[i] = prefix[i-1] + arr[i]; // store in prefix array for later use.
         }
         // calculate specific index sum subarray
         int start = 3;
