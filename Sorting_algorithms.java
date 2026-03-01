@@ -33,6 +33,19 @@ public class Sorting_algorithms {
             arr[i] = temp;
         }
     }
+    public static void Insertion_sort(int arr[]){
+        int n = arr.length;
+        for(int i=0; i<n-1; i++){
+            int curr = i;
+            int prev = i-1;
+            while(prev>=0 && arr[prev]>arr[curr]){
+                arr[prev+1] = arr[prev]; // Shift to index of curr element.
+                prev--;
+            }
+            // insertion
+            arr[prev+1] = arr[curr]; // manual placing curr element to correct position.
+        }
+    }
     public static void printarr(int arr[]){
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+ " ");
