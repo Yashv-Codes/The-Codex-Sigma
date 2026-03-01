@@ -21,7 +21,7 @@ public class Sorting_algorithms {
 }
     public static void Selection_sort(int arr[]){
         int n = arr.length;
-        for(int i=0; i<n-1; i++){
+        for(int i=0; i<n-1; i++){ // <n-1 because last element is automatically the largest.
             int min = i;
             for(int j=i+1; j<n; j++){
                 if(arr[min]>arr[j])
@@ -45,6 +45,7 @@ public class Sorting_algorithms {
         printarr(arr);
     }
 }
+
 
 
 
