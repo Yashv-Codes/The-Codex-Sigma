@@ -56,9 +56,9 @@ public class Sorting_algorithms {
         int arr[] = {5, 4, 1, 3, 2};
         Arrays.sort(arr); // DIRECT SORTING 
         printarr(arr);
-        
     }
 }
+
 
 
 
