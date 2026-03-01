@@ -54,10 +54,11 @@ public class Sorting_algorithms {
     }
     public static void main(String[] args){
         int arr[] = {5, 4, 1, 3, 2};
-        Arrays.sort(arr); // DIRECT SORTING 
+        Arrays.sort(arr,0,4); // DIRECT SORTING 
         printarr(arr);
     }
 }
+
 
 
 
