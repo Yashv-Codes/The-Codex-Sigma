@@ -54,10 +54,11 @@ public class Sorting_algorithms {
     }
     public static void main(String[] args){
         int arr[] = {5, 4, 1, 3, 2};
-        Selection_sort(arr);
+        Insertion_sort(arr);
         printarr(arr);
     }
 }
+
 
 
 
