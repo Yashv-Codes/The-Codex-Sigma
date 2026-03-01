@@ -1,6 +1,7 @@
 import java.util.Arrays;
+import java.util.Collections;
 public class Sorting_algorithms {
-    public static void Bubble_sort(int arr[]){
+    public static void Bubble_sort(Integer arr[]){
         int n = arr.length;
         // Outer loop
         for(int turn=0; turn<n-1; turn++){
@@ -19,7 +20,7 @@ public class Sorting_algorithms {
         System.out.println();
     }
 }
-    public static void Selection_sort(int arr[]){
+    public static void Selection_sort(Integer arr[]){
         int n = arr.length;
         for(int i=0; i<n-1; i++){ // <n-1 because last element is automatically the largest.
             int min = i;
@@ -33,7 +34,7 @@ public class Sorting_algorithms {
             arr[i] = temp;
         }
     }
-    public static void Insertion_sort(int arr[]){
+    public static void Insertion_sort(Integer arr[]){
         int n = arr.length;
         for(int i=0; i<n; i++){
             int curr = arr[i]; // stores temp.
@@ -46,18 +47,22 @@ public class Sorting_algorithms {
             arr[prev+1] = curr; // manual placing curr element to correct position.
         }
     }
-    public static void printarr(int arr[]){
+    public static void printarr(Integer arr[]){
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+ " ");
         }
         System.out.println();
     }
     public static void main(String[] args){
-        int arr[] = {5, 4, 1, 3, 2};
-        Arrays.sort(arr,0,4); // DIRECT SORTING 
+        Integer arr[] = {1, 2, 3, 4, 5};
+        // Arrays.sort(arr,0,4); // DIRECT SORTING 
+        Arrays.sort(arr,0,3,Collections.reverseOrder());
         printarr(arr);
     }
 }
+
+
+
 
 
 
