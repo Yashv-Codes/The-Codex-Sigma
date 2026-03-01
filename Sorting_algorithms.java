@@ -36,14 +36,14 @@ public class Sorting_algorithms {
     public static void Insertion_sort(int arr[]){
         int n = arr.length;
         for(int i=0; i<n; i++){
-            int curr = i;
+            int curr = arr[i]; // stores index
             int prev = i-1;
-            while(prev>=0 && arr[prev]>arr[curr]){
+            while(prev>=0 && arr[prev]>curr){
                 arr[prev+1] = arr[prev]; // Shift to index of curr element.
                 prev--;
             }
             // insertion
-            arr[prev+1] = arr[curr]; // manual placing curr element to correct position.
+            arr[prev+1] = curr; // manual placing curr element to correct position.
         }
     }
     public static void printarr(int arr[]){
