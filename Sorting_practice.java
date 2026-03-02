@@ -31,6 +31,9 @@ public class Sorting_practice {
         for(int i=0; i<n-1; i++){
             int curr = arr[i];
             int prev = i-1;
+            while(prev>=0 && arr[prev]>curr){
+                
+            }
 
         }
     }
