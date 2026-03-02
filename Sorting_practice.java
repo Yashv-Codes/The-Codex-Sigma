@@ -19,10 +19,11 @@ public class Sorting_practice {
                 if(arr[min]>arr[j]){
                     min = j;
                 }
-                int temp = arr[min];
-                arr[min] = arr[i];
-                arr[i] = temp;
             }
+            int temp = arr[min];
+            arr[min] = arr[i];
+            arr[i] = temp;
+            
         }
     }
     public static void print_array(int arr[]){
@@ -37,6 +38,7 @@ public class Sorting_practice {
         print_array(arr);
     }
 }
+
 
 
 
