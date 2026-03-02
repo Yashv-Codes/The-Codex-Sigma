@@ -6,11 +6,12 @@ public class Sorting_practice {
             if(largest<arr[i]){
                 largest = arr[i];
             }
-            int count[] = new int[largest+1];
-            
-            
-
         }
+        int count[] = new int[largest+1];
+        for(int i=0; i<count.length; i++){
+            count[arr[i]]++;
+        }
+        
     }
     public static void print_array(int arr[]){
         for(int i=0; i<arr.length; i++){
