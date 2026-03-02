@@ -26,6 +26,14 @@ public class Sorting_practice {
             
         }
     }
+    public static void Insertion_sort(int arr[]){
+        int n = arr.length;
+        for(int i=0; i<n-1; i++){
+            int curr = arr[i];
+            int prev = i-1;
+
+        }
+    }
     public static void print_array(int arr[]){
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+ " ");
