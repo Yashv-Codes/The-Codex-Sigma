@@ -20,8 +20,8 @@ public class Sorting_practice {
                     min = j;
                 }
                 int temp = arr[min];
-                arr[min] = arr[j];
-                arr[j] = temp;
+                arr[min] = arr[i];
+                arr[i] = temp;
             }
         }
     }
@@ -37,6 +37,7 @@ public class Sorting_practice {
         print_array(arr);
     }
 }
+
 
 
 
