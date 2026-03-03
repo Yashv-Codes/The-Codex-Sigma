@@ -7,6 +7,7 @@ public class TwoD_arrays_basics{
         Scanner sc = new Scanner(System.in);
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
+                System.out.print("Enter a no: ");
                 matrix[i][j] = sc.nextInt();
             }
         }
