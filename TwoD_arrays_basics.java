@@ -9,6 +9,7 @@ public class TwoD_arrays_basics{
                 }
             }
         }
+        System.out.println("Key not found");
         return false;
     }
     public static void main(String[] args){
@@ -32,6 +33,7 @@ public class TwoD_arrays_basics{
         searchkey(matrix,6);
     }
 }
+
 
 
 
