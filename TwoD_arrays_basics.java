@@ -1,26 +1,29 @@
 import java.util.*;
 public class TwoD_arrays_basics{
-    public static boolean searchkey(int matrix[][]){
+    public static void searchkey(int matrix[][]){
+        int lrow = 0, lcol = 0;
+        int srow = 0, scol = 0;
         int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;
         for(int i=0; i<matrix.length; i++){
             for(int j=0; j<matrix[0].length; j++){
                 if(largest<matrix[i][j]){
                     largest = matrix[i][j];
-                    System.out.println("Largest no = "+matrix[i][j]);
-                    System.out.println("Found at cell (" + i +"," + j +")");
-                    return true;
+                    lrow = i;
+                    lcol = j;
                 }
 
                 if(smallest>matrix[i][j]){
                     smallest = matrix[i][j];
-                    System.out.println("Smallest no = "+matrix[i][j]);
-                    System.out.println("Found at cell (" + i +"," + j +")");
-                    return true;
+                    srow = i;
+                    scol = j;
                 }
             }
         }
-        return false;
+        System.out.println("Largest no = "+largest);
+        System.out.println("Found at cell (" + lrow +"," + lcol +")");
+        System.out.println("Smallest no = "+smallest);
+        System.out.println("Found at cell (" + srow +"," + scol +")");
     }
     public static void main(String[] args){
         int matrix[][] = new int[3][3];
@@ -45,6 +48,7 @@ public class TwoD_arrays_basics{
         searchkey(matrix);
     }
 }
+
 
 
 
