@@ -1,5 +1,16 @@
 import java.util.*;
 public class TwoD_arrays_basics{
+    public static boolean searchkey(int matrix[][], int key){
+        for(int i=0; i<matrix.length; i++){
+            for(int j=0; j<matrix[0].length; j++){
+                if(matrix[i][j] == key){
+                    System.out.println("Key found at cell (" + i +"," + j +")");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
     public static void main(String[] args){
         int matrix[][] = new int[3][3];
         int n = matrix.length;
@@ -18,6 +29,10 @@ public class TwoD_arrays_basics{
             }
             System.out.println();
         }
+        searchkey(matrix,6);
     }
 }
+
+
+
 
