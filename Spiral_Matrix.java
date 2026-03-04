@@ -30,8 +30,8 @@ public class Spiral_Matrix {
             erow--;
             scol++;
             ecol--;
-            System.out.println();
         }
+        System.out.println();
     }
     public static void main(String[] args){
         int matrix[][] = {{1,2,3,4},
@@ -41,6 +41,7 @@ public class Spiral_Matrix {
         printspiral(matrix);
     } 
 }
+
 
 
 
