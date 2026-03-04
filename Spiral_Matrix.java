@@ -15,16 +15,16 @@ public class Spiral_Matrix {
                 System.out.print(matrix[i][ecol]+" "); // i->row because going from srow->erow.
             }
             // Bottom part
-            for(int j=ecol-1; j<=scol; j++){
+            for(int j=ecol-1; j>=scol; j--){
                 if(srow == erow)
                     break;
                 System.out.print(matrix[erow][j]+" ");
             }
             // Left part
-            for(int i=erow-1; i<=srow+1; i++){
+            for(int i=erow-1; i>=srow+1; i--){
                 if(scol == ecol)
                     break;
-                System.out.print(matrix[scol][i]+" ");
+                System.out.print(matrix[i][scol]+" ");
             }
             srow++;
             erow--;
@@ -41,6 +41,7 @@ public class Spiral_Matrix {
         printspiral(matrix);
     } 
 }
+
 
 
 
