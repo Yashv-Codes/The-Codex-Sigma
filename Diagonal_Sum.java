@@ -4,10 +4,12 @@ public class Diagonal_Sum {
         for(int i=0; i<matrix.length; i++){
             for(int j=0; j<matrix[0].length; j++){
                 // Primary Diagonal
-                if(i == j)
+
+                if(i == j) // i == j → 1 == 1 → TRUE
                     sum += matrix[i][j];
                 // Secondary Diagonal
-                else if(i+j == matrix.length-1)
+
+                else if(i+j == matrix.length-1) // i + j == n-1 → 1+1 = 2 → TRUE
                     sum += matrix[i][j];
                  }
             }
