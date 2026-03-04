@@ -12,7 +12,7 @@ public class Spiral_Matrix {
             }
             // Right part
             for(int i=srow+1; i<=erow; i++){ 
-                System.out.print(matrix[ecol][i]+" "); // i->row because going from srow->erow.
+                System.out.print(matrix[i][ecol]+" "); // i->row because going from srow->erow.
             }
             // Bottom part
             for(int j=ecol-1; j<=scol; j++){
