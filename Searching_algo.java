@@ -1,5 +1,5 @@
 import java.util.*;
-public class Array_basics {
+public class Searching_algo {
     public static void update(int num[]){
         for(int i=0; i<num.length; i++){
             num[i]+= 1;
