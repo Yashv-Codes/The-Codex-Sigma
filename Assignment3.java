@@ -1,5 +1,5 @@
 import java.util.*;
-public class practice_3 {
+public class Assignment3 {
     public static boolean isEven(int n){
         if(n%2!=0)
             return false;
