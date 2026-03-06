@@ -13,7 +13,7 @@ public class Strings_basics {
         System.out.println(str.length());
         // Concatenation
         String str2 = str+str1;
-        System.out.println(str2);
+        System.out.println(str2); 
     }
 }
 
