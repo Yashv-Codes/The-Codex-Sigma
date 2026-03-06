@@ -33,7 +33,7 @@ public class Strings_basics {
         // System.out.println(str2.charAt(0));
 
         String name = "Kisna Tailor";
-        String str = "racecar";
+        String str = "noon";
         System.out.println(ispalindrome(str));
         
     }
