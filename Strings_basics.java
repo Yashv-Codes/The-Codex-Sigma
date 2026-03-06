@@ -6,11 +6,12 @@ public class Strings_basics {
         String str1 = new String("xyz");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
-        String name = sc.next();
+        String name = sc.nextLine();
         System.out.println("You entered: "+name);
         sc.close();
 
     }
 }
+
 
 
