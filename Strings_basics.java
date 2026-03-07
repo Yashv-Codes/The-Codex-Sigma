@@ -15,6 +15,13 @@ public class Strings_basics {
         }
         return true;
     }
+    public static boolean comparision(String s1, String s2){
+        if(s1==s2)
+            System.out.println("Equal");
+        else if(s1.equals(s2))
+            return true;
+        return false;
+    }
     public static void main(String[] args){
         char arr[] = {'a', 'b', 'c', 'd'};
         // String str = "Yash Verma";
@@ -34,10 +41,13 @@ public class Strings_basics {
 
         String name = "Kisna Tailor";
         String str = "noon";
-        System.out.println(ispalindrome(str));
+        String s1 = "tony";
+        String s2 = new String("tony");
+        System.out.println(comparision(s1,s2));
         
     }
 }
+
 
 
 
