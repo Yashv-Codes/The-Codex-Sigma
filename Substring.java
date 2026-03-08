@@ -10,6 +10,7 @@ public class Substring {
         String str = "Hello World";
         // System.out.println(printsubstr(str,0,5));
         System.out.println(str.substring(0,5));
+        
     }
 }
 
