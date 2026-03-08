@@ -26,6 +26,7 @@ public class Substring {
             sb.append(ch);
         }
         System.out.println(sb);
+        System.out.println(sb.length());
     }
 }
 
