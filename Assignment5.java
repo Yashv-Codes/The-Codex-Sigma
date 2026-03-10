@@ -12,11 +12,13 @@ public class Assignment5 {
         return sb.toString();
     }
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String str = sc.nextLine();
-        System.out.println("Total vowels occured: "+count_vowels(str));
-        sc.close();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a string: ");
+        // String str = sc.nextLine();
+        // System.out.println("Total vowels occured: "+count_vowels(str));
+        // sc.close();
+        String str="ApnaCollege".replace("l","");
+        System.out.println(str);  
     
     }
 }
