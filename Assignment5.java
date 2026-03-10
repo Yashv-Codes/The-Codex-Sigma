@@ -12,10 +12,14 @@ public class Assignment5 {
         return sb.toString();
     }
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String str = sc.nextLine();
-        System.out.println("Total vowels occured: "+count_vowels(str));
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a string: ");
+        // String str = sc.nextLine();
+        // System.out.println("Total vowels occured: "+count_vowels(str));
+        String str = "ShradhaDidi";
+        String str1 = "ApnaCollege";
+        String str2 = "ShradhaDidi";
+        System.out.println(str.equals(str1) + " " + str.equals(str2));
     }
 }
 
