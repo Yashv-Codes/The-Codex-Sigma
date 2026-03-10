@@ -8,7 +8,7 @@ public class String_compression {
                 count++;
                 i++;
             }
-            sb.append(str.charAt(i)); // will print current value of i.
+            sb.append(str.charAt(i)); // will print the current value of i.
             if(count > 1){
                 sb.append(count.toString());
             }
