@@ -17,6 +17,7 @@ public class Assignment5 {
         // String str = sc.nextLine();
         // System.out.println("Total vowels occured: "+count_vowels(str));
         // sc.close();
+
         String str="ApnaCollege".replace("l","");
         System.out.println(str);  
     

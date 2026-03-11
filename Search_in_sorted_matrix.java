@@ -2,7 +2,7 @@ public class Search_in_sorted_matrix {
     public static boolean staircaseSearch(int matrix[][], int key){
         int row = 0, col = matrix[0].length-1; // Top-Right cell
         
-        //    int row = matrix.length-1, col = 0; Bottom-Left cell.
+        //    int row = matrix.length-1, col = 0; -> Bottom-Left cell.
 
         while(row < matrix.length && col >= 0 ){
             if(matrix[row][col] == key){ // comapres current value of row and col.
@@ -28,6 +28,7 @@ public class Search_in_sorted_matrix {
         staircaseSearch(matrix,key);
     }
 }
+
 
 
 

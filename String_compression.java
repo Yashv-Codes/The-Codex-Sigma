@@ -16,10 +16,12 @@ public class String_compression {
         return sb.toString();
     }
     public static void main(String[] args){
-        String str = "aaabbcccdd";
+        String str = "gggghhtttnnnd";
         System.out.println(tocompress(str));
     }
 }
+
+
 
 
 
