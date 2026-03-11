@@ -5,5 +5,8 @@ public class Bitwise_Operators{
 
         // Bit-Wise OR
         System.out.println((5 | 6));
+
+        // Bit-Wise XOR
+        System.out.println((5 ^ 6));
     }
 }
