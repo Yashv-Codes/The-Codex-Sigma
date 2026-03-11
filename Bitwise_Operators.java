@@ -12,5 +12,8 @@ public class Bitwise_Operators{
         // Binary one's complement
         System.out.println((~0));
         System.out.println((~5));
+
+        // Binary Left Shift
+        System.out.println((5 << 2));
     }
 }
