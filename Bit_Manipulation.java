@@ -1,4 +1,4 @@
-public class Bitwise_Operators{
+public class Bit_Manipulation{
     public static void main(String[] args){
         // Bit-Wise AND
         System.out.println((5 & 6));
