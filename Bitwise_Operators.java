@@ -8,5 +8,9 @@ public class Bitwise_Operators{
 
         // Bit-Wise XOR
         System.out.println((5 ^ 6));
+
+        // Binary one's complement
+        System.out.println((~0));
+        System.out.println((~5));
     }
 }
