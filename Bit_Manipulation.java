@@ -16,6 +16,7 @@ public class Bit_Manipulation{
         }
         return false;
     }
+    
     public static void main(String[] args){
         // Bit-Wise AND
         // System.out.println((5 & 6));
