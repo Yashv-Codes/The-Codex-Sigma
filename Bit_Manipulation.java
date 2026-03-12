@@ -29,9 +29,10 @@ public class Bit_Manipulation{
         // System.out.println((6 >> 1));
 
         OddorEven(4);
-        
+        OddorEven(7);
     }
 }
+
 
 
 
