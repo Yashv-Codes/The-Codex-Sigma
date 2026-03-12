@@ -33,7 +33,7 @@ public class ith_bit {
         // System.out.println(Get_ith(10,2));
         // System.out.println(Set_ith(5,2));
         // System.out.println(Set_ith(6,3));
-        System.out.println(Update_ith(10,2,1));
+        System.out.println(Update_ith(10,2,2));
         
     }
 }
