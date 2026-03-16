@@ -16,6 +16,16 @@ public class Bit_Manipulation{
         }
         return false;
     }
+    public static int countsetbits(int n){
+        int count = 0;
+        while(n>0){
+            if((n&1)==0){
+                count++;
+            }
+            n = n>>1;
+        }
+        return count;
+    }
     
     public static void main(String[] args){
         // Bit-Wise AND
@@ -40,8 +50,10 @@ public class Bit_Manipulation{
         // OddorEven(4);
         // OddorEven(7);
 
-        System.out.println(isPowerofTwo(0));
-        System.out.println(isPowerofTwo(16));
+        // System.out.println(isPowerofTwo(0));
+        // System.out.println(isPowerofTwo(16));
+
+        System.out.println(countsetbits(15));
     }
 }
 
