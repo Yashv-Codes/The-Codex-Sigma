@@ -18,8 +18,8 @@ public class Bit_Manipulation{
     }
     public static int countsetbits(int n){
         int count = 0;
-        while(n>0){
-            if((n&1)==0){
+        while(n>0){ // check our LSB
+            if((n&1)!=0){
                 count++;
             }
             n = n>>1;
@@ -56,6 +56,7 @@ public class Bit_Manipulation{
         System.out.println(countsetbits(15));
     }
 }
+
 
 
 
