@@ -37,6 +37,16 @@ public class Bit_Manipulation{
         }
         return ans;
     }
+    public static long modExp(long a, long n, long m){
+        long ans = 1;
+        while(n>0){
+            if((n&1)!=0)
+                ans = (ans*a)%m;
+            a = (a*a)%m;
+            n = n>>1;
+        }
+        return ans;
+    }
     
     public static void main(String[] args){
         // Bit-Wise AND
@@ -64,8 +74,12 @@ public class Bit_Manipulation{
         // System.out.println(isPowerofTwo(0));
         // System.out.println(isPowerofTwo(16));
 
-        System.out.println(countsetbits(15));
-        System.out.println(fastexpo(5,3));
+        // System.out.println(countsetbits(15));
+        // System.out.println(fastexpo(5,3));
+
+        System.out.println(modExp(34,7,3));
+
+
     }
 }
 
