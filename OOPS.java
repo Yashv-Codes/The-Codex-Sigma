@@ -12,15 +12,25 @@ public class OOPS {
 }
 
 class Pen{
-    String color;
-    int tip;
+    private String color;
+    private int tip;
 
-    void setColor(String newColor){
-        color = newColor;
+    // Getters
+    String getColor(){
+        return this.color;
     }
 
-    void setTip(int newTip){
-        tip = newTip;
+    int getTip(){
+        return this.tip;
+    }
+
+    // Seters
+    void setColor(String newColor){
+        this.color = newColor;
+    }
+
+    void setTip(int tip){
+        this.tip = tip;
     }
 }
 
