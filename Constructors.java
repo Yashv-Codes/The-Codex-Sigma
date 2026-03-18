@@ -2,6 +2,7 @@ public class Constructors {
     public static void main(String[] args){
         Student s1 = new Student();
         Student s2 = new Student("Yash");
+        Student s3 = new Student(23);
         System.out.println(s1.getName());
     }
 }
@@ -21,6 +22,10 @@ public class Constructors {
         }
         String getName(){
             return name;
+        }
+
+        Student(int roll){
+            this.roll = roll;
         }
     }
 
