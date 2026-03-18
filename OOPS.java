@@ -31,8 +31,8 @@ class Pen{
         this.color = newColor;
     }
 
-    void setTip(int tip){
-        this.tip = tip;
+    void setTip(int newtip){
+        this.tip = newtip;
     }
 }
 
@@ -44,6 +44,7 @@ class BankAccount{
         password = pwd;
     }
 }
+
 
 
 
