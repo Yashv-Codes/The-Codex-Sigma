@@ -2,11 +2,11 @@ public class Inheritance {
     public static void main(String[] args){
         Fish lionfish = new Fish();
         lionfish.eat();
+        lionfish.breathe();
         lionfish.swim();
-
     }
-    
 }
+
 // Base class
 class Animal{
     String skincolor;
@@ -25,5 +25,6 @@ class Fish extends Animal{
         System.out.println("swims in water");
     }
 }
+
 
 
