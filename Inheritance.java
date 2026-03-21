@@ -1,9 +1,14 @@
 public class Inheritance {
     public static void main(String[] args){
-        Fish lionfish = new Fish();
-        lionfish.eat();
-        lionfish.breathe();
-        lionfish.swim();
+        // Fish lionfish = new Fish();
+        // lionfish.eat();
+        // lionfish.breathe();
+        // lionfish.swim();
+
+        Dog pitbull = new Dog();
+        
+
+
     }
 }
 
@@ -24,6 +29,15 @@ class Fish extends Animal{
     void swim(){
         System.out.println("swims in water");
     }
+}
+
+// Multilvl Inheritance
+class Mammal extends Animal{
+    int legs;
+}
+
+class Dog extends Mammal{
+    String breed;
 }
 
 
