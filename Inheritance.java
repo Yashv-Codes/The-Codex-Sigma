@@ -6,7 +6,9 @@ public class Inheritance {
         // lionfish.swim();
 
         Dog pitbull = new Dog();
-        
+        pitbull.legs = 4;
+        pitbull.eat();
+        pitbull.breed = "brown";
 
 
     }
