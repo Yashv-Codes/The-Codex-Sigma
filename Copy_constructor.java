@@ -26,7 +26,7 @@ class Student{
         System.out.println("constructor is called");
     }
 
-    // copy constructor
+    //  Shallow copy constructor
     Student(Student s1){
         marks = new int[3];
         this.name = s1.name;
