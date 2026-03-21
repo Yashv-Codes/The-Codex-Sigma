@@ -3,11 +3,23 @@ public class Copy_constructor {
         Student s1 = new Student();
         s1.name = "yash";
         s1.roll = 456;
+
+        Student s2 = new Student(s1);
+
     }
     
 }
 class Student{
     String name;
     int roll;
-    
+
+    Student(){
+        System.out.println("constructor is called");
+    }
+
+    // copy constructor
+    Student(Student s1){
+        this.name = s1.name;
+        this.roll = s1.roll;
+    }
 }
