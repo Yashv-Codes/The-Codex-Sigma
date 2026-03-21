@@ -9,8 +9,8 @@ public class Inheritance {
         pitbull.legs = 4;
         pitbull.eat();
         pitbull.breed = "brown";
-
-
+        System.out.println(pitbull.legs);
+        System.out.println(pitbull.breed);
     }
 }
 
@@ -41,6 +41,7 @@ class Mammal extends Animal{
 class Dog extends Mammal{
     String breed;
 }
+
 
 
 
