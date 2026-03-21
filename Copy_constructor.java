@@ -7,7 +7,8 @@ public class Copy_constructor {
         s1.marks[1] = 100;
         s1.marks[2] = 101;
 
-        Student s2 = new Student(s1);
+        Student s2 = new Student(s1); // copied
+        s1.marks[2] = 100;
         for(int i=0; i<3; i++){
             System.out.print(s2.marks[i]+" ");
         }
