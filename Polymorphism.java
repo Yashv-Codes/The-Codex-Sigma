@@ -1,10 +1,15 @@
 public class Polymorphism {
     public static void main(String[] args){
+        Calculator calc = new Calculator();
+        System.out.println(calc.sum(4,5));
+        System.out.println(calc.sum((float)5.6,(float)8.9));
+        System.out.println(calc.sum(7,8,9));
 
     }
+}
 
-    class Calculator{
-        int sum(int a, int b){
+class Calculator{
+    int sum(int a, int b){
             return a+b;
         }
 
@@ -21,4 +26,8 @@ public class Polymorphism {
         }
     }
     
-}
+
+        
+    
+    
+
