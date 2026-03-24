@@ -8,6 +8,7 @@ public class Polymorphism {
     }
 }
 
+// Method Overloading
 class Calculator{
     int sum(int a, int b){
             return a+b;
@@ -25,7 +26,10 @@ class Calculator{
             return a+b+c;
         }
     }
-    
+
+// Method Overriding
+
+
 
         
     
