@@ -11,6 +11,9 @@ public class Abstraction {
 }
 
 abstract class Animal{
+    Animal(){
+        System.out.println("animal constructor is called");
+    }
     void eat(){
         System.out.println("eats");
         }
@@ -18,12 +21,18 @@ abstract class Animal{
     }
 
 class Horse extends Animal{
+    Horse(){
+        System.out.println("horse constructor is called");
+    }
     void walk(){
         System.out.println("walks with legs");
         }
     }
         
 class Chicken extends Animal{
+    Chicken(){
+        System.out.println("chicken constructor is called");
+    }
     void walk(){
         System.out.println("walks with chicken legs");
         }
