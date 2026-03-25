@@ -23,12 +23,13 @@ class Horse extends Animal{
         }
     }
         
-class Chicken extends Horse{
+class Chicken extends Animal{
     void walk(){
         System.out.println("walks with chicken legs");
         }
     }
     
+
 
 
 
