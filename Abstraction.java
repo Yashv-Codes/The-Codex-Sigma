@@ -7,8 +7,6 @@ public class Abstraction {
         Chicken c1 = new Chicken();
         c1.eat();
         c1.walk();
-        c1.run();
-
     }
 }
 
@@ -26,10 +24,14 @@ public class Abstraction {
     }
 
     class Chicken extends Horse{
-        void run(){
-            System.out.println("runs with chicken legs");
+        void walk(){
+            System.out.println("walks with chicken legs");
         }
     }
+
+
+
+
 
 
 
