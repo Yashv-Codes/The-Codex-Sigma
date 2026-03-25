@@ -19,6 +19,14 @@ It reflects my journey of learning, practicing, and revising core concepts.
 - Develop problem-solving intuition
 - Revision-friendly structure
 
+## 🛠️ Tech Stack
+- **Language:** Java ☕
+- **Editor:** VS Code
+- **Version Control:** Git & GitHub
+
+---
+*"Discipline in basics creates mastery in complexity."*  
+
 
 
 
