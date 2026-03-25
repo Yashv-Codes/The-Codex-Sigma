@@ -10,24 +10,26 @@ public class Abstraction {
     }
 }
 
-    abstract class Animal{
-        void eat(){
-            System.out.println("eats");
+abstract class Animal{
+    void eat(){
+        System.out.println("eats");
         }
         abstract void walk();
     }
 
-    class Horse extends Animal{
-        void walk(){
-            System.out.println("walks with legs");
+class Horse extends Animal{
+    void walk(){
+        System.out.println("walks with legs");
         }
     }
+        
+class Chicken extends Horse{
+    void walk(){
+        System.out.println("walks with chicken legs");
+        }
+    }
+    
 
-    class Chicken extends Horse{
-        void walk(){
-            System.out.println("walks with chicken legs");
-        }
-    }
 
 
 
