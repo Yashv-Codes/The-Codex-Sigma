@@ -7,9 +7,9 @@ Codex Sigma is my dedicated repository for mastering DSA concepts in Java from t
 
 Unlike problem-based collections, this repo focuses on:
 
-# 📚 Concept clarity
-# 🧱 Topic-wise implementation
-# 🧠 Strengthening fundamentals
+- 📚 Concept clarity
+- 🧱 Topic-wise implementation
+- 🧠 Strengthening fundamentals
 
 It reflects my journey of learning, practicing, and revising core concepts.
 
