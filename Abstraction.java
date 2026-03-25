@@ -1,8 +1,16 @@
 public class Abstraction {
     public static void main(String[] args){
-        
+        Horse h1 = new Horse();
+        h1.eat();
+        h1.walk();
+
+        Chicken c1 = new Chicken();
+        c1.eat();
+        c1.walk();
+        c1.run();
 
     }
+}
 
     abstract class Animal{
         void eat(){
@@ -23,5 +31,5 @@ public class Abstraction {
         }
     }
 
-}
+
 
