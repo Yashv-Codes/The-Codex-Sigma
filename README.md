@@ -3,7 +3,7 @@
 ---
 
 ## 📌 About  
-Codex Sigma is my dedicated repository for mastering DSA concepts in Java from the ground up.
+My dedicated repository for mastering DSA concepts in Java from the ground up.
 
 Unlike problem-based collections, this repo focuses on:
 
