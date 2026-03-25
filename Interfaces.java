@@ -1,10 +1,14 @@
 public class Interfaces {
     public static void main(String[] args){
         Queen q = new Queen();
-        
+        q.moves();
 
+        King k = new King();
+        k.moves();
+
+        Rook r = new Rook();
+        r.moves();
     }
-    
 }
 
 interface Chessplayer{
@@ -28,3 +32,4 @@ class Rook implements Chessplayer{
         System.out.println("moves horizontally and vertically");
     }
 }
+
