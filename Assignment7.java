@@ -7,8 +7,12 @@ public class Assignment7 {
 }
 
 class Complex{
-    int num1;
-    int num2;
+    float num1;
+    float num2;
 
-    
+    double sum( float num1, float num2){
+        return num1 + num2;
+
+
+    }
 }
