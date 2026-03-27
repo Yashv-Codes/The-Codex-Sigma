@@ -7,5 +7,8 @@ public class Assignment7 {
 }
 
 class Complex{
+    int num1;
+    int num2;
+
     
 }
