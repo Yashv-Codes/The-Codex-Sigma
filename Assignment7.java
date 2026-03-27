@@ -7,19 +7,8 @@ public class Assignment7 {
 }
 
 class Complex{
-    float num1;
-    float num2;
-
-    double sum( float num1, float num2){
-        return num1 + num2;
-    }
-
-    double sub(float num1, float num2){
-        return num1 - num2;
-    }
-
-    double multiply(float num1, float num2){
-        return num1 * num2;
-    }
+    
 }
+    
+    
 
