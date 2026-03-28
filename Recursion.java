@@ -13,6 +13,6 @@ public class Recursion {
         printdec(10);
 
     }
-    
 }
+
 
