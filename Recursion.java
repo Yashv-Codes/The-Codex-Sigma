@@ -13,18 +13,22 @@ public class Recursion {
     // Print in increasing order
     public static void printInc(int n){
         if(n==1){
-            System.out.println(n);
+            System.out.print(n+" ");
             return;
         }
-        printInc(n-1); // 
+        printInc(n-1); // go to smaller problem first
+        System.out.print(n+" "); // return phase
     }
 
 
     public static void main(String[] args){
-        printdec(10);
+        // printdec(10);
+        printInc(5);
 
     }
 }
+
+
 
 
 
