@@ -7,13 +7,17 @@ public class Recursion {
             return;
         }
         System.out.print(n+" ");
-        printdec(n-1);
+        printdec(n-1); // func calls itself -> recursive func.
     }
+
     public static void main(String[] args){
         printdec(10);
 
     }
 }
+
+
+
 
 
 
