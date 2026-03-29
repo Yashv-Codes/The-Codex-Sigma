@@ -32,12 +32,11 @@ public class Recursion {
 
     // Sum of first N natural no
     public static int printsum(int n){
-        int sum = 0;
         if(n==1){
             return 1;
         }
         int solution = printsum(n-1);
-        sum  = n+solution;
+        int sum  = n+solution;
         return sum;
     }
 
