@@ -30,6 +30,17 @@ public class Recursion {
         return Fn;
     }
 
+    // Sum of first N natural no
+    public static int printsum(int n){
+        int sum = 0;
+        if(n==1){
+            return 1;
+        }
+        int solution = printsum(n-1);
+        sum += solution;
+        return sum;
+    }
+
 
     public static void main(String[] args){
         // printdec(10);
