@@ -45,7 +45,8 @@ public class Recursion {
     public static void main(String[] args){
         // printdec(10);
         // printInc(5);
-        System.out.println(fact(7));
+        // System.out.println(fact(7));
+        System.out.println("Total sum = "+printsum(10));
 
     }
 }
