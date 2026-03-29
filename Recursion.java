@@ -57,10 +57,11 @@ public class Recursion {
         // printInc(5);
         // System.out.println(fact(7));
         // System.out.println("Total sum = "+printsum(10));
-        System.out.println(calcfib(6));
+        System.out.println(calcfib(5));
 
     }
 }
+
 
 
 
