@@ -45,10 +45,9 @@ public class Recursion {
         if(n==0 || n==1){
             return n;
         }
-        int Fibnm1 = calcfib(n-1);
-        int Fibnm2 = calcfib(n-2);
-        int FibN = Fibnm1 + Fibnm2;
-        return FibN;
+        int f1 = calcfib(n-1);
+        int f2 = calcfib(n-2);
+        return f1+f2;
     }
 
 
@@ -61,6 +60,7 @@ public class Recursion {
 
     }
 }
+
 
 
 
