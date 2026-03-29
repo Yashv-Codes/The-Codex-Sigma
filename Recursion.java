@@ -40,12 +40,24 @@ public class Recursion {
         return sum;
     }
 
+    // Fibonacci Series
+    public static int calcfib(int n){
+        if(n==0 || n==1){
+            return n;
+        }
+        int Fibnm1 = calcfib(n-1);
+        int Fibnm2 = calcfib(n-2);
+        int FibN = Fibnm1 + Fibnm2;
+        return FibN;
+    }
+
 
     public static void main(String[] args){
         // printdec(10);
         // printInc(5);
         // System.out.println(fact(7));
-        System.out.println("Total sum = "+printsum(10));
+        // System.out.println("Total sum = "+printsum(10));
+        System.out.println(calcfib(6));
 
     }
 }
