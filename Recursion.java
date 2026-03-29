@@ -37,7 +37,7 @@ public class Recursion {
             return 1;
         }
         int solution = printsum(n-1);
-        sum += solution;
+        sum  = n+solution;
         return sum;
     }
 
