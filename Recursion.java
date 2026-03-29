@@ -20,13 +20,25 @@ public class Recursion {
         System.out.print(n+" "); // return phase
     }
 
+    // To calculate factorial
+    public static int fact(int n){
+        if(n==0){
+            return 1;
+        }
+        int Nm1 = fact(n-1);
+        int Fn = n * Nm1;
+        return Fn;
+    }
+
 
     public static void main(String[] args){
         // printdec(10);
-        printInc(5);
+        // printInc(5);
+        System.out.println(fact(7));
 
     }
 }
+
 
 
 
