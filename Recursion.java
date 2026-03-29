@@ -33,7 +33,7 @@ public class Recursion {
     // Sum of first N natural no
     public static int printsum(int n){
         if(n==1){
-            return 1;
+            return n;
         }
         int solution = printsum(n-1);
         int sum  = n+solution;
@@ -49,6 +49,7 @@ public class Recursion {
 
     }
 }
+
 
 
 
