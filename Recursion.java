@@ -7,7 +7,7 @@ public class Recursion {
             return;
         }
         System.out.print(n+" ");
-        printdec(n-1); // func calls itself -> recursive func.
+        printdec(n-1); // recursive call
     }
 
     // Print in increasing order
@@ -27,6 +27,7 @@ public class Recursion {
 
     }
 }
+
 
 
 
