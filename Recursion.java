@@ -50,16 +50,30 @@ public class Recursion {
         return f1+f2;
     }
 
+    // Check if sorted array
+    public static boolean isSorted(int arr[], int i){
+        if(i==arr.length-1) // Works as edge case
+            return true;
+
+        if(arr[i] > arr[i+1])
+            return false;
+
+        return isSorted(arr,i+1); // Else case
+    }
+
 
     public static void main(String[] args){
         // printdec(10);
         // printInc(5);
         // System.out.println(fact(7));
         // System.out.println("Total sum = "+printsum(10));
-        System.out.println(calcfib(5));
+        // System.out.println(calcfib(5));
+        int arr[] = {1,9,7,15,5};
+        System.out.println(isSorted(arr,0));
 
     }
 }
+
 
 
 
