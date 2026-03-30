@@ -69,7 +69,7 @@ public class Recursion {
         if(arr[i]==key)
             return i;
 
-        return firstOccurence(arr,i+1,key);
+        return firstOccurence(arr,i+1,key); // Recursive call
     }
 
     // To find last occurence
@@ -77,7 +77,7 @@ public class Recursion {
         if(i==arr.length)
             return -1;
 
-        int isFound = lastOccurence(arr,key,i+1);
+        int isFound = lastOccurence(arr,key,i+1); // Recursive call
         if(isFound==-1 && arr[i]==key)
             return i;
 
@@ -94,6 +94,7 @@ public class Recursion {
         System.out.println(lastOccurence(arr,5,0));
     }
 }
+
 
 
 
