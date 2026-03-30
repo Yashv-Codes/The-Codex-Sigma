@@ -71,6 +71,18 @@ public class Recursion {
 
         return firstOccurence(arr,i+1,key);
     }
+
+    // To find last occurence
+    public static int lastOccurence(int arr[], int key, int i){
+        if(i==arr.length)
+            return -1;
+
+        int isFound = lastOccurence(arr,key,i+1);
+        if(isFound==-1 && arr[i]==key)
+            return i;
+
+        return isFound;
+    }
     
     public static void main(String[] args){
         // printdec(10);
@@ -79,10 +91,10 @@ public class Recursion {
         // System.out.println("Total sum = "+printsum(10));
         // System.out.println(calcfib(5));
         int arr[] = {8,3,6,9,5,10,2,5,3};
-        // System.out.println(isSorted(arr,0));
-        System.out.println(firstOccurence(arr,0,5));
+        System.out.println(lastOccurence(arr,5,0));
     }
 }
+
 
 
 
