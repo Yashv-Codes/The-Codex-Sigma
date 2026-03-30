@@ -77,7 +77,8 @@ public class Recursion {
         if(i==arr.length)
             return -1;
 
-        int isFound = lastOccurence(arr,key,i+1); // Walking Backwards
+        int isFound = lastOccurence(arr,key,i+1); 
+        // --- EVERYTHING BELOW THIS LINE HAPPENS ON THE WALK BACK ---
         if(isFound==-1 && arr[i]==key)
             return i;
 
