@@ -84,6 +84,14 @@ public class Recursion {
 
         return isFound;
     }
+
+    // Calculate power
+    public static int power(int x, int n){
+        if(n==0)
+            return 1;
+
+        return x * power(x,n-1);
+    }
     
     public static void main(String[] args){
         // printdec(10);
@@ -91,8 +99,9 @@ public class Recursion {
         // System.out.println(fact(7));
         // System.out.println("Total sum = "+printsum(10));
         // System.out.println(calcfib(5));
-        int arr[] = {8,3,6,9,5,10,2,5,3};
-        System.out.println(lastOccurence(arr,5,0));
+        // int arr[] = {8,3,6,9,5,10,2,5,3};
+        // System.out.println(lastOccurence(arr,5,0));
+        System.out.println(power(9,98));
     }
 }
 
