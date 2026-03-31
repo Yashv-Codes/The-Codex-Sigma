@@ -99,9 +99,10 @@ public class Recursion {
             return 1;
 
         int solution = optimizedpower(x, n/2);
+        int halfpowsq = solution * solution;
         // for odd
         if(n % 2 != 0)
-            return x * solution;
+            return x * halfpowsq;
 
         return solution;
     }
@@ -118,6 +119,7 @@ public class Recursion {
         System.out.println(optimizedpower(2,7));
     }
 }
+
 
 
 
