@@ -98,7 +98,7 @@ public class Recursion {
         if(n==0)
             return 1;
 
-        int solution = optimizedpower(x, n/2) * optimizedpower(x, n/2);
+        int solution = optimizedpower(x, n/2);
         // for odd
         if(n % 2 != 0)
             return x * solution;
