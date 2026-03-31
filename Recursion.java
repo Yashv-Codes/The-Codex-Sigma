@@ -92,6 +92,19 @@ public class Recursion {
 
         return x * power(x,n-1);
     }
+
+    // Optimized power
+    public static int optimizedpower(int x, int n){
+        if(n==0)
+            return 1;
+
+        int solution = optimizedpower(x, n/2) * optimizedpower(x, n/2);
+        // for odd
+        if(n % 2 != 0)
+            return x * solution;
+
+        return solution;
+    }
     
     public static void main(String[] args){
         // printdec(10);
@@ -101,7 +114,8 @@ public class Recursion {
         // System.out.println(calcfib(5));
         // int arr[] = {8,3,6,9,5,10,2,5,3};
         // System.out.println(lastOccurence(arr,5,0));
-        System.out.println(power(5,10));
+        // System.out.println(power(5,10));
+        System.out.println(optimizedpower(2,7));
     }
 }
 
