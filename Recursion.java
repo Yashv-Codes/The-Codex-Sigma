@@ -101,9 +101,10 @@ public class Recursion {
         // System.out.println(calcfib(5));
         // int arr[] = {8,3,6,9,5,10,2,5,3};
         // System.out.println(lastOccurence(arr,5,0));
-        System.out.println(power(9,98));
+        System.out.println(power(2,10));
     }
 }
+
 
 
 
