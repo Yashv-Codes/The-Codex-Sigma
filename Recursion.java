@@ -58,7 +58,7 @@ public class Recursion {
         if(arr[i] > arr[i+1])
             return false;
 
-        return isSorted(arr,i+1); // Else case
+        return isSorted(arr,i+1); 
     }
 
     // To find first occurence
@@ -95,6 +95,7 @@ public class Recursion {
         System.out.println(lastOccurence(arr,5,0));
     }
 }
+
 
 
 
