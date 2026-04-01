@@ -11,10 +11,12 @@ public class Tiling_problem {
 
         return fm1 + fm2;
     }
-
-
-public static void main(String[] args){
+    
+    public static void main(String[] args){
     System.out.println("Total ways = "+countways(4));
 }
 }
+
+
+
 
