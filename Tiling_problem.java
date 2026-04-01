@@ -14,7 +14,7 @@ public class Tiling_problem {
 
 
 public static void main(String[] args){
-    System.out.println("Total ways = "+countways(5));
+    System.out.println("Total ways = "+countways(4));
 }
 }
 
