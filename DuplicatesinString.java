@@ -10,6 +10,7 @@ public class DuplicatesinString {
             removeDuplicates(str,idx+1,newstr,map);
         }
         else{
+            // Mark and add
             map[currchar-'a'] = true;
             removeDuplicates(str,idx+1,newstr.append(currchar),map);
         }
@@ -21,4 +22,5 @@ public class DuplicatesinString {
 
     }
 }
+
 
