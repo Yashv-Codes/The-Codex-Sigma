@@ -62,14 +62,14 @@ public class Recursion {
     }
 
     // To find first occurence
-    public static int firstOccurence(int arr[], int i, int key){
+    public static int firstOccurence(int arr[], int key, int i){
         if(i==arr.length)
             return -1;
 
         if(arr[i]==key)
             return i;
 
-        return firstOccurence(arr,i+1,key); // Recursive call
+        return firstOccurence(arr,key, i+1); // Recursive call
     }
 
     // To find last occurence
