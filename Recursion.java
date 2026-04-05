@@ -104,7 +104,7 @@ public class Recursion {
         if(n % 2 != 0)
             return x * halfpowsq;
 
-        return solution;
+        return halfpowsq;
     }
     
     public static void main(String[] args){
