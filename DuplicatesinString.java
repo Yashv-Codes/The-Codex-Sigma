@@ -1,18 +1,18 @@
 public class DuplicatesinString {
-    public static void removeDuplicates(String str, int idx, StringBuilder newstr, boolean map[]){
-        if(idx == str.length()){
+    public static void removeDuplicates(String str, int i, StringBuilder newstr, boolean map[]){
+        if(i == str.length()){
             System.out.println(newstr);
             return;
         }
-        char currchar = str.charAt(idx);
+        char currchar = str.charAt(i);
         if(map[currchar-'a']==true){ 
             // Duplicate
-            removeDuplicates(str,idx+1,newstr,map);
+            removeDuplicates(str,i+1,newstr,map);
         }
         else{
             // Mark and add
             map[currchar-'a'] = true;
-            removeDuplicates(str,idx+1,newstr.append(currchar),map);
+            removeDuplicates(str,i+1,newstr.append(currchar),map);
         }
     }
 
@@ -22,5 +22,6 @@ public class DuplicatesinString {
 
     }
 }
+
 
 
