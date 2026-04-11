@@ -1,4 +1,5 @@
 public class MergeSort {
+    // Recursive func.
     public static void sort(int arr[], int si, int ei){
         if(si >= ei){
             return;
@@ -49,6 +50,21 @@ public class MergeSort {
             arr[i] = temp[k];
         }
     }
+
+    public static void printarr(int arr[]){
+        for(int i=0; i<arr.length; i++){
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args){
+        int arr[] = {6, 3, 9, 5, 2, 8, -1};
+        sort(arr, 0, arr.length-1);
+        printarr(arr);
+
+    }
 }
+
 
 
