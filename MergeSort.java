@@ -21,6 +21,20 @@ public class MergeSort {
         int j = mid+1; // idx for 2nd sorted part;
         int k = 0; // idx for temp;
 
+        // Comaparision
+        while(i<=mid && j<=ei){
+            if(arr[i] < arr[j]){
+                temp[k] = arr[i];
+                i++;
+            }
+            else{
+                temp[k] = arr[j];
+                j++;
+            }
+            k++;
+        }
+
+        // For leftover elements of first sorted part
         
 
     }
