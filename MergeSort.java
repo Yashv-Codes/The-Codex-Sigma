@@ -38,11 +38,22 @@ public class MergeSort {
         // For leftover elements of 1st sorted part
         while(i<=mid){
             temp[k++] = arr[i++];
+
+            // Or
+            // temp[k] = arr[i];
+            // k++; i++;
+            
+
         }
 
         // For leftover elements of 2nd sorted part
         while(j<=ei){
             temp[k++] = arr[j++];
+
+            // Or
+            temp[k] = arr[j];
+            k++; i++;
+
         }
 
         // Copy temp to original arr
