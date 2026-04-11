@@ -22,7 +22,7 @@ public class MergeSort {
         int j = mid+1; // idx for 2nd sorted part;
         int k = 0; // idx for temp;
 
-        // Comaparision
+        // Comparision
         while(i<=mid && j<=ei){
             if(arr[i] < arr[j]){
                 temp[k] = arr[i];
@@ -65,6 +65,7 @@ public class MergeSort {
 
     }
 }
+
 
 
 
