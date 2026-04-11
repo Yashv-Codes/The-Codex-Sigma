@@ -42,8 +42,6 @@ public class MergeSort {
             // Or
             // temp[k] = arr[i];
             // k++; i++;
-            
-
         }
 
         // For leftover elements of 2nd sorted part
@@ -51,9 +49,8 @@ public class MergeSort {
             temp[k++] = arr[j++];
 
             // Or
-            temp[k] = arr[j];
-            k++; i++;
-
+            // temp[k] = arr[j];
+            // k++; i++;
         }
 
         // Copy temp to original arr
@@ -76,6 +73,7 @@ public class MergeSort {
 
     }
 }
+
 
 
 
