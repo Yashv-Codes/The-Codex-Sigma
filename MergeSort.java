@@ -17,7 +17,11 @@ public class MergeSort {
     // Method to merge the sorted parts
     public static void merge(int arr[], int si, int mid, int ei){
         int temp[] = new int[ei-si+1];
-        int i = si; // 
+        int i = si; // idx for 1st sorted part
+        int j = mid+1; // idx for 2nd sorted part;
+        int k = 0; // idx for temp;
+
+        
 
     }
     
