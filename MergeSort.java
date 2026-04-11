@@ -34,8 +34,21 @@ public class MergeSort {
             k++;
         }
 
-        // For leftover elements of first sorted part
-        
+        // For leftover elements of 1st sorted part
+        while(i<=mid){
+            temp[k++] = arr[i++];
+        }
+
+        // For leftover elements of 2nd sorted part
+        while(j<=ei){
+            temp[k++] = arr[j++];
+        }
+
+        // Copy temp to original arr
+        for(k=0, i=si; k<temp.length; k++, i++){
+            arr[i] = temp[k];
+        }
+
 
     }
     
