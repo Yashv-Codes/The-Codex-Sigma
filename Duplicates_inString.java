@@ -1,4 +1,4 @@
-public class DuplicatesinString {
+public class Duplicates_inString {
     public static void removeDuplicates(String str, int i, StringBuilder newstr, boolean map[]){
         if(i == str.length()){
             System.out.println(newstr);
@@ -22,6 +22,7 @@ public class DuplicatesinString {
 
     }
 }
+
 
 
 
