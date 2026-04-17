@@ -21,20 +21,21 @@ public class Assignment7{
     }
 
     // Length of a string
-    public static int findlength(String str, int i){
-        if(i == str.length())
+    public static int findlength(String str){
+        if(str.length() == 0)
             return 0;
 
-        return 1 + findlength(str, i+1);
+        return 1 + findlength(str.substring(1));
     }
 
     public static void main(String[] args){
         int arr[] = {3, 2, 4, 5, 6, 2, 7, 2, 2};
         // occurence(arr, 2, 0);
         // printdigits(2011);
-        System.out.println("total length = "+findlength("hello",0));
+        System.out.println("total length = "+findlength("hello"));
     }
 }
+
 
 
 
