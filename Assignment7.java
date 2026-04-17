@@ -28,11 +28,18 @@ public class Assignment7{
         return 1 + findlength(str.substring(1));
     }
 
+    // Substring starting/ending with same character
+    public static void printsubstring(String str){
+        System.out.println(str.substring(0));
+    }
+
     public static void main(String[] args){
-        int arr[] = {3, 2, 4, 5, 6, 2, 7, 2, 2};
+        String str = "hello";
+        // int arr[] = {3, 2, 4, 5, 6, 2, 7, 2, 2};
         // occurence(arr, 2, 0);
         // printdigits(2011);
-        System.out.println("total length = "+findlength("hello"));
+        // System.out.println("total length = "+findlength("hello"));
+        printsubstring(str);
     }
 }
 
