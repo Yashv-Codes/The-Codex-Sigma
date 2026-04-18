@@ -33,7 +33,7 @@ public class Assignment7{
         if(start == str.length())
             return;
 
-        // Inner loop
+        // Loop finished -> move to next i
         if(end > str.length()){
             printsubstr(str, start+1, start+1);
             return;
@@ -41,7 +41,6 @@ public class Assignment7{
         // Print current substring
         System.out.println(str.substring(start,end));
 
-        // Outer loop
         printsubstr(str, start, end+1);
     }
 
@@ -55,6 +54,7 @@ public class Assignment7{
         
     }
 }
+
 
 
 
