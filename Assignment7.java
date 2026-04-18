@@ -43,7 +43,6 @@ public class Assignment7{
 
         // Outer loop
         printsubstr(str, start, end+1);
-        
     }
 
     public static void main(String[] args){
@@ -56,6 +55,7 @@ public class Assignment7{
         
     }
 }
+
 
 
 
