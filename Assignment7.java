@@ -28,7 +28,7 @@ public class Assignment7{
         return 1 + findlength(str.substring(1));
     }
 
-    // Substring starting/ending with same character
+    // Substring using recursion
     public static void printsubstr(String str, int start, int end){
         if(start == str.length())
             return;
