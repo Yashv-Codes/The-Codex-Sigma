@@ -29,7 +29,20 @@ public class Assignment7{
     }
 
     // Substring starting/ending with same character
-    public static void printsubstring(String str){
+    public static void printsubstr(String str, int start, int end){
+        if(start == str.length())
+            return;
+
+        // Inner loop
+        if(end > str.length()){
+            printsubstr(str, start+1, start+1);
+            return;
+        }
+        // Print current substring
+        System.out.println(str.substring(start,end));
+
+        // Outer loop
+        printsubstr(str, start, end+1);
         
     }
 
@@ -39,7 +52,7 @@ public class Assignment7{
         // occurence(arr, 2, 0);
         // printdigits(2011);
         // System.out.println("total length = "+findlength("hello"));
-        printsubstring(str);
+        
     }
 }
 
