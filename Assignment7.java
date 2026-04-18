@@ -52,9 +52,11 @@ public class Assignment7{
         // occurence(arr, 2, 0);
         // printdigits(2011);
         // System.out.println("total length = "+findlength("hello"));
+        printsubstr(str, 0, 1);
         
     }
 }
+
 
 
 
