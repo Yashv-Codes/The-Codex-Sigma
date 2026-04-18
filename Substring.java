@@ -1,10 +1,26 @@
 public class Substring {
-    public static String printsubstr(String str, int si, int ei){
+    public static String print(String str, int si, int ei){
         String substr = "";
         for(int i=si; i<ei; i++){
             substr += str.charAt(i);
         }
         return substr;
+    }
+
+    // Substring using recursion
+    public static void printsubstr(String str, int start, int end){
+        if(start == str.length())
+            return;
+
+        // Loop finished -> move to next character
+        if(end > str.length()){
+            printsubstr(str, start+1, start+1);
+            return;
+        }
+        // Print current substring
+        System.out.println(str.substring(start,end));
+
+        printsubstr(str, start, end+1);
     }
     public static void main(String[] args){
         String str = "Hello World";
