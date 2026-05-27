@@ -1,10 +1,12 @@
-public class Backtracking_Arrays{
+public class Backtracking{
+
+    // ARRAYS
     public static void Changearr(int arr[], int i, int val){
-        // Base case
         if(i == arr.length){
             printarr(arr);
             return;
         }
+
         // Recursion
         arr[i] = val;
         Changearr(arr, i+1, val+1); 
@@ -23,4 +25,14 @@ public class Backtracking_Arrays{
         Changearr(arr, 0, 1);
         printarr(arr);
     }
+
+    // FIND SUBSETS
+    public static void findsubsets(String str, int i, String ans){
+        if(i == str.length()){
+            if(ans.length() == 0){
+                
+            }
+        }
+    }
 }
+
