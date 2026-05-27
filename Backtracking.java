@@ -22,17 +22,30 @@ public class Backtracking{
 
     public static void main(String[] args){
         int arr[] = new int[5];
-        Changearr(arr, 0, 1);
-        printarr(arr);
+        String str = "abc";
+        // Changearr(arr, 0, 1);
+        // printarr(arr);
+        findsubsets(str, "", 0);
     }
 
     // FIND SUBSETS
-    public static void findsubsets(String str, int i, String ans){
+    public static void findsubsets(String str, String ans, int i){
         if(i == str.length()){
             if(ans.length() == 0){
-                
+                System.out.print("Empty");
             }
+            else{
+                System.out.println(ans);
+            }
+            return;
         }
+        // Yes choice
+        findsubsets(str, ans+str.charAt(i), i+1);
+
+        // No choice
+        findsubsets(str, ans, i+1);
     }
 }
+
+
 
