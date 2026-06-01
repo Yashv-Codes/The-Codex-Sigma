@@ -19,7 +19,7 @@ public class N_QUEENS {
             if(board[i][j] == 'Q')
                 return false;
         }
-        return false;
+        return true;
     }
     
     
@@ -62,5 +62,6 @@ public class N_QUEENS {
         nQueens(board, 0);
     }
 }
+
 
 
