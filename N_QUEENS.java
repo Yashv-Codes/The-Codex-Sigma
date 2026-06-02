@@ -65,10 +65,16 @@ public class N_QUEENS {
                 board[i][j] = '.';
             }
         }
-        nQueens(board, 0);
+        if(nQueens(board, 0)){
+            System.out.println("Solution exists.");
+            printBoard(board);
+        }
+        else
+            System.out.println("Solution doesn't exist");
         System.out.println("Total ways to place N-Queen's are: "+count);
     }
 }
+
 
 
 
