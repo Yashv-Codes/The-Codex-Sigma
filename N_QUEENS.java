@@ -26,7 +26,8 @@ public class N_QUEENS {
     // Placing Quuens
     public static void nQueens(char board[][], int row){
         if(row == board.length){
-            printBoard(board);
+            // printBoard(board);
+            count++;
             return;
         }
         // Column loop
@@ -49,6 +50,8 @@ public class N_QUEENS {
             System.out.println();
         }
     }
+
+    static int count = 0;
     
     public static void main(String[] args){
         int n = 4;
@@ -60,8 +63,10 @@ public class N_QUEENS {
             }
         }
         nQueens(board, 0);
+        System.out.println("Total ways to place N-Queen's are: "+count);
     }
 }
+
 
 
 
