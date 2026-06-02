@@ -24,21 +24,24 @@ public class N_QUEENS {
     
     
     // Placing Queens
-    public static void nQueens(char board[][], int row){
+    public static boolean nQueens(char board[][], int row){
         if(row == board.length){
             // printBoard(board);
             count++;
-            return;
+            return true;
         }
         // Column loop
         for(int j=0; j<board.length; j++){
             if(isSafe(board, row, j)){
                 board[row][j] = 'Q';
-                nQueens(board, row+1);
+                if(nQueens(board, row+1))
+                    return true;
+                }
                 board[row][j] = '.'; // Backtracking step
             }
+            return false;
         }
-    }
+    
 
     // Printing Board
     public static void printBoard(char board[][]){
