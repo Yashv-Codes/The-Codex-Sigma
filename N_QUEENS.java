@@ -23,7 +23,7 @@ public class N_QUEENS {
     }
     
     
-    // Placing Quuens
+    // Placing Queens
     public static void nQueens(char board[][], int row){
         if(row == board.length){
             // printBoard(board);
