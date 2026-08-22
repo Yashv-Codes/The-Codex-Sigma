@@ -1,7 +1,8 @@
 public class practice{
     public static void main(String[] args){
-        // dont touch anything.
-        int A = 5;
+        int a = 5;
+        int b = 6;
+        
         
         
        
