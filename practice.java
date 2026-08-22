@@ -1,6 +1,8 @@
 public class practice{
     public static void main(String[] args){
-        System.out.println("hi");
+        // hi whos there...
+        int A = 5;
+        System.out.println(A);
         
        
 
