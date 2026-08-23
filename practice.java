@@ -7,7 +7,7 @@ public class practice{
         System.out.print("Enter B: ");
         int B = sc.nextInt();
         System.out.print("Enter any operator( +, -, *, / ): ");
-        char operator = sc.next().
+        char operator = sc.next().charAt(0);
 
         
         
