@@ -27,6 +27,7 @@ public class practice{
         float b = a;
         System.out.println(b);
         }
+    }
 
 
 
