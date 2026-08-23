@@ -10,7 +10,9 @@ public class practice{
         char operator = sc.next().charAt(0);
 
         switch(operator){
-            case '+' : System.out.println("Addition is: "+(a+b))
+            case '+' : System.out.println("Addition is: "+(A+B));
+                    break;
+                    
 
         }
 
