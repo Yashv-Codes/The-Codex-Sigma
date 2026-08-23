@@ -5,7 +5,9 @@ public class practice{
         System.out.print("Enter a number (1-7): ");
         int weekday = sc.nextInt();
         
-        switch(weekday){}
+        switch(weekday){
+            case 1 : System.out.println("")
+        }
 
     }
 }
