@@ -4,6 +4,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         long a = 5l;
         float b = a;
+        System.out.println(b);
         // System.out.print("Enter A: ");
         // int A = sc.nextInt();
         // System.out.print("Enter B: ");
