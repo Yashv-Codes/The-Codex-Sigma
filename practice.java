@@ -12,6 +12,7 @@ public class practice{
         switch(operator){
             case '+' : System.out.println("Addition is: "+(A+B));
                        break;
+            case '-' : System.out.println("Subtraction is: ")
 
 
         }
