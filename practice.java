@@ -23,7 +23,9 @@ public class practice{
         // //                break;
         // //     default : System.out.println("You entered a wrong operator");
         //     sc.close();
-        
+        long a = 5L;
+        float b = a;
+        System.out.println(b);
         }
 
 
