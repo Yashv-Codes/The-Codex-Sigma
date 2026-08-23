@@ -21,6 +21,7 @@ public class practice{
             case 7 : System.out.println("Sunday");
                      break;
             default: System.out.println("You entered a wrong digit");
+            sc.close();
         }
 
     }
