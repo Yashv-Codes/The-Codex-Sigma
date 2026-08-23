@@ -4,7 +4,7 @@ public class practice{
         // Scanner sc = new Scanner(System.in);
         double temp = 103.5;
         if(temp > 100)
-            System.out.print
+            System.out.println("You have a fever");
         
         // sc.close();
         }
