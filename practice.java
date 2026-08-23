@@ -16,7 +16,7 @@ public class practice{
                        break;
             case '*' : System.out.println("Multiplication is: "+(A*B));
                        break;
-            case ''
+            case '/' : System.out.println("Division is: "+())
 
 
         }
