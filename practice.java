@@ -23,6 +23,7 @@ public class practice{
         // //                break;
         // //     default : System.out.println("You entered a wrong operator");
         //     sc.close();
+        
         }
 
 
