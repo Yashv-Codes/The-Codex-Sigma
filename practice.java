@@ -11,8 +11,8 @@ public class practice{
 
         switch(operator){
             case '+' : System.out.println("Addition is: "+(A+B));
-                    break;
-                    
+                       break;
+
 
         }
 
