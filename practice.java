@@ -6,7 +6,7 @@ public class practice{
         int A = sc.nextInt();
         System.out.print("Enter B: ");
         int B = sc.nextInt();
-        System.out.print("Enter any operator(+, ")
+        System.out.print("Enter any operator( +, -, ")
 
         
         
