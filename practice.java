@@ -10,6 +10,7 @@ public class practice{
         else{
             System.out.println("It's a +ve num");
         }
+        sc.close();
         }
     }
 
