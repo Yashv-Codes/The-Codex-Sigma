@@ -23,8 +23,8 @@ public class practice{
         // //                break;
         // //     default : System.out.println("You entered a wrong operator");
         //     sc.close();
-        float a = 2.56f;
-        long b = a;
+        long a = 5L;
+        float b = a;
         System.out.println(b);
         }
 
