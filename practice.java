@@ -16,7 +16,7 @@ public class practice{
                      break;
             case 5 : System.out.println("Friday");
                      break;
-            case 6 : System.out.println("Saturdya")
+            case 6 : System.out.println("Saturday)
         }
 
     }
