@@ -6,7 +6,10 @@ public class practice{
         double num = sc.nextDouble();
 
         if(num < 0)
-            System.out.println("Its a -ve num")
+            System.out.println("It's a -ve num");
+        else{
+            System.out.println("It's a +ve num")
+        }
         }
     }
 
