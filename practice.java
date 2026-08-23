@@ -8,7 +8,7 @@ public class practice{
         if(num < 0)
             System.out.println("It's a -ve num");
         else{
-            System.out.println("It's a +ve num")
+            System.out.println("It's a +ve num");
         }
         }
     }
