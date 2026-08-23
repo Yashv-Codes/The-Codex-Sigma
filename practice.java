@@ -20,6 +20,7 @@ public class practice{
                      break;
             case 7 : System.out.println("Sunday");
                      break;
+            default: System.out.println("You entered a wrong digit");
         }
 
     }
