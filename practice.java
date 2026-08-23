@@ -9,8 +9,10 @@ public class practice{
         System.out.print("Enter any operator( +, -, *, / ): ");
         char operator = sc.next().charAt(0);
 
-        switch(operator):
-        
+        switch(operator){
+            case '+' : 
+        }
+
 
         
         
