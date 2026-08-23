@@ -12,7 +12,9 @@ public class practice{
                      break;
             case 3 : System.out.println("Wednesday");
                      break;
-            case 4 : System.out.println("")
+            case 4 : System.out.println("Thrusday");
+                     break;
+            case 5 : System.out.println("Friday");
         }
 
     }
