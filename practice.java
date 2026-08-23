@@ -14,7 +14,9 @@ public class practice{
                        break;
             case '-' : System.out.println("Subtraction is: "+(A-B));
                        break;
-            case '*' : System.out.println("Multiplication is: ")
+            case '*' : System.out.println("Multiplication is: "+(A*B));
+                       break;
+            case ''
 
 
         }
