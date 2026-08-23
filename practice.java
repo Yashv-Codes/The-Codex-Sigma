@@ -19,8 +19,9 @@ public class practice{
             case '/' : System.out.println("Division is: "+(A/B));
                        break;
             default : System.out.println("You entered a wrong operator");
+            sc.close();
         }
-        
+
 
 
         
