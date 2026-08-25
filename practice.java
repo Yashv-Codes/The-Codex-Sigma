@@ -14,12 +14,9 @@ public class practice{
         else{
             System.out.println("Not a Leap year");
         }
-        
-        
-        
-        }
-
     }
+}
+
 
 
 
