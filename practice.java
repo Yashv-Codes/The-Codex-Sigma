@@ -6,6 +6,7 @@ public class practice{
         int year = sc.nextInt();
 
         if(year % 4 == 0){
+            if(year % 100 != 0)
             System.out.println("Regular Leap year");
         }
         
