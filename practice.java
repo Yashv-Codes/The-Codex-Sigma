@@ -3,7 +3,9 @@ public class practice{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a year: ");
-        int isLeapyear = sc.nextInt();
+        int year = sc.nextInt();
+
+        if(year)
         
         
         
