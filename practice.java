@@ -5,11 +5,11 @@ public class practice{
         System.out.print("Enter a year: ");
         int year = sc.nextInt();
 
-        if(year % 4 == 0)
+        if(year % 400 == 0)
             System.out.println("Is Leap year");
         else if(year % 100 == 0)
             System.out.println("Not a Leap year");
-        else if(year % 400 == 0)
+        else if(year % 4 == 0)
             System.out.println("Is Leap year");
         else{
             System.out.println("Not a Leap year");
