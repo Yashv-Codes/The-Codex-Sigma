@@ -5,7 +5,7 @@ public class practice{
         System.out.print("Enter a year: ");
         int year = sc.nextInt();
 
-        if(year)
+        if(year % 4 == 0)
         
         
         
