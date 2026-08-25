@@ -15,6 +15,7 @@ public class practice{
             }
 
         }
+        else
         
         sc.close();
     }
