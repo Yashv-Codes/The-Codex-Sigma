@@ -6,7 +6,8 @@ public class practice{
         int year = sc.nextInt();
 
         if(year % 4 == 0)
-            System.out.println("")
+            System.out.println("Is Leap year");
+        
         
         
         
