@@ -8,6 +8,7 @@ public class practice{
         if(year % 4 == 0){
             if(year % 100 != 0)
             System.out.println("Regular Leap year");
+        
         }
         
         sc.close();
