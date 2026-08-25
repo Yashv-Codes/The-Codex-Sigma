@@ -7,7 +7,7 @@ public class practice{
 
         if(year % 4 == 0)
             System.out.println("Is Leap year");
-        
+        else if(year % 100)
         
         
         
