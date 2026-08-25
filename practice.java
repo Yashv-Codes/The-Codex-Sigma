@@ -1,8 +1,10 @@
 // import java.util.*;
 public class practice{
     public static void main(String[] args){
-        while(true)
-            
+        while(true){
+            System.out.println("hello");
+        }
+
     }
 }
 
