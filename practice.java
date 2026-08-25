@@ -11,9 +11,9 @@ public class practice{
             else if(year % 400 == 0)
                 System.out.println("Century leap year");
         }
-            else{
-                System.out.println("Not a leap year");
-            }
+        else{
+            System.out.println("Not a leap year");
+        }
 
         
     
