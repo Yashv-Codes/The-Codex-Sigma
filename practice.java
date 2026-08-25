@@ -12,7 +12,7 @@ public class practice{
         else if(year % 400 == 0)
             System.out.println("Is Leap year");
         else{
-            System.out.println("")
+            System.out.println("Not a Leap year");
         }
         
         
