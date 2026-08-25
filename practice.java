@@ -5,8 +5,9 @@ public class practice{
         System.out.print("Enter a year: ");
         int year = sc.nextInt();
 
-        if(year % 4 == 0){}
+        if(year % 4 == 0){
             System.out.println("Regular Leap year");
+        }
         
         sc.close();
     }
