@@ -5,8 +5,8 @@ public class practice{
         do{
             System.out.print("Enter a no: ");
             int num = sc.nextInt();
-        }
-        sc.close();
+        }while(true);
+        
 
     }
 }
