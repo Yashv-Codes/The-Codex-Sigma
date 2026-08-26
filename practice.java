@@ -6,8 +6,9 @@ public class practice{
         int n = sc.nextInt();
         int i = 1;
         int sum = 0;
-        while(i <= range){
-            sum += ran
+        while(i <= n){
+            sum += n;
+            
         }
         
 
