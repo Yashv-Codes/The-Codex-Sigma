@@ -5,11 +5,11 @@ public class practice{
         int i = 1;
         do{
             if(i==4){
-                i++;
+                
                 continue;
             }
             System.out.print(i+" ");
-            i++;
+            
         }while(i<=5);
     }
 }
