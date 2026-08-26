@@ -9,7 +9,7 @@ public class practice{
                 break;
             System.out.print(num);
         }while(true);
-        sc.close
+        sc.close();
         
         
 
