@@ -8,7 +8,7 @@ public class practice{
             if(n % 10 == 0)
                 continue;
         }while(true);
-        sc.close();
+        
     }
 }
 
