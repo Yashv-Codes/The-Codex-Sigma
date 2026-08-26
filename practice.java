@@ -7,6 +7,7 @@ public class practice{
             int num = sc.nextInt();
             if (10 % num == 0)
                 break;
+            System.out.print(num);
         }while(true);
         
         
