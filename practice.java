@@ -9,6 +9,8 @@ public class practice{
             System.out.print(i+ " ");
             i++;
         }
+        System.out.println();
+        sc.close();
 
     }
 }
