@@ -6,6 +6,7 @@ public class practice{
                 break;
             System.out.print(i+" ");
         }
+        System.out.println();
 
     }
 }
