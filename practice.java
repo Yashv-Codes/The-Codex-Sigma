@@ -6,7 +6,8 @@ public class practice{
     //     }
           int line = 1;
           while(line <= 4){
-            System.out.println("* * * *")
+            System.out.println("* * * *");
+            line++;
           }
         
         
