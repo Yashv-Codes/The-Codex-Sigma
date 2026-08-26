@@ -4,7 +4,7 @@ public class practice{
     //    for(int line=1; line<=4; line++){
     //         System.out.println("* * * *");
     //     }
-          while(line)
+          while(line <= 4)
         
         
 
