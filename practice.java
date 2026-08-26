@@ -6,6 +6,8 @@ public class practice{
         while(num != 0){
             System.out.print("Enter a no: ");
             if(10 % num == 0)
+                break;
+            System.out.println(num);
         }
 
     }
