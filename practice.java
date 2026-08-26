@@ -5,7 +5,9 @@ public class practice{
     //         System.out.println("* * * *");
     //     }
           int line = 1;
-          while(line <= 4)
+          while(line <= 4){
+            System.out.println("* * * *")
+          }
         
         
 
