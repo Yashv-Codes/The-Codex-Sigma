@@ -6,7 +6,7 @@ public class practice{
             System.out.print("Enter a no: ");
             int num = sc.nextInt();
             if (num == 5)
-                break;
+                continue;
             System.out.println(num);
         }while(true);
         sc.close();
