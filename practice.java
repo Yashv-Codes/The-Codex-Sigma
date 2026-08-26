@@ -4,9 +4,9 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int n = 5;
         do{
-            if()
-
-        }
+            if(n==4)
+                break;
+            System.out.print(n+" ");}
         
         
 
