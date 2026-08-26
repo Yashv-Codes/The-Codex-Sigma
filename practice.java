@@ -6,6 +6,10 @@ public class practice{
         //         break;
         //     System.out.print(i+" ");
         // }
+        int i = 0;
+        while(i <= 5){
+            if
+        }
         System.out.println();
 
     }
