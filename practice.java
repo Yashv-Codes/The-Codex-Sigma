@@ -5,7 +5,8 @@ public class practice{
         do{
             System.out.print("Enter a no: ");
             int n = sc.nextInt();
-            if()
+            if(n % 10 == 0)
+                continue;
         }
     }
 }
