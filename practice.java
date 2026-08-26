@@ -5,7 +5,7 @@ public class practice{
     do{
         System.out.println("Hi");
         counter++;
-    }
+    }while(counter <= 3);
     
         
         
