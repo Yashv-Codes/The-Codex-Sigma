@@ -4,7 +4,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int n = 5;
         do{
-            
+            if()
 
         }
         
