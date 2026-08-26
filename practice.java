@@ -2,7 +2,7 @@ import java.util.*;
 public class practice{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        while(num != 0){
+        while(true){
             int num = sc.nextInt();
             
            
