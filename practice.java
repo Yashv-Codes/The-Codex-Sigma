@@ -9,7 +9,7 @@ public class practice{
                 
                 continue;
             }
-            System.out.println(i+" ");
+            System.out.print(i+" ");
             
         }while(i<5);
     }
