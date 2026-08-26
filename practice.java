@@ -7,7 +7,7 @@ public class practice{
             int n = sc.nextInt();
             if(n % 10 == 0)
                 continue;
-        }while(ture);
+        }while(true);
     }
 }
 
