@@ -10,6 +10,7 @@ public class practice{
             sum += n;
             i++;
         }
+        System.out.println("Total sum : "+sum);
         
 
     }
