@@ -7,6 +7,7 @@ public class practice{
             int num = sc.nextInt();
         }while(true);
         
+        
 
     }
 }
