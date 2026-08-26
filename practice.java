@@ -5,7 +5,7 @@ public class practice{
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
         for(int i=1; i<=n; i++){
-            System.out.print()
+            System.out.print(i+" ");
         }
 
     }
