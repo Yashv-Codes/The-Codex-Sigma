@@ -5,6 +5,7 @@ public class practice{
     while(n!=0){
         int lastdigit = n%10;
         n /= 10;
+        
     }
         
         
