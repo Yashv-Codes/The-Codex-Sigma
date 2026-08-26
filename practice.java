@@ -5,12 +5,8 @@ public class practice{
         System.out.print("Enter a no: ");
         int range = sc.nextInt();
         int i = 1;
-        while(i <= range){
-            System.out.print(i+ " ");
-            i++;
-        }
-        System.out.println();
-        sc.close();
+        
+        
 
     }
 }
