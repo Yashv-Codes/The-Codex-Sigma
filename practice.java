@@ -5,6 +5,7 @@ public class practice{
         while(true){
             int num = sc.nextInt();
             
+            
            
             
             if(10 % num == 0)
