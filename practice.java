@@ -9,9 +9,9 @@ public class practice{
                 
                 continue;
             }
-            System.out.print(i+" ");
+            System.out.println(i+" ");
             
-        }while(i<=5);
+        }while(i<5);
     }
 }
 
