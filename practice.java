@@ -11,6 +11,7 @@ public class practice{
             i++;
         }
         System.out.println("Total sum : "+sum);
+        sc.close();
         
 
     }
