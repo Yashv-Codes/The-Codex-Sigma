@@ -4,6 +4,8 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int i = 0;
         while(i<=5){
+            if(i==4)
+                continue;
             
         }
     }
