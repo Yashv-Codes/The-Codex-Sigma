@@ -4,10 +4,11 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int i = 1;
         while(i<=5){
+            i++;
             if(i==4)
                 continue;
             System.out.print(i+" ");
-            i++;
+            
         }
     }
 }
