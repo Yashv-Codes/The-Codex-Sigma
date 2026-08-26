@@ -6,9 +6,11 @@ public class practice{
         System.out.println("Hi");
         counter++;
     }while(counter <= 3);
-
-  }
 }
+}
+
+  
+
 
 
 
