@@ -4,6 +4,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int i = 1;
         do{
+            i++;
             if(i==4){
                 
                 continue;
