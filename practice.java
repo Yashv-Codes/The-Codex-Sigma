@@ -6,7 +6,8 @@ public class practice{
         while(i<=5){
             if(i==4)
                 continue;
-            System.out.print
+            System.out.print(i+" ");
+            i++;
         }
     }
 }
