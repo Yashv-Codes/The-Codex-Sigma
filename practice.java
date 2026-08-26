@@ -7,6 +7,7 @@ public class practice{
             if(i==4)
                 break;
             System.out.print(i+" ");
+            i++;
         }while(i<=5);
         
         
