@@ -8,6 +8,7 @@ public class practice{
         n /= 10;
 
     }
+    System.out.println();
     
         
         
