@@ -4,10 +4,10 @@ public class practice{
        
         
         for(int i=1; i<=4; i++){
-            System.out.print(*+" ");
+            System.out.print(* +" ");
         }
         System.out.println();
-        sc.close();
+        
 
     }
 }
