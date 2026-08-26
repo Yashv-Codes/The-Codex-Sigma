@@ -7,6 +7,7 @@ public class practice{
         n /= 10;
 
     }
+    
         
         
 
