@@ -6,7 +6,8 @@ public class practice{
         do{
             if(n==4)
                 break;
-            System.out.print(n+" ");}
+            System.out.print(n+" ");
+        }while()
         
         
 
