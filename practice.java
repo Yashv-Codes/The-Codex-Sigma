@@ -5,7 +5,7 @@ public class practice{
         int i = 1;
         do{
             if(i==4)
-                break;
+                continue;
             System.out.print(i+" ");
             i++;
         }while(i<=5);
