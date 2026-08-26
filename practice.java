@@ -5,7 +5,7 @@ public class practice{
         do{
             System.out.print("Enter a no: ");
             int num = sc.nextInt();
-            if ( 10 % num % 10 == 0)
+            if (num % 10 == 0)
                 break;
             System.out.println(num);
         }while(true);
