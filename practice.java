@@ -7,7 +7,7 @@ public class practice{
         int i = 1;
         int sum = 0;
         while(i <= n){
-            sum += n;
+            sum += i;
             i++;
         }
         System.out.println("Total sum : "+sum);
