@@ -7,6 +7,8 @@ public class practice{
         for(int i=1; i<=n; i++){
             System.out.print(i+" ");
         }
+        System.out.println();
+        sc.close();
 
     }
 }
