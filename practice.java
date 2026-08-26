@@ -8,7 +8,9 @@ public class practice{
         // }
         int i = 0;
         while(i <= 5){
-            if
+            if(i == 3)
+                break;
+            System.out.print(i)
         }
         System.out.println();
 
