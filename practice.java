@@ -17,6 +17,7 @@ public class practice{
         int n = sc.nextInt();
         int fact = 1;
         System.out.println("Factorial is: "+factorial(n,fact));
+        sc.close();
         
     }
 }
