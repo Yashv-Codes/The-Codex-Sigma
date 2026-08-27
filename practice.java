@@ -17,6 +17,7 @@ public class practice{
         int n = sc.nextInt();
         int fact = 1;
         
+        
     }
 }
 
