@@ -6,8 +6,9 @@ public class practice{
         else if(n == 0 || n == 1)
             return 1;
         for(int i=2; i<=n; i++){
-            
+            fact *= i;
         }
+        return 
 
     }
     public static void main(String[] args){
