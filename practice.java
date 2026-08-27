@@ -8,8 +8,6 @@ public class practice{
         if(n <= 1){
             System.out.println("Not prime");
             return;
-
-        
         }
     }
 }
