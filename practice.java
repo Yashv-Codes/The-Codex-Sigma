@@ -9,6 +9,11 @@ public class practice{
             System.out.println("Not prime");
             return;
         }
+        else{
+            for(int i=2; i<n; i++){
+                
+            }
+        }
     }
 }
 
