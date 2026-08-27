@@ -5,7 +5,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        int factorial = 1;
+        int fact = 1;
         if(n < 0)
             return;
         else if(n == 0 || n == 1)
