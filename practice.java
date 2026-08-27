@@ -12,10 +12,7 @@ public class practice{
             }
         }
         System.out.println("Sum of even integers are: "+sum_even);
-        System.out.println("Sum of odd integers are: "+sum_odd);
-    
-        
-        
+        System.out.println("Sum of odd integers are: "+odd_sum);
     }
     
 }
