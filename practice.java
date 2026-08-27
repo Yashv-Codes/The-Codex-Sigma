@@ -1,5 +1,6 @@
 import java.util.*;
 public class practice{
+    public static int
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
@@ -9,7 +10,7 @@ public class practice{
             return;
         else if(n == 0 || n == 1)
             return 1;
-        
+
     }
 }
 
