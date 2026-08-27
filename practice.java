@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static int table(int n){
+    public static void table(int n){
         for(int i=1; i<=n; i++){
             
         }
