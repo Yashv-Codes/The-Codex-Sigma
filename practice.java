@@ -2,7 +2,7 @@ import java.util.*;
 public class practice{
     public static int factorial(int n, int fact){
         if(n < 0)
-            return;
+            return -1;
         else if(n == 0 || n == 1)
             return 1;
 
