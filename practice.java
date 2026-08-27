@@ -3,7 +3,8 @@ public class practice{
     public static int factorial(int n, int fact){
         if(n < 0)
             return;
-        else if()
+        else if(n == 0 || n == 1)
+            return 1;
 
     }
     public static void main(String[] args){
