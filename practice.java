@@ -15,8 +15,8 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        int fact = 1;
-        System.out.println("Factorial is: "+factorial(n,fact));
+        
+        
         sc.close();
         
     }
