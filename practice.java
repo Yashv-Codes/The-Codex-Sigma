@@ -12,7 +12,7 @@ public class practice{
             }
         }
         System.out.println("Sum of even integers are: "+sum_even);
-        System.out
+        System.out.println("Sum of o")
     
         
         
