@@ -2,6 +2,7 @@ import java.util.*;
 public class practice{
     public static void table(int n){
         for(int i=1; i<=n; i++){
+            System.out.println(n*i);
             
         }
     }
