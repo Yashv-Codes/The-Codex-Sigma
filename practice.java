@@ -6,7 +6,9 @@ public class practice{
         int n = sc.nextInt();
 
         if(n <= 1)
-            
+        
+            System.out.println("Not prime");
+        return;
     }
 }
 
