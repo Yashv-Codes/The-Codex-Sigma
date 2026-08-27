@@ -5,10 +5,10 @@ public class practice{
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
 
-        if(n <= 1)
-        
-            System.out.println("Not prime");
+        if(n <= 1){
+        System.out.println("Not prime");
         return;
+        }
     }
 }
 
