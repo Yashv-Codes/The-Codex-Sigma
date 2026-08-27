@@ -1,7 +1,7 @@
 import java.util.*;
 public class practice{
     public static void table(int n){
-        for(int i=1; i<=n; i++){
+        for(int i=1; i<=10; i++){
             System.out.println(n*i);
             
         }
@@ -10,6 +10,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
+        
         
         
         sc.close();
