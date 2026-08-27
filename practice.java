@@ -11,6 +11,8 @@ public class practice{
                 odd_sum += i;
             }
         }
+        System.out.println("Sum of even integers are: "+sum_even);
+        System.out
     
         
         
