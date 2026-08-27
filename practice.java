@@ -6,6 +6,10 @@ public class practice{
         int odd_sum = 0;
         for(int i=1; i<=20; i++){
             if(i % 2 == 0)
+                sum_even += i;
+            else{
+                odd_sum += i;
+            }
         }
     
         
