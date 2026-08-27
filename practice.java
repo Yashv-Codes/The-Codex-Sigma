@@ -15,6 +15,7 @@ public class practice{
                     System.out.println("Not prime");
                     return;
                 }
+                System.out.println("Prime no");
             }
         }
     }
