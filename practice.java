@@ -2,6 +2,7 @@ import java.util.*;
 public class practice{
     public static int factorial(int n, int fact){
         if(n < 0)
+            return;
 
     }
     public static void main(String[] args){
