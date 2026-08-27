@@ -7,7 +7,8 @@ public class practice{
         int factorial = 1;
         if(n < 0)
             return;
-        else if
+        else if(n == 0 || n == 1)
+            return 1;
     }
 }
 
