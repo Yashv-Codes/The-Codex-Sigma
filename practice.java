@@ -2,7 +2,7 @@ import java.util.*;
 public class practice{
     public static int table(int n){
         for(int i=1; i<=n; i++){
-            
+            int mult
         }
     }
     public static void main(String[] args){
