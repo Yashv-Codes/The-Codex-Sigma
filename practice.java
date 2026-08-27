@@ -6,6 +6,8 @@ public class practice{
         int n = sc.nextInt();
         int factorial = 1;
         if(n < 0)
+            return;
+        else if
     }
 }
 
