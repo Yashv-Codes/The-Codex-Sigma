@@ -7,7 +7,7 @@ public class practice{
         char ch = 'A';
         for(int line=1; line<=n; line++){
             for(int char=1; char<=line; char++){
-                System.out.print(digit+" ");
+                System.out.print(ch+" ");
             }
             System.out.println();
         }
