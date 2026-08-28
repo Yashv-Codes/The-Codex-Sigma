@@ -6,7 +6,9 @@ public class practice{
         int n = sc.nextInt();
         int num = 
         for(int line=1; line<=n; line++){
-            for(int digit=1; digit<=num; digit++)
+            for(int digit=1; digit<=line; digit++){
+                
+            }
         }
         
         sc.close();
