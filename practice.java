@@ -6,7 +6,7 @@ public class practice{
         int n = sc.nextInt();
         char ch = 'A';
         for(int line=1; line<=n; line++){
-            for(int char=1; char<=line; char++){
+            for(int =1; <=line; ++){
                 System.out.print(ch+" ");
                 ch++;
             }
