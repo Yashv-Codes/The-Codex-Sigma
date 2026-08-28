@@ -10,6 +10,7 @@ public class practice{
                 System.out.print(num+" ");
                 num++;
             }
+            System.out.println();
         }
         
         sc.close();
