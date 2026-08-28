@@ -4,8 +4,9 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
+        int num = 
         for(int line=1; line<=n; line++){
-            for(int digit=1; digit<=num)
+            for(int digit=1; digit<=num; digit++)
         }
         
         sc.close();
