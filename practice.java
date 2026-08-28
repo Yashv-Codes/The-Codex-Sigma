@@ -6,9 +6,9 @@ public class practice{
         int n = sc.nextInt();
         
         for(int line=1; line<=n; line++){
-            for(int star=1; star<=line; character++){
+            for(int star=1; star<=5; star++){
                 System.out.print(ch+" ");
-                ch++;
+                
             }
             System.out.println();
         }
