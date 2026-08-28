@@ -9,10 +9,8 @@ public class practice{
             for(int space=1; space<=n-line; space++){
                 System.out.print(" "+" ");
             }
-            for(int star=1; star<=n+1; star++){
-                
-                
-                
+            for(int star=1; star<line; star++){
+                Syste
             }
             System.out.println();
         }
