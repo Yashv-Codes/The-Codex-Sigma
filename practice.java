@@ -8,7 +8,7 @@ public class practice{
         for(int line=1; line<=n; line++){
             
             for(int digit=1; digit<=M; digit++){
-                System.out.print(digit);
+                System.out.print(digit+" ");
             }
             System.out.println();
             M--;
