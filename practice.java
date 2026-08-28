@@ -11,6 +11,7 @@ public class practice{
                 System.out.print("*"+" ");
             }
             System.out.println();
+            M--;
         }
         sc.close();
         
