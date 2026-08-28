@@ -6,7 +6,7 @@ public class practice{
         int n = sc.nextInt();
         
         for(int line=1; line<=n; line++){
-            for(int star=1; star<=n+line; star++){
+            for(int star=1; star<=5; star++){
                 if(line==1 || line==n || star==1 || star==n)
                     System.out.print("*"+" ");
                 else{
