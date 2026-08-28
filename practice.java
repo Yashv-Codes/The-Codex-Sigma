@@ -4,7 +4,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-
+        char ch = 'A';
         for(int line=1; line<=n; line++){
             for(int char=1; char<=line; char++){
                 System.out.print(digit+" ");
