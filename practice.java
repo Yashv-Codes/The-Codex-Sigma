@@ -6,8 +6,8 @@ public class practice{
         int n = sc.nextInt();
 
         for(int line=1; line<=n; line++){
-            for(int digit=1; digit<=n; digit++){
-                System.out.print(digit);
+            for(int digit=1; digit<=line; digit++){
+                System.out.print(digit+" ");
             }
             System.out.println();
         }
