@@ -8,6 +8,7 @@ public class practice{
         for(int line=1; line<=n; line++){
             for(int char=1; char<=line; char++){
                 System.out.print(ch+" ");
+                ch++;
             }
             System.out.println();
         }
