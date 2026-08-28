@@ -10,7 +10,7 @@ public class practice{
                 System.out.print(" "+" ");
             }
             for(int star=1; star<=line; star++){
-                System.out.print("")
+                System.out.print("*"+" ");
             }
             System.out.println();
         }
