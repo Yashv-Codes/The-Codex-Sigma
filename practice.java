@@ -4,10 +4,10 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        
+        int M = n;
         for(int line=1; line<=n; line++){
             
-            for(int digit=1; digit<=M; star++){
+            for(int digit=1; digit<=M; digit++){
                 System.out.print("*"+" ");
             }
             System.out.println();
