@@ -9,6 +9,7 @@ public class practice{
             for(int star=n; star>=line; star--){
                 System.out.print("*"+" ");
             }
+            System.out.println();
         }
         
         
