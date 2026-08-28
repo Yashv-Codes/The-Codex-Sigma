@@ -9,6 +9,7 @@ public class practice{
             for(int digit=1; digit<=n; digit++){
                 System.out.print(digit);
             }
+            System.out.println();
         }
         sc.close();
         
