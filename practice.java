@@ -6,8 +6,6 @@ public class practice{
         int n = sc.nextInt();
 
         
-        
-        
         sc.close();
         
     }
