@@ -9,6 +9,9 @@ public class practice{
             for(int digit=1; digit<=line; digit++){
                 if((line+digit) % 2 == 0)
                     System.out.print(1+" ");
+                else{
+                    System.out.print(0+" ");
+                }
                 
             }
             System.out.println();
