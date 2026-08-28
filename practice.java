@@ -7,7 +7,8 @@ public class practice{
         
         for(int line=1; line<=n; line++){
             for(int digit=1; digit<=line; digit++){
-                if((line+digit))
+                if((line+digit) % 2 == 0)
+                    System.out.print()
                 
             }
             System.out.println();
