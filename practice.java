@@ -17,7 +17,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        
+        solid_rhombus(n);
         sc.close();
         
     }
