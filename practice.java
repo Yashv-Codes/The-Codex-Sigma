@@ -10,7 +10,9 @@ public class practice{
             }
             System.out.println();
         }
-        
+        for(int line=n; line>=1; line--){
+            for
+        }
     }
         
     public static void main(String[] args){
