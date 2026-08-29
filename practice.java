@@ -9,7 +9,7 @@ public class practice{
                 System.out.print(digit+" ");
             }
             for(int digit=line-1; digit>=1; digit--){
-                System.out.print(digit)
+                System.out.print(digit+" ");
             }
             System.out.println();
         }
