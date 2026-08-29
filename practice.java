@@ -7,7 +7,7 @@ public class practice{
                 System.out.print("*"+" ");
             }
             for(int space=1; space<=2*(n-line); space++){
-                
+                System.out.print(" "+" ");
             }
         }
     }
