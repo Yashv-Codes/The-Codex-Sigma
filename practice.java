@@ -2,6 +2,9 @@ import java.util.*;
 public class practice{
     public static void butterfly(int n){
         // 1st half
+        for(int line=1; line<=n; line++){
+            
+        }
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
