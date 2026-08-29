@@ -5,7 +5,9 @@ public class practice{
             for(int space=1; space<=n-line; space++){
                 System.out.print("  ");
             }
-            for(int digit=1; digit<=)
+            for(int digit=1; digit<=line; digit++){
+                
+            }
         }
         
     }
