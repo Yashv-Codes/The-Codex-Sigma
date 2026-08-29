@@ -1,6 +1,7 @@
 import java.util.*;
 public class practice{
-    public static void palindromic_pyramid(int a, int b){
+    public static int sum(int a, int b){
+        
         
     }
         
