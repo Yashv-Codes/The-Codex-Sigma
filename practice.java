@@ -1,7 +1,9 @@
 import java.util.*;
 public class practice{
     public static void number_pyramid(int n){
-        for(int line=1; line<=)
+        for(int line=1; line<=n; line++){
+            
+        }
         
     }
         
