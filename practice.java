@@ -3,7 +3,9 @@ public class practice{
     public static void butterfly(int n){
         // 1st half
         for(int line=1; line<=n; line++){
-            for(int star=1; star<=line; star++)
+            for(int star=1; star<=line; star++){
+                System.out.print("*"+" ");
+            }
         }
     }
     public static void main(String[] args){
