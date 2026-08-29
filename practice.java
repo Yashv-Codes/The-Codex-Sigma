@@ -8,6 +8,7 @@ public class practice{
             for(int digit=1; digit<=line; digit++){
                 System.out.print(digit+" ");
             }
+            for(int digit)
             System.out.println();
         }
         
