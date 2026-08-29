@@ -16,7 +16,9 @@ public class practice{
         }
         // 2nd Half
         for(int line=n; line>=1; line--){
-            for(int star=1; star<=line; star++){}
+            for(int star=1; star<=line; star++){
+                System.out.print("* ");
+            }
 
         }
     }
