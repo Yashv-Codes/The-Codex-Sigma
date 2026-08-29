@@ -14,7 +14,9 @@ public class practice{
             for(int space=1; space<=n-line; space++){
                 System.out.print("  ");
             }
-            for(int star=1; star<=(2*line)-1; star++)
+            for(int star=1; star<=(2*line)-1; star++){
+                System.out.print("* ");
+            }
         }
     }
         
