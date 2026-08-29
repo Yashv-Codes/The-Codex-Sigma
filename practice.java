@@ -12,6 +12,8 @@ public class practice{
             for(int star=1; star<=line; star++){
                 System.out.print("* ");
             }
+            System.out.println();
+            
         }
     }
     public static void main(String[] args){
