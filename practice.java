@@ -20,7 +20,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        hollow_rhombus(n);
+        diamond(n);
         sc.close();
         
     }
