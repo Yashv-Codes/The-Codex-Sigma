@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static void butterfly(int n){
+    public static void solid rhombus(int n){
 
     }
         
