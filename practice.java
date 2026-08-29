@@ -8,6 +8,7 @@ public class practice{
             for(int star=1; star<=n; star++){
                 System.out.print("* ");
             }
+            System.out.println();
         }
 
     }
