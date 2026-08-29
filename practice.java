@@ -9,7 +9,7 @@ public class practice{
             for(int space=1; space<=2*(n-line); space++){
                 System.out.print("  ");
             }
-            for(int star=1; )
+            for(int star=1; star)
         }
     }
     public static void main(String[] args){
