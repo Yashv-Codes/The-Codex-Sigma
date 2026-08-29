@@ -9,7 +9,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int o = sc.nextInt();
-        
+        sum(a,b);
         sc.close();
         
     }
