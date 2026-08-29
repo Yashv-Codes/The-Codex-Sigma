@@ -6,6 +6,7 @@ public class practice{
                 System.out.print("  ");
             }
             for(int star=1; star<=n; star++){
+                if(line == 1)
                 
                 
             }
