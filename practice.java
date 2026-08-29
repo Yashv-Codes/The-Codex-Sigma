@@ -17,7 +17,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        number_pyramid(n);
+        palindromic_pyramid(n);
         sc.close();
         
     }
