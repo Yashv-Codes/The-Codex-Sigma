@@ -6,7 +6,7 @@ public class practice{
                 System.out.print(" ");
             }
             for(int digit=1; digit<=line; digit++){
-                System.out.print(digit+" ");
+                System.out.print(line+" ");
             }
             System.out.println();
         }
