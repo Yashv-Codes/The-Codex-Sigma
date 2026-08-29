@@ -8,7 +8,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a no: ");
         int n = sc.nextInt();
-        diamond(n);
+        number_pyramid(n);
         sc.close();
         
     }
