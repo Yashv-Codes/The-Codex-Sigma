@@ -14,6 +14,10 @@ public class practice{
             }
             System.out.println();
         }
+        // 2nd Half
+        for(int line=n; line>=1; line--){
+
+        }
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
