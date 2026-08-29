@@ -11,7 +11,10 @@ public class practice{
             System.out.println();
         }
         for(int line=n; line>=1; line--){
-            for
+            for(int space=1; space<=n-line; space++){
+                System.out.print("  ");
+            }
+            
         }
     }
         
