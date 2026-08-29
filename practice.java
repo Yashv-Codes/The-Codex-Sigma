@@ -1,7 +1,7 @@
 import java.util.*;
 public class practice{
     public static int sum(int a, int b){
-        
+        return a+b;
         
     }
         
