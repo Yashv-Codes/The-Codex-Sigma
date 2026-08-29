@@ -9,7 +9,7 @@ public class practice{
                 if(line == 1 || line == n || star == 1 || star == n)
                     System.out.print("* ");
                 else{
-                    System.out.print
+                    System.out.print("  ");
                 }
                 
                 
