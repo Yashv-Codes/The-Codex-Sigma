@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static void solid rhombus(int n){
+    public static void solid_rhombus(int n){
 
     }
         
