@@ -6,6 +6,7 @@ public class practice{
             for(int star=1; star<=line; star++){
                 System.out.print("*"+" ");
             }
+            for(int space=1; space<=)
         }
     }
     public static void main(String[] args){
