@@ -17,6 +17,7 @@ public class practice{
             for(int star=1; star<=(2*line)-1; star++){
                 System.out.print("* ");
             }
+            System.out.println();
         }
     }
         
