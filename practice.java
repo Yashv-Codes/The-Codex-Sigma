@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static void number_pyramid(int n){
+    public static void palindromic_(int n){
         for(int line=1; line<=n; line++){
             for(int space=1; space<=n-line; space++){
                 System.out.print(" ");
