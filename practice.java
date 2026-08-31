@@ -11,7 +11,7 @@ public class practice{
         int b = sc.nextInt();
         a = a-b;
         b = a+b;
-        a = a-b;
+        a = b-a;
         System.out.print(a+" , "+b);
         sc.close();
         
