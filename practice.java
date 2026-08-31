@@ -12,7 +12,7 @@ public class practice{
         a = a+b;
         b = a-b;
         a = a-b;
-        System.out.print(a+" , ")
+        System.out.print(a+" , "+b);
         sc.close();
         
     }
