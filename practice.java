@@ -7,9 +7,7 @@ public class practice{
         
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int o = sc.nextInt();
-        System.out.println(sum(n,o));
+        
         sc.close();
         
     }
