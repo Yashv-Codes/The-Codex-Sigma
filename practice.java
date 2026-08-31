@@ -10,7 +10,8 @@ public class practice{
         int a = sc.nextInt();
         int b = sc.nextInt();
         int temp = a;
-        a = 
+        a = b;
+        b = temp;
         System.out.print(a+" , "+b);
         sc.close();
         
