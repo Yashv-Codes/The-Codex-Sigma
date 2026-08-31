@@ -4,6 +4,7 @@ public class practice{
         return a+b;
         
     }
+    public 
         
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
