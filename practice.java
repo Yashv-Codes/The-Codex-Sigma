@@ -16,7 +16,7 @@ public class practice{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("factorial = "+factorial(-5));
+        System.out.println(factorial(0));
         
        
         sc.close();
