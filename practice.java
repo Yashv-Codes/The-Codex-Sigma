@@ -24,7 +24,7 @@ public class practice{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
-        System.out.println(binomial(5));
+        System.out.println(binomial_coeff(5,3));
         
        
         sc.close();
