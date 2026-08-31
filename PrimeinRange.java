@@ -1,5 +1,5 @@
 import java.util.*;
-public class practice{
+public class PrimeinRange{
     public static void printPrimesinRange(int n){
         for(int i=0; i<=n; i++){
             if(isPrime(i))
