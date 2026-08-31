@@ -5,7 +5,7 @@ public class practice{
         return a+b;
     }
     public static int sum(float a, float b){
-        return a+b;
+        return (float)(a+b);
     }
         
     public static void main(String[] args){
