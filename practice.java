@@ -3,7 +3,8 @@ public class practice{
     public static int binomial_coeff(int n, int r){
         int fact_n = factorial(n);
         int fact_r = factorial(r);
-        int fact
+        int fact_nmr = factorial(n-r);
+        return n/
     }
     public static int factorial(int n){
         int fact = 1;
