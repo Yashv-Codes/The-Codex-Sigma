@@ -1,5 +1,6 @@
 import java.util.*;
 public class practice{
+    public static printPrimes
     public static boolean isPrime(int n){
         if(n <= 0 || n == 1)
             return false;
