@@ -1,6 +1,5 @@
 import java.util.*;
 public class practice{
-    
     public static 
         
     public static void main(String[] args){
@@ -8,7 +7,7 @@ public class practice{
         int a = sc.nextInt();
         int b = sc.nextInt();
         
-        System.out.print(a+" , "+b);
+       
         sc.close();
         
     }
