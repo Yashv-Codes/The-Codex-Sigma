@@ -23,11 +23,7 @@ public class practice{
     Scanner sc = new Scanner(System.in);
        int n = sc.nextInt();
        printPrimesinRange(n);
-        
-        
-        
-       
-        sc.close();
+       sc.close();
         
     }
 }
