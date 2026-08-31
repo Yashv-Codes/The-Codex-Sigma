@@ -18,7 +18,7 @@ public class practice{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
-        System.out.println(factorial(7));
+        System.out.println(factorial(5));
         
        
         sc.close();
