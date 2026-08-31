@@ -3,7 +3,7 @@ public class practice{
     public static void printPrimesinRange(int n){
         for(int i=0; i<=n; i++){
             if(isPrime(i))
-                System.out.print(i);
+                System.out.println(i);
         }
     }
     public static boolean isPrime(int n){
