@@ -1,7 +1,7 @@
 import java.util.*;
 public class practice{
     public static int factorial(int n){
-        return a*b;
+        
     }
         
     public static void main(String[] args){
