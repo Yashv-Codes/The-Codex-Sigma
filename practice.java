@@ -1,6 +1,8 @@
 import java.util.*;
 public class practice{
-    public static int 
+    public static int product(int a, int b){
+        return a
+    }
         
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
