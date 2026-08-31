@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static int product(int a, int b){
+    public static int factorial(int n){
         return a*b;
     }
         
