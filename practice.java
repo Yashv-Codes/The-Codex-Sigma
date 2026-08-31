@@ -9,9 +9,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int temp = a;
-        a = b;
-        temp = b;
+        
         System.out.print(a+" , "+b);
         sc.close();
         
