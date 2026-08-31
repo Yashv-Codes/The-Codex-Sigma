@@ -1,7 +1,7 @@
 import java.util.*;
 public class practice{
     public static int product(int a, int b){
-        return a
+        return a*b;
     }
         
     public static void main(String[] args){
