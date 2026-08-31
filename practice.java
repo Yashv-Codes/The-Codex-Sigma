@@ -10,6 +10,8 @@ public class practice{
         
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        System.out.println(sum(5,3));
+        System.out.println(sum(5.0,3.0));
         
         
         
