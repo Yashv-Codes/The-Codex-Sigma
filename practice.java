@@ -1,7 +1,7 @@
 import java.util.*;
 public class practice{
     public static boolean isPrime(int n){
-        if(n)
+        if(n <= 0)
     }
     
     
