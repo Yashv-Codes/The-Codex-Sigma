@@ -4,7 +4,7 @@ public class practice{
         int fact_n = factorial(n);
         int fact_r = factorial(r);
         int fact_nmr = factorial(n-r);
-        return n/
+        return fact_n/fact_r*
     }
     public static int factorial(int n){
         int fact = 1;
