@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static 
+    public static int binomial_coeff(int n, int r)
     public static int factorial(int n){
         int fact = 1;
         int i = 2;
