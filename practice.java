@@ -1,7 +1,7 @@
 import java.util.*;
 public class practice{
     public static printPrimesinRange(int n){
-        
+        for()
     }
     public static boolean isPrime(int n){
         if(n <= 0 || n == 1)
