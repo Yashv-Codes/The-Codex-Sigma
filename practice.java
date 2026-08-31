@@ -5,6 +5,7 @@ public class practice{
             if(isPrime(i))
                 System.out.print(i+" ");
         }
+        System.out.println();
     }
     public static boolean isPrime(int n){
         if(n <= 0 || n == 1)
