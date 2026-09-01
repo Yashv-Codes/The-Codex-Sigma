@@ -3,6 +3,7 @@ public class practice {
         return (a+b+b)/2;
     }
     public static void main(String[] args){
+        System.out.println("Avg = "+average)
         
     }
     
