@@ -4,7 +4,7 @@ public class practice {
         int pow = 0;
         while(binary!=0){
             int lastdigit = binary%10;
-            decimal = decimal+ (lastdigit*Math.pow(2,pow));
+            decimal += (lastdigit*Math.pow(2,pow));
             binary /= 10;
             pow++;
         }
