@@ -11,7 +11,11 @@ public class practice {
         return decimal;
     }
     public static int DectoBin(int dec){
-        int
+        int binary = 0;
+        int pow = 0;
+        while(dec != 0){
+            
+        }
     }
     public static void main(String[] args){
         System.out.println("Decimal = "+BintoDec(101));
