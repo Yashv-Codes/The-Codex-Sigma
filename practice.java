@@ -23,7 +23,7 @@ public class practice {
     }
     public static void main(String[] args){
         System.out.println("Decimal = "+BintoDec(101));
-        System.out.println("Binary = "+)
+        System.out.println("Binary = "+DectoBin(5));
     }
     
 }
