@@ -10,5 +10,8 @@ public class practice {
         }
         return decimal;
     }
+    public static void main(String[] args){
+        
+    }
     
 }
