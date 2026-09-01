@@ -11,7 +11,7 @@ public class practice {
         return decimal;
     }
     public static void main(String[] args){
-        System.out.println("Decimal = "+BintoDec(10101101));
+        System.out.println("Decimal = "+BintoDec(101));
     }
     
 }
