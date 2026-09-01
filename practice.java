@@ -13,7 +13,7 @@ public class practice {
     }
     
     public static void main(String[] args){
-        System.out.println(isPalindrome(3456));
+        System.out.println(isPalindrome(121));
        
     }
     
