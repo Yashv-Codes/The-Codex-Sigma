@@ -5,6 +5,8 @@ public class practice {
         int lastdigit = binary%10;
         while(binary!=0){
             decimal += (lastdigit*Math.pow(2,pow));
+            binary /= 10;
+            pow++;
         }
     }
     
