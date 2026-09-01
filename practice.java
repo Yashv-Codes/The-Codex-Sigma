@@ -3,7 +3,7 @@ public class practice {
         return (a+b+c)/3;
     }
     public static void main(String[] args){
-        System.out.println("Avg = "+averageofnum(45,32,11));
+        System.out.println("Avg = "+averageofnum(45f,32f,11f));
         
     }
     
