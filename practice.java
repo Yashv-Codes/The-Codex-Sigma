@@ -16,8 +16,10 @@ public class practice {
         while(dec != 0){
             int remainder = dec % 2;
             binary += (remainder*Math.pow(10,pow));
-            
+            dec /= 2;
+            pow++;
         }
+        return
     }
     public static void main(String[] args){
         System.out.println("Decimal = "+BintoDec(101));
