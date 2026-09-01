@@ -11,7 +11,7 @@ public class practice {
         return decimal;
     }
     public static void main(String[] args){
-        System.out.println("Decimal num")
+        System.out.println("Decimal = "+)
     }
     
 }
