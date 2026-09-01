@@ -9,6 +9,7 @@ public class practice {
             rev = (rev*10)+lastdigit;
             n /= 10;
         }
+        return palindrome == rev;
     }
     
     public static void main(String[] args){
