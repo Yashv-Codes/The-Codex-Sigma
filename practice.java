@@ -1,6 +1,6 @@
 public class practice {
     public static boolean isPalindrome(int n){
-        int palindrome = true;
+        boolean palindrome = true;
     }
     
     public static void main(String[] args){
