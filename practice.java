@@ -1,6 +1,7 @@
 public class practice {
     public static int BintoDec(int binary){
-        int 
+        int decimal = 0;
+        int pow = 0;
     }
     
 }
