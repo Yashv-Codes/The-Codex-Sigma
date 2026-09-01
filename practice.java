@@ -19,10 +19,11 @@ public class practice {
             dec /= 2;
             pow++;
         }
-        return
+        return binary;
     }
     public static void main(String[] args){
         System.out.println("Decimal = "+BintoDec(101));
+        System.out
     }
     
 }
