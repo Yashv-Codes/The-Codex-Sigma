@@ -15,6 +15,7 @@ public class practice {
         int pow = 0;
         while(dec != 0){
             int remainder = dec % 2;
+            binary += (remainder)
         }
     }
     public static void main(String[] args){
