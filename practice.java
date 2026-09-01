@@ -1,4 +1,6 @@
 public class practice {
-    public static 
+    public static int BintoDec(int binary){
+        int 
+    }
     
 }
