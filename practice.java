@@ -10,6 +10,9 @@ public class practice {
         }
         return decimal;
     }
+    public static int DectoBin(int dec){
+        int
+    }
     public static void main(String[] args){
         System.out.println("Decimal = "+BintoDec(101));
     }
