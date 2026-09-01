@@ -1,5 +1,5 @@
 public class practice {
-    public static float averageofnum(int a, int b, int c){
+    public static float averageofnum(float a, float b,  c){
         return (a+b+c)/3;
     }
     public static void main(String[] args){
