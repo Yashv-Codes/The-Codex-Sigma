@@ -5,8 +5,8 @@ public class practice {
         while(digit != 0){
             sum += digit % 10;
             digit /= 10;
-
         }
+        return sum;
     }
     
     public static void main(String[] args){
