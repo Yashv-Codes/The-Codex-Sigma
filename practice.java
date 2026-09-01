@@ -3,7 +3,7 @@ public class practice {
         int sum = 0;
         digit = Math.abs(digit);
         while(digit != 0){
-            sum += 
+            sum += digit 
 
         }
     }
