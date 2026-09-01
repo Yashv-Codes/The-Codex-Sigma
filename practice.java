@@ -8,6 +8,7 @@ public class practice {
             binary /= 10;
             pow++;
         }
+        return decimal;
     }
     
 }
