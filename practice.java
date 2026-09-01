@@ -3,7 +3,8 @@ public class practice {
         int sum = 0;
         digit = Math.abs(digit);
         while(digit != 0){
-            sum += digit 
+            sum += digit % 10;
+            digit /= 10;
 
         }
     }
