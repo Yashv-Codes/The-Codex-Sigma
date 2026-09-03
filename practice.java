@@ -10,6 +10,7 @@ public class practice{
     public static int largest_num(int nums[], int largest){
         for(int i=0; i<nums.length; i++){
             if(nums[i] > largest)
+                largest = nums[i];
         }
     }
 
