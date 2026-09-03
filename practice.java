@@ -18,6 +18,7 @@ public class practice{
             System.out.print("Enter marks: "+marks[i]);
         }
         System.out.println();
+        update(marks);
         // print array
         
         
