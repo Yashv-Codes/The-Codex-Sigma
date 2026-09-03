@@ -19,7 +19,7 @@ public class practice{
         if(key == -1)
             System.out.println("Key not found");
         else{
-            System.out.println("Key found at index: "+linear_search(menu,key));
+            System.out.println("Key found at index: "+index);
         }
         
         sc.close();
