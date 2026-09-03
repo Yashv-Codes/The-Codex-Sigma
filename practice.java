@@ -14,7 +14,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         // int nums[] = {2, 4, 6, 8, 10, 12, 14};
         String menu[] = {"noodles", "pav bhaji", "idli sambhar", "samosa", "butter paneer"};
-        String key = 10;
+        String key = "";
         System.out.println(linear_search(menu,key));
         
         sc.close();
