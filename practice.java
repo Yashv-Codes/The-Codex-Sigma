@@ -13,11 +13,13 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int marks[] = new int[n];
+        // taking input
         for(int i=0; i<marks.length; i++){
             System.out.print("Enter marks: "+marks[i]);
         }
         System.out.println();
         // print array
+        
         
         
         
