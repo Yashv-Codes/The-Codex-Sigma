@@ -1,4 +1,4 @@
-publublic static int sumofdigit(int digit){
+public static int sumofdigit(int digit){
         
     }
     
