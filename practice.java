@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static int linear_search(int nums[], int key){
+    public static int linear_search(String menu[], String key){
         for(int i=0; i<nums.length; i++){
              if(nums[i] == key)
                 return i;
