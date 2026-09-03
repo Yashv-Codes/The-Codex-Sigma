@@ -14,7 +14,7 @@ public class practice{
         }
         return largest;
     }
-    public static int smallest_num (nums[], int smallest){
+    public static int smallest_num(int nums[], int smallest){
         for(int i=0; i<nums.length; i++){
             if(smallest > nums[i])
                 nums[i] = smallest;
