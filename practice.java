@@ -1,5 +1,6 @@
 import java.util.*;
 public class practice{
+    
         
     
     
@@ -7,6 +8,12 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int marks[] = new int[n];
+        
+        
+        
+        
+        
+        
         
         sc.close();
         
