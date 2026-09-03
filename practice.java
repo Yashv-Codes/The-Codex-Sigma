@@ -17,7 +17,7 @@ public class practice{
         String key = "samosa";
         if(key == -1)
             System.out.println("Key not found");
-        System.out.println(linear_search(menu,key));
+        System.out.println("Key found at index: "linear_search(menu,key));
         
         sc.close();
     }
