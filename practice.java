@@ -14,6 +14,7 @@ public class practice{
         }
         return largest;
     }
+    public static smallest_num
 
    
     
@@ -21,6 +22,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         int nums[] = {2, 4, 6, 8, 10, 12, 14};
         int largest = nums[0];
+        int smallest
         System.out.println("Largest num = "+largest_num(nums,largest));
         // String menu[] = {"noodles", "pav bhaji", "idli sambhar", "samosa", "butter paneer"};
         // String key = "puchka";
