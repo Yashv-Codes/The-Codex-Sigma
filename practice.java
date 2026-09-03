@@ -16,7 +16,7 @@ public class practice{
     }
     public static smallest_num int nums[], int smallest){
         for(int i=0; i<nums.length; i++){
-            if(smallest 
+            if(smallest > nums[i]
                 
             )
         }
