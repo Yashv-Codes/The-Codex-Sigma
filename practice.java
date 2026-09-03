@@ -14,6 +14,7 @@ public class practice{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int nums[] = {2, 4, 6, 8, 10, 12, 14};
+        int largest = nums[0];
         // String menu[] = {"noodles", "pav bhaji", "idli sambhar", "samosa", "butter paneer"};
         // String key = "puchka";
         // int index = linear_search(menu,key);
