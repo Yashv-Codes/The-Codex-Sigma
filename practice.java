@@ -20,6 +20,7 @@ public class practice{
         System.out.println();
         update(marks);
         // print array
+        for(int i=0; i<marks.length; )
         
         
         
