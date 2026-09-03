@@ -1,6 +1,8 @@
 import java.util.*;
 public class practice{
-    public static void 
+    public static void update(int marks[]){
+        
+    }
 
         
     
