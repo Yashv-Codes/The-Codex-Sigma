@@ -24,14 +24,8 @@ public class practice{
             System.out.print(marks[i]+" ");
         }
         System.out.println();
-        
-        
-        
-        
-        
-        
-        
-        
-        sc.close()}
+        sc.close();
+    }
+}
     
 
