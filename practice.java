@@ -20,7 +20,9 @@ public class practice{
         System.out.println();
         update(marks);
         // print array
-        for(int i=0; i<marks.length; )
+        for(int i=0; i<marks.length; i++){
+            System.out.print(marks[i]+" ");
+        }
         
         
         
