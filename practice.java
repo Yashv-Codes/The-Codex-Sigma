@@ -8,7 +8,9 @@ public class practice{
         return -1;
     }
     public static int largest_num(int nums[], int largest){
-        for(int i=0; i<nums.length; i++)
+        for(int i=0; i<nums.length; i++){
+            if(nums[i] > largest)
+        }
     }
 
    
