@@ -12,6 +12,7 @@ public class practice{
             if(nums[i] > largest)
                 largest = nums[i];
         }
+        return largest;
     }
 
    
