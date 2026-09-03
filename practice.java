@@ -30,7 +30,7 @@ public class practice{
         int largest = nums[0];
         int smallest = nums[1];
         System.out.println("Largest num = "+largest_num(nums,largest));
-        System.out.println("Smallest num = "+smallest_num)
+        System.out.println("Smallest num = "+smallest_num(nums,smallest));
         // String menu[] = {"noodles", "pav bhaji", "idli sambhar", "samosa", "butter paneer"};
         // String key = "puchka";
         // int index = linear_search(menu,key);
