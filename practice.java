@@ -14,9 +14,11 @@ public class practice{
         }
         return largest;
     }
-    public static smallest_num(int nums[], int smallest){
+    public static smallest_num int nums[], int smallest){
         for(int i=0; i<nums.length; i++){
-            if()
+            if(smallest 
+                
+            )
         }
     }
 
