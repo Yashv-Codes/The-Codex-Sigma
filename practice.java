@@ -15,6 +15,7 @@ public class practice{
         // int nums[] = {2, 4, 6, 8, 10, 12, 14};
         String menu[] = {"noodles", "pav bhaji", "idli sambhar", "samosa", "butter paneer"};
         String key = "samosa";
+        if(key == -1)
         System.out.println(linear_search(menu,key));
         
         sc.close();
