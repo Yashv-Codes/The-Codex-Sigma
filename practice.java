@@ -19,6 +19,7 @@ public class practice{
             if(smallest > nums[i])
                 nums[i] = smallest;
             }
+            return smallest;
     }
 
    
