@@ -41,5 +41,6 @@ public class practice{
         sc.close();
     }
 }
+
     
 
