@@ -23,6 +23,7 @@ public class practice{
         for(int i=0; i<marks.length; i++){
             System.out.print(marks[i]+" ");
         }
+        System.out.println();
         
         
         
@@ -31,11 +32,6 @@ public class practice{
         
         
         
-        sc.close();
-        
-        
-       
-    }
-}
+        sc.close()}
     
 
