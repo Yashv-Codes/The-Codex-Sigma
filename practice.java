@@ -16,7 +16,7 @@ public class practice{
         String menu[] = {"noodles", "pav bhaji", "idli sambhar", "samosa", "butter paneer"};
         String key = "samosa";
         int index = linear_search(menu,key);
-        if(key == -1)
+        if(index == -1)
             System.out.println("Key not found");
         else{
             System.out.println("Key found at index: "+index);
