@@ -1,8 +1,8 @@
 import java.util.*;
 public class practice{
     public static int linear_search(String menu[], String key){
-        for(int i=0; i<nums.length; i++){
-             if(nums[i] == key)
+        for(int i=0; i<menu.length; i++){
+             if(menu[i] == key)
                 return i;
         }
         return -1;
