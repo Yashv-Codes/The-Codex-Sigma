@@ -9,7 +9,7 @@ public class practice{
         marks[0] = sc.nextInt();
         marks[1] = sc.nextInt();
         marks[2] = sc.nextInt();
-        System.out.println("Physics =")
+        System.out.println("Physics = "+marks[0])
         
         
        
