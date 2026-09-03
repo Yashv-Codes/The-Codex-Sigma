@@ -11,6 +11,7 @@ public class practice{
         for(int i=0; i<marks.length; i++){
             System.out.print("Enter marks: "+marks[i]);
         }
+        System.out.println();
         
         
         
