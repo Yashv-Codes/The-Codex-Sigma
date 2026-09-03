@@ -1,5 +1,4 @@
-public class practice {
-    public static int sumofdigit(int digit){
+publublic static int sumofdigit(int digit){
         
     }
     
