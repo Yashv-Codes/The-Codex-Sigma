@@ -14,7 +14,9 @@ public class practice{
         }
         return largest;
     }
-    public static smallest_num
+    public static smallest_num(int nums[], int smallest){
+        
+    }
 
    
     
