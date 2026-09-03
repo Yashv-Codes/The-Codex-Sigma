@@ -14,7 +14,7 @@ public class practice{
         Scanner sc = new Scanner(System.in);
         // int nums[] = {2, 4, 6, 8, 10, 12, 14};
         String menu[] = {"noodles", "pav bhaji", "idli sambhar", "samosa", "butter paneer"};
-        String key = "samosa";
+        String key = "puchka";
         int index = linear_search(menu,key);
         if(index == -1)
             System.out.println("Key not found");
