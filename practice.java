@@ -7,6 +7,7 @@ public class practice{
         int num[] = {1,2,3};
         int morenum[] = {4,5,6};
         String fruits[] = {"mango", "guava", "lichi"};
+        System.out.print(fruits[])
        
     }
 }
