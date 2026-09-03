@@ -5,9 +5,6 @@ public class practice{
             marks[i] = marks[i]+1;
         }
     }
-
-        
-    
     
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
