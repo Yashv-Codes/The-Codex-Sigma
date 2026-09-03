@@ -12,7 +12,7 @@ public class practice{
         int marks[] = new int[n];
         // taking input
         for(int i=0; i<marks.length; i++){
-            System.out.print("Enter marks: "+marks[i]);
+            marks[i] = sc.nextInt();
         }
         System.out.println();
         update(marks);
