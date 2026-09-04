@@ -31,6 +31,7 @@ public class practice{
                 count++;
             }
             System.out.println();
+            System.out.println
         }
 
     }
