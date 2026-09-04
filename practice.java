@@ -1,5 +1,6 @@
 import java.util.*;
 public class practice{
+    public static int binary_search(int nums[], )
     
     
     public static void main(String[] args){
