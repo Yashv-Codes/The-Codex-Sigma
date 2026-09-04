@@ -44,6 +44,7 @@ public class practice{
                     System.out.print(nums[k]+" ");
                     count++;
                 }
+                
             }
         }
     }
