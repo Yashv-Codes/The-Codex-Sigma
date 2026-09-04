@@ -8,7 +8,11 @@ public class practice{
                 return mid;
             else if(key < nums[mid])
                 ei = mid-1;
+            else{
+                si = mid+1;
+            }
         }
+        return -1;
     }
     
     
