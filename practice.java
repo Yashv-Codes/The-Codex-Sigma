@@ -31,8 +31,9 @@ public class practice{
                 count++;
             }
             System.out.println();
-            System.out.println("Total pairs = "+count);
+            
         }
+        System.out.println("Total pairs = "+count);
 
     }
     
