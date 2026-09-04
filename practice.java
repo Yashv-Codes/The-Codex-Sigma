@@ -47,7 +47,8 @@ public class practice{
                 }
                 // largest = Math.max(largest, sum);
                 // smallest = Math.min(smallest, sum);
-                if(sum < )
+                if(sum < smallest)
+                    
             }
         }
         System.out.println("Max subarray sum = "+largest);
