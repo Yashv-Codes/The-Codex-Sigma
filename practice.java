@@ -37,6 +37,7 @@ public class practice{
 
     }
     public static void subarrays(int nums[]){
+        int count = 0;
         for(int)
     }
     
