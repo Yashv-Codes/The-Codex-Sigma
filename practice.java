@@ -7,7 +7,7 @@ public class practice{
             if(nums[mid] == key)
                 return mid;
             else if(key < nums[mid])
-                end = mid-1;
+                ei = mid-1;
         }
     }
     
