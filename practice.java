@@ -15,7 +15,7 @@ public class practice{
         return -1;
     }
     public static void reverse(int nums[]){
-        int start = 0, last = nums.length-1;
+        int si = 0, ei = nums.length-1;
         whi
     }
     
