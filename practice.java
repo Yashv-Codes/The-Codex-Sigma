@@ -36,6 +36,9 @@ public class practice{
         System.out.println("Total pairs = "+count);
 
     }
+    public static void subarrays(int nums[]){
+        for(int)
+    }
     
     
     public static void main(String[] args){
