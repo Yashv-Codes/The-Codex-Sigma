@@ -42,8 +42,9 @@ public class practice{
             for(int j=i; j<nums.length; j++){
                 for(int k=i; k<=j; k++){
                     System.out.print(nums[k]+" ");
-                    count++;
+                    
                 }
+                count++;
                 System.out.println();
                 
             }
