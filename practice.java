@@ -43,9 +43,7 @@ public class practice{
             for(int j=i; j<nums.length; j++){
                 int sum = 0;
                 for(int k=i; k<=j; k++){
-                    
                     sum += nums[k];
-                    
                 }
                 
                 
