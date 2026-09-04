@@ -37,7 +37,7 @@ public class practice{
 
     }
     public static void subarrays(int nums[]){
-        int lasrgest = Integer.MIN_VALUE;
+        int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;
         for(int i=0; i<nums.length; i++){
             for(int j=i; j<nums.length; j++){
@@ -45,7 +45,7 @@ public class practice{
                 for(int k=i; k<=j; k++){
                     sum += nums[k];
                 }
-                
+
                 
                 
                 
