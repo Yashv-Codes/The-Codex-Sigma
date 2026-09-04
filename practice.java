@@ -46,6 +46,7 @@ public class practice{
                     sum += nums[k];
                     
                 }
+                System.out.println();
                 System.out.print("Total sum = "+sum);
                 
                 
