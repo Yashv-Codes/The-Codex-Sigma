@@ -21,6 +21,7 @@ public class practice{
         int key = 10;
         
         
+        
     }
 }
 
