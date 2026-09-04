@@ -47,13 +47,13 @@ public class practice{
                     
                 }
                 System.out.println("Total sum = "+sum);
-                count++;
+                
                 System.out.println();
                 
             }
             System.out.println();
         }
-        System.out.println("Total subarrays = "+count);
+        
     }
     
     
