@@ -47,7 +47,7 @@ public class practice{
                 }
                 // largest = Math.max(largest, sum);
                 // smallest = Math.min(smallest, sum);
-                if(sum < smallest)
+                if(sum > smallest)
                     
             }
         }
