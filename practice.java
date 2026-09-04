@@ -49,7 +49,7 @@ public class practice{
                 // smallest = Math.min(smallest, sum);
                 if(sum > largest)
                     largest = sum;
-                else if
+                if(sum )
                     
             }
         }
