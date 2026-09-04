@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class practice{
     public static int binary_search(int nums[], int key){
         int si = 0, ei = nums.length-1;
