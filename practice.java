@@ -54,7 +54,8 @@ public class practice{
             }
             
         }
-        System.out.println("")
+        System.out.println("Max subarray sum = "+largest);
+        System.out.println("Min subarray sum = "+smallest);
         
 
         
