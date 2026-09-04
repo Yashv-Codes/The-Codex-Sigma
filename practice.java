@@ -50,6 +50,7 @@ public class practice{
                 if(sum > largest)
                     largest = sum;
                 if(sum < smallest)
+                    smallest = sum;
                     
             }
         }
