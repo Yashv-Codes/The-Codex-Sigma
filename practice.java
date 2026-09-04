@@ -43,8 +43,10 @@ public class practice{
                 int sum = 0;
                 for(int k=i; k<=j; k++){
                     System.out.print(nums[k]+" ");
+                    sum += nums[k];
                     
                 }
+                
                 count++;
                 System.out.println();
                 
