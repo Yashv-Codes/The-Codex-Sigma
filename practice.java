@@ -55,7 +55,7 @@ public class practice{
             }
             System.out.println();
         }
-        if(sum < largest)
+        
 
         
     }
