@@ -43,13 +43,11 @@ public class practice{
             for(int j=i; j<nums.length; j++){
                 int sum = 0;
                 for(int k=i; k<=j; k++){
-                    System.out.print(nums[k]+" ");
+                    
                     sum += nums[k];
                     
                 }
-                System.out.println();
-                System.out.print("Sum = "+sum);
-                System.out.println();
+                
                 
                 
             }
