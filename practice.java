@@ -14,6 +14,7 @@ public class practice{
         }
         return -1;
     }
+    public static void reverse(int nums[], )
     
     
     public static void main(String[] args){
