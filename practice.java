@@ -4,8 +4,8 @@ public class practice{
         int si = 0, ei = nums.length-1;
         while(si <= ei){
             int mid = si+(ei-si)/2;
-            if(mid == key)
-                return
+            if(nums[mid] == key)
+                return mid;
         }
     }
     
