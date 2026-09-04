@@ -47,7 +47,7 @@ public class practice{
                     
                 }
                 System.out.println();
-                System.out.print("Total sum = "+sum);
+                System.out.print("Sum = "+sum);
                 System.out.println();
                 
                 
