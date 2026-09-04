@@ -5,6 +5,7 @@ public class practice{
         while(si <= ei){
             int mid = si+(ei-si)/2;
             if(mid == key)
+                return
         }
     }
     
