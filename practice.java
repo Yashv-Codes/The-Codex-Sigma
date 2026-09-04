@@ -16,7 +16,9 @@ public class practice{
     }
     public static void reverse(int nums[]){
         int si = 0, ei = nums.length-1;
-        whi
+        while(si < ei){
+            int temp = 
+        }
     }
     
     
