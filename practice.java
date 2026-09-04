@@ -49,6 +49,7 @@ public class practice{
             }
             System.out.println();
         }
+        System.out.println("Total subarrays = "+count);
     }
     
     
