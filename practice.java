@@ -45,6 +45,8 @@ public class practice{
                 for(int k=i; k<=j; k++){
                     sum += nums[k];
                 }
+                largest = Math.max(largest, sum);
+                smallest = Math.min(smallest, sum);
 
                 
                 
