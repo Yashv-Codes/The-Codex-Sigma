@@ -26,7 +26,7 @@ public class practice{
     
     
     public static void main(String[] args){
-        int nums[] = {2, 4, 6, 8, 10, 12, 14};
+        int nums[] = {2};
         int key = 11;
         reverse(nums);
         for(int i=0; i<nums.length; i++){
