@@ -6,7 +6,7 @@ public class practice{
         int si= 0;
         int ei = nums.length-1;
         int mid = si+(ei-si)/2;
-        int nums[] = {}
+        int nums[] = {2, 4, 6, 8, 10, 12, 14};
     }
 }
 
