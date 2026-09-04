@@ -20,6 +20,7 @@ public class practice{
             int temp = nums[si];
             nums[si] = nums[ei];
             nums[ei] = temp;
+            si++; ei--;
         }
     }
     
