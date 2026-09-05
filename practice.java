@@ -1,67 +1,11 @@
 import java.util.*;
 public class practice{
-    public static int binary_search(int nums[], int key){
-        int si = 0, ei = nums.length-1;
-        while(si <= ei){
-            int mid = si+(ei-si)/2;
-            if(nums[mid] == key)
-                return mid;
-            else if(key < nums[mid])
-                ei = mid-1;
-            else{
-                si = mid+1;
-            }
-        }
-        return -1;
-    }
-    public static void reverse(int nums[]){
-        int si = 0, ei = nums.length-1;
-        while(si < ei){
-            int temp = nums[si];
-            nums[si] = nums[ei];
-            nums[ei] = temp;
-            si++; ei--;
-        }
-    }
-    public static void pairs(int nums[]){
-        int count = 0;
-        for(int i=0; i<nums.length; i++){
-            for(int j=i+1; j<nums.length; j++){
-                System.out.print("("+nums[i]+","+nums[j]+")"+" ");
-                count++;
-            }
-            System.out.println();
-            
-        }
-        System.out.println("Total pairs = "+count);
-
-    }
-    public static void subarrays(int nums[]){
-        int largest = Integer.MIN_VALUE;
-        int smallest = Integer.MAX_VALUE;
-        for(int i=0; i<nums.length; i++){
-            for(int j=i; j<nums.length; j++){
-                int sum = 0;
-                for(int k=i; k<=j; k++){
-                    sum += nums[k];
-                }
-                // largest = Math.max(largest, sum);
-                // smallest = Math.min(smallest, sum);
-                if(sum > largest)
-                    largest = sum;
-                if(sum < smallest)
-                    smallest = sum;
-                    
-            }
-        }
-        System.out.println("Max subarray sum = "+largest);
-        System.out.println("Min subarray sum = "+smallest);
-    }
+    
     
     
     public static void main(String[] args){
         int nums[] = {2, 4, 6, 8, 10};
-        subarrays(nums);
+        
         
         
     }
