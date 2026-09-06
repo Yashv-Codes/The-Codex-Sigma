@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static void prefixarr()
+    public static void maxSubarraysum()
     
     
     
