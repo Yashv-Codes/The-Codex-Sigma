@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static void maxSubarraysum(int nums[]){
+    public static int maxSubarraysum(int nums[]){
         int maxSum = Integer.MIN_VALUE;
         int prefix[] = new int[nums.length];
         prefix[0] = nums[0];
@@ -10,7 +10,8 @@ public class practice{
 
         for(int i=0; i<nums.length; i++){
             for(int j=i; j<nums.length; j++){
-                
+                if(i == 0)
+                    return prefix[j];
                 int currsum = prefix[j] - prefix[i-1];
                 if(currsum < maxSum)
                     maxSum = currsum;
