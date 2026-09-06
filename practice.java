@@ -1,6 +1,7 @@
 import java.util.*;
 public class practice{
     public static int maxSubarraysum(int nums[]){
+        int currsum = 0, maxSum = 
         
         
     }
