@@ -8,7 +8,6 @@ public class practice{
         }
 
         for(int i=0; i<nums.length; i++){
-            int currsum = 0;
             for(int j=i; j<nums.length; j++){
 
             }
