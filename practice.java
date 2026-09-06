@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static void maxSubarraysum(int nums[], int prefix[]){
+    public static void maxSubarraysum(int nums[]){
         
     }
     
