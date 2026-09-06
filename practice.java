@@ -2,6 +2,9 @@ import java.util.*;
 public class practice{
     public static void maxSubarraysum(int nums[]){
         int prefix[] = new int[nums.length];
+        for(int i=0; i<prefix.length; i++){
+            prefix[i] = prefix[i-1]
+        }
         
     }
     
