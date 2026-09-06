@@ -4,7 +4,7 @@ public class practice{
         int currsum = 0, maxSum = Integer.MIN_VALUE;
         int prefix[] = new int[nums.length];
         for(int i=0; i<prefix.length; i++){
-            prefix[i] = preifx[i-1]
+            prefix[i] = prefix[i-1] + nums[i];
         }
         
         
