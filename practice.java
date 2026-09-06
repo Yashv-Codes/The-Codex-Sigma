@@ -11,6 +11,7 @@ public class practice{
             for(int j=i; j<nums.length; j++){
                 int currsum = prefix[j] - prefix[i-1];
                 if(currsum < maxSum)
+                    maxSum = currsum;
 
             }
         }
