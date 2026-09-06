@@ -12,7 +12,7 @@ public class practice{
             for(int j=i; j<nums.length; j++){
                 currsum = i==0 ? prefix[j] : prefix[j] - prefix[i-1];
             }
-            if(currsum < maxSum)
+            if(currsum > maxSum)
                 maxSum = currsum;
         }
         
