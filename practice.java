@@ -2,7 +2,7 @@ import java.util.*;
 public class practice{
     public static int maxSubarraysum(int nums[]){
         int currsum = 0, maxSum = Integer.MIN_VALUE;
-        int prefix[] = new prefix[nums.length];
+        int prefix[] = new int[nums.length];
         
         
     }
