@@ -7,6 +7,10 @@ public class practice{
         for(int i=0; i<prefix.length; i++){
             prefix[i] = prefix[i-1] + nums[i];
         }
+
+        for(int i=0; i<nums.length; i++){
+            for(int j)
+        }
         
         
     }
