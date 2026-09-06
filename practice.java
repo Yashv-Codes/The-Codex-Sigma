@@ -15,6 +15,7 @@ public class practice{
             if(currsum > maxSum)
                 maxSum = currsum;
         }
+        return maxSum;
         
         
     }
