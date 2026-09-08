@@ -10,6 +10,7 @@ public class practice{
         }
         return maxSum;
     }
+    public static void 
     
     public static void main(String[] args){
     int nums[] = {-2, -3, -8, -7};
