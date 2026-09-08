@@ -10,7 +10,9 @@ public class practice{
         }
         return maxSum;
     }
-    public static void neg_loop()
+    public static void neg_loop(int nums[]){
+        
+    }
     
     public static void main(String[] args){
     int nums[] = {-2, -3, -8, -7};
