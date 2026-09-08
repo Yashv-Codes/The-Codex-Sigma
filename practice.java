@@ -6,7 +6,8 @@ public class practice{
             for(int j=i+1; j<nums.length; j++){
                 if(nums[j] == nums[i])
                     count++;
-                if(count <=2)
+                if(count <= 2)
+                    return true;
             }
         }
     }
