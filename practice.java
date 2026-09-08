@@ -18,6 +18,7 @@ public class practice{
             if(nums[i] > maxnegative_num)
                 maxnegative_num = nums[i];
         }
+        System.out.println(maxnegative_num);
        
     }
     
