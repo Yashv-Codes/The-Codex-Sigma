@@ -20,7 +20,7 @@ public class practice{
             
                 
         }
-        System.out.println(smallest);
+       
     }
     
     public static void main(String[] args){
