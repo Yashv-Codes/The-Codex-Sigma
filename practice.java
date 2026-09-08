@@ -23,7 +23,7 @@ public class practice{
     
     public static void main(String[] args){
     int nums[] = {-2, -3, -8, -7};
-    System.out.println(neg_loop(nums));
+    neg_loop(nums);
     }
 }
 
