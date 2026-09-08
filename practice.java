@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice{
-    public static boolean count
+    public static boolean freq
     
     
     public static void main(String[] args){
