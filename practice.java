@@ -1,6 +1,8 @@
 import java.util.*;
 public class practice{
-    public int subarrsum(int nums[])
+    public int subarrsum(int nums[]){
+        int currsum = 0, maxSum = I
+    }
     
 
         
