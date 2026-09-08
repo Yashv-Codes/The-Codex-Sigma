@@ -8,6 +8,7 @@ public class practice{
                 currsum = 0;
             maxSum = Math.max(currsum, maxSum);
         }
+        return maxSum;
     }
     
 
@@ -20,7 +21,7 @@ public class practice{
     
     public static void main(String[] args){
         int nums[] = {2, 4, 6, 8, 10};
-        System.out.println(maxSubarraysum(nums));
+        System.out.println((nums));
         
         
         
