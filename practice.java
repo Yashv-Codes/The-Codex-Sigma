@@ -14,7 +14,7 @@ public class practice{
         int smallest = Integer.MAX_VALUE;
         for(int i=0; i<nums.length; i++){
             if(nums[i] < smallest)
-                smallest
+                smallest = nums[i];
         }
     }
     
