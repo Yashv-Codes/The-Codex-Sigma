@@ -11,7 +11,7 @@ public class practice{
         return maxSum;
     }
     public static void neg_loop(int nums[]){
-        int maxnegative_num = Integer.MAX_VALUE;
+        int maxnegative_num = Integer.MIN_VALUE;
         for(int i=0; i<nums.length; i++){
             if(nums[i] >= 0)
                 return;
