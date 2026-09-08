@@ -4,6 +4,9 @@ public class practice{
         int currsum = 0, maxSum = Integer.MIN_VALUE;
         for(int i=0; i<nums.length; i++){
             currsum += nums[i];
+            if(currsum < 0)
+                currsum = 0;
+            maxSum = Math.max(currsum, maxSum);
         }
     }
     
