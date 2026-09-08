@@ -1,6 +1,8 @@
 import java.util.*;
 public class practice{
-    public static boolean freq
+    public static boolean freq(int nums[]){
+        
+    }
     
     
     public static void main(String[] args){
