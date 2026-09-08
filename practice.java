@@ -1,5 +1,6 @@
 import java.util.*;
 public class practice{
+    public int subarrsum(int nums[])
     
 
         
