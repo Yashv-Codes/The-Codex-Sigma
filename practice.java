@@ -16,7 +16,7 @@ public class practice{
             if(nums[i] >= 0)
                 return;
             if(nums[i] > maxnegative_num)
-                
+                maxnegative_num = nums[i];
             
                 
         }
