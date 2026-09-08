@@ -1,7 +1,7 @@
 import java.util.*;
 public class practice{
     public int subarrsum(int nums[]){
-        int currsum = 0, maxSum = I
+        int currsum = 0, maxSum = Integer.MIN_VALUE;
     }
     
 
