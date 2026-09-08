@@ -10,7 +10,7 @@ public class practice{
         }
         return maxSum;
     }
-    public static int neg_loop(int nums[]){
+    public static void neg_loop(int nums[]){
         int smallest = Integer.MAX_VALUE;
         for(int i=0; i<nums.length; i++){
             if(nums[i] < smallest)
