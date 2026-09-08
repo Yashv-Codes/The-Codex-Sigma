@@ -20,7 +20,7 @@ public class practice{
     
     
     public static void main(String[] args){
-        int nums[] = {2, 4, 6, 8, 10};
+        int nums[] = {-2, -3, 4, };
         System.out.println((nums));
         
         
