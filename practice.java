@@ -11,7 +11,7 @@ public class practice{
         return maxSum;
     }
     public static void neg_loop(int nums[]){
-        
+        int smallest = Integer.MAX
     }
     
     public static void main(String[] args){
