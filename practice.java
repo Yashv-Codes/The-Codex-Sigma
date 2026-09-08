@@ -18,7 +18,7 @@ public class practice{
             if(nums[i] >= 0)
                 return;
         }
-        return smallest;
+        System.out.println(smallest);
     }
     
     public static void main(String[] args){
