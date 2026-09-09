@@ -1,20 +1,10 @@
 import java.util.*;
 public class practice{
-    public static boolean freq(int nums[]){
-        int count = 0;
-        for(int i=0; i<nums.length; i++){
-            for(int j=i+1; j<nums.length; j++){
-                if(nums[j] == nums[i])
-                   return true;
-            }
-        }
-        return false;
-    }
+    
     
     
     public static void main(String[] args){
-    int nums[] = {1, -1, -2, 2, -1};
-    System.out.println(freq(nums));
+    
     
     }
 }
