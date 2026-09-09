@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
 public class practice {
-    public static void printThreeSum(int[] nums) {
+    public static int printThreeSum(int[] nums) {
         // Safe check for null or fewer than 3 elements
         if (nums == null || nums.length < 3) {
-            return;
+            return new int[]{};
         }
 
         int n = nums.length;
