@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class practice {
     public static int[] printThreeSum(int[] nums) {
         // Safe check for null or fewer than 3 elements
