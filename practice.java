@@ -43,7 +43,7 @@ public class practice {
                 }
             }
         }
-        return 
+        return new int[]{};
     }
 
     public static void main(String[] args) {
