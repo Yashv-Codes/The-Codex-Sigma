@@ -11,6 +11,8 @@ public class practice {
                     swap++;
                 }
             }
+            if(swap == 0)
+                    return;
         }
         System.out.println(Arrays.toString(nums));
         
