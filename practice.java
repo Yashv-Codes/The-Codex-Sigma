@@ -10,9 +10,6 @@ public class practice {
                     nums[j+1] = temp;
                     swap++;
                 }
-                else if(swap == 0)
-                    return;
-
             }
         }
         System.out.println(Arrays.toString(nums));
