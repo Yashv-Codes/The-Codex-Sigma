@@ -10,8 +10,7 @@ public class practice {
                     nums[j+1] = temp;
                 }
                 swap++;
-                else if(swap == 0)
-                    break;
+                
 
             }
         }
