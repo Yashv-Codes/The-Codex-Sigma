@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class practice {
     public static boolean bubble_sort(int nums[]){
-        if(nums[] == Arr)
+        if(nums[] == Arrays.srot)
         
     }
     
