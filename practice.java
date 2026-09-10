@@ -4,7 +4,7 @@ public class practice {
         int n = nums.length;
         for(int i=0; i<=n-2; i++){
             for(int j=0; j<=n-2-i; j++){
-                if(nums[i] > nums[j]){
+                if(nums[j] > nums[j+1]){
                     int temp = nums[i];
                     nums[i] = nums[j];
                     nums[j] = temp;
