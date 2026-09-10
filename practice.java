@@ -3,7 +3,7 @@ public class practice {
     public static void bubble_sort(int nums[]){
         int n = nums.length;
         for(int i=0; i<=n-2; i++){
-            for(int j=i+1; j<=n-2-i; j++){
+            for(int j=0; j<=n-2-i; j++){
                 if(nums[i] > nums[j]){
                     int temp = nums[i];
                     nums[i] = nums[j];
