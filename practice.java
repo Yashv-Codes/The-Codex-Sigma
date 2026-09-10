@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice {
-    public static void bubble_sort(int nums[]){
+    public static int bubble_sort(int nums[]){
         for(int i=0; i<nums.length-1; i++){
             int swap = 0;
             for(int j=0; j<nums.length-1-i; j++){
@@ -11,7 +11,7 @@ public class practice {
                 }
                 swap++;
                 else if(swap == 0)
-                    return;
+                    break;
 
             }
         }
