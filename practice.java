@@ -11,6 +11,7 @@ public class practice {
                 }
                 swap++;
                 else if(swap == 0)
+                    break;
 
             }
         }
