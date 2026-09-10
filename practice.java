@@ -16,6 +16,7 @@ public class practice {
 
             }
         }
+        System.out.println(Arrays.toString(nums));
         
          
         
