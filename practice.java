@@ -12,7 +12,7 @@ public class practice {
                 }
             }
             if(swap == 0)
-                return;
+                break;
         }
         System.out.println(Arrays.toString(nums));
         
