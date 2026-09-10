@@ -1,9 +1,8 @@
 import java.util.Arrays;
 public class practice {
     public static boolean bubble_sort(int nums[]){
-        if(nums[] == Arrays.sort(nums))
-            return true;
-        return false;
+        
+         
         
     }
     
