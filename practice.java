@@ -11,7 +11,7 @@ public class practice {
                 }
             }
         }
-        System.out.println();
+        System.out.println(Arrays.toString(nums));
     }
     
 
