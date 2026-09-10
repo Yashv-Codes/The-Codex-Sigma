@@ -1,6 +1,7 @@
 import java.util.Arrays;
 public class practice {
     public static void bubble_sort(int nums[]){
+        int n = nums.length;
         for(int i=0; )
     }
     
