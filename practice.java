@@ -9,7 +9,8 @@ public class practice {
                     nums[j] = nums[j+1];
                     nums[j+1] = temp;
                 }
-                else if()
+                else if(swap == 0)
+                    return;
 
             }
         }
