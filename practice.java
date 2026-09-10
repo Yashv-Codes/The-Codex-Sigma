@@ -12,7 +12,7 @@ public class practice {
                 }
                 
                 else if(swap <= 0)
-                    break;
+                    return;
 
             }
         }
