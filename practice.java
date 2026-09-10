@@ -5,7 +5,9 @@ public class practice {
         for(int i=0; i<=n-2; i++){
             for(int j=i+1; j<=n-2-i; j++){
                 if(nums[i] > nums[j]){
-                    int temp
+                    int temp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = temp;
                 }
             }
         }
