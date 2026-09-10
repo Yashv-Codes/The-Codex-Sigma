@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class practice {
     public static void bubble_sort(int nums[]){
-        for(int i=0; i<n-2)
+        for(int i=0; )
     }
     
 
