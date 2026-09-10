@@ -22,7 +22,7 @@ public class practice {
     
 
     public static void main(String[] args) {
-        int nums[] = {1, 2, 3, 4, 5};
+        int nums[] = {5, 2, 4, 1, 3};
         bubble_sort(nums);
         // System.out.println(Arrays.toString(nums));
         
