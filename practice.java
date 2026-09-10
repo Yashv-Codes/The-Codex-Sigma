@@ -7,7 +7,7 @@ public class practice {
                 if(nums[j] > nums[j+1]){
                     int temp = nums[j];
                     nums[j] = nums[j+1];
-                    nums[j] = temp;
+                    nums[j+1] = temp;
                 }
             }
         }
