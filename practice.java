@@ -4,7 +4,7 @@ public class practice {
         for(int i=1; i<nums.length-1; i++){
             int curr = nums[i];
             int prev = i-1;
-            while(prev>=0 && nums[])
+            while(prev>=0 && nums[prev] > )
         }
     
         
