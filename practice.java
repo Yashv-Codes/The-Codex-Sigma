@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice {
-    public static void insertion_sort(int nums[]){
+    public static void counting_sort(int nums[]){
        
     
         
@@ -10,7 +10,7 @@ public class practice {
 
     public static void main(String[] args) {
         int nums[] = {5, 4, 1, 3, 2};
-        // insertion_sort(nums);
+        // counting_sort(nums);
         
         
         
