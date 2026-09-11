@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class practice {
     public static void insertion_sort(int nums[]){
-        for(int i=1; i<nums.length-1; i++){
+        for(int i=1; i<nums.length; i++){
             int curr = nums[i];
             int prev = i-1;
             while(prev>=0 && nums[prev] > curr){
