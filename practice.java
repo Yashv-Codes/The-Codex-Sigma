@@ -8,6 +8,7 @@ public class practice {
                     minPos = j;
             }
             int temp = nums[minPos];
+            
         }
         
         
