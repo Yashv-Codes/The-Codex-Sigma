@@ -8,8 +8,8 @@ public class practice {
                     minPos = j;
             }
             int temp = nums[minPos];
-            nums[minPos] = nums[j];
-            nums[j] = temp;
+            nums[minPos] = nums[i];
+            nums[i] = temp;
         }
         
         
