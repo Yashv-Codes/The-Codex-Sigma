@@ -5,6 +5,7 @@ public class practice {
             int minPos = i;
             for(int j=i+1; j<nums.length; j++){
                 if(nums[minPos] > nums[j])
+                    minPos = j;
             }
         }
         
