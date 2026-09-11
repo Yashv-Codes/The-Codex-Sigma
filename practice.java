@@ -7,6 +7,7 @@ public class practice {
                 if(nums[minPos] > nums[j])
                     minPos = j;
             }
+            int temp = nums[minPos];
         }
         
         
