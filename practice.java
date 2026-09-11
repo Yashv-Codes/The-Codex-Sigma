@@ -3,6 +3,7 @@ public class practice {
     public static void selection_sort(int nums[]){
         for(int i=0; i<nums.length-1; i++){
             int minPos = i;
+            for(int j=i+1; )
         }
         
         
