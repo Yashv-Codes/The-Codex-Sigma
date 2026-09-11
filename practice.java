@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class practice {
     public static void insertion_sort(int nums[]){
-        for
+        for()
     
         
         System.out.println(Arrays.toString(nums));
