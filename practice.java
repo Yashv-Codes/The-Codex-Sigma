@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice {
-    public static void selection_sort(int nums[]){
+    public static void insertion_sort(int nums[]){
         
         System.out.println(Arrays.toString(nums));
     }
