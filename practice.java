@@ -10,7 +10,7 @@ public class practice {
 
     public static void main(String[] args) {
         int nums[] = {5, 4, 1, 3, 2};
-        // counting_sort(nums);
+        counting_sort(nums);
         
         
         
