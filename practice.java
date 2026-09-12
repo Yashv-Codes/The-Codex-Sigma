@@ -7,6 +7,8 @@ public class practice {
                 if(minPos > nums[j])
                     minPos = nums[j];
             }
+            int temp = minPos;
+            minPos = 
         }
         System.out.println(Arrays.toString(nums));
     }
