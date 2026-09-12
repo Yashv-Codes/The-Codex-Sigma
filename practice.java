@@ -5,9 +5,9 @@ public class practice {
             int minPos = nums[i];
             for(int j=i+1; j<nums.length; j++){
                 if(minPos > nums[j])
-                    minPos = j
+                    minPos = j;
             }
-            int temp = minPos;
+            int temp = nums[minPos];
             minPos = 
         }
         System.out.println(Arrays.toString(nums));
