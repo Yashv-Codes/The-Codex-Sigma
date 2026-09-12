@@ -10,7 +10,7 @@ public class practice {
                 }
             }
         }
-        System.out.
+        System.out.println(Arrays.toString(nums));
     }
     
 
