@@ -8,7 +8,7 @@ public class practice {
                     minPos = j;
             }
             int temp = nums[minPos];
-            nums[minPos] = minPos;
+            nums[minPos] = nums[i];
             minPos = temp;
         }
         System.out.println(Arrays.toString(nums));
