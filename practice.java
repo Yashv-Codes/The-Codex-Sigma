@@ -10,6 +10,7 @@ public class practice {
                 }
             }
         }
+        System.out.
     }
     
 
