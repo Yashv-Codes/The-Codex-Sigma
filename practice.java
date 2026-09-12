@@ -5,7 +5,8 @@ public class practice {
             int curr = nums[i];
             int prev = i-1;
             while(prev>=0 && nums[prev] > curr){
-                
+                nums[prev+1] = nums[prev];
+                prev--;
             }
         }
         System.out.println(Arrays.toString(nums));
