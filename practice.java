@@ -2,7 +2,8 @@ import java.util.Arrays;
 public class practice {
     public static void sort(int nums[]){
         for(int i=1; i<nums.length; i++){
-            int curr = 
+            int curr = nums[i];
+            int prev = i-1;
         }
         System.out.println(Arrays.toString(nums));
     }
