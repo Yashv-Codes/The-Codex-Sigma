@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class practice {
     public static void sort(int nums[]){
         for(int i=0; i<nums.length-1; i++){
-            int minPos = nums[i];
+            int minPos = i;
             for(int j=i+1; j<nums.length; j++){
                 if(minPos > nums[j])
                     minPos = j;
