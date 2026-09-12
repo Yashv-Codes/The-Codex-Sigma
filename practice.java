@@ -8,6 +8,7 @@ public class practice {
                 nums[prev+1] = nums[prev];
                 prev--;
             }
+            nums[prev+1] = curr;
         }
         System.out.println(Arrays.toString(nums));
     }
