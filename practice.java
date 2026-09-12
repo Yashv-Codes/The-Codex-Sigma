@@ -9,6 +9,7 @@ public class practice {
             }
             int temp = nums[minPos];
             nums[minPos] = minPos;
+            minPos = temp;
         }
         System.out.println(Arrays.toString(nums));
     }
