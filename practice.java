@@ -15,7 +15,7 @@ public class practice {
     
 
     public static void main(String[] args) {
-        int nums[] = {5, 4, 1, 3, 2};
+        int nums[] = {3,6,2,1,};
         sort(nums);
         
         
