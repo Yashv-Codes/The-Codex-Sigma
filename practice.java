@@ -11,7 +11,7 @@ public class practice {
             nums[minPos] = nums[i];
             nums[i] = temp;
         }
-        System.out.
+        System.out.println(Arrays.toString(nums));
     }
     
 
