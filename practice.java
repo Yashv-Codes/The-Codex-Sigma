@@ -3,7 +3,10 @@ public class practice {
     public static void sort(int nums[]){
         for(int i=0; i<nums.length-1; i++){
             int minPos = nums[i];
-            for(int j=i+1; j<nums.length; j++)
+            for(int j=i+1; j<nums.length; j++){
+                if(minPos > nums[j])
+                    minPos = 
+            }
         }
         System.out.println(Arrays.toString(nums));
     }
