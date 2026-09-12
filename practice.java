@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice {
-    public static void bubble sort
+    public static void sort(int nums[])
     
 
     public static void main(String[] args) {
