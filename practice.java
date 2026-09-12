@@ -4,8 +4,8 @@ public class practice {
         for(int i=0; i<nums.length-1; i++){
             for(int j=0; j<nums.length-1-i; j++){
                 if(nums[j] > nums[j+1]){
-                    int temp = nums[i];
-                    nums[i] = nums[j];
+                    int temp = nums[j];
+                    nums[i] = nums[j+1];
                     nums[j] = temp;
                 }
             }
