@@ -4,6 +4,7 @@ public class practice {
         for(int i=1; i<nums.length; i++){
             int curr = nums[i];
             int prev = i-1;
+            while(prev>=0 )
         }
         System.out.println(Arrays.toString(nums));
     }
