@@ -5,7 +5,7 @@ public class practice {
         while(si <= ei){
             int mid = si+(ei-si)/2;
             if(tar == nums[mid])
-                
+                return mid;
         }
         
         
