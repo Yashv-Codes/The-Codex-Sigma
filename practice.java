@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class practice {
     public static void search(int nums[]){
         
-        System.out.println(Arrays.toString(nums));
+        
     }
     
 
