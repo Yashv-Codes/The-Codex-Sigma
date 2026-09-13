@@ -1,7 +1,8 @@
 import java.util.Arrays;
 public class practice {
     public static void search(int nums[]){
-        int si = 0, ei = nums.length;
+        int si = 0, ei = nums.length-1;
+        whi
         
         
     }
