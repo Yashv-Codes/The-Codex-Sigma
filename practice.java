@@ -1,13 +1,14 @@
 import java.util.Arrays;
 public class practice {
     public static void search(int nums[]){
+        while()
         
         
     }
     
 
     public static void main(String[] args) {
-        int nums[] = {3,6,2,1,8,7,4,5,3,1};
+        int nums[] = {4,5,6,7,0,1,2};
         
         
         
