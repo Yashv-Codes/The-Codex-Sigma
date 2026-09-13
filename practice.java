@@ -4,7 +4,8 @@ public class practice {
         int si = 0, ei = nums.length-1;
         while(si <= ei){
             int mid = si+(ei-si)/2;
-            if(target)
+            if(tar == nums[mid])
+                
         }
         
         
@@ -13,6 +14,7 @@ public class practice {
 
     public static void main(String[] args) {
         int nums[] = {4,5,6,7,0,1,2};
+        int tar = 3;
         
         
         
