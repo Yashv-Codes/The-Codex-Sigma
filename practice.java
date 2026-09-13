@@ -5,7 +5,7 @@ public class practice {
         for(int i=0; i<nums.length; i++){
             if(nums[i] >= 0)
                 return 0;
-            else if()
+            else if(nums[i] > largest)
         }
         
         
