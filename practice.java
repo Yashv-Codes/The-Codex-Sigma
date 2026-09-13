@@ -1,10 +1,10 @@
 import java.util.Arrays;
 public class practice {
-    public static void search(int nums[]){
+    public static void search(int nums[], int tar){
         int si = 0, ei = nums.length-1;
         while(si <= ei){
             int mid = si+(ei-si)/2;
-            if
+            if(target)
         }
         
         
