@@ -7,7 +7,7 @@ public class practice {
             if(tar == nums[mid])
                 return mid;
             else if(tar < nums[mid])
-                
+                end = mid-1;
         }
         
         
