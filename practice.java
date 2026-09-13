@@ -6,7 +6,9 @@ public class practice {
             if(nums[i] >= 0)
                 return 0;
             else if(nums[i] > largest)
+                largest = nums[i];
         }
+        return largest;
         
         
         
