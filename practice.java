@@ -6,7 +6,8 @@ public class practice {
             int mid = si+(ei-si)/2;
             if(tar == nums[mid])
                 return mid;
-            else if(tar)
+            else if(tar < nums[mid])
+                
         }
         
         
