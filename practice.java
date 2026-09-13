@@ -11,6 +11,7 @@ public class practice {
             else
                 si = mid+1;
         }
+        return -1;
         
         
     }
