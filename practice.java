@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class practice {
     public static void search(int nums[]){
-        while()
+        int si = 
         
         
     }
