@@ -4,7 +4,7 @@ public class practice {
         int largest = nums[0];
         for(int i=0; i<nums.length; i++){
             if(nums[i] >= 0)
-                return;
+                return 0;
         }
         for(int i=0; i<nums.length; i++){
             if(nums[i] > largest)
