@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice {
-    public static void largest(int nums[]){
+    public static int largest(int nums[]){
         int largest = nums[0];
         for(int i=0; i<nums.length; i++){
             if(nums[i] >= 0)
@@ -10,6 +10,7 @@ public class practice {
             if(nums[i] > largest)
                 largest = nums[i];
         }
+        return largest;
         
         
         
