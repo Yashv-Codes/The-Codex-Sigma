@@ -25,6 +25,8 @@ public class practice {
             System.out.println();
         }
         System.out.println(search(matrix,9));
+
+        sc.close();
         
         
         
