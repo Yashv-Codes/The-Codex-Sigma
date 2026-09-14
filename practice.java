@@ -13,6 +13,7 @@ public class practice {
             for(int j=0; j<matrix[0].length; j++){
                 System.out.println(matrix[i][j]+" ");
             }
+            System.out.println();
         }
         
         
