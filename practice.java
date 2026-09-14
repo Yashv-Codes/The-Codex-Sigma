@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice {
-    public static boolean search(int matrix[][]){
+    public static void search(int matrix[][]){
         int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;
         for(int i=0; i<matrix.length; i++){
