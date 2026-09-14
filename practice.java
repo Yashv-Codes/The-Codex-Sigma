@@ -28,7 +28,7 @@ public class practice {
             }
             System.out.println();
         }
-        System.out.println(search(matrix));
+        search(matrix);
 
         sc.close();
         
