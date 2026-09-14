@@ -6,7 +6,7 @@ public class practice {
         for(int i=0; i<matrix.length; i++){
             for(int j=0; j<matrix[0].length; j++){
                 largest = Math.max(largest, matrix[i][j]);
-                smallest = Math.min(smallest,)
+                smallest = Math.min(smallest, matrix[i][j]);
                 
             }
         }
