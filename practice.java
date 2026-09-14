@@ -24,7 +24,7 @@ public class practice {
             }
             System.out.println();
         }
-        search(matrix,9);
+        System.out.println(search(matrix,9));
         
         
         
