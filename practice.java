@@ -10,7 +10,8 @@ public class practice {
                 
             }
         }
-        
+        System.out.println("Largest element = "+largest);
+        System.out.println("Smallest element = "+smallest);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
