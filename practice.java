@@ -1,7 +1,7 @@
 import java.util.*;
 public class practice {
     public static boolean search(int matrix[][], int key){
-        
+        for(int i=0; i<matrix.length; i++)
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
