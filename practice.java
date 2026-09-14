@@ -1,6 +1,8 @@
 import java.util.*;
 public class practice {
-    public static boolean search(int matrix[] [])
+    public static boolean search(int matrix[][], int key){
+        
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int matrix[][] = new int[3][3];
