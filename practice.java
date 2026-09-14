@@ -1,12 +1,11 @@
 import java.util.*;
 public class practice {
-    public static boolean search(int matrix[][], int key){
+    public static boolean search(int matrix[][]){
         int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;
         for(int i=0; i<matrix.length; i++){
             for(int j=0; j<matrix[0].length; j++){
-                if(matrix[i][j] == key)
-                    return true;
+                
             }
         }
         return false;
@@ -26,7 +25,7 @@ public class practice {
             }
             System.out.println();
         }
-        System.out.println(search(matrix,9));
+        System.out.println(search(matrix));
 
         sc.close();
         
