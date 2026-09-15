@@ -10,7 +10,7 @@ public class practice {
                 System.out.print(matrix[i][ecol]+" ");
             }
             for(int j=ecol-1; j>=scol; j--){
-                System.out.print(matrix[])
+                System.out.print(matrix[erow][j]+" ");
             }
         }
 
