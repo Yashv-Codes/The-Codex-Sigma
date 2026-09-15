@@ -2,7 +2,9 @@ import java.util.*;
 public class practice {
     public static void spiral_matrix(int matrix[][]){
         int srow = 0, scol = 0, erow = matrix.length-1, ecol = matrix[0].length-1;
-        while(srow <= erow && scol <= ecol)
+        while(srow <= erow && scol <= ecol){
+            
+        }
 
     }
     
