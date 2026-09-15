@@ -15,7 +15,7 @@ public class practice {
             for(int i=erow-1; i>=srow+1; i--){
                 System.out.print(matrix[i][scol]+" ");
             }
-            
+            srow++;
         }
 
     }
