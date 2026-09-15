@@ -4,7 +4,7 @@ public class practice {
         int srow = 0, scol = 0, erow = matrix.length-1, ecol = matrix[0].length-1;
         while(srow <= erow && scol <= ecol){
             for(int j=scol; j<=ecol; j++){
-                System.out.print(matrix[srow])
+                System.out.print(matrix[srow][j]+" ");
             }
         }
 
