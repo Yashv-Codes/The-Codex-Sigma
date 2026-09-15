@@ -6,7 +6,9 @@ public class practice {
             for(int j=scol; j<=ecol; j++){
                 System.out.print(matrix[srow][j]+" ");
             }
-            for(int i=srow+1; i<=erow; i++)
+            for(int i=srow+1; i<=erow; i++){
+                System.out.print(matrix[])
+            }
         }
 
     }
