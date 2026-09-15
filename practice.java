@@ -9,7 +9,9 @@ public class practice {
             for(int i=srow+1; i<=erow; i++){
                 System.out.print(matrix[i][ecol]+" ");
             }
-            for(int j=ecol-1; j>=scol; j--)
+            for(int j=ecol-1; j>=scol; j--){
+                
+            }
         }
 
     }
