@@ -1,6 +1,8 @@
 import java.util.*;
 public class practice {
-    public static void spiral
+    public static void spiral_matrix(int matrix[][]){
+        
+    }
     
     public static void main(String[] args) {
         int matrix[][] = {{1,2,3,4},
