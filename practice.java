@@ -1,6 +1,7 @@
 import java.util.*;
 public class practice {
     public static void spiral_matrix(int matrix[][]){
+        int srow = 0;
         
     }
     
