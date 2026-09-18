@@ -1,5 +1,8 @@
 import java.util.*;
 public class practice {
+    public static int diagonal_sum(int matrix[][]){
+        
+    }
     
     
     public static void main(String[] args) {
