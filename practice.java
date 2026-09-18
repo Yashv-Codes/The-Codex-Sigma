@@ -4,6 +4,7 @@ public class practice {
         int sum = 0;
         for(int i=0; i<matrix.length; i++){
             sum += matrix[i][i];
+            if(i != )
 
         }
         
