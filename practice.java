@@ -13,8 +13,8 @@ public class practice {
     
     
     public static void main(String[] args) {
-        int matrix[][] = {{1,2,3,4},
-                          {5,6,7,8},
+        int matrix[][] = {{1,2,3},
+                          {5,6,7},
                           {9,10,11,12}};
         System.out.println(diagonal_sum(matrix));
                           
