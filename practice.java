@@ -7,7 +7,7 @@ public class practice {
             }
             return sum;
         }
-        return sum;
+        
 
     }
    
