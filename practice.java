@@ -4,7 +4,8 @@ public class practice {
         while(row >= 0 && col < matrix.length){
             if(matrix[row][col] == key)
                 return true;
-            else if()
+            else if(key < matrix[row][col])
+                
         }
     }
     
