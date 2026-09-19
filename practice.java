@@ -1,6 +1,6 @@
 public class practice {
     public static int sum(int matrix[][]){
-        int sum
+        int sum = 0;
 
     }
    
