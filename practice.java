@@ -5,7 +5,6 @@ public class practice {
             if(matrix[row][col] == key){
 
             }
-                
             else if(key < matrix[row][col])
                 row--;
             else{
