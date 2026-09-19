@@ -2,8 +2,10 @@ public class practice {
     public static boolean search_key(int matrix[][], int key){
         int row = matrix.length-1, col = 0;
         while(row >= 0 && col < matrix.length){
-            if(matrix[row][col] == key)
-                return true;
+            if(matrix[row][col] == key){
+
+            }
+                
             else if(key < matrix[row][col])
                 row--;
             else{
@@ -19,6 +21,7 @@ public class practice {
                           {27,29,37,48},
                           {32,33,39,50}};
         int key = 30;
+        search_key(matrix,key);
         
                           
         
