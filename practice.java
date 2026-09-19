@@ -1,6 +1,6 @@
 public class practice {
     public static int count(int matrix[][]){
-        
+        int count = 0;
     }
    
     public static void main(String[] args) {
