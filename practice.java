@@ -1,5 +1,8 @@
 public class practice {
-    public static boolean search_key(int matrix[][], int key)
+    public static boolean search_key(int matrix[][], int key){
+        int row = matrix.length-1, col = 0;
+        while()
+    }
     
     public static void main(String[] args) {
         int matrix[][] = {{10,20,30,40},
