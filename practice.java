@@ -2,7 +2,7 @@ public class practice {
     public static boolean search_key(int matrix[][], int key){
         int row = matrix.length-1, col = 0;
         while(row >= 0 && col < matrix.length){
-            
+            if(matrix[row][col])
         }
     }
     
