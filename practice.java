@@ -4,7 +4,7 @@ public class practice {
         while(row >= 0 && col < matrix.length){
             if(matrix[row][col] == key){
                 System.out.print("key found at (" + row + "," + col + ")");
-
+                return true;
             }
             else if(key < matrix[row][col])
                 row--;
