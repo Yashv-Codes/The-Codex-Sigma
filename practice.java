@@ -1,5 +1,5 @@
 public class practice {
-    
+    public class search
     
     public static void main(String[] args) {
         int matrix[][] = {{10,20,30,40},
