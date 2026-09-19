@@ -3,7 +3,7 @@ public class practice {
         int row = matrix.length-1, col = 0;
         while(row >= 0 && col < matrix.length){
             if(matrix[row][col] == key){
-                System.out.print("key found at "(" + row "," + col ")"")
+                System.out.print("key found at "(" + row "," + col + ")");
 
             }
             else if(key < matrix[row][col])
