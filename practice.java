@@ -1,7 +1,7 @@
 public class practice {
     public static int sum(int matrix[][]){
         int sum = 0;
-        for(int j=0; j<matrix.length; i++){}
+        for(int j=0; j<matrix[0].length; j++){}
     }
    
    
