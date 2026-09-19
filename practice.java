@@ -5,7 +5,7 @@ public class practice {
    
    
     public static void main(String[] args) {
-        int matrix[][] = {{}}
+        int matrix[][] = {{1,4,9}, {}}
         
         
         
