@@ -5,7 +5,7 @@ public class practice {
         if(a == b)
             return true;
         else
-            false;
+            return false;
         
     }
     
