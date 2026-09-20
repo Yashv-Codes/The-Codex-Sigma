@@ -1,6 +1,8 @@
 import java.util.*;
 public class practice {
-    public static String
+    public static String substr(String str, int si, int ei){
+        
+    }
     
     
    
