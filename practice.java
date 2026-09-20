@@ -2,7 +2,7 @@ import java.util.*;
 public class practice {
     public static boolean isPalindrome(String str){
         int n = str.length();
-        int left = 
+        int left = 0, right = str.length
         
     }
     
