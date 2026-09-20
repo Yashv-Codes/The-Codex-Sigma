@@ -6,8 +6,7 @@ public class practice {
    
     public static void main(String[] args) {
     String str = "yash";
-    System.out.println(isPalindrome(str));
-    
+    str.substring(0,4)
 
         
         
