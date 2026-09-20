@@ -4,7 +4,7 @@ public class practice {
         int n = str.length();
         int left = 0, right = str.length()-1;
         while(left < right){
-            if(str.charAt(i) != str.charAt(n-1-i))
+            if(str.charAt(left) != str.charAt(right))
         }
         
     }
