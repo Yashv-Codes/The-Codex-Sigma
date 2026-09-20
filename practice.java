@@ -3,7 +3,7 @@ public class practice {
     public static String largest(String str[]){
         String largest = str[0];
         for(int i=1; i<str.length; i++){
-            
+            if(largest.compareTo(str[i]))
         }
 
     }
