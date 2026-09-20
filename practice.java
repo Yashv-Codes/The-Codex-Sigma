@@ -6,7 +6,7 @@ public class practice {
             if(largest.compareTo(str[i]) < 0)
                 largest = str[i];
         }
-        return largst
+        return largest;
 
     }
         
