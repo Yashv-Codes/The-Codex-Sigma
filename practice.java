@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice {
-    public static boolean letter(String str){
+    public static boolean isPalindrome(String str){
         
     }
     
