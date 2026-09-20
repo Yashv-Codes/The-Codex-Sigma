@@ -1,7 +1,8 @@
 import java.util.*;
 public class practice {
     public static String substr(String str, int left, int right){
-        String substr = 
+        String substr = "";
+        for(int i=0; i<)
 
 
     }
