@@ -1,7 +1,7 @@
 import java.util.*;
 public class practice {
     public static String largest(String str[]){
-        
+
     }
         
     
@@ -10,7 +10,7 @@ public class practice {
    
     public static void main(String[] args) {
     String str = "yash verma";
-    System.out.println(substr(str,0,6));
+    String str[] = {"apple", "mango", "banana"};
 
         
         
