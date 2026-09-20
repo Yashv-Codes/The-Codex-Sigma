@@ -11,6 +11,7 @@ public class practice {
     for(int i=1; i<11; i++){
         sb.append(i);
     }
+    System.out.println(sb);
     
     
 
