@@ -6,6 +6,7 @@ public class practice {
             if(str.charAt(i) != str.charAt(n-1-i))
                 return false;
         }
+        return true;
         
     }
     
@@ -13,6 +14,7 @@ public class practice {
    
     public static void main(String[] args) {
     String str = "madam";
+    isPalindrome(str);
     
 
         
