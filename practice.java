@@ -14,7 +14,7 @@ public class practice {
    
    
     public static void main(String[] args) {
-    String str = "madam";
+    String str = "yash";
     System.out.println(isPalindrome(str));
     
 
