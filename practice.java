@@ -15,7 +15,7 @@ public class practice {
    
     public static void main(String[] args) {
     String str = "yash verma";
-    System.out.println(substr(str,0,8));
+    System.out.println(substr(str,0,6));
 
         
         
