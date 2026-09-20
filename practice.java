@@ -6,7 +6,7 @@ public class practice {
    
     public static void main(String[] args) {
     String str = "yash";
-    str.substring(0,4);
+    System.out.println(str.substring(0,4));
 
         
         
