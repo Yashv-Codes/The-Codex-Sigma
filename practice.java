@@ -16,6 +16,7 @@ public class practice {
    
     public static void main(String[] args) {
     String str[] = {"apple", "mango", "banana"};
+    System.out.println(largest(str));
 
         
         
