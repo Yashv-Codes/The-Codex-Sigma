@@ -13,6 +13,7 @@ public class practice {
             else
                 sb.append(str.charAt(i));
         }
+        return sb.toString();
     }
     
         
@@ -22,6 +23,7 @@ public class practice {
    
     public static void main(String[] args) {
         String str = "hi, i am yash";
+        
     
     
     
