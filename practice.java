@@ -11,6 +11,7 @@ public class practice {
 
             }
             else
+                sb.append(str.charAt(i));
         }
     }
     
