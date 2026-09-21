@@ -4,7 +4,7 @@ public class practice {
         StringBuilder sb = new StringBuilder("");
         for(int i=0; i<str.length(); i++){
             int count = 1;
-            while(i<)
+            while(i < str.length()-1 && str.charAt(i) == str.charAt(i+1))
         }
 
         
