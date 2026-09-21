@@ -10,6 +10,7 @@ public class practice {
                 sb.append(Character.toUpperCase(str.charAt(i)));
 
             }
+            else
         }
     }
     
