@@ -3,7 +3,9 @@ public class practice {
     public static String toUppercase(String str){
         StringBuilder sb = new StringBuilder("");
         sb.append(Character.toUpperCase(str.charAt(0)));
-        for(int i=1; i<)
+        for(int i=1; i<str.length(); i++){
+            
+        }
     }
     
         
