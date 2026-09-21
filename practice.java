@@ -7,7 +7,8 @@ public class practice {
             while(i < str.length()-1 && str.charAt(i) == str.charAt(i+1)){
                 count++; i++;
             }
-            
+            sb.append(str.charAt(i));
+            if(count > 1)
         }
 
         
