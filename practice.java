@@ -2,7 +2,7 @@ import java.util.*;
 public class practice {
     public static String toUppercase(String str){
         StringBuilder sb = new StringBuilder("");
-        
+        sb.append
     }
     
         
