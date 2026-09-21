@@ -6,6 +6,8 @@ public class practice {
         for(int i=1; i<str.length(); i++){
             if(str.charAt(i) == ' ' && i < str.length()-1){
                 sb.append(str.charAt(i));
+                i++;
+                sb
 
             }
         }
