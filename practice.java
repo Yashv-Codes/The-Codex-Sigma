@@ -7,7 +7,7 @@ public class practice {
             if(str.charAt(i) == ' ' && i < str.length()-1){
                 sb.append(str.charAt(i));
                 i++;
-                sb
+                sb.append(Character.)
 
             }
         }
