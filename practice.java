@@ -23,7 +23,7 @@ public class practice {
    
     public static void main(String[] args) {
         String str = "hi, i am yash";
-        System.out.println()
+        System.out.println(toUppercase(str));
     
     
     
