@@ -23,6 +23,7 @@ public class practice {
    
     public static void main(String[] args) {
         String str = "aaabbcccdd";
+        System.out.println(compression(str));
 
         
     
