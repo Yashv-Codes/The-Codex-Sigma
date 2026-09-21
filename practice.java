@@ -2,6 +2,7 @@ import java.util.*;
 public class practice {
     public static String compression(String str){
         StringBuilder sb = new StringBuilder("");
+        
 
         
     }
