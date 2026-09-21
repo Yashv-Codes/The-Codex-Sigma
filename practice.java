@@ -4,7 +4,7 @@ public class practice {
         StringBuilder sb = new StringBuilder("");
         sb.append(Character.toUpperCase(str.charAt(0)));
         for(int i=1; i<str.length(); i++){
-            if(str.charAt(i) ==)
+            if(str.charAt(i) == ' ')
         }
     }
     
