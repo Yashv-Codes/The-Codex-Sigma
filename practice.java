@@ -9,7 +9,7 @@ public class practice {
             }
             sb.append(str.charAt(i));
             if(count > 1)
-                sb.append(count)
+                sb.append(count);
         }
 
         
