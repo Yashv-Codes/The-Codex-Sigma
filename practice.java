@@ -1,7 +1,8 @@
 import java.util.*;
 public class practice {
-    public static String toUppercase(String str){
+    public static String compression(String str){
         StringBuilder sb = new StringBuilder("");
+        
         
     }
     
