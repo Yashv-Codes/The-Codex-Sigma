@@ -5,7 +5,7 @@ public class practice {
         sb.append(Character.toUpperCase(str.charAt(0)));
         for(int i=1; i<str.length(); i++){
             if(str.charAt(i) == ' ' && i < str.length()-1){
-                
+                sb.append(str.charAt(i));
 
             }
         }
