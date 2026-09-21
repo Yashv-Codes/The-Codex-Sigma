@@ -11,6 +11,7 @@ public class practice {
             if(count > 1)
                 sb.append(count);
         }
+        return sb.toString();
 
         
     }
@@ -22,6 +23,7 @@ public class practice {
    
     public static void main(String[] args) {
         String str = "yash v";
+        
         
     
     
