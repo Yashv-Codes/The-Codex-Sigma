@@ -8,7 +8,9 @@ public class practice {
    
    
     public static void main(String[] args) {
-        String str = "Yash";
+        String str = "YASH";
+        System.out.println(str.toLowerCase();
+
 
         
 
