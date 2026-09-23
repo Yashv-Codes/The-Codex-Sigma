@@ -14,7 +14,8 @@ public class practice {
         if(str.length() == str1.length()){
             str.toLowerCase();
             str1.toLowerCase();
-            
+            char[] charArray = str.toCharArray();
+            char[] charArray1 = 
 
         }
         
