@@ -10,7 +10,7 @@ public class practice {
     public static void main(String[] args) {
         String str = "yash verma";
         int count = 0;
-        for()
+        for(int i=0; i<str.charAt())
 
         
     
