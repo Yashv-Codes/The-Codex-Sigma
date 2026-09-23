@@ -8,7 +8,8 @@ public class practice {
    
    
     public static void main(String[] args) {
-        String str = yash verma"
+        String str = "yash verma";
+        for()
 
         
     
