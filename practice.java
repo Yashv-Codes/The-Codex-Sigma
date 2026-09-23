@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Arrays;
 public class practice {
     
     
@@ -16,6 +16,7 @@ public class practice {
             str1.toLowerCase();
             char[] charArray = str.toCharArray();
             char[] charArray1 = str.toCharArray();
+            Arrays.sort(charArray);
 
         }
         
