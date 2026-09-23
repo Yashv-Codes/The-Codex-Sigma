@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice {
-    public static void anagrams(String str, String str1){
+    public static boolean anagrams(String str, String str1){
         if(str.length() != str1.length())
             return false;
         else{
@@ -10,7 +10,7 @@ public class practice {
             char[] charArray1 = str.toCharArray();
             Arrays.sort(charArray);
             Arrays.sort(charArray1);
-            boolean resu
+            boolean result = 
 
     }
 }
