@@ -3,7 +3,7 @@ public class practice {
     public static boolean anagrams(String str, String str1){
         if(str.length() != str1.length())
             return false;
-        else{
+        
             str.toLowerCase();
             str1.toLowerCase();
             char[] charArray = str.toCharArray();
@@ -15,7 +15,7 @@ public class practice {
 
     }
     return false;
-}
+
     
     public static void main(String[] args) {
         String str = "race";
