@@ -8,11 +8,11 @@ public class practice {
         char[] charArray = str.toCharArray();
         char[] charArray1 = str.toCharArray();
         Arrays.sort(charArray);
-            Arrays.sort(charArray1);
-            if(Arrays.equals(charArray, charArray1))
+        Arrays.sort(charArray1);
+        if(Arrays.equals(charArray, charArray1))
                 return true;
-            return false;
-        }
+        return false;
+    }
 
     
     
