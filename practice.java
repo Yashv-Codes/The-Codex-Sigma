@@ -8,8 +8,8 @@ public class practice {
    
    
     public static void main(String[] args) {
-        String str = "ApnaCollege";
-        
+        String str = "ApnaCollege".replace("l", "")
+
         
 
     }
