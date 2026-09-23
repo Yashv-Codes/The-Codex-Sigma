@@ -12,6 +12,7 @@ public class practice {
             Arrays.sort(charArray1);
 
     }
+}
     
     
         
