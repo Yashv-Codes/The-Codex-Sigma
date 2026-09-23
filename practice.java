@@ -17,6 +17,8 @@ public class practice {
             char[] charArray = str.toCharArray();
             char[] charArray1 = str.toCharArray();
             Arrays.sort(charArray);
+            Arrays.sort(charArray1);
+            
 
         }
         
