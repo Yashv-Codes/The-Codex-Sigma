@@ -12,9 +12,10 @@ public class practice {
             Arrays.sort(charArray1);
             if(Arrays.equals(charArray, charArray1))
                 return true;
+        }
 
-    }
-    return false;
+    
+    
 
     
     public static void main(String[] args) {
