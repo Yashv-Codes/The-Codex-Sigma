@@ -1,7 +1,8 @@
 import java.util.Arrays;
 public class practice {
-    public static boolean anagrams(String str, String str1){
-        if(str.length() != str1.length()){
+    public static void anagrams(String str, String str1){
+        if(str.length() != str1.length())
+            return;
             str.toLowerCase();
             str1.toLowerCase();
             char[] charArray = str.toCharArray();
