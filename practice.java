@@ -3,8 +3,8 @@ public class practice {
     public static boolean anagrams(String str, String str1){
         if(str.length() != str1.length())
             return false;
-        str.toLowerCase();
-        str1.toLowerCase();
+        str.toUpperCase();
+        str1.toUpperCase();
         char[] charArray = str.toCharArray();
         char[] charArray1 = str.toCharArray();
         Arrays.sort(charArray);
