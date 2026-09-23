@@ -17,16 +17,10 @@ public class practice {
     return false;
 }
     
-    
-        
-    
-    
-   
-   
     public static void main(String[] args) {
-        
         String str = "race";
         String str1 = "care";
+        
         
             
 
