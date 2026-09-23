@@ -11,7 +11,8 @@ public class practice {
         String str = "yash verma";
         int count = 0;
         for(int i=0; i<str.length(); i++){
-            if(i == 'a' || i == 'e' || i == 'i' || i)
+            if(i == 'a' || i == 'e' || i == 'i' || i == 'o' || i == 'u')
+                count++;
         }
 
         
