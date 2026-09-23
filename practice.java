@@ -1,6 +1,13 @@
 import java.util.Arrays;
 public class practice {
     public static boolean anagrams(String str, String str1){
+        if(str.length() == str1.length()){
+            str.toLowerCase();
+            str1.toLowerCase();
+            char[] charArray = str.toCharArray();
+            char[] charArray1 = str.toCharArray();
+            Arrays.sort(charArray);
+            Arrays.sort(charArray1);
 
     }
     
