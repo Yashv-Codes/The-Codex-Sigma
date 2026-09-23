@@ -4,10 +4,10 @@ public class practice {
         if(str.length() != str1.length())
             return false;
         str.toLowerCase();
-            str1.toLowerCase();
-            char[] charArray = str.toCharArray();
-            char[] charArray1 = str.toCharArray();
-            Arrays.sort(charArray);
+        str1.toLowerCase();
+        char[] charArray = str.toCharArray();
+        char[] charArray1 = str.toCharArray();
+        Arrays.sort(charArray);
             Arrays.sort(charArray1);
             if(Arrays.equals(charArray, charArray1))
                 return true;
