@@ -19,8 +19,8 @@ public class practice {
 
     
     public static void main(String[] args) {
-        String str = "race";
-        String str1 = "care";
+        String str = "pan";
+        String str1 = "nap";
         System.out.println(anagrams(str, str1));
         
             
