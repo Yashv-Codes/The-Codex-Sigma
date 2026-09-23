@@ -12,6 +12,7 @@ public class practice {
         String str = "race";
         String str1 = "care";
         if(str.length() == str1.length()){
+            
 
         }
         
