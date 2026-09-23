@@ -19,6 +19,7 @@ public class practice {
         }
         for(int i=0; i<26; i++){
             if(freq[i] != 0)
+                System.out.print("not anagram");
         }
         
             
