@@ -13,9 +13,12 @@ public class practice {
         for(int i=0; i<26; i++){
             freq[s.charAt(i)-'a']++;
             freq[t.charAt(i)-'a']--;
-            
+
             
 
+        }
+        for(int i=0; i<26; i++){
+            if(freq[i] != 0)
         }
         
             
