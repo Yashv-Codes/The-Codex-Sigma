@@ -14,7 +14,7 @@ public class practice {
             if(i == 'a' || i == 'e' || i == 'i' || i == 'o' || i == 'u')
                 count++;
         }
-        System.out.println("total lowercase vowels are")
+        System.out.println("total lowercase vowels  = "+count);
 
         
     
