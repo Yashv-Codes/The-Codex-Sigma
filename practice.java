@@ -15,7 +15,7 @@ public class practice {
             str.toLowerCase();
             str1.toLowerCase();
             char[] charArray = str.toCharArray();
-            char[] charArray1 = 
+            char[] charArray1 = str.toCharArray();
 
         }
         
