@@ -3,6 +3,7 @@ public class practice {
     public static void anagrams(String str, String str1){
         if(str.length() != str1.length())
             return;
+        else{
             str.toLowerCase();
             str1.toLowerCase();
             char[] charArray = str.toCharArray();
