@@ -10,7 +10,8 @@ public class practice {
             char[] charArray1 = str.toCharArray();
             Arrays.sort(charArray);
             Arrays.sort(charArray1);
-            if(Arrays.equals(charArray, charArray1)
+            if(Arrays.equals(charArray, charArray1))
+                return true;
 
     }
 }
