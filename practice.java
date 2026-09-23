@@ -20,7 +20,7 @@ public class practice {
     
     public static void main(String[] args) {
         String str = "race";
-        String str1 = "ponds";
+        String str1 = "care";
         System.out.println(anagrams(str, str1));
         
             
