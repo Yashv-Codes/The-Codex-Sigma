@@ -4,8 +4,7 @@ public class practice {
         int bitmask = 1<<i;
         if((n & bitmask) == 0)
             return 0;
-        else
-            return 1;
+        return 1;
 
     }
     
