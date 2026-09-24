@@ -9,7 +9,7 @@ public class practice {
     }
     
     public static void main(String[] args) {
-        get_ithbit(10,2);
+        System.out.println(get_ithbit(10,2);
         
         
 
