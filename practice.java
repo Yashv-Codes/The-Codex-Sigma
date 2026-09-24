@@ -9,6 +9,7 @@ public class practice {
     }
     
     public static void main(String[] args) {
+        get_ithbit(10,2);
         
         
 
