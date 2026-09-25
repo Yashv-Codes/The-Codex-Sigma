@@ -7,7 +7,7 @@ public class practice {
     }
     public static int update_bit(int n, int i, int v){
         n = clear_bit(n, i);
-        
+        return n | v<<i;
     }
     
     
