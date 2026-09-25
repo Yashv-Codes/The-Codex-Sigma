@@ -1,8 +1,9 @@
 import java.util.Arrays;
 public class practice {
-    public static clear_bit(int n, int i){
+    public static int clear_bit(int n, int i){
         int bitmask = ~(1<<i);
-        
+        return 
+
     }
     
     
