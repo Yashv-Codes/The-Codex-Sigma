@@ -8,7 +8,7 @@ public class practice {
     
     
     public static void main(String[] args) {
-        System.out.println()
+        System.out.println(clear_bit(13,))
         
         
         
