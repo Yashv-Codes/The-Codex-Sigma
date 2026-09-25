@@ -12,7 +12,7 @@ public class practice {
     
     
     public static void main(String[] args) {
-        System.out.println(update_bit(11))
+        System.out.println(update_bit(11,2))
         
         
         
