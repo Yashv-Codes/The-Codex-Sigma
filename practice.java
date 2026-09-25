@@ -5,6 +5,7 @@ public class practice {
         return n & bitmask;
 
     }
+    public static int update_bit(int n)
     
     
     public static void main(String[] args) {
