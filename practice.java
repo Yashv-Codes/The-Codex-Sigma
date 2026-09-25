@@ -5,7 +5,10 @@ public class practice {
         return n & bitmask;
 
     }
-    public static int update_bit(int n, int i, )
+    public static int update_bit(int n, int i, int v){
+        n = clear_bit(n, i);
+        
+    }
     
     
     public static void main(String[] args) {
