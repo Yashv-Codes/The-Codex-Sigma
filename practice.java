@@ -13,7 +13,8 @@ public class practice {
     
     
     public static void main(String[] args) {
-        int a = 
+        int a = 1011101
+        String str = String
         
             
         
