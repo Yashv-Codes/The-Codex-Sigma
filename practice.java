@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class practice {
-    public static int powerof2(int n){
-        return n & 
+    public static boolean powerof2(int n){
+        return n & (n-1) == 0;
     }
     
     
