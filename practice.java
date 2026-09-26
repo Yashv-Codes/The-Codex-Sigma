@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice {
-    public static boolean powerof2(int n){
+    public static int count_setbits(int n){
         return (n & (n-1)) == 0;
     }
     
