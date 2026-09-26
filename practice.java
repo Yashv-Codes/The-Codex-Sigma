@@ -7,7 +7,7 @@ public class practice {
     
     
     public static void main(String[] args) {
-        System.out.println(powerof2(5))
+        System.out.println(powerof2(4));
         
             
         
