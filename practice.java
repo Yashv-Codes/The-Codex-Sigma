@@ -7,7 +7,7 @@ public class practice {
     
     
     public static void main(String[] args) {
-        System.out.println(clear_bits(15,3));
+        System.out.println(clear_bits(15,2);
         
             
         
