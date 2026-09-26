@@ -1,7 +1,10 @@
 import java.util.Arrays;
 public class practice {
     public static int count_setbits(int n){
-        
+        int count = 0;
+        while(n != 0){
+            if(n. )
+        }
     }
     
     
