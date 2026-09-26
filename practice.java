@@ -15,7 +15,7 @@ public class practice {
     public static void main(String[] args) {
         int a = 1011101
         String str = String.valueOf(a);
-        for(int i=0; )
+        for(int i=0; i<st)
         
             
         
