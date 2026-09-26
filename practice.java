@@ -15,7 +15,10 @@ public class practice {
     public static void main(String[] args) {
         int a = 1011101
         String str = String.valueOf(a);
-        for(int i=0; i<string.length())
+        for(int i=0; i<string.length(); i++){
+            if(str.charAt(i) != 0)
+                count++;
+        }
         
             
         
