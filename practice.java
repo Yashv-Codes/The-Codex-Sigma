@@ -6,7 +6,7 @@ public class practice {
     
     
     public static void main(String[] args) {
-        System.out.println()
+        System.out.println(odd_even(4));
             
         
         
