@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice {
-    public static int clear_bits(int n, int i){
+    public static int powerof2(int n, int i){
         return n & ((~0)<<i);
     }
     
