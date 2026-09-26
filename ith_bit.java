@@ -31,7 +31,7 @@ public class ith_bit {
     }
 
     public static int Clear_last_ith(int n, int i){
-        int bitmask = (-1)<<i;
+        int bitmask = (-1)<<i; // OR 
         return n & bitmask;
     }
 
