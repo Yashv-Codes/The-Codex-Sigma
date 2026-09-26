@@ -7,6 +7,7 @@ public class practice {
                 count++;
             n >>= 1;
         }
+        return count;
     }
     
     
