@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice {
-    public static 
+    public static int
     
     
     
