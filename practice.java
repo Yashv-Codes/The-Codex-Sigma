@@ -13,7 +13,7 @@ public class practice {
     
     
     public static void main(String[] args) {
-        System.out.println(count_setbits(4));
+        System.out.println(count_setbits(15));
         
             
         
