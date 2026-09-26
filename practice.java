@@ -6,6 +6,7 @@ public class practice {
     
     
     public static void main(String[] args) {
+        if(odd_even(n))
         
         
         
