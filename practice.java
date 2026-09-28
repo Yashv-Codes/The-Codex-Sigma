@@ -3,7 +3,7 @@ public class practice {
         int mask = 1;
         while((n & mask) != 0){
             n = n ^ mask;
-            mask <<= 1;
+            mask = mask << 1;
         }
         n = n ^ mask;
         return n;
