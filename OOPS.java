@@ -11,7 +11,7 @@ public class OOPS {
         BankAcc b1 = new BankAcc();
         b1.setPass("abc");
         b1.setIFSC("1123408332");
-        System.out.println(b1.password);
+        
 
     }
 }
