@@ -1,4 +1,3 @@
-import java.util.*;
 public class Assignment4 {
     public static int printcount(int matrix[][], int key){
         int count = 0;
