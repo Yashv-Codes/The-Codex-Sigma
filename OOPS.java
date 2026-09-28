@@ -9,7 +9,8 @@ public class OOPS {
         // System.out.println(b.name);
         // System.out.println(b.pages);
         BankAcc b1 = new BankAcc();
-         setPass("abc");
+        b1.setPass("abc");
+        b1.set
 
     }
 }
