@@ -14,7 +14,7 @@ public class practice {
     
     
     public static void main(String[] args) {
-        System.out.println(addOne(123));
+        System.out.println(addOne(3));
         
         
         
