@@ -12,7 +12,9 @@ public class OOPS {
         void setName(String newName){
             name = newName;
         }
-        void setPages()
+        void setPages(int newPages){
+            pages = 
+        }
 
 
     }
