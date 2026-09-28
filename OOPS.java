@@ -13,10 +13,8 @@ public class OOPS {
             name = newName;
         }
         void setPages(int newPages){
-            pages = 
+            pages = newPages;
         }
-
-
     }
 }
 
