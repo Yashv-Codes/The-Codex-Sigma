@@ -1,15 +1,6 @@
 public class OOPS {
     public static void main(String[] args){
-        Pen p1 = new Pen(); // created a object -> p1
-        p1.setColor("Yellow");
-        p1.setTip(5);
-        System.out.println(p1.getColor());
-        System.out.println(p1.getTip());
-
-    //  BankAccount myacc = new BankAccount();
-    //  myacc.username = "YashVerma";
-    //  myacc.setpass("abc");
-    //  System.out.println(myacc.username);
+        
     }
 }
 
