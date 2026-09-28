@@ -17,7 +17,9 @@ public class OOPS {
             return this.color;
         }
 
-        String getName()
+        String getName(){
+            return this.name;
+        }
 
         void setColor(String newColor){
             color = newColor;
