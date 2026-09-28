@@ -24,7 +24,10 @@ public class OOPS {
             pages = newPages;
         }
     }
-    
+
+    class BankAcc{
+        
+    }
 
 
 
