@@ -1,4 +1,3 @@
-import java.util.*;
 public class Assignment5 {
     public static String count_vowels(String str){
         StringBuilder sb = new StringBuilder("");
