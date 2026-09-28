@@ -12,6 +12,7 @@ public class OOPS {
         void setName(String newName){
             name = newName;
         }
+        void setPages()
 
 
     }
