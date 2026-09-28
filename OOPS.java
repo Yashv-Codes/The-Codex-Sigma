@@ -1,6 +1,6 @@
 public class OOPS {
     public static void main(String[] args){
-        Book b = new Book();
+        Book b1 = new Book();
 
         
     }
