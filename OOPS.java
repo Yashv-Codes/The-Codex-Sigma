@@ -9,7 +9,7 @@ public class OOPS {
         void setColor(String newColor){
             color = newColor;
         }
-        void set
+        void setName(String newName)
 
 
     }
