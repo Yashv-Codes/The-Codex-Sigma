@@ -4,7 +4,9 @@ public class OOPS {
         b.setColor("Green");
         b.setName("Little Progess each day");
         b.setPages(300);
-        System.out.println(b.)
+        System.out.println(b.color);
+        System.out.println(b.name);
+        System.out.println(b.pages);
     }
 }
     class Book{
