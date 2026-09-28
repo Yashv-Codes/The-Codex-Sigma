@@ -6,7 +6,9 @@ public class practice {
 class Student{
     String name; 
     int roll;
-    Student(String name)
+    Student(String name){
+        this.name = name;
+    }
 }
 
         
