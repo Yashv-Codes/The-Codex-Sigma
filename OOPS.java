@@ -1,16 +1,10 @@
 public class OOPS {
     public static void main(String[] args){
         Book b = new Book();
-        b.setColor("Green");
-        // b.setName("Little Progess each day");
-        // b.setPages(300);
-        // b.color = "Yellow";
-        // System.out.println(b.color);
-        // System.out.println(b.name);
-        // System.out.println(b.pages);
-        BankAcc b1 = new BankAcc();
-        b1.setPass("abc");
-        b1.setIFSC("1123408332");
+        
+        // BankAcc b1 = new BankAcc();
+        // b1.setPass("abc");
+        // b1.setIFSC("1123408332");
         
 
     }
