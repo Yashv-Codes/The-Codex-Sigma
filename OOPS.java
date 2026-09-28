@@ -21,6 +21,10 @@ public class OOPS {
             return this.name;
         }
 
+        int getPages(){
+            return this.pages;
+        }
+
         void setColor(String newColor){
             color = newColor;
         }
