@@ -4,6 +4,7 @@ public class OOPS {
         
     }
     class Book{
+        String color;
         
 
     }
