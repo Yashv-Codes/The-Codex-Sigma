@@ -1,7 +1,7 @@
 public class practice {
     public static void main(String[] args) {
-        Student s1 = new Student("Yash");
-        System.out.println(s1.name);
+        Student s1 = new Student();
+        
         
     }
 }
