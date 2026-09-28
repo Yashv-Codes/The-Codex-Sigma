@@ -9,7 +9,7 @@ public class OOPS {
         // System.out.println(b.name);
         // System.out.println(b.pages);
         BankAcc b1 = new BankAcc();
-        void setPass("abc");
+         setPass("abc");
 
     }
 }
