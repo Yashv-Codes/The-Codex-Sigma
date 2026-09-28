@@ -2,7 +2,7 @@ public class OOPS {
     public static void main(String[] args){
         Book b = new Book();
         b.setColor("Green");
-        b.setName("")
+        b.setName("Little Progess each day")
 
         
     }
