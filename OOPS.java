@@ -3,7 +3,7 @@ public class OOPS {
         Book b = new Book();
         b.setColor("Green");
         System.out.println(b.getColor());
-        b.setName
+        b.setName("A little Progress each day");
         
         // BankAcc b1 = new BankAcc();
         // b1.setPass("abc");
