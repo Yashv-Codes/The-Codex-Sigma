@@ -9,7 +9,7 @@ class Student{
     String name; 
     int roll;
     Student(){
-        System.out.println("constructor is called");
+        // System.out.println("constructor is called");
         
     }
 }
