@@ -31,7 +31,9 @@ public class OOPS {
         void setPass(String newPwd){
             password = newPwd;
         }
-        void 
+        void setIFSC(String newIFSC){
+            IFSC = newIFSC;
+        }
     }
 
 
