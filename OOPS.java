@@ -26,7 +26,8 @@ public class OOPS {
     }
 
     class BankAcc{
-        
+        private String password;
+        private String 
     }
 
 
