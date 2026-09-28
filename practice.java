@@ -4,7 +4,9 @@ public class practice {
     }
 }
 class Student{
-    String name, 
+    String name; 
+    int roll;
+    Student(String name)
 }
 
         
