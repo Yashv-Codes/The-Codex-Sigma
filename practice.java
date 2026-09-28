@@ -3,6 +3,9 @@ public class practice {
         
     }
 }
+class Student{
+    String name, 
+}
 
         
 
