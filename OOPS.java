@@ -4,10 +4,11 @@ public class OOPS {
         b.setColor("Green");
         b.setName("Little Progess each day");
         b.setPages(300);
-        
+
 
         
     }
+}
     class Book{
         String color, name;
         int pages;
@@ -21,7 +22,7 @@ public class OOPS {
             pages = newPages;
         }
     }
-}
+
 
 
 
