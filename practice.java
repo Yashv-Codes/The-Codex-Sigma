@@ -6,6 +6,7 @@ public class practice {
             mask <<= 1;
         }
         n ^= mask;
+        return n;
 
     }
     
