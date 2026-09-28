@@ -5,7 +5,7 @@ public class practice {
             n ^= mask;
             mask <<= 1;
         }
-        
+        n ^= mask;
 
     }
     
