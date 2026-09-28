@@ -1,5 +1,5 @@
 public class practice {
-    public static 
+    public static int addOne(int n)
     
     
     
