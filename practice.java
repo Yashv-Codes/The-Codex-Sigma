@@ -3,7 +3,7 @@ public class practice {
         Student s1 = new Student();
         s1.name = "Yash";
         s1.roll = 124;
-        System.out.println(s1.name)
+        System.out.println(s1.name +"")
         
         
     }
