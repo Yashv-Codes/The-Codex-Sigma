@@ -10,7 +10,7 @@ public class OOPS {
         // System.out.println(b.pages);
         BankAcc b1 = new BankAcc();
         b1.setPass("abc");
-        b1.set
+        b1.setIFSC("1123408332")
 
     }
 }
