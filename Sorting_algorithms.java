@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import java.util.Collections;
+// import java.util.Collections;
 public class Sorting_algorithms {
     public static void Bubble_sort(Integer arr[]){
         int n = arr.length;
