@@ -28,7 +28,7 @@ public class OOPS {
     class BankAcc{
         private String password;
         private String IFSC;
-        void set
+        void setPass(String new)
     }
 
 
