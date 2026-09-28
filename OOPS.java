@@ -10,8 +10,8 @@ public class OOPS {
     }
 }
     class Book{
-        String color, name;
-        int pages;
+        private String color, name;
+        private int pages;
 
         String getColor(){
             return this.color;
