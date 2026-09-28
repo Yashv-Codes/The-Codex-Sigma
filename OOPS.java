@@ -8,6 +8,7 @@ public class OOPS {
         // System.out.println(b.color);
         // System.out.println(b.name);
         // System.out.println(b.pages);
+        BankAcc 
 
     }
 }
