@@ -6,7 +6,7 @@ public class OOPS {
         b.setName("A little Progress each day");
         System.out.println(b.getName());
         b.setPages(300);
-        System.out.println()
+        System.out.println(b.getPages());
         
         // BankAcc b1 = new BankAcc();
         // b1.setPass("abc");
