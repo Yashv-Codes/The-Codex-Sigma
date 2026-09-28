@@ -7,8 +7,9 @@ public class OOPS {
         String color, name;
         int pages;
         void setColor(String newColor){
-            
+            color = newColor;
         }
+        void set
 
 
     }
