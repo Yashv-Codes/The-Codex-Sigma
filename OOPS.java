@@ -2,9 +2,10 @@ public class OOPS {
     public static void main(String[] args){
         Book b = new Book();
         b.setColor("Green");
+        System.out.println(b.color);
         b.setName("Little Progess each day");
         b.setPages(300);
-        System.out.println(b.color);
+        
         System.out.println(b.name);
         System.out.println(b.pages);
     }
