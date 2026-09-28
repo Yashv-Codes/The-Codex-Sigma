@@ -4,9 +4,9 @@ public class OOPS {
         
     }
     class Book{
-        String color;
+        String color, name;
         int pages;
-        
+
 
     }
 }
