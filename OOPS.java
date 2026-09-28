@@ -6,7 +6,9 @@ public class OOPS {
     class Book{
         String color, name;
         int pages;
-        void setColor
+        void setColor(String newColor){
+            
+        }
 
 
     }
