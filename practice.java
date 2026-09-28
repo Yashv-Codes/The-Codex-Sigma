@@ -3,9 +3,9 @@ public class practice {
         int mask = 1;
         while((n & 1) != 0){
             n ^= mask;
-            n = n<<1;
+            mask <<
         }
-        
+
     }
     
     
