@@ -17,12 +17,7 @@ public class practice {
         
 
         }
-        
-
-
-        
-
-    }
+     }
 
         
 
