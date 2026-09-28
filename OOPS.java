@@ -2,7 +2,8 @@ public class OOPS {
     public static void main(String[] args){
         Book b = new Book();
         b.setColor("Green");
-        System.out.println(getColor());
+        System.out.println(b.getColor());
+        b.setName
         
         // BankAcc b1 = new BankAcc();
         // b1.setPass("abc");
