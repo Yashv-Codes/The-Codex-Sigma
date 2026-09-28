@@ -12,9 +12,13 @@ public class OOPS {
     class Book{
         String color, name;
         int pages;
+
         String getColor(){
             return this.color;
         }
+
+        
+
         void setColor(String newColor){
             color = newColor;
         }
