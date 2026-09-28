@@ -1,4 +1,3 @@
-import java.util.*;
 public class Searching_algo {
     public static void update(int num[]){
         for(int i=0; i<num.length; i++){
