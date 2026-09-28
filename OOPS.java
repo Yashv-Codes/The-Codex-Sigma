@@ -1,7 +1,8 @@
 public class OOPS {
     public static void main(String[] args){
         Book b = new Book();
-        b.
+        b.setColor("Green");
+        
         
         // BankAcc b1 = new BankAcc();
         // b1.setPass("abc");
