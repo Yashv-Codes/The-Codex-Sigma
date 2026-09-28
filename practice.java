@@ -15,7 +15,9 @@ class Student{
         // System.out.println("constructor is called");
         
     }
-    Student()
+    Student(String name, int roll){
+        
+    }
 }
 
         
