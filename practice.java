@@ -33,6 +33,9 @@ class Student{
         marks = new int[3];
         this.name = s1.name;
         this.roll = s1.roll;
+        for(int i=0; i<3; i++){
+            this.marks[i] = s1.marks[i];
+        }
     }
 }
 
