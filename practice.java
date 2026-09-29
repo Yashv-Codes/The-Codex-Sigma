@@ -29,7 +29,9 @@ class Student{
 
 //    }
 
-    
+    Student(Student s1){
+        
+    }
 }
 
         
