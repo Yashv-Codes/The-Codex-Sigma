@@ -4,7 +4,8 @@ public class practice {
         f.sleep();
         f.breathe();
         Mammal m = new Mammal();
-        m.
+        m.eats();
+        m.swims();
         
         
     }
