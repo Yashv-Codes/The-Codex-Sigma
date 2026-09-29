@@ -1,8 +1,8 @@
 public class practice {
     public static void main(String[] args) {
-        Fish f = new Fish();
-        f.sleep();
-        f.breathe();
+        // Fish f = new Fish();
+        // f.sleep();
+        // f.breathe();
         Mammal m = new Mammal();
         m.eat();
         m.swim();
