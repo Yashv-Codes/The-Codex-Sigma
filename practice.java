@@ -3,8 +3,8 @@ public class practice {
         // Fish f = new Fish();
         // f.sleep();
         // f.breathe();
-        Mammal m = new Mammal();
-        m.eat();
+        Mammal m1 = new Mammal();
+        m1.eat();
         
         
         
