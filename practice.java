@@ -6,8 +6,9 @@ public class practice {
 }
 class Animal{
     void eat(){
-        
+        System.out.println("eats");
     }
+    void 
 
 }
 
