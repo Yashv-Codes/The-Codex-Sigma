@@ -1,8 +1,8 @@
 public class practice {
     public static void main(String[] args) {
-        Student s = new Student();
+        Student s1 = new Student();
         s1.name = "yash";
-        Student s1 = new Student(s1);
+        Student s2 = new Student(s1);
         
         
     }
