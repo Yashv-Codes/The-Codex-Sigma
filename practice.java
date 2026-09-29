@@ -5,7 +5,9 @@ public class practice {
     }
 }
 class Animal{
-    
+    void eat(){
+        
+    }
 
 }
 
