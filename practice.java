@@ -8,7 +8,7 @@ public class practice {
         s1.marks[2] = 13;
         Student s2 = new Student(s1);
         for(int i=0; i<marks.length; i++){
-            System.out.print()
+            System.out.print(s2.marks[i] + " ");
         }
         
         
