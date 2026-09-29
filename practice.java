@@ -9,7 +9,9 @@ public class practice {
 class Student{
    String name;
    int roll; 
+   int marks[];
    Student(){
+    
     
 
 
