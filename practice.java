@@ -6,6 +6,7 @@ public class practice {
         Mammal m = new Mammal();
         m.eat();
         m.swim();
+        m.breathe();
         
         
     }
