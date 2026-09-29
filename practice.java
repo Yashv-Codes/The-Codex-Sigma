@@ -3,6 +3,8 @@ public class practice {
         Student s1 = new Student();
         s1.name = "yash";
         s1.roll = 124;
+        s1.marks[0] = 11;
+        s1.marks[1]
         Student s2 = new Student(s1);
         
         
