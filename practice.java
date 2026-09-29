@@ -5,8 +5,7 @@ public class practice {
         // f.breathe();
         Mammal m = new Mammal();
         m.eat();
-        m.swim();
-        m.breathe();
+        
         
         
     }
