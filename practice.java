@@ -11,11 +11,9 @@ class Student{
    int roll; 
    int marks[];
    Student(){
-    
-    
-
-
-   }
+    marks = new int[3];
+    System.out.println("constructor is called");
+}
    Student(Student s1){
 
    }
