@@ -24,7 +24,9 @@ class Fish extends Animal{
         System.out.println("breathes");
     }
 }
-class 
+class Mammal extends Fish(){
+    
+}
 
 
 
