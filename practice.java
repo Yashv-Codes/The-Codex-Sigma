@@ -9,8 +9,11 @@ public class practice {
 class Student{
    String name;
    int roll; 
-   Student(Student s1){
+   Student(){
     
+   }
+   Student(Student s1){
+
    }
 }
 
