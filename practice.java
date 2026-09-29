@@ -30,7 +30,7 @@ class Student{
 //    }
 
     Student(Student s1){
-        
+        marks = new int[3];
     }
 }
 
