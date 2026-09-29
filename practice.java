@@ -30,7 +30,7 @@ class Fish extends Animal{
         System.out.println("breathes");
     }
 }
-class Mammal{
+class Mammal extends Fish{
     String color;
     void eat(){
         System.out.println("eats");
