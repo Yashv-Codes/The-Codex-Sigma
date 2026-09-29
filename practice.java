@@ -10,8 +10,8 @@ class Student{
    String name;
    int roll; 
    Student(){
-    this.name = name;
     
+
 
    }
    Student(Student s1){
