@@ -7,7 +7,7 @@ public class practice {
 class Student{
    String name;
    int roll; 
-   int marks[] = new int[3];
+   Student()
 }
 
         
