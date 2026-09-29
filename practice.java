@@ -9,6 +9,7 @@ public class practice {
         Student s2 = new Student(s1);
         
         
+        
     }
 }
 class Student{
