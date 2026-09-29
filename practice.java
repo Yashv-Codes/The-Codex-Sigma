@@ -16,7 +16,8 @@ class Student{
    }
 
    Student(Student s1){
-    marks = new int[marks.length];
+    marks = new int[3];
+    
 
    }
 }
