@@ -17,7 +17,9 @@ class Fish extends Animal{
     void swim(){
         System.out.println("swims");
     }
-    void breathe
+    void breathe(){
+        System.out.println("breathes");
+    }
 }
 
 
