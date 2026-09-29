@@ -4,7 +4,8 @@ public class practice {
         s1.name = "yash";
         s1.roll = 124;
         s1.marks[0] = 11;
-        s1.marks[1]
+        s1.marks[1] = 12;
+        s1.marks[2] = 13;
         Student s2 = new Student(s1);
         
         
