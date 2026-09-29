@@ -22,7 +22,7 @@ class Animal{
 }
 class Fish extends Animal{
     void eat(){
-        
+        System.out.println("eats");
     }
     void swim(){
         System.out.println("swims");
