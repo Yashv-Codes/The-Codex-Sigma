@@ -14,8 +14,9 @@ class Student{
     marks = new int[3];
     System.out.println("constructor is called");
    }
-   
+
    Student(Student s1){
+    marks = new int[marks.length];
 
    }
 }
