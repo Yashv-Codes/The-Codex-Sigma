@@ -7,7 +7,7 @@ public class practice {
         s1.marks[1] = 12;
         s1.marks[2] = 13;
         Student s2 = new Student(s1);
-        s1.marks[1] = 45;
+        s2.marks[1] = 45;
         for(int i=0; i<3; i++){
             System.out.println(s2.marks[i]);
         }
