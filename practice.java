@@ -13,7 +13,8 @@ class Student{
    Student(){
     marks = new int[3];
     System.out.println("constructor is called");
-}
+   }
+   
    Student(Student s1){
 
    }
