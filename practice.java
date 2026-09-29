@@ -8,9 +8,12 @@ class Animal{
     void eat(){
         System.out.println("eats");
     }
-    void 
+    void sleep(){
+        System.out.println("sleeps");
+    }
 
 }
+class 
 
 
 
