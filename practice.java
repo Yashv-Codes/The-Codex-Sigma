@@ -21,7 +21,9 @@ class Animal{
 
 }
 class Fish extends Animal{
-    
+    void eat(){
+        
+    }
     void swim(){
         System.out.println("swims");
     }
