@@ -4,6 +4,10 @@ public class practice {
         
     }
 }
+class Animal{
+    
+
+}
 
 
 
