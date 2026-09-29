@@ -1,6 +1,7 @@
 public class practice {
     public static void main(String[] args) {
-        
+        Fish f = new Fish();
+        f.
         
         
     }
