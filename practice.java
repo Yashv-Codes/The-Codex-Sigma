@@ -7,6 +7,9 @@ public class practice {
 interface Herbivore{
     void eat();
 }
+interface Carnivore{
+    void eat();
+}
 
 
 
