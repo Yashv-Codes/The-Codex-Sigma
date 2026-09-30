@@ -8,8 +8,8 @@ class Animal{
         System.out.println("Animal constructor is called");
     }
 }
-class Horse(){
-
+class Horse{
+    
 }
 
 
