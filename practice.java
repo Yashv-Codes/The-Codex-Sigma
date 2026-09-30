@@ -1,7 +1,7 @@
 public class practice {
     public static void main(String[] args) {
         Turtle t = new Turtle();
-        
+        t.eat(); t.breathe();
      }
 }
 abstract class Animal{
