@@ -5,7 +5,7 @@ public class practice {
      }
 }
 interface Herbivore{
-    void 
+    void play();
 }
 interface Carnivore{
     void eat();
@@ -14,6 +14,7 @@ class Bear implements Herbivore, Carnivore{
     public void eat(){
         System.out.println("Bear is non-vegetarian");
     }
+    public void 
 }
 
 
