@@ -1,5 +1,7 @@
 public class practice {
     public static void main(String[] args) {
+        Horse h = new Horse();
+        
         
     }
 }
@@ -10,6 +12,7 @@ class Animal{
 }
 class Horse{
     Horse(){
+        super();
         System.out.println("horse constructor is called");
     }
 }
