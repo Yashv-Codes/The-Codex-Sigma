@@ -4,9 +4,13 @@ public class practice {
         
      }
 }
-interface Game{
+interface Game
+
+
+{
     void play();
 }
+interface 
 
 
 
