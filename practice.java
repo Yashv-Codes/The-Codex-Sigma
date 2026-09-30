@@ -1,6 +1,7 @@
 public class practice {
     public static void main(String[] args) {
-        Tut
+        Turtle t = new Turtle();
+        
      }
 }
 abstract class Animal{
