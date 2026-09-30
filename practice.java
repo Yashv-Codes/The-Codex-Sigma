@@ -3,7 +3,9 @@ public class practice {
         
      }
 }
-interface 
+interface Game{
+    void 
+}
 
 
 
