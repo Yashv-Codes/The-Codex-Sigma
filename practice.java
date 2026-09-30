@@ -1,6 +1,7 @@
 public class practice {
     public static void main(String[] args) {
-        
+        Coc c = new Coc();
+        c.play();
         
      }
 }
