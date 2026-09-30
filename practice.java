@@ -6,13 +6,14 @@ public class practice {
     }
 }
 class Animal{
+    String name;
     Animal(){
         System.out.println("Animal constructor is called");
     }
 }
 class Horse extends Animal{
     Horse(){
-        super();
+        super.name = ""
         System.out.println("horse constructor is called");
     }
 }
