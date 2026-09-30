@@ -8,7 +8,7 @@ interface Game{
 }
 class Freefire implements Game{
     public void play(){
-        
+        System.out.println("")
     }
 }
 
