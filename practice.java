@@ -14,7 +14,9 @@ class Bear implements Herbivore, Carnivore{
     public void eat(){
         System.out.println("Bear is non-vegetarian");
     }
-    public void 
+    public void play(){
+        System.out.println("")
+    }
 }
 
 
