@@ -4,6 +4,7 @@ public class practice {
 }
 class Test{
 void changeb(){
+    b = a*3;
 
 }
 }
