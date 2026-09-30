@@ -11,7 +11,9 @@ class Freefire implements Game{
         System.out.println("paly in mobile or laptop");
     }
 }
-class 
+class Coc implements Game{
+    
+}
 
 
 
