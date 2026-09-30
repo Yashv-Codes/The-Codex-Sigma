@@ -16,7 +16,7 @@ class Coc implements Game{
         System.out.println("Rage is temporary but peace is eternal");
     }
 }
-class 
+class FatuureFight
 
 
 
