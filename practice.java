@@ -12,7 +12,7 @@ interface Carnivore{
 }
 class Bear implements Herbivore, Carnivore{
     public void eat(){
-        System.out.println("Bear is non")
+        System.out.println("Bear is non-vegetarian");
     }
 }
 
