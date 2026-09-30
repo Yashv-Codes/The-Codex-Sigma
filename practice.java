@@ -3,14 +3,8 @@ public class practice {
         
         
      }
-}
-interface Game
+    }
 
-
-{
-    void play();
-}
-interface 
 
 
 
