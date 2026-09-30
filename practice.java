@@ -5,7 +5,7 @@ public class practice {
 }
 class Animal{
     Animal(){
-        System.out.println
+        System.out.println("Animal constructor is called");
     }
 }
 
