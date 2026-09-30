@@ -8,9 +8,10 @@ interface Game{
 }
 class Freefire implements Game{
     public void play(){
-        System.out.println("")
+        System.out.println("paly in mobile or laptop");
     }
 }
+class 
 
 
 
