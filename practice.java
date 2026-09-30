@@ -3,6 +3,7 @@ public class practice {
     }
 }
 class Test{
+    static int b;
 void changeb(){
     b = a*3;
 
