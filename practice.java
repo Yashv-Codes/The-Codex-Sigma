@@ -12,8 +12,11 @@ class Freefire implements Game{
     }
 }
 class Coc implements Game{
-    
+    public void play(){
+        System.out.println("Rage is temporary but peace is eternal");
+    }
 }
+class 
 
 
 
