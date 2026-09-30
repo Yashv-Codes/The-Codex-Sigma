@@ -10,7 +10,7 @@ abstract class Animal{
 }
 class Turtle extends Animal{
     void breathe(){
-        
+        System.out.println("tur")
     }
 
 }
