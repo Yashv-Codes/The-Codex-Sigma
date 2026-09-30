@@ -11,7 +11,9 @@ interface Carnivore{
     void eat();
 }
 class Bear implements Herbivore, Carnivore{
-    
+    public void eat(){
+        System.out.println("Bear is non")
+    }
 }
 
 
