@@ -9,6 +9,9 @@ abstract class Animal{
     abstract void breathe();
 }
 class Turtle extends Animal{
+    void breathe(){
+        
+    }
 
 }
 
