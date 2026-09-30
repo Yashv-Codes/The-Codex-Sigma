@@ -10,7 +10,9 @@ interface Herbivore{
 interface Carnivore{
     void eat();
 }
-class 
+class Bear implements Herbivore, Carnivore{
+    
+}
 
 
 
