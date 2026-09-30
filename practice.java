@@ -1,6 +1,7 @@
 public class practice {
     public static void main(String[] args) {
-        
+        Bear b = new Bear();
+        b.eat(); b.play();
         
     }
 }
