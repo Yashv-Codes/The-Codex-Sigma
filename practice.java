@@ -6,7 +6,7 @@ public class practice {
 interface Game{
     void play();
 }
-class 
+class Freefire implements 
 
 
 
