@@ -13,7 +13,7 @@ class Animal{
 }
 class Horse extends Animal{
     Horse(){
-        super.name = ""
+        super.name = "dada";
         System.out.println("horse constructor is called");
     }
 }
