@@ -6,8 +6,9 @@ abstract class Animal{
     void eat(){
         System.out.println("animal eats");
     }
-    abstract void 
+    abstract void breathe();
 }
+class 
 
 
 
