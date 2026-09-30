@@ -2,7 +2,9 @@ public class practice {
     public static void main(String[] args) {
      }
 }
-abstract 
+abstract class Animal{
+    void sleep
+}
 
 
 
