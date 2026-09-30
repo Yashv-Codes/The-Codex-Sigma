@@ -17,7 +17,9 @@ class Coc implements Game{
     }
 }
 class FatuureFight implements Game{
-    public
+    public void play(){
+        System.out.println("")
+    }
 }
 
 
