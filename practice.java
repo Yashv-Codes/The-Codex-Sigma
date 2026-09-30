@@ -3,7 +3,10 @@ public class practice {
         
         
      }
-    }
+}
+interface Herbivore{
+    void eats
+}
 
 
 
