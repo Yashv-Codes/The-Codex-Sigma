@@ -3,7 +3,9 @@ public class practice {
      }
 }
 abstract class Animal{
-    void sleep
+    void eat(){
+        System.out.println
+    }
 }
 
 
