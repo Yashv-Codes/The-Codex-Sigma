@@ -6,7 +6,11 @@ public class practice {
 interface Game{
     void play();
 }
-class Freefire implements 
+class Freefire implements Game{
+    public void play(){
+        
+    }
+}
 
 
 
