@@ -4,8 +4,9 @@ public class practice {
 }
 abstract class Animal{
     void eat(){
-        System.out.println
+        System.out.println("animal eats");
     }
+    abstract void 
 }
 
 
