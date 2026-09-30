@@ -1,8 +1,7 @@
 public class practice {
     public static void main(String[] args) {
         
-        
-     }
+    }
 }
 interface Herbivore{
     void play();
@@ -15,7 +14,7 @@ class Bear implements Herbivore, Carnivore{
         System.out.println("Bear is non-vegetarian");
     }
     public void play(){
-        System.out.println("")
+        System.out.println("Bear plays with ball");
     }
 }
 
