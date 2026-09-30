@@ -10,6 +10,7 @@ interface Herbivore{
 interface Carnivore{
     void eat();
 }
+class 
 
 
 
