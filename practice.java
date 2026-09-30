@@ -3,7 +3,11 @@ public class practice {
         
     }
 }
-
+class Animal{
+    Animal(){
+        System.out.println
+    }
+}
 
 
 
