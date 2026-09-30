@@ -4,9 +4,9 @@ public class practice {
      }
 }
 interface Game{
-    void 
+    void play();
 }
-
+class 
 
 
 
