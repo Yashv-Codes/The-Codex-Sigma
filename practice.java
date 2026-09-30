@@ -9,7 +9,9 @@ class Animal{
     }
 }
 class Horse{
-    
+    Horse(){
+        System.out.println("horse constructor is called");
+    }
 }
 
 
