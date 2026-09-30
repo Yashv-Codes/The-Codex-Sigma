@@ -1,6 +1,7 @@
 public class practice {
     public static void main(String[] args) {
         
+        
      }
 }
 interface Game{
@@ -18,7 +19,7 @@ class Coc implements Game{
 }
 class FatuureFight implements Game{
     public void play(){
-        System.out.println("")
+        System.out.println("Sentry is the most powerful character");
     }
 }
 
