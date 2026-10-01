@@ -6,7 +6,9 @@ public class practice{
 
 }
 public class Shape{
-    
+    protected void display(){
+        
+    }
 }
 
 
