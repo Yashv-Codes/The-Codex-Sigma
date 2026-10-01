@@ -4,7 +4,8 @@ public class practice{
             System.out.print(n+" ");
             return;
         }
-        
+        printnum(n-1);
+        System.out.print(n+" ");
         
     }
     public static void main(String[] args){
