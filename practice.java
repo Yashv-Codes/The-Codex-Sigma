@@ -8,7 +8,9 @@ class Animal{
     }
 }
 class Horse extends Animal{
-    
+    Horse(){
+        super = 
+    }
 }
 
 
