@@ -5,7 +5,9 @@ public class practice{
     }
 
 }
-
+public class Shape{
+    
+}
 
 
 
