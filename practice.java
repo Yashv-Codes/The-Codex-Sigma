@@ -9,7 +9,7 @@ public class practice{
         
     }
     public static void main(String[] args){
-        System.out.println(fact(30));
+        System.out.println(fact(20));
         
     }
 
