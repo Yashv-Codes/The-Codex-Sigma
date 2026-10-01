@@ -2,7 +2,8 @@ public class practice{
 
 }
 class Animal{
-    static 
+    static String name;
+    
 }
 
 
