@@ -1,6 +1,6 @@
 public class practice{
     public static void printnum(int n){
-        System.out.print
+        System.out.print(n+" ");
         
     }
     public static void main(String[] args){
