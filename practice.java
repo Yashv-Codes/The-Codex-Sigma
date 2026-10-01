@@ -8,7 +8,8 @@ public class practice{
     }
     
     public static void main(String[] args){
-        System.out.printl
+        int arr[] = {1,2,3,4};
+        System.out.println(arr,0)
         
         
         
