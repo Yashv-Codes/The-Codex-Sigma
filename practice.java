@@ -3,7 +3,7 @@ public class practice{
         if(n == 1)
             return 1;
         sum += n;
-        sum_num(n-1);
+        sum_num(n-1,0);
         return sum;
         
     }
