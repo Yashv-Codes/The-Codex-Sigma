@@ -12,7 +12,9 @@ public class Shape{
     }
 }
 public class Circle extends Shape{
-    private void displ
+    private void display(){
+        
+    }
 
 }
 
