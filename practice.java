@@ -1,5 +1,6 @@
 public class practice{
-    public static void printnum(int n){
+    public static int fact(int n){
+        
         
         
     }
