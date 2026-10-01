@@ -5,13 +5,13 @@ public class practice{
     }
 
 }
-public class Shape{
+ class Shape{
     protected void display(){
         System.out.println("display-base");
 
     }
 }
-public class Circle extends Shape{
+class Circle extends Shape{
     protected void display(){
         System.out.println("Display-derived");
     }
