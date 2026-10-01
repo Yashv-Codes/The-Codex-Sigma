@@ -9,8 +9,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        int sum = 0;
-        System.out.println(sum_num(5));
+        System.out.println(sum_num(5,0));
         
         
     }
