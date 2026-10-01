@@ -12,7 +12,7 @@ public class Shape{
     }
 }
 public class Circle extends Shape{
-    private void display(){
+    protected void display(){
         System.out.println("Display-derived");
     }
 
