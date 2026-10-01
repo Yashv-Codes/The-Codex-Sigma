@@ -7,6 +7,9 @@ class Animal{
         System.out.println("eats");
     }
 }
+class Horse extends Animal{
+    
+}
 
 
 
