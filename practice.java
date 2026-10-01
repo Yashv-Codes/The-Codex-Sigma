@@ -1,6 +1,7 @@
 public class practice{
     public static void printnum(int n){
-        if
+        if(n == 1)
+            return;
         System.out.print(n+" ");
         printnum(n-1);
         
