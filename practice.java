@@ -13,7 +13,7 @@ public class Shape{
 }
 public class Circle extends Shape{
     private void display(){
-        
+        System.out.println("")
     }
 
 }
