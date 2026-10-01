@@ -1,7 +1,7 @@
 public class practice{
     public static void main(String[] args){
         Horse h  = new Horse();
-        System.out.println(h.name);
+        System.out.println(Animal.name);
     }
 
 }
