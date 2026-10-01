@@ -1,5 +1,6 @@
 public class practice{
-    public static void (int n){
+    public static void printnum(int n){
+        System.out.print
         
     }
     public static void main(String[] args){
