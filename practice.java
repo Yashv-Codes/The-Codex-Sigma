@@ -1,9 +1,9 @@
 public class practice{
-    public static int sum(int n, int sum){
+    public static int sum_num(int n, int sum){
         if(n == 1)
             return 1;
         sum += n;
-        sum(n-1);
+        sum_num(n-1);
         return sum;
         
     }
