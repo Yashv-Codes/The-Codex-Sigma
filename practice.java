@@ -7,10 +7,11 @@ public class practice{
 }
 public class Shape{
     protected void display(){
-        System.out.println("")
+        System.out.println("display-base");
 
     }
 }
+
 
 
 
