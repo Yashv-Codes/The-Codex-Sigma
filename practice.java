@@ -1,18 +1,18 @@
 public class practice{
     public static void main(String[] args){
-        Horse h  = new Horse();
+        
         
     }
 
 }
-class Animal{
+lass Animal{
     static String name;
     void eat(){
         System.out.println("eats");
     }
 }
 class Horse extends Animal{
-    Horse(){
+    Horse(){c
         super.name = "yash";
         System.out.println("hi");
 
