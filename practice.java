@@ -7,7 +7,7 @@ public class practice{
         
     }
     public static void main(String[] args){
-        System.out.println(pr(5));
+        printnum(10);
     }
 
 }
