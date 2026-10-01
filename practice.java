@@ -9,7 +9,8 @@ class Animal{
 }
 class Horse extends Animal{
     Horse(){
-        super.name = yash;
+        super.name = "yash";
+
     }
 }
 
