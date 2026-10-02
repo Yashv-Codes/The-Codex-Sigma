@@ -1,5 +1,6 @@
 public class practice{
-    public static int toBinary(int n){
+    public static boolean isPalindrome(int n){
+        
         
 
     }
