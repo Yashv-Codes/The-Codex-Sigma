@@ -1,6 +1,6 @@
 public class practice{
     public static int lastoccurence(int arr[], int key, int i){
-        
+        if(i == arr.length)
     }
     
     public static void main(String[] args){
