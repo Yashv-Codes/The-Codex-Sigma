@@ -1,5 +1,7 @@
 public class practice{
-    public static void subarrays(int arr[])
+    public static void subarrays(int arr[]){
+        for(int i=)
+    }
     
     
     
