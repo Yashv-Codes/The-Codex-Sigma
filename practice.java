@@ -7,6 +7,7 @@ public class practice{
             return i;
         return isFound;
     }
+    public static int power(int x)
     
     public static void main(String[] args){
         int arr[] = {8,6,9,5,10,2,5,3};
