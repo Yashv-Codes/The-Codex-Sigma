@@ -6,12 +6,12 @@ public class practice{
             n /= 10;
             pow++;
         }
-        
+        return decimal;
 
     }
     
     public static void main(String[] args){
-        
+
         
         
        
