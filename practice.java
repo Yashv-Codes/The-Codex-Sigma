@@ -1,6 +1,8 @@
 import java.util.Arrays;
 public class practice{
-    public 
+    public static void print_pairs(int arr[]){
+        
+    }
     
     
    
