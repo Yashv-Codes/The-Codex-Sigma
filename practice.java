@@ -4,7 +4,7 @@ public class practice{
         while(left < right){
             int temp = arr[left];
             arr[left] = arr[right];
-            arr[right] = 
+            arr[right] = temp;
 
 
         }
