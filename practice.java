@@ -2,7 +2,8 @@ public class practice{
     public static int firstoccurence(int arr[], int key, int i){
         if(i == arr.length)
             return -1;
-        
+        if(arr[i] == key)
+            return i;
     }
     
     public static void main(String[] args){
