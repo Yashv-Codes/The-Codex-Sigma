@@ -5,7 +5,7 @@ public class practice{
             int mid = left + (right - left) / 2;
             if(arr[mid] == key)
                 return mid;
-            
+            else if()
         }
     }
    
