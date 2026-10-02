@@ -1,6 +1,6 @@
 public class practice{
     public static int toDecimal(int n){
-        
+        while()
         
 
     }
