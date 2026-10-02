@@ -11,7 +11,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        System.out.println(toDecimal(11011));
+        System.out.println(toDecimal(111));
 
         
         
