@@ -1,5 +1,5 @@
 public class practice{
-    public static boolean isPrime(int n){
+    public static int toDec(int n){
         
 
     }
