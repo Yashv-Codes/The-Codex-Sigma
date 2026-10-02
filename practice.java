@@ -1,0 +1,48 @@
+public class practice{
+    public static boolean isPalindrome(int n){
+        if(n < 0 || (n % 10 == 0 && n))
+        
+
+    }
+    
+    public static void main(String[] args){
+        System.out.println(toBinary(7));
+
+        
+        
+       
+        
+    }
+}
+
+ 
+
+
+
+
+        
+
+        
+    
+    
+    
+
+        
+        
+        
+                          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
+
+    
+
