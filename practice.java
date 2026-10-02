@@ -7,12 +7,13 @@ public class practice{
             rev = (rev * 10) + (n % 10);
             n /= 10;
         }
+        return rev == n;
         
 
     }
     
     public static void main(String[] args){
-        System.out.println(isPalindrome(320));
+        System.out.println(isPalindrome(121));
 
         
         
