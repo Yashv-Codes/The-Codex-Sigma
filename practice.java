@@ -4,7 +4,7 @@ public class practice{
             return -1;
         if(arr[i] == key)
             return i;
-        return firstoccurence(arr,i+1);
+        return firstoccurence(arr,key,i+1);
     }
     
     public static void main(String[] args){
