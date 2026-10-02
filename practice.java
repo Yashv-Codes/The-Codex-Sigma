@@ -1,5 +1,5 @@
 public class practice{
-    public static int toDecimal(int n){
+    public static int toBinary(int n){
         int pow = 0; int decimal = 0;
         while(n != 0){
             decimal += (n % 10) * Math.pow(2,pow);
