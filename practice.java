@@ -4,7 +4,7 @@ public class practice{
             return false;
         int rev = 0;
         while(n != 0){
-            
+            rev 
         }
         
 
