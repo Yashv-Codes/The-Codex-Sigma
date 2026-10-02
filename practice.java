@@ -6,6 +6,8 @@ public class practice{
             if(arr[mid] == key)
                 return mid;
             else if(key < arr[mid])
+                right = mid - 1;
+            else
                 
         }
     }
