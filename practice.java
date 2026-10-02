@@ -2,7 +2,8 @@ public class practice{
     public static int lastoccurence(int arr[], int key, int i){
         if(i == arr.length)
             return -1;
-        int isFound = lastoccurence
+        int isFound = lastoccurence(arr,key,i+1);
+        
     }
     
     public static void main(String[] args){
