@@ -11,7 +11,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        System.out.println(isPrime(3));
+        System.out.println(isPrime(13));
         
        
         
