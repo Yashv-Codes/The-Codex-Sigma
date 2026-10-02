@@ -1,7 +1,8 @@
 public class practice{
    
     public static int largest_num(int arr){
-        int largest = 
+        int largest = Integer.MIN_VALUE;
+        
 
     }
     
