@@ -8,7 +8,7 @@ public class practice{
             arr[right] = temp;
         }
         left++; right--;
-        // System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
 
     }
     
