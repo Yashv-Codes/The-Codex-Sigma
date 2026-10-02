@@ -1,6 +1,6 @@
 public class practice{
     public static int binary_search(int arr[], int key){
-        int left = 
+        int left = 0, right = arr.length-1;
     }
    
     
