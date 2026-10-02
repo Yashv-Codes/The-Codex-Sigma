@@ -8,8 +8,8 @@ public class practice{
     }
     
     public static void main(String[] args){
-        int arr[] = {8,3,6,9,5,10,2,5,3};
-        System.out.println(firstoccurence(arr,5,0));
+        int arr[] = {8,6,9,5,10,2,5,3};
+        System.out.println(firstoccurence(arr,3,0));
         
         
         
