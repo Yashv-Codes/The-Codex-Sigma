@@ -1,13 +1,5 @@
 public class practice{
-    public static boolean largest(int arr[]){
-        for(int i=0; i<arr.length; i++){
-            if(arr[i] == key)
-                return true;
-            
-        }
-        return false;
-
-    }
+   
     public static int largest(int arr)
     
     public static void main(String[] args){
