@@ -1,5 +1,6 @@
 public class practice{
-    public static int toDec(int n){
+    public static int toDecimal(int n){
+        
         
 
     }
