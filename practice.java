@@ -9,7 +9,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        System.out.println(sum(123));
+        System.out.println(sum(-876));
 
     }
 }
