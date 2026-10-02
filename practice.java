@@ -3,8 +3,9 @@ public class practice{
         int pow = 0; int new_num = 0;
         while(n != 0){
             
+            
         }
-        return decimal;
+        return new_num;
 
     }
     
