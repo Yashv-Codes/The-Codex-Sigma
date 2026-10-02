@@ -12,7 +12,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        System.out.println(toBinary(111));
+        System.out.println(toBinary(7));
 
         
         
