@@ -9,7 +9,7 @@ public class practice{
 
 
         }
-        
+        System.out.println()
 
     }
     
