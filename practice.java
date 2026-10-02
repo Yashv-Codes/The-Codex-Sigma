@@ -7,7 +7,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        System.out.println(toBinary(7));
+        System.out.println(isPalindrome(320));
 
         
         
