@@ -7,7 +7,11 @@ public class practice{
             return i;
         return isFound;
     }
-    public static int power(int x, int n)
+    public static int power(int x, int n){
+        if(n == 0)
+            return 1;
+        return x * power(x,n-1);
+    }
     
     public static void main(String[] args){
         int arr[] = {8,6,9,5,10,2,5,3};
