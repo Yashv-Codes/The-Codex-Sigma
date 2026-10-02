@@ -1,5 +1,7 @@
 public class practice{
-    public static int binary_search(int arr)
+    public static int binary_search(int arr[], int key){
+        
+    }
    
     
     
