@@ -10,7 +10,7 @@ public class practice{
             else
                 left = mid + 1;
         }
-        return 
+        return -1;
     }
    
     
