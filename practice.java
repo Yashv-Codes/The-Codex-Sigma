@@ -4,7 +4,8 @@ public class practice{
         while(left <= right){
             int mid = left + (right - left) / 2;
             if(arr[mid] == key)
-                return i;
+                return mid;
+            
         }
     }
    
