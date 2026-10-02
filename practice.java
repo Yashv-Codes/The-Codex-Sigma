@@ -1,9 +1,10 @@
 public class practice{
     public static void reverse(int arr[]){
-        int left = 0, right = arr.length-1, temp = 0;
+        int left = 0, right = arr.length-1;
         while(left < right){
-            arr[left] = temp;
+            int temp = arr[left];
             
+
 
         }
 
