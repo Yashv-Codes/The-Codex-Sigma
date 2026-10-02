@@ -1,7 +1,9 @@
 public class practice{
     public static void subarrays(int arr[]){
         for(int i=0; i<arr.length; i++){
-            for
+            for(int j=i; j<arr.length; j++){
+                for(int k=i; k)
+            }
         }
     }
     
