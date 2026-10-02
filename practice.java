@@ -4,6 +4,7 @@ public class practice{
         while(n != 0){
             decimal += (n % 10) * Math.pow(2,pow);
             n /= 10;
+            pow++;
         }
         
 
