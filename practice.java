@@ -3,7 +3,7 @@ public class practice{
     public static int smallest_num(int arr[]){
         int smallest = Integer.MAX_VALUE;
         for(int i=0; i<arr.length; i++){
-            smallest = Math.max(smallest, arr[i]);
+            smallest = Math.min(smallest, arr[i]);
         }
         return smallest;
 
