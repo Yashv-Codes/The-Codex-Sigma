@@ -5,6 +5,7 @@ public class practice{
             int temp = arr[left];
             arr[left] = arr[right];
             arr[right] = temp;
+            left++; right--;
 
 
         }
