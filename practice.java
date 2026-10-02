@@ -1,6 +1,8 @@
 public class practice{
     public static int firstoccurence(int arr[], int key, int i){
-        if()
+        if(i == arr.length)
+            return -1;
+        
     }
     
     public static void main(String[] args){
