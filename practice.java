@@ -8,6 +8,7 @@ public class practice{
         }
         int left = 1;
         int right = 3;
+        int currsum = left
     }
     
     
