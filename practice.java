@@ -6,7 +6,8 @@ public class practice{
         for(int i=1; i<prefix.length; i++){
             prefix[i] = prefix[i-1] + arr[i];
         }
-        int left = 
+        int left = 1;
+        int right = 3;
     }
     
     
