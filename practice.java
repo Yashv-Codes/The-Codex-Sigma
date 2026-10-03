@@ -8,9 +8,9 @@ public class practice{
                     
                 }
                 System.out.println(currsum);
-                System.out.println();
+                
             }
-            System.out.println();
+            
         }
         
 
