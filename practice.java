@@ -8,7 +8,7 @@ public class practice{
         }
         int left = 1;
         int right = 3;
-        int currsum = left
+        int currsum = left == 0 ? prefix[]
     }
     
     
