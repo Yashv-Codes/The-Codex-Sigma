@@ -5,6 +5,7 @@ public class practice{
                 int currsum = 0;
                 for(int k=i; k<=j; k++){
                     currsum += arr[k];
+                    System.out.println(currsum);
                 }
                 System.out.println();
             }
