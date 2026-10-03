@@ -5,7 +5,9 @@ public class practice{
         for(int i=0; i<arr.length; i++){
             currsum += arr[i];
             if(currsum < 0)
+                currsum = 0;
         }
+        
     }
     
     
