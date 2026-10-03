@@ -4,6 +4,7 @@ public class practice{
         int currsum = 0, largest = Integer.MIN_VALUE;
         for(int i=0; i<arr.length; i++){
             currsum += arr[i];
+            if(currsum < 0)
         }
     }
     
