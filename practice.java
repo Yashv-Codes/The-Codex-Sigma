@@ -1,7 +1,7 @@
 public class practice{
     public static void subarray_sum(int arr[]){
         int prefix[] = new int[arr.length];
-        for(int i=0; i<prefix.length; i++){
+        for(int i=1; i<prefix.length; i++){
             pre
         }
     }
