@@ -11,6 +11,7 @@ public class practice{
             }
             System.out.println();
         }
+        System.out.println();
 
     }
     
@@ -19,6 +20,7 @@ public class practice{
    
     public static void main(String[] args){
         int arr[] = {2, 3, 5, 6};
+        
         
 
         
