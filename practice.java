@@ -1,6 +1,10 @@
 import java.util.Arrays;
 public class practice{
-    public static void printmatrix(int matrix[][])
+    public static void printmatrix(int matrix[][]){
+        for(int i=0; i<matrix.length; i++){
+            for(int j=)
+        }
+    }
     
     
     
