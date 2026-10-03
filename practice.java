@@ -7,7 +7,8 @@ public class practice{
             if(currsum < 0)
                 currsum = 0;
         }
-        largest = Math.max(largest,)
+        largest = Math.max(largest, currsum);
+        System.out.println(largest);
     }
     
     
