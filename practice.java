@@ -1,5 +1,7 @@
 public class practice{
-    public static 
+    public static int subarray_sum(int arr[]){
+        
+    }
     
     
     
