@@ -5,7 +5,7 @@ public class practice{
         for(int i=1; i<prefix.length; i++){
             prefix[i] = prefix[i-1] + arr[i];
         }
-        System.out
+        System.out.println()
     }
     
     
