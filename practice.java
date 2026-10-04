@@ -2,6 +2,8 @@
 public class practice{
     public static boolean occurence(int arr[], int i, int key){
         if(i == arr.length)
+            return false;
+        
 
     }
    
