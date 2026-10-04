@@ -13,7 +13,7 @@ public class practice{
    
    
      public static void main(String[] args){
-        System.out.println(power(2,9));
+        System.out.println(power(2,2));
         
         
         
