@@ -4,7 +4,7 @@ public class practice{
         if(n == 0)
             return;
         print_num(n-1);
-        
+        System.out.print(n+" ");
     }
    
     
