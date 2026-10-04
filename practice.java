@@ -4,6 +4,7 @@ public class practice{
         if(i == arr.length)
             return -1;
         int isFound = occurence(arr,i+1,key);
+        if(isFound == -1 && arr[i] == key)
 
 
     }
