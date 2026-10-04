@@ -1,6 +1,7 @@
 import java.util.Arrays;
 public class practice{
     public static int add(int n){
+        
        
         
         
