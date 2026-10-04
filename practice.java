@@ -3,7 +3,7 @@ public class practice{
     public static int add(int n){
         if(n == 1)
             return n;
-        sum += (n+add(n-1));
+        return n + add(n-1);
        
         
         
