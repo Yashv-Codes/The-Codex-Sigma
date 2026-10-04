@@ -6,6 +6,7 @@ public class practice{
             return n;
         sum += n;
         add(n-1);
+        return sum;
         
         
     }
