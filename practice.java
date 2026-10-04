@@ -6,7 +6,8 @@ public class practice{
         int halfpower = power(x, n-1);
         int halfpowersq = halfpower * halfpower;
         if(n % 2 != 0)
-            
+            return x * halfpowersq;
+        
     }
    
    
