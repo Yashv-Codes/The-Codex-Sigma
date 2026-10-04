@@ -9,7 +9,7 @@ public class practice{
     }
    
      public static void main(String[] args){
-        int arr[] = {1,3,4,2,0};
+        int arr[] = {1,1,1};
         System.out.println(isSorted(arr,0));
         
         
