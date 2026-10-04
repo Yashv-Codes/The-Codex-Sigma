@@ -15,7 +15,7 @@ public class practice{
     
    
     public static void main(String[] args){
-        isPalindrome("noon");
+        System.out.println(isPalindrome("noon"));
         
     }
 }
