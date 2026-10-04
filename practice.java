@@ -3,7 +3,7 @@ public class practice{
     public static int occurence(int arr[], int i, int key){
         if(i == arr.length)
             return -1;
-        
+        int isFound = occurence(arr,i+1,key);
 
 
     }
