@@ -7,6 +7,7 @@ public class practice{
                 return false;
             left++; right--;
         }
+        return true;
     }
    
     
