@@ -4,7 +4,8 @@ public class practice{
         if(n == 1)
             return n;
         int halfpower = power(x, n-1);
-        int halfpowersq = halfpower * haldpower;
+        int halfpowersq = halfpower * halfpower;
+        
     }
    
    
