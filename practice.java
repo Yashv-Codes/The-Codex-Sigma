@@ -5,6 +5,8 @@ public class practice{
             return -1;
         int isFound = occurence(arr,i+1,key);
         if(isFound == -1 && arr[i] == key)
+            return i;
+        return isFound;
 
 
     }
@@ -12,7 +14,7 @@ public class practice{
    
      public static void main(String[] args){
         int arr[] = {1,2,3,4,5};
-        System.out.println(occurence(arr,0,10));
+        System.out.println(occurence(arr,0,4));
         
         
         
