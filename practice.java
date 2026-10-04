@@ -6,6 +6,7 @@ public class practice{
         if(arr[i] > arr[i+1])
             return false;
         isSorted(arr, i+1);
+        return true;
 
        
         
