@@ -5,13 +5,14 @@ public class practice{
             return false;
         if(arr[i] == key)
             return true;
-        return occurence
+        return occurence(arr,i+1,key);
 
     }
    
    
      public static void main(String[] args){
         int arr[] = {1,2,3,4,5};
+        System.out.println()
         
         
         
