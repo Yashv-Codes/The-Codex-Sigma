@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class practice{
-    public static int add(int n){
-        if(n == 1)
+    public static int fib(int n){
+        if(n == 0 || n == 1)
             return n;
         return n + add(n-1);
        
