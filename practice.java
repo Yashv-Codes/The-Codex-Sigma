@@ -7,7 +7,7 @@ public class practice{
         int halfpowersq = halfpower * halfpower;
         if(n % 2 != 0)
             return x * halfpowersq;
-        return 
+        return halfpowersq;
     }
    
    
