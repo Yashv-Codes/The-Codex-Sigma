@@ -4,6 +4,7 @@ public class practice{
         int sum = 0;
         if(n == 1)
             return n;
+        sum += n;
         
         
         
