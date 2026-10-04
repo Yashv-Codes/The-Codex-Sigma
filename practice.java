@@ -1,6 +1,8 @@
 import java.util.Arrays;
 public class practice{
-    public static 
+    public static void print_num(int n){
+        
+    }
    
     
     
