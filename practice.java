@@ -1,9 +1,11 @@
 import java.util.Arrays;
 public class practice{
     public static int add(int n){
+        int sum = 0;
         if(n == 1)
             return n;
-        return n * fact(n-1);
+        
+        
         
     }
    
