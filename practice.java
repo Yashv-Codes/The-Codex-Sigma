@@ -1,6 +1,8 @@
 import java.util.Arrays;
 public class practice{
-    public 
+    public static boolean isPalindrome(String str){
+        
+    }
    
     
     
