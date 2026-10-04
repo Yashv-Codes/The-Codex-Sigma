@@ -3,7 +3,9 @@ public class practice{
     public static boolean occurence(int arr[], int i, int key){
         if(i == arr.length)
             return false;
-        if(arr[i])
+        if(arr[i] == key)
+            return true;
+        return occurence
 
     }
    
