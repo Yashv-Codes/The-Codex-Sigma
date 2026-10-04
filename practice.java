@@ -12,7 +12,7 @@ public class practice{
     
    
     public static void main(String[] args){
-        print_num(5);
+        fact(5);
         
         
     }
