@@ -1,12 +1,8 @@
 import java.util.Arrays;
 public class practice{
     public static int add(int n){
-        int sum = 0;
-        if(n == 1)
-            return n;
-        sum += n;
-        add(n-1);
-        return sum;
+       
+        
         
         
     }
