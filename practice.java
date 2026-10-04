@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class practice{
     public static boolean isSorted(int arr[], int i){
-        if(i == arr.length-1)
+        if(i == arr.length-1 || arr.)
             return true;
         if(arr[i] > arr[i+1])
             return false;
