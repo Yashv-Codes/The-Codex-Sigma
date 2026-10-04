@@ -3,7 +3,8 @@ public class practice{
     public static int power(int x, int n){
         if(n == 1)
             return n;
-        int halfpower = 
+        int halfpower = power(x, n-1);
+        int halfpowersq = halfpower * haldpower;
     }
    
    
