@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class practice{
     public static boolean isPalindrome(String str){
-        
+        int left
     }
    
     
