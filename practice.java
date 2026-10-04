@@ -7,8 +7,7 @@ public class practice{
    
     public static void main(String[] args){
         String str = "yash";
-        str.toUpperCase();
-        System.out.println(str);
+        System.out.println(str.toUpperCase());
     }
 }
 
