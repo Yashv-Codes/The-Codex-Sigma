@@ -5,7 +5,7 @@ public class practice{
         if(n == 1)
             return n;
         sum += n;
-        
+        add(n-1);
         
         
     }
