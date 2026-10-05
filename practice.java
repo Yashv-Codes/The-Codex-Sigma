@@ -10,7 +10,7 @@ public class practice{
             remove_duplicates(str,sb,map,i+1);
         else{
             map[ch - 'a'] = true;
-            remove_duplicates(str,sb.append(i),map,i+1);
+            remove_duplicates(str,sb.append(ch),map,i+1);
         }
     }
     
