@@ -15,7 +15,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        remove_duplicates("aapnna")
+        remove_duplicates("aapnnaccolegg",)
 
         
     }
