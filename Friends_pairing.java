@@ -14,7 +14,7 @@ public class Friends_pairing {
     }
 
     public static void main(String[] args){
-        System.out.println("Total ways = "+totalways(5));
+        System.out.println("Total ways = "+totalways(10));
     }
 }
 
