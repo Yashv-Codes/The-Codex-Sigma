@@ -5,6 +5,7 @@ public class practice{
             System.out.print(str);
             return;
         }
+        
         if(map[])
             
 
