@@ -5,7 +5,7 @@ public class practice{
             System.out.print(str);
             return;
         }
-        
+        char ch = str.charAt(i);
         if(map[])
             
 
