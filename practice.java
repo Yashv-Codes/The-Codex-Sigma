@@ -15,7 +15,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        remove_duplicates("aapnnaccolegg",)
+        remove_duplicates("aapnnaccolegg",new StringBuilder(""))
 
         
     }
