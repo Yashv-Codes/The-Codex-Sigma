@@ -10,11 +10,8 @@ public class practice{
             remove_duplicates(str,sb,map,i+1);
         else{
             map[ch - 'a'] = true;
-            remove-duplicates(str,sb,map,i+1);
+            remove_duplicates(str,sb,map,i+1);
         }
-            map[ch - 'a'] = true;
-            
-
     }
     
    
