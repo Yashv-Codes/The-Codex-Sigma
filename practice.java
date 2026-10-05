@@ -9,6 +9,7 @@ public class practice{
         if(map[ch - 'a'] == true)
             remove_duplicates(str,sb,map,i+1);
         else{
+            map[ch - 'a'] = true;
             
         }
             map[ch - 'a'] = true;
