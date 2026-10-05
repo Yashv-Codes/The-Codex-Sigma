@@ -8,7 +8,9 @@ public class practice{
         char ch = str.charAt(i);
         if(map[ch - 'a'] == true)
             remove_duplicates(str,sb,map,i+1);
-        else
+        else{
+            
+        }
             map[ch - 'a'] = true;
             
 
