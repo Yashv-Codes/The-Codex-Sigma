@@ -6,7 +6,8 @@ public class practice{
             return;
         }
         char ch = str.charAt(i);
-        if(map[ch - 'a'] == true){}
+        if(map[ch - 'a'] == true)
+            remove_duplicates(str,)
             
 
     }
