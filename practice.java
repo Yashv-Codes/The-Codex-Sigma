@@ -10,12 +10,12 @@ public class practice{
             remove_duplicates(str,sb,map,i+1);
         else{
             map[ch - 'a'] = true;
-            remove_duplicates(str,sb,map,i+1);
+            remove_duplicates(str,sb.append(i),map,i+1);
         }
     }
     
     public static void main(String[] args){
-        remove_duplicates("aapnnaccolegg",new StringBuilder(""))
+        remove_duplicates("aapnnaccolegg",new StringBuilder(""),)
 
         
     }
