@@ -3,7 +3,8 @@ public class practice{
     public static void toString(String digits[], int n){
         if(n == 0)
             return;
-        int ld = 
+        int ld = n % 10;
+        
     }
     
     
