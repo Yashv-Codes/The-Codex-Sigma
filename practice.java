@@ -2,6 +2,8 @@
 public class practice{
     public static int length(String str){
         if(str.equals(""))
+            return 0;
+        
         
     }
     
