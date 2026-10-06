@@ -1,6 +1,6 @@
 // import java.util.Arrays;
 public class practice{
-    public static void toString(String digits[], int n){
+    public static int length(String str)
         
     }
     
