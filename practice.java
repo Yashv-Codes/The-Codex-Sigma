@@ -5,7 +5,7 @@ public class practice{
             return;
         if(arr[i] == key){
             System.out.print(i+" ");
-            
+            print_occurences(arr,)
         }
     }
     
