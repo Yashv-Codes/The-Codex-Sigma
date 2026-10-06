@@ -4,7 +4,7 @@ public class practice{
         if(n == 0)
             return;
         int ld = n % 10;
-        
+        toString()
     }
     
     
