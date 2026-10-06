@@ -11,7 +11,7 @@ public class practice{
     
     
     public static void main(String[] args){
-        
+        print_occurences()
         
 
         
