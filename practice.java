@@ -1,6 +1,8 @@
 // import java.util.Arrays;
 public class practice{
     public static void toString(String digits[], int n){
+        if(n == 0)
+            return;
         
     }
     
