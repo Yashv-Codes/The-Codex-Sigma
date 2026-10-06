@@ -4,13 +4,15 @@ public class practice{
         if(n == 0)
             return;
         int ld = n % 10;
-        toString()
+        toString(digits, n/10);
+        System.out.print(digits[ld]+" ");
     }
     
     
     
     public static void main(String[] args){
         String digits[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+        
         
 
         
