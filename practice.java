@@ -11,6 +11,7 @@ public class practice{
     }
    
     public static void main(String[] args){
+        StringBuilder sb = new StringBuilder("");
         reverse("abcd",0,new StringBuilder(""));
         System.out.println(sb.toString());
         
