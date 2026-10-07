@@ -5,7 +5,7 @@ public class practice{
             System.out.print(currchar);
             return;
         }
-        
+        char currchar
             
 
     }
