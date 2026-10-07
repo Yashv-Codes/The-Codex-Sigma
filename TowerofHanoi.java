@@ -6,9 +6,8 @@ public class TowerofHanoi {
         }
         // Move (n-1) disks from src to helper (dest acts as helper)
         Transfer_disks(n-1, src, dest, helper);
-        
-        // Move the nth disk from src to dest
 
+        // Move the nth disk from src to dest
         System.out.println("Move disk " + n + " from " + src + " to " + dest);
 
         Transfer_disks(n-1, helper, src, dest);
