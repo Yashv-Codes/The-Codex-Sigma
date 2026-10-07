@@ -14,7 +14,7 @@ public class practice{
     }
    
     public static void main(String[] args){
-        reverse("abcd")
+        reverse("abcd",0,new StringBuilder(""));
         
     }
 }
