@@ -38,7 +38,7 @@ public class Assignment7{
             printsubstr(str, start+1, start+2);
             return;
         }
-        // Print current substring
+        // Print substring
         System.out.println(str.substring(start,end));
 
         printsubstr(str, start, end+1);
