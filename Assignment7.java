@@ -39,10 +39,11 @@ public class Assignment7{
             return;
         }
         // Print substring
-        if(str.charAt(start) == str.charAt(end-1)){
+        if(str.charAt(start) == str.charAt(end-1))
+            System.out.println(str.substring(start,end));
 
-        System.out.println(str.substring(start,end));
 
+        
         printsubstr(str, start, end+1);
     }
 
