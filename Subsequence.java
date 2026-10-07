@@ -5,7 +5,7 @@ public class Subsequence {
             return;
         }
         // to be part
-        print()
+        print(str, i+1, newStr+)
     }
     
 }
