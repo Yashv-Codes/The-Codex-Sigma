@@ -1,6 +1,8 @@
 // import java.util.Arrays;
 public class practice{
-    public static void substr()
+    public static void substr(String str, int left, int right){
+        
+    }
     
     
     
