@@ -13,7 +13,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        substr("abcab",0,1);
+        substr("aba",0,1);
        
         
 
