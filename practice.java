@@ -9,13 +9,11 @@ public class practice{
         }
         if(str.charAt(left) == str.charAt(right-1))
             System.out.println(str.substring(left, right));
-        
+        substr(str, left, right+1);
     }
     
-    
-    
-    
     public static void main(String[] args){
+        
        
         
 
