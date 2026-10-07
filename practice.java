@@ -4,7 +4,7 @@ public class practice{
         if(i == str.length())
             return;
         reverse(str,i+1,sb);
-        
+        sb.append(str.charAt(i));
         
             
 
