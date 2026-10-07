@@ -11,7 +11,7 @@ public class TowerofHanoi {
     }
     
     public static void main(String[] args){
-        Transfer_disks
+        Transfer_disks(3,"")
     }
     
 }
