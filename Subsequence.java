@@ -13,7 +13,7 @@ public class Subsequence {
     }
 
     public static void main(String[] args){
-        print()
+        print("abc",0,"");
     }
     
 }
