@@ -7,7 +7,7 @@ public class practice{
             substr(str, left+1, right+2);
             return;
         }
-        if()
+        if(str.charAt(left) == str.charAt(right-1))
     }
     
     
