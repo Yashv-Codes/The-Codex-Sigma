@@ -3,7 +3,7 @@ public class practice{
     public static void substr(String str, int left, int right){
         if(left == str.length())
             return;
-        else if(right > str.length()){
+        if(right > str.length()){
             substr(str, left+1, right+2);
             return;
         }
