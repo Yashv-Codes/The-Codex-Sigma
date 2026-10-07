@@ -11,5 +11,9 @@ public class Subsequence {
         // not to be part
         print(str, i+1, newStr);
     }
+
+    public static void main(String[] args){
+        print()
+    }
     
 }
