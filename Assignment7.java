@@ -35,7 +35,7 @@ public class Assignment7{
 
         // Loop finished -> move to next character
         else if(end > str.length()){
-            printsubstr(str, start+1, start+1);
+            printsubstr(str, start+1, start+2);
             return;
         }
         // Print current substring
