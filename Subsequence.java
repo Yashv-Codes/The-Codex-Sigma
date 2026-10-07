@@ -8,7 +8,8 @@ public class Subsequence {
         // to be part
         print(str, i+1, newStr+currchar);
 
-        // 
+        // not to be part
+        print(str, i+1, newStr);
     }
     
 }
