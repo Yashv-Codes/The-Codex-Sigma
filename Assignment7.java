@@ -34,7 +34,7 @@ public class Assignment7{
             return;
 
         // Loop finished -> move to next character
-        if(end > str.length()){
+        else if(end > str.length()){
             printsubstr(str, start+1, start+1);
             return;
         }
