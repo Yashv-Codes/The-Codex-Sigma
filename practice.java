@@ -6,7 +6,7 @@ public class practice{
             System.out.print(currchar);
             return;
         }
-        reverse(str,i+1)
+        reverse(str,i+1,sb);
         
             
 
