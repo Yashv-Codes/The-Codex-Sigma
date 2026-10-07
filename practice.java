@@ -12,6 +12,7 @@ public class practice{
    
     public static void main(String[] args){
         reverse("abcd",0,new StringBuilder(""));
+        System.out.println(sb.toString());
         
     }
 }
