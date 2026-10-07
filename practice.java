@@ -4,7 +4,7 @@ public class practice{
         if(left == str.length())
             return;
         if(right > str.length()){
-            substr(str, left+1, right+2);
+            substr(str, left+1, left+2);
             return;
         }
         if(str.charAt(left) == str.charAt(right-1))
