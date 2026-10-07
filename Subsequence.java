@@ -1,6 +1,8 @@
 public class Subsequence {
     public static void print(String str, int i, String newStr){
-        if(i == str.length())
+        if(i == str.length()){
+            System.out.println(newStr)
+        }
     }
     
 }
