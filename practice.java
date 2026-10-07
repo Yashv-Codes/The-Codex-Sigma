@@ -7,12 +7,14 @@ public class practice{
             return;
         }
         reverse(str,i+1,sb);
+        System.out.print(sb.append(currchar));
         
             
 
     }
    
     public static void main(String[] args){
+        
         
     }
 }
