@@ -39,7 +39,7 @@ public class Assignment7{
             return;
         }
         // Print substring
-        if(str.charAt(si))
+        if(str.charAt(si) == str.charAt(end-1))
         System.out.println(str.substring(start,end));
 
         printsubstr(str, start, end+1);
