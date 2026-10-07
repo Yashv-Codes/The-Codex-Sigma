@@ -39,6 +39,7 @@ public class Assignment7{
             return;
         }
         // Print substring
+        if(str.charAt(si))
         System.out.println(str.substring(start,end));
 
         printsubstr(str, start, end+1);
