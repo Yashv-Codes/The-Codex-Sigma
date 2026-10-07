@@ -4,7 +4,8 @@ public class Subsequence {
             System.out.println(newStr);
             return;
         }
-        // 
+        // to be part
+        print()
     }
     
 }
