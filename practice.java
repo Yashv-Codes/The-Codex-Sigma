@@ -7,6 +7,7 @@ public class practice{
             substr(str, left+1, right+2);
             return;
         }
+        if()
     }
     
     
