@@ -8,6 +8,7 @@ public class practice{
             return;
         }
         if(str.charAt(left) == str.charAt(right-1))
+            System.out.println()
     }
     
     
