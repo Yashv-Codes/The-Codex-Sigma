@@ -7,6 +7,7 @@ public class practice{
         System.out.print(str.charAt(i));
     }
     public static void main(String[] args){
+        reverse("abcd",0);
         
         
     }
