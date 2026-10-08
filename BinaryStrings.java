@@ -8,8 +8,8 @@ public class BinaryStrings{
         printBinaryStrings(n-1, 0, str + "0");
 
         // Place 1 
-        if(lastplace==1)
-            printBinaryStrings(n-1, 1, str + "0");
+        if(lastplace==0)
+            printBinaryStrings(n-1, 1, str + "1");
     } 
 
     public static void main(String[] args){
