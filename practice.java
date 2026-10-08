@@ -5,6 +5,7 @@ public class practice{
             return;
         int mid = si+(ei-si)/2;
         sort(arr,si,mid);
+        sort(arr,mid+1,ei-1);
     }
    
     public static void main(String[] args){
