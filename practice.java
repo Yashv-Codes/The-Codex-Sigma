@@ -8,7 +8,7 @@ public class practice{
         sort(arr,mid+1,ei);
         // merge(arr,si,ei,mid);
     }
-    public static void merge(int arr[], int mid)
+    public static void merge(int arr[], int si)
    
     public static void main(String[] args){
         
