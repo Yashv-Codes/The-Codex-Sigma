@@ -8,8 +8,9 @@ public class practice{
         sort(arr,mid+1,ei);
         merge(arr,si,mid,ei);
     }
-    public static void merge(int arr[], int si){
+    public static void merge(int arr[], int si, int mid, int ei){
         
+
     }
    
     public static void main(String[] args){
