@@ -17,6 +17,8 @@ public class practice{
             if(arr[i] < arr[j]){
                 temp[k++] = arr[i++];
             }
+            else
+                temp[k++]
         }
 
     }
