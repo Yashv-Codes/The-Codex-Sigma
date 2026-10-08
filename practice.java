@@ -4,7 +4,7 @@ public class practice{
         if(si >= ei)
             return;
         int mid = si+(ei-si)/2;
-        sort(arr,si,mid)
+        sort(arr,si,mid);
     }
    
     public static void main(String[] args){
