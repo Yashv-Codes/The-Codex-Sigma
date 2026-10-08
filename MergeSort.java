@@ -50,7 +50,7 @@ public class MergeSort {
 
             // Or
             // temp[k] = arr[j];
-            // k++; i++;
+            // k++; j++;
         }
 
         // Copy temp to original arr
