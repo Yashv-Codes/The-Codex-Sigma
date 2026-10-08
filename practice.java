@@ -14,7 +14,9 @@ public class practice{
         int j = mid+1;
         int k = 0;
         while(i<=mid && j<=ei){
-            
+            if(arr[i] < arr[j]){
+                
+            }
         }
 
     }
