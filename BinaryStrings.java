@@ -9,7 +9,7 @@ public class BinaryStrings{
 
         // Place 1 
         if(lastplace==1)
-            printBinaryStrings(n-1, 1, str + "1");
+            printBinaryStrings(n-1, 1, str + "0");
     } 
 
     public static void main(String[] args){
