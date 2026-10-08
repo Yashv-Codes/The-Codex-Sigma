@@ -18,8 +18,9 @@ public class practice{
                 temp[k++] = arr[i++];
             }
             else
-                temp[k++]
+                temp[k++] = arr[j++];
         }
+        
 
     }
    
