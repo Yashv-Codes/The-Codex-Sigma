@@ -32,7 +32,7 @@ public class practice{
     }
    
     public static void main(String[] args){
-        int arr[] = {};
+        int arr[] = {1};
         sort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
         
