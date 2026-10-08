@@ -25,7 +25,7 @@ public class practice{
         while(j <= ei){
             temp[k++] = arr[j++];
         }
-        for(int k=0, i=0; )
+        for(int k=0, i=0; k<temp.length; k++; i++)
 
     }
    
