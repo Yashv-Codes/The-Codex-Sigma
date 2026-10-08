@@ -26,7 +26,7 @@ public class practice{
             temp[k++] = arr[j++];
         }
         for(k=0, i=si; k<temp.length; k++, i++){
-
+            arr[i] = temp[k];
         }
 
     }
