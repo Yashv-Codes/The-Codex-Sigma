@@ -12,7 +12,7 @@ public class practice{
         int temp[] = new int[ei-si+1];
         int i = si;
         int j = mid+1;
-        int k = 
+        int k = 0;
 
     }
    
