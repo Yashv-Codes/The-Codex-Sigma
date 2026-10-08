@@ -1,4 +1,6 @@
+import java.util.Arrays;
 public class MergeSort {
+    
     // Recursive func.
     public static void sort(int arr[], int si, int ei){
         if(si >= ei){
