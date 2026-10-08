@@ -15,7 +15,7 @@ public class practice{
         int k = 0;
         while(i<=mid && j<=ei){
             if(arr[i] < arr[j]){
-                
+                temp[k] = 
             }
         }
 
