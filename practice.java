@@ -20,7 +20,9 @@ public class practice{
             else
                 temp[k++] = arr[j++];
         }
-        while(i <= mid)
+        while(i <= mid){
+            temp[k++] = arr[i++];
+        }
 
     }
    
