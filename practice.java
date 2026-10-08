@@ -6,9 +6,11 @@ public class practice{
         int mid = si+(ei-si)/2;
         sort(arr,si,mid);
         sort(arr,mid+1,ei);
-        // merge(arr,si,ei,mid);
+        merge(arr,si,mid,ei);
     }
-    public static void merge(int arr[], int si)
+    public static void merge(int arr[], int si){
+        
+    }
    
     public static void main(String[] args){
         
