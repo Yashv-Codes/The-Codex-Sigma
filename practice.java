@@ -12,6 +12,7 @@ public class practice{
         String temp[] = new String[ei-si+1];
         int i = si;
         int j = mid+1;
+        int k = 0;
     }
     
     
