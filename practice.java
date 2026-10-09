@@ -13,7 +13,8 @@ public class practice{
             if(arr[j] <= pivot){
                 i++;
                 int temp = arr[j];
-                
+                arr[j] = arr[i];
+                arr[i] = temp;
             }
         }
     }
