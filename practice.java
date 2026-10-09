@@ -6,6 +6,9 @@ public class practice{
         quicksort(arr,si,pIdx-1);
         quicksort(arr,pIdx+1,ei);
     }
+    public static int partition(int arr[], int si, int ei){
+        
+    }
 
 }
     
