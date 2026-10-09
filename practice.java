@@ -9,6 +9,7 @@ public class practice{
     public static int partition(int arr[], int si, int ei){
         int pivot = arr[ei];
         int i = si-1;
+        for(int j=si)
     }
 
 }
