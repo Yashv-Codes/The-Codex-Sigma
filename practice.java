@@ -9,7 +9,8 @@ public class practice{
         merge(arr, si, mid, ei);
     }
     public static void merge(String[] arr, int si, int mid, int ei){
-        String temp[] = new
+        String temp[] = new String[ei-si+1];
+        int i = si;
     }
     
     
