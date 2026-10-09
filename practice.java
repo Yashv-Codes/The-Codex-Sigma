@@ -7,7 +7,8 @@ public class practice{
         quicksort(arr,pIdx+1,ei);
     }
     public static int partition(int arr[], int si, int ei){
-        
+        int pivot = arr[ei];
+        int i = si-1;
     }
 
 }
