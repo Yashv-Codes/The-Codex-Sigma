@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice{
-    public static void 
+    public static void sort(String[] arr, int si, int ei)
     
     
 
