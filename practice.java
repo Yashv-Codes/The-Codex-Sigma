@@ -3,7 +3,8 @@ public class practice{
         if(si >= ei)
             return;
         int pIdx = partition(arr, si, ei);
-        quicksort(arr,)
+        quicksort(arr,si,pIdx-1);
+        quicksort(arr,pIdx+1,ei);
     }
 
 }
