@@ -6,7 +6,7 @@ public class practice{
         int mid = si+(ei-si)/2;
         sort(arr, si, mid);
         sort(arr, mid+1, ei);
-        merge
+        merge(arr, si, ei)
     }
     
     
