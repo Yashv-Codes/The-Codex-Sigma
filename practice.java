@@ -22,6 +22,7 @@ public class practice{
         while(i <= mid){
             temp[k++] = arr[i++];
         }
+        while(j <= ei){}
     }
     
     
