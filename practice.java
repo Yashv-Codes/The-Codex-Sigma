@@ -26,7 +26,7 @@ public class practice{
     }
 
     public static void main(String[] args){
-        int arr[] = {}
+        int arr[] = {6,3,9,5};
 
     }
 
