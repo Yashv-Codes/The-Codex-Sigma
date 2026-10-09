@@ -27,7 +27,8 @@ public class practice{
 
     public static void main(String[] args){
         int arr[] = {6,3,9,5};
-        quicksort(arr,0,)
+        quicksort(arr,0,arr.length-1);
+        System.out.println(Arrays.toString(arr));
 
     }
 
