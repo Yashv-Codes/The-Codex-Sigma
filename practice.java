@@ -1,5 +1,7 @@
 public class practice{
-    public static void 
+    public static void quicksort(int arr[], int si, int ei){
+        
+    }
 
 }
     
