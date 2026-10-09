@@ -21,6 +21,7 @@ public class practice{
         int temp = arr[i];
         arr[i] = arr[ei];
         arr[ei] = temp;
+        return i;
     }
 
 }
