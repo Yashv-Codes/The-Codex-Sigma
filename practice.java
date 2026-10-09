@@ -19,7 +19,8 @@ public class practice{
         }
         i++;
         int temp = arr[i];
-        arr[i]
+        arr[i] = arr[ei];
+        arr[ei] = temp;
     }
 
 }
