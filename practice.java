@@ -18,7 +18,7 @@ public class practice{
             }
         }
         i++;
-        
+        int temp = arr[i];
     }
 
 }
