@@ -1,6 +1,10 @@
 import java.util.Arrays;
 public class practice{
-    public static void sort(String[] arr, int si, int ei)
+    public static void sort(String[] arr, int si, int ei){
+        if(si >= ei)
+            return;
+        
+    }
     
     
 
