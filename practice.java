@@ -17,6 +17,7 @@ public class practice{
             if(arr[i].compareTo(arr[j]) <= 0)
                 temp[k++] = arr[i++];
             else
+                temp[k++] = arr[j++];
         }
     }
     
