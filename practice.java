@@ -35,7 +35,7 @@ public class practice{
     public static void main(String[] args){
         String arr[] = {"sun", "earth", "mars", "mercury"};
         sort(arr, 0, arr.length-1);
-        System.out.println()
+        System.out.println(Arrays.toString(arr));
         
 
     }
