@@ -12,6 +12,7 @@ public class practice{
         for(int j=si; j<ei; j++){
             if(arr[j] <= pivot){
                 i++;
+                int temp = arr[j];
                 
             }
         }
