@@ -13,6 +13,7 @@ public class practice{
         int i = si;
         int j = mid+1;
         int k = 0;
+        while(i <=mid)
     }
     
     
