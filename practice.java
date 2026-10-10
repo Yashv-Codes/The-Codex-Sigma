@@ -8,7 +8,7 @@ public class practice{
         int right = majority_element(arr, mid+1, ei);
         if(left == right)
             return left;
-        int left_count = count_majority(arr,)
+        int left_count = count_majority(arr,left,si,ei);
     }
     
     
