@@ -8,4 +8,5 @@ public class Inversion_Count {
             return left_count + right_count + inv_count;
         }
     }
+    public static int merge
 }
