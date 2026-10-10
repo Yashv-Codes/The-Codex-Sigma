@@ -13,7 +13,9 @@ public class practice{
     }
     public static int count_majority(int arr[], int num, int si, int ei){
         int count = 0;
-        for(int i=si; i<)
+        for(int i=si; i<=ei; i++){
+            if(arr[i] == num)
+        }
     }
     
     
