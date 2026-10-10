@@ -22,7 +22,7 @@ public class practice{
         return count;
     }
     public static void main(String[] args){
-        int arr[] = {2,2,1,1,2};
+        int arr[] = {2,2,1,1,2,0};
         System.out.println("Majority element = "+ majority_element(arr,0,arr.length-1));
         
     }
