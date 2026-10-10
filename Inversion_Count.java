@@ -1,4 +1,6 @@
 public class Inversion_Count {
-    public static count()
+    public static int count(int arr[], int si, int ei){
+
+    }
     
 }
