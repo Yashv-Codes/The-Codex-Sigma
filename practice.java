@@ -22,7 +22,7 @@ public class practice{
         return count;
     }
     public static void main(String[] args){
-        
+        int arr[] = {}
         
     }
 }
