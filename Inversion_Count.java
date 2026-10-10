@@ -4,7 +4,7 @@ public class Inversion_Count {
             int mid = si+(ei-si)/2;
             int left_count = count(arr,si,mid);
             int right_count = count(arr,mid+1,ei);
-            int inv_count = merge(arr,)
+            int inv_count = merge(arr,si,mid,ei);
         }
             
         
