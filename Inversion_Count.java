@@ -23,7 +23,10 @@ public class Inversion_Count {
         while(i <= mid){
             temp[k++] = arr[i++];
         }
-        while(j <= ei)
+        while(j <= ei){
+            temp[k++] = arr[j++];
+        }
+        
         
 
     }
