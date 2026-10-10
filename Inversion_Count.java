@@ -1,7 +1,8 @@
 public class Inversion_Count {
-    public static int count(int arr[], int si, int ei){
+    public static int count(int arr[], int count, int si, int ei){
         if(si >= ei)
             return;
+        
 
     }
     
