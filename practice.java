@@ -5,7 +5,8 @@ public class practice{
             return arr[si];
         int mid = si+(ei-si)/2;
         int left = majority_element(arr, si, mid);
-        int right = majority_element
+        int right = majority_element(arr, mid+1, ei);
+        
     }
     
     
