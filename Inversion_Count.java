@@ -14,7 +14,10 @@ public class Inversion_Count {
         int inversion = 0, i = si, j = mid+1, k = 0;
         while(i <= mid && j <= ei){
             if(arr[i] <= arr[j])
-                temp[k++] = 
+                temp[k++] = arr[i++];
+            else{
+                temp
+            }
         }
         
 
