@@ -11,7 +11,9 @@ public class practice{
         int left_count = count_majority(arr,left,si,ei);
         int right_count = count_majority(arr,right,si,ei);
     }
-    public static int count_majority(int arr[], int num, si, ei)
+    public static int count_majority(int arr[], int num, int si, int ei){
+        
+    }
     
     
     
