@@ -6,6 +6,7 @@ public class Inversion_Count {
             int right_count = count(arr,mid+1,ei);
             int inv_count = merge(arr,si,mid,ei);
         }
+        return left_count + right_count + inv_count;
             
         
 
