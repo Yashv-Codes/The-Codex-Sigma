@@ -7,7 +7,7 @@ public class Inversion_Count {
             int inv_count = merge(arr,si,mid,ei); // count of comparing elemnts of left sorted with right sorted.
             return left_count + right_count + inv_count;
         }
-        return 0;
+        return 0; // if si != ei
     }
     public static int merge(int arr[], int si, int mid, int ei){
         int temp[] = new int[ei-si+1];
