@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class practice{
-    public static int 
+    public static int majority_element(int arr[])
     
     
     
