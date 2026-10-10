@@ -16,7 +16,7 @@ public class Inversion_Count {
             if(arr[i] <= arr[j])
                 temp[k++] = arr[i++];
             else{
-                temp
+                inversion += (mid-i+1)
             }
         }
         
