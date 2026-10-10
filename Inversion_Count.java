@@ -7,6 +7,7 @@ public class Inversion_Count {
             int inv_count = merge(arr,si,mid,ei);
             return left_count + right_count + inv_count;
         }
+        return 0;
     }
     public static int merge(int arr[], int si, int mid, int ei){
 
