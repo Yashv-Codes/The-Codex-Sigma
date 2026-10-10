@@ -29,6 +29,7 @@ public class Inversion_Count {
         for(i = si, k = 0; k<temp.length; k++){
             arr[i] = temp[k];
         }
+        return inversion;
         
 
     }
