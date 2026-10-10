@@ -10,7 +10,7 @@ public class Inversion_Count {
         return 0;
     }
     public static int merge(int arr[], int si, int mid, int ei){
-        int inversion
+        int inversion = 0, i = si, j = mid+1
 
     }
 }
