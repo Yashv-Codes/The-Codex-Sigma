@@ -12,7 +12,7 @@ public class practice{
         int right_count = count_majority(arr,right,si,ei);
     }
     public static int count_majority(int arr[], int num, int si, int ei){
-        
+        int count = 0;
     }
     
     
