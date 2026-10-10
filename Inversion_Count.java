@@ -30,7 +30,9 @@ public class Inversion_Count {
             arr[i] = temp[k];
         }
         return inversion;
-        
+    }
 
+    public static void main(String[] args){
+        int arr[] = {}
     }
 }
