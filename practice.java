@@ -13,7 +13,7 @@ public class practice{
     
     public static void main(String[] args){
         int arr[] = {2, 4, 1, 3, 5};
-        System.out.println(" inversion count)
+        System.out.println("Inversion Count)
         
         
     }
