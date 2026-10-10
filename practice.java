@@ -4,7 +4,7 @@ public class practice{
         if(si == ei)
             return arr[si];
         int mid = si+(ei-si)/2;
-        int left = majority_element()
+        int left = majority_element(arr,)
     }
     
     
