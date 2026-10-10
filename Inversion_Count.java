@@ -26,7 +26,7 @@ public class Inversion_Count {
         while(j <= ei){
             temp[k++] = arr[j++];
         }
-        
+        for(i = si)
         
 
     }
