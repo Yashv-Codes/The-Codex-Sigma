@@ -9,6 +9,7 @@ public class practice{
         if(left == right)
             return left;
         int left_count = count_majority(arr,left,si,ei);
+        int right_count = 
     }
     
     
