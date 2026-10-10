@@ -15,7 +15,9 @@ public class practice{
         int count = 0;
         for(int i=si; i<=ei; i++){
             if(arr[i] == num)
+                count++;
         }
+        return count;
     }
     
     
