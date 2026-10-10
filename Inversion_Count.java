@@ -33,6 +33,7 @@ public class Inversion_Count {
     }
 
     public static void main(String[] args){
-        int arr[] = {}
+        int arr[] = {2, 4, 1, 3, 5};
+        
     }
 }
