@@ -5,12 +5,13 @@ public class practice{
             return;
         arr[i] = val;
         changeArr(arr, i+1, val+1);
-        
+        arr[i] = arr[i] - 2;
     }
     
     
     public static void main(String[] args){
         int arr[] = new int[5];
+        
        
         
         
