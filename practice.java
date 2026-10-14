@@ -5,7 +5,9 @@ public class practice{
             System.out.println(ans);
             return;
         }
-        
+        for(int i=0; i<str.length(); i++){
+
+        }
     }
     
     public static void main(String[] args){
