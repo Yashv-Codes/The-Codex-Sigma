@@ -21,7 +21,7 @@ public class Backtracking{
     }
 
     public static void main(String[] args){
-        int arr[] = new int[5];
+        // int arr[] = new int[5];
         String str = "abc";
         // Changearr(arr, 0, 1);
         // printarr(arr);
