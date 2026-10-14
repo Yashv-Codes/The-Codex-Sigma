@@ -6,7 +6,7 @@ public class Subsequence {
         }
         char currchar = str.charAt(i);
         // to be part
-        print(str, i+1, newStr+currchar);
+        print(str, newStr+currchar, i+1);
 
         // not to be part
         print(str, i+1, newStr);
