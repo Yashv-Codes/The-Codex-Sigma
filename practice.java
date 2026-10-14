@@ -5,6 +5,7 @@ public class practice{
             return;
         arr[i] = val;
         changeArr(arr, i+1, val+1);
+        
     }
     
     
