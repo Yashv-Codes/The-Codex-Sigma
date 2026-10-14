@@ -9,7 +9,7 @@ public class Subsequence {
         print(str, newStr+currchar, i+1);
 
         // not to be part
-        print(str, i+1, newStr);
+        print(str, newStr, i+1);
     }
 
     public static void main(String[] args){
