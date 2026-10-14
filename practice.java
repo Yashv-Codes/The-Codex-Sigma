@@ -10,7 +10,7 @@ public class practice{
 
     }
     public static void main(String[] args){
-        Subsequence("abc",)
+        Subsequence("abc",new StringBuilder(""),0);
         
         
     }
