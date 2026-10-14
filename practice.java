@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class practice{
     public static void changeArr(int arr[], int i, int val){
         if(i == arr.length){
-            
+            System.out.println(Arrays.toString(arr));
 
         }
             
