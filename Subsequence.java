@@ -1,5 +1,5 @@
 public class Subsequence {
-    public static void print(String str, int i, String newStr){
+    public static void print(String str, String newStr, int i){
         if(i == str.length()){
             System.out.println(newStr);
             return;
