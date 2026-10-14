@@ -1,6 +1,8 @@
 import java.util.Arrays;
 public class practice{
-    public static void Subsequence(StringBuilder)
+    public static void Subsequence(String str, StringBuilder sb, int i){
+        if()
+    }
     
     
     
