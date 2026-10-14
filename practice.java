@@ -9,13 +9,7 @@ public class practice{
         Subsequence(str,sb,i+1);
 
     }
-    
-    
-    
     public static void main(String[] args){
-        
-        
-       
         
         
     }
