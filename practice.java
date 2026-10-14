@@ -5,7 +5,7 @@ public class practice{
             System.out.println(sb);
             return;
         }
-        Subsequence(str,)
+        Subsequence(str,sb.append(str.charAt(i)))
 
     }
     
