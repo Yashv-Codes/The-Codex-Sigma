@@ -6,6 +6,7 @@ public class practice{
             return;
         }
         Subsequence(str,sb.append(str.charAt(i)),i+1);
+        sb.deleteCharAt
         Subsequence(str,sb,i+1);
 
     }
