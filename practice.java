@@ -5,7 +5,6 @@ public class practice{
             System.out.println(Arrays.toString(arr));
             return;
         }
-            
         arr[i] = val;
         changeArr(arr, i+1, val+1);
         arr[i] = arr[i] - 2;
@@ -14,6 +13,7 @@ public class practice{
     
     public static void main(String[] args){
         int arr[] = new int[5];
+        changeArr(arr,0,1);
 
        
         
