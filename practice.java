@@ -6,7 +6,7 @@ public class practice{
             return;
         }
         for(int i=0; i<str.length(); i++){
-
+            
         }
     }
     
