@@ -11,6 +11,7 @@ public class practice{
             board[row][j] = '.';
         }
     }
+    public static 
     
     
     public static void main(String[] args){
