@@ -19,6 +19,8 @@ public class N_QUEENS {
             if(board[i][j] == 'Q')
                 return false;
         }
+        return true;
+    }
 
     
         
