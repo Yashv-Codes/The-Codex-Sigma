@@ -5,6 +5,7 @@ public class practice{
             System.out.println(Arrays.deepToString(board));
             return;
         }
+        for(int j=0; )
     }
     
     
