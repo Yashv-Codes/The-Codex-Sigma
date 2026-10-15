@@ -17,7 +17,8 @@ public class practice{
                 return false;
         }
         for(int i=row-1, j=col-1; i>=0 && j>=0; i--, j--){
-            if(board[i][j])
+            if(board[i][j] == 'Q')
+                return false;
         }
 
     }
