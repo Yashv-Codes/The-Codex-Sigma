@@ -39,7 +39,7 @@ public class practice{
                 board[i][j] = '.';
             }
         }
-        n
+        n_queen(board,0);
         
     }
 }
