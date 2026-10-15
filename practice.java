@@ -11,8 +11,9 @@ public class practice{
             board[row][j] = '.';
         }
     }
-    public static void isSafe(char board[][], int row, int col){
+    public static boolean isSafe(char board[][], int row, int col){
         
+
     }
     
     
