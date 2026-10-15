@@ -6,6 +6,7 @@ public class practice{
             return;
         }
         for(int j=0; j<board.length; j++){
+            board[row][j] = 'Q';
             
         }
     }
