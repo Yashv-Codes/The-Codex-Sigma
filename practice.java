@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class practice{
     public static void n_queen(char board[][], int row){
         if(row == board.length){
-            System.out.println(Arrays.to)
+            System.out.println(Arrays.deepToString())
         }
     }
     
