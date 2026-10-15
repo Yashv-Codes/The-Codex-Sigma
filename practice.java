@@ -14,6 +14,7 @@ public class practice{
     public static boolean isSafe(char board[][], int row, int col){
         for(int i=row-1; row>=0; row--){
             if(board[row][col] == 'Q')
+                return false;
         }
 
     }
