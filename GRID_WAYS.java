@@ -12,7 +12,7 @@ public class GRID_WAYS {
 
     public static void main(String[] args){
         int n = 4, m = 4;
-        System.out.println("Total ways = "+gridways(0,0,n,m));
+        System.out.println("Total ways = "+gridways(0, 0, n, m));
     }
 }
 
