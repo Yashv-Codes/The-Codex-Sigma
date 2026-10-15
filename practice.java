@@ -6,7 +6,7 @@ public class practice{
             return;
         }
         for(int j=0; j<board.length; j++){
-           if(isSafe(board,row,col)){
+           if(isSafe(board,row,j)){
              board[row][j] = 'Q';
             n_queen(board,row+1);
             board[row][j] = '.';
