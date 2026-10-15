@@ -16,6 +16,7 @@ public class practice{
             if(board[row][col] == 'Q')
                 return false;
         }
+        for
 
     }
     
