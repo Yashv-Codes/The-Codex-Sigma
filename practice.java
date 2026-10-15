@@ -7,6 +7,7 @@ public class practice{
         }
         for(int j=0; j<board.length; j++){
             board[row][j] = 'Q';
+            n_queen(board,row+1);
             
         }
     }
