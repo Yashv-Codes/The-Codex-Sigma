@@ -6,7 +6,11 @@ public class practice{
             return;
         }
         for(int j=0; j<board.length; j++){
-           if(isSafe(board,row,col)){}
+           if(isSafe(board,row,col)){
+             board[row][j] = 'Q';
+            n_queen(board,row+1);
+            board[row][j] = '.';
+           }
         }
     }
     public static boolean isSafe(char board[][], int row, int col){
