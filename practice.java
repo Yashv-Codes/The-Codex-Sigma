@@ -12,7 +12,7 @@ public class practice{
         }
     }
     public static boolean isSafe(char board[][], int row, int col){
-        for(int)
+        for(int j=0; )
 
     }
     
