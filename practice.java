@@ -40,7 +40,7 @@ public class practice{
     
     
     public static void main(String[] args){
-        int n = 56;
+        int n = 10;
         char board[][] = new char[n][n];
         for(int i=0; i<board.length; i++){
             for(int j=0; j<board.length; j++){
