@@ -1,6 +1,8 @@
 // import java.util.Arrays;
 public class practice{
-    public static void n_queens
+    public static void n_queen(char board[][], int row){
+        
+    }
     
     
     public static void main(String[] args){
