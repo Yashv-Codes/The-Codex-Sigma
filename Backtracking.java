@@ -10,7 +10,7 @@ public class Backtracking{
         // Recursion
         arr[i] = val;
         Changearr(arr, i+1, val+1); 
-        arr[i] -= 2; // Backtacking step
+        arr[i] = arr[i] - 2; // Backtacking step
     }
 
     public static void printarr(int arr[]){
