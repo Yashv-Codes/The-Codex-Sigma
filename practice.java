@@ -16,7 +16,7 @@ public class practice{
             if(board[row][col] == 'Q')
                 return false;
         }
-        for
+        for(int i=row-1, j=)
 
     }
     
