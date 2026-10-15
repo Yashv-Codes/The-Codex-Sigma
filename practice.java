@@ -6,7 +6,7 @@ public class practice{
             return;
         }
         for(int j=0; j<board.length; j++){
-           if()
+           if(isSafe(board,row,col)){}
         }
     }
     public static boolean isSafe(char board[][], int row, int col){
