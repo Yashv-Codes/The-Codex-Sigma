@@ -1,5 +1,6 @@
 // import java.util.Arrays;
 public class practice{
+    public static void place
     
     
     public static void main(String[] args){
