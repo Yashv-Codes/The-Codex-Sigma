@@ -16,7 +16,9 @@ public class practice{
             if(board[i][col] == 'Q')
                 return false;
         }
-        for(int i=row-1, j=col-1; i>=0 && j>=0; )
+        for(int i=row-1, j=col-1; i>=0 && j>=0; i--, j--){
+            if(board[i][j])
+        }
 
     }
     
