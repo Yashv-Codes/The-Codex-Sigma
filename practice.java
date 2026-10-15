@@ -20,6 +20,7 @@ public class practice{
             if(board[i][j] == 'Q')
                 return false;
         }
+        
 
     }
     
