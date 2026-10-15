@@ -13,7 +13,7 @@ public class practice{
     }
     public static boolean isSafe(char board[][], int row, int col){
         for(int i=row-1; row>=0; row--){
-            if(board[row][col] == 'Q')
+            if(board[i][col] == 'Q')
                 return false;
         }
         for(int i=row-1, j=)
