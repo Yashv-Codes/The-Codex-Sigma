@@ -20,7 +20,7 @@ public class practice{
             if(board[i][j] == 'Q')
                 return false;
         }
-        for(int i=row+1, )
+        for(int i=row-1, j=col+1; i)
 
     }
     
