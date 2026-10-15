@@ -2,7 +2,8 @@
 public class practice{
     public static int ways(int i, int j, int n, int m){
       
-        int right = ways(i, j+1, )
+        int right = ways(i, j+1, n, m);
+        int down = ways()
     }
     
     public static void main(String[] args){
