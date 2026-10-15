@@ -12,7 +12,7 @@ public class practice{
     }
     
     public static void main(String[] args){
-        System.out.println("Total ways )
+        System.out.println("Total ways = "+ways(0,0))
     
         
     }
