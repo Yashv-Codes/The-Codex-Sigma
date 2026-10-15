@@ -2,7 +2,7 @@
 public class practice{
     public static int ways(int i, int j, int n, int m){
         if(i == n-1 && j == m-1)
-            return
+            return 1;
       
         int right = ways(i, j+1, n, m);
         int down = ways(i+1, j, n, m);
