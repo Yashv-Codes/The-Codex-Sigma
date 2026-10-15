@@ -2,7 +2,7 @@
 public class practice{
     public static void n_queen(char board[][], int row){
         if(row == board.length){
-            System.out.println(Arrays.deepToString(board));
+            printboard(board);
             return;
         }
         for(int j=0; j<board.length; j++){
