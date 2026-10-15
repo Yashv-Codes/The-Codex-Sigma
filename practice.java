@@ -1,6 +1,7 @@
 // import java.util.Arrays;
 public class practice{
     public static int ways(int i, int j, int n, int m){
+        if(i )
       
         int right = ways(i, j+1, n, m);
         int down = ways(i+1, j, n, m);
