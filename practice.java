@@ -1,6 +1,6 @@
 // import java.util.Arrays;
 public class practice{
-    public static void nqueens
+    public static void n_queens
     
     
     public static void main(String[] args){
