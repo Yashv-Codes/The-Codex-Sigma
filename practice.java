@@ -1,7 +1,7 @@
 // import java.util.Arrays;
 public class practice{
     public static void n_queen(char board[][], int row){
-        
+        if()
     }
     
     
