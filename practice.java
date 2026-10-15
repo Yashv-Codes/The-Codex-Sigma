@@ -27,7 +27,11 @@ public class practice{
                 return false;
         }
         return true;
-
+    }
+    public static void printboard(char board[][]){
+        for(int i=0; i<board.length; i++){
+            for(int j)
+        }
     }
     
     
