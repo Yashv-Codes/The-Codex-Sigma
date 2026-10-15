@@ -2,8 +2,8 @@ public class N_QUEENS {
 
     // CHECK IF QUEEN IS SAFE TO PLACE
     
-        return true;
-    }
+        
+    
     
     
     // Placing Queens
