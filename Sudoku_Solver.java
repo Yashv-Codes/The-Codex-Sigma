@@ -1,7 +1,9 @@
 public class Sudoku_Solver {
 
     // Check if digits are safe to place
-    public static boolean isSafe()
+    public static boolean isSafe(int sudoku[][], int row, int col, int digit){
+        
+    }
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
         // Base Case
