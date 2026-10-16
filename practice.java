@@ -5,7 +5,7 @@ public class practice{
             return 1;
         else if(x == maze.length || y == maze.length)
             return 0;
-        
+        if(isSafe)
         
     }
     
