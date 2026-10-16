@@ -18,8 +18,8 @@ public class Sudoku_Solver {
         // Same Grid
         int sr = (row / 3) * 3;
         int sc = (col / 3) * 3; 
-        for(int i=sr; i<=sr; i++){ // 3 x 3 Grid
-            for(int j=0; j<=sc; j++){
+        for(int i=sr; i<sr+3; i++){ // 3 x 3 Grid
+            for(int j=sc; j<sc+3; j++){
 
             }
         }
