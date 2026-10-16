@@ -15,7 +15,7 @@ public class Sudoku_Solver {
                 return false;
         }
 
-        // Same GRID
+        // Sub - Grid
         int sr = 
     }
     // Placing digits
