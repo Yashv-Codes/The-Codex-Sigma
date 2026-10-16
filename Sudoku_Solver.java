@@ -35,7 +35,7 @@ public class Sudoku_Solver {
             return true;
         
         // Recursion
-        int nxtrow = 0, nxtcol = col+1;
+        int nxtrow = row, nxtcol = col+1;
         if(col+1 == 9){
             nxtrow = row+1;
             nxtcol = 0;
@@ -46,7 +46,7 @@ public class Sudoku_Solver {
             return sudoku(sudoku, nxtrow, nxtcol);
 
         // Placing digits
-        for(int digit=0; digit<=9; digit++){
+        for(int digit=1; digit<=9; digit++){
             if(isSafe(sudoku, row, col, digit)){
                 sudoku[row][col] = digit;
                 if(sudoku(sudoku, nxtrow, nxtcol)) // Solution exists
