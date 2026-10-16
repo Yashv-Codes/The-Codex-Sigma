@@ -18,7 +18,11 @@ public class Sudoku_Solver {
         // Same Grid
         int sr = (row / 3) * 3;
         int sc = (col / 3) * 3; 
-        for(int i=0; i<)
+        for(int i=0; i<=sr; i++){
+            for(int j=0; j<=sc; j++){
+
+            }
+        }
     }
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
