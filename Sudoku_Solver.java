@@ -22,6 +22,7 @@ public class Sudoku_Solver {
                 sudoku[row][col] = digit;
                 if(sudoku(sudoku, nxtrow, nxtcol)) // Solution exists
                     return true;
+                su
             }
 
         }
