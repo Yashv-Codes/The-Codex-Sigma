@@ -1,8 +1,8 @@
 // import java.util.Arrays;
 public class practice{
     public static boolean isSafe(int maze[][], int x, int y){
-        for(int i=0; i<maze.length; i++){
-            for(int j=0; j<maze.length; j++){
+        for(int i=x; i<maze.length; i++){
+            for(int j=y; j<maze.length; j++){
                 if(maze[x][y] == 0)
                     return false;
             }
