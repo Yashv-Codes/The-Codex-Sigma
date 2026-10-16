@@ -30,7 +30,7 @@ public class Sudoku_Solver {
 
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
-        
+
         // Base Case
         if(row == 9)
             return true;
@@ -76,6 +76,7 @@ public class Sudoku_Solver {
                          {0,3,0,0,7,2,0,0,4},
                          {0,4,9,0,3,0,0,5,7},
                          {8,2,7,0,0,9,0,1,3}};
+
         if(sudoku(sudoku,0,0)){
             System.out.println("-----Solution Exists-----");
             print(sudoku);
@@ -84,4 +85,5 @@ public class Sudoku_Solver {
             System.out.println("Solution doesn't exists");
     }
 }
+
 
