@@ -22,6 +22,7 @@ public class Sudoku_Solver {
                 sudoku[row][col] = digit;
                 sudoku(sudoku, nxtrow, nxtcol);
             }
+            
         }
 
 
