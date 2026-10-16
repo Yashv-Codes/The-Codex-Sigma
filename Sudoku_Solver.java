@@ -18,7 +18,9 @@ public class Sudoku_Solver {
 
         // Placing digits
         for(int i=0; i<10; i++){
-            if()
+            if(isSafe(sudoku, row, col)){
+                
+            }
         }
 
 
