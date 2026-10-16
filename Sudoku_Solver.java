@@ -32,9 +32,8 @@ public class Sudoku_Solver {
     public static boolean sudoku(int sudoku[][], int row, int col){
         // Base Case
         if(row == 9){
-            print(sudoku);
             return true;
-        }
+        
 
         // Recursion
         int nxtrow = 0, nxtcol = col+1;
