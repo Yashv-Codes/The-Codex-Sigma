@@ -27,7 +27,7 @@ public class Sudoku_Solver {
         }
         return true;
     }
-    
+
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
         // Base Case
@@ -77,5 +77,6 @@ public class Sudoku_Solver {
                          {0,3,0,0,7,2,0,0,4},
                          {0,4,9,0,3,0,0,5,7},
                          {8,2,7,0,0,9,0,1,3}};
+        
     }
 }
