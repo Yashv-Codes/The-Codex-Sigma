@@ -4,7 +4,9 @@ public class Sudoku_Solver {
     public static boolean isSafe(int sudoku[][], int row, int col, int digit){
 
         // Same Column
-        for(int i)
+        for(int i=0; i<9; i++){
+            if(is)
+        }
     }
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
