@@ -11,7 +11,8 @@ public class Sudoku_Solver {
             nxtrow = row+1;
             nxtcol = 0;
         }
-        
+        if(sudoku[row][col] != 0)
+            return 
 
 
     }
