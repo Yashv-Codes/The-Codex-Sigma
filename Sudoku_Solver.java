@@ -1,7 +1,9 @@
 public class Sudoku_Solver {
     // Placing digits
     public static void sudoku(int sudoku[][], int row, int col){
-        if(row == 9)
+        if(row == 9){
+            
+        }
 
     }
     public static void main(String[] args){
