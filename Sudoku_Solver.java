@@ -16,7 +16,7 @@ public class Sudoku_Solver {
         }
 
         // Same GRID
-        
+        int sr = 
     }
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
