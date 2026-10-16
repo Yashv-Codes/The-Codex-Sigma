@@ -1,6 +1,7 @@
 public class Sudoku_Solver {
-    
+    // Placing digits
     public static void sudoku(int sudoku[][], int row, int col){
+        
 
     }
     public static void main(String[] args){
