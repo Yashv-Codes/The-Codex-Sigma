@@ -77,6 +77,8 @@ public class Sudoku_Solver {
                          {8,2,7,0,0,9,0,1,3}};
         if(sudoku(sudoku,0,0)){
             System.out.println("-----Solution Exists-----");
+            print(sudoku);
+        }
         else
             System.out.println("Solution doesn't exists");
     }
