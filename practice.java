@@ -21,7 +21,7 @@ public class practice{
             int right = ways(maze, x+1, y);
             
         }
-        return up + down + left + right;
+        
     }
     
     
