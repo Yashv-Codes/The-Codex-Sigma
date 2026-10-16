@@ -51,7 +51,7 @@ public class Sudoku_Solver {
                 sudoku[row][col] = digit;
                 if(sudoku(sudoku, nxtrow, nxtcol)) // Solution exists
                     return true;
-                sudoku[row][col] = 0; 
+                sudoku[row][col] = 0; // Because previous digit placed led to dead end
             }
         }
         return false;
