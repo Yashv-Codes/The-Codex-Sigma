@@ -9,7 +9,9 @@ public class Sudoku_Solver {
         int nxtrow = 0, nxtcol = col+1;
         if(col+1 == 9){
             nxtrow = row+1;
+            nxtcol = 0;
         }
+        
 
 
     }
