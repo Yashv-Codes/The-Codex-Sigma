@@ -12,7 +12,7 @@ public class Sudoku_Solver {
             nxtrow = row+1;
             nxtcol = 0;
         }
-        // Current column is already 
+        // Current column is already full
         if(sudoku[row][col] != 0)
             return sudoku(sudoku, nxtrow, nxtcol);
 
