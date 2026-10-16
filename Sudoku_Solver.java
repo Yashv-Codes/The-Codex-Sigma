@@ -8,7 +8,11 @@ public class Sudoku_Solver {
 
     }
     public static void print(int sudoku[][]){
-        for(int i=0; i<)
+        for(int i=0; i<9; i++){
+            for(int j=0; j<9; j++){
+                System.out.print(sudoku[i][j]+" ");
+            }
+        }
     }
     public static void main(String[] args){
         int sudoku[][] = {{0,0,8,0,0,0,0,0,0},
