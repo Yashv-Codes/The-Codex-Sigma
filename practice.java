@@ -6,7 +6,7 @@ public class practice{
         else if(x == maze.length || y == maze.length)
             return 0;
         if(isSafe(maze, x, y)){
-            int up = ways()
+            int up = ways(x, y-1)
         }
         
     }
