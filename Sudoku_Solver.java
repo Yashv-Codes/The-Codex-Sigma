@@ -1,7 +1,6 @@
 public class Sudoku_Solver {
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
-
         // Base Case
         if(row == 9){
             print(sudoku);
