@@ -12,7 +12,10 @@ public class Sudoku_Solver {
         // Same Row
         for(int j=0; j<9; j++){
             if(sudoku[row][j] == digit)
+                return false;
         }
+
+        // 
     }
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
