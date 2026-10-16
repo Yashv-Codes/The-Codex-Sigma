@@ -2,7 +2,7 @@
 public class practice{
     
         
-    }
+    
     
     
     
@@ -14,6 +14,7 @@ public class practice{
 
     
     }
+}
 
     
 
