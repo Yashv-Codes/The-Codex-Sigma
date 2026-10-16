@@ -2,10 +2,12 @@ public class Sudoku_Solver {
     // Placing digits
     public static void sudoku(int sudoku[][], int row, int col){
         if(row == 9){
-            print(sudoku)
+            print(sudoku);
+            return;
         }
 
     }
+    publc stat
     public static void main(String[] args){
         int sudoku[][] = {{0,0,8,0,0,0,0,0,0},
                          {4,9,0,1,5,7,0,0,2},
