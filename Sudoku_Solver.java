@@ -2,7 +2,7 @@ public class Sudoku_Solver {
     // Placing digits
     public static void sudoku(int sudoku[][], int row, int col){
         if(row == 9){
-            
+            print(sudoku)
         }
 
     }
