@@ -16,6 +16,11 @@ public class Sudoku_Solver {
         if(sudoku[row][col] != 0)
             return sudoku(sudoku, nxtrow, nxtcol);
 
+        // Placing digits
+        for(int i=0; i<10; i++){
+            
+        }
+
 
 
     }
