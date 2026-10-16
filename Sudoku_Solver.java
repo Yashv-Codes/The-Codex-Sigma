@@ -7,6 +7,7 @@ public class Sudoku_Solver {
             return;
         }
         int nxtrow = 0, nxtcol = col+1;
+        if(col+1 == 9)
 
 
     }
