@@ -1,7 +1,7 @@
 // import java.util.Arrays;
 public class practice{
     public static int ways(int maze[][], int x, int y){
-        if(x == maze.length-1 )
+        if(x == maze.length-1 && y == maze.length-1)
         
     }
     
