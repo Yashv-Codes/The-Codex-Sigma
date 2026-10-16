@@ -24,7 +24,7 @@ public class Sudoku_Solver {
                 sudoku[row][col] = digit;
                 if(sudoku(sudoku, nxtrow, nxtcol)) // Solution exists
                     return true;
-                sudoku[row][col] = 0; // Previous choice made led to dead end
+                sudoku[row][col] = 0; // 
             }
         }
         return false;
