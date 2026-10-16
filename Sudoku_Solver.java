@@ -17,9 +17,9 @@ public class Sudoku_Solver {
             return sudoku(sudoku, nxtrow, nxtcol);
 
         // Placing digits
-        for(int digit=0; digit<10; i++){
+        for(int digit=0; digit<=9; digit++){
             if(isSafe(sudoku, row, col)){
-                sudoku[row][col] = digits;
+                sudoku[row][col] = digit;
             }
         }
 
