@@ -31,10 +31,9 @@ public class Sudoku_Solver {
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
         // Base Case
-        if(row == 9){
+        if(row == 9)
             return true;
         
-
         // Recursion
         int nxtrow = 0, nxtcol = col+1;
         if(col+1 == 9){
