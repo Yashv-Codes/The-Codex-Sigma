@@ -2,6 +2,10 @@
 public class practice{
     public static int ways(int maze[][], int x, int y){
         if(x == maze.length-1 && y == maze.length-1)
+            return 1;
+        else if(x == maze.length || y == maze.length)
+            return 0;
+        
         
     }
     
