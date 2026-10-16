@@ -8,6 +8,7 @@ public class practice{
         if(isSafe(maze, x, y)){
             int up = ways(maze, x, y-1);
             int down = ways(maze, x, y+1);
+            int 
         }
         
     }
