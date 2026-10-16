@@ -7,13 +7,14 @@ public class Sudoku_Solver {
             print(sudoku);
             return true;
         }
-        
+
         // Recursion
         int nxtrow = 0, nxtcol = col+1;
         if(col+1 == 9){
             nxtrow = row+1;
             nxtcol = 0;
         }
+        
         // Current column is already full
         if(sudoku[row][col] != 0)
             return sudoku(sudoku, nxtrow, nxtcol);
