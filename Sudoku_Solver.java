@@ -12,7 +12,7 @@ public class Sudoku_Solver {
             nxtcol = 0;
         }
         if(sudoku[row][col] != 0)
-            return sudoku[nxtrow]
+            return sudoku(sudoku, nxtrow, nxtcol);
 
 
     }
