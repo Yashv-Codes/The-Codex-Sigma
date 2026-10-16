@@ -1,11 +1,13 @@
 public class Sudoku_Solver {
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
+
         // Base Case
         if(row == 9){
             print(sudoku);
             return true;
         }
+        
         // Recursion
         int nxtrow = 0, nxtcol = col+1;
         if(col+1 == 9){
@@ -28,7 +30,7 @@ public class Sudoku_Solver {
         }
         return false;
     }
-    
+
     public static void print(int sudoku[][]){
         for(int i=0; i<9; i++){
             for(int j=0; j<9; j++){
