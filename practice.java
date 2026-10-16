@@ -3,9 +3,11 @@ public class practice{
     public static boolean isSafe(int maze[][], int x, int y){
         for(int i=0; i<maze.length; i++){
             for(int j=0; j<maze.length; j++){
-                if(maze[x][y] )
+                if(maze[x][y] == 0)
+                    return false;
             }
         }
+        return true;
     }
     public static int ways(int maze[][], int x, int y){
         if(x == maze.length-1 && y == maze.length-1)
