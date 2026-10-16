@@ -20,7 +20,8 @@ public class Sudoku_Solver {
         int sc = (col / 3) * 3; 
         for(int i=sr; i<sr+3; i++){ // 3 x 3 Grid
             for(int j=sc; j<sc+3; j++){
-                
+                if(sudoku[i][j] == digit)
+                    return false;
   
             }
         }
