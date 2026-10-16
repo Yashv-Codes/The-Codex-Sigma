@@ -1,6 +1,12 @@
 // import java.util.Arrays;
 public class practice{
-    public static int ways(int maze[][], int x, int y, int n)
+    public static int ways(int maze[][], int x, int y, int n){
+        if(x == n-1 && y == n-1)
+            return 1;
+        else if(x == n || y == n)
+            return 0;
+        int 
+    }
     
     
     
