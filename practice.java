@@ -5,7 +5,7 @@ public class practice{
             return 1;
         else if(x == n || y == n)
             return 0;
-        int 
+        
     }
     
     
