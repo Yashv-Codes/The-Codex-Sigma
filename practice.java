@@ -1,7 +1,7 @@
 // import java.util.Arrays;
 public class practice{
     public static boolean isSafe(int maze[][], int x, int y){
-        for(int i=)
+        for(int i=0)
     }
     public static int ways(int maze[][], int x, int y){
         if(x == maze.length-1 && y == maze.length-1)
