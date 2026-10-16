@@ -17,7 +17,7 @@ public class Sudoku_Solver {
 
         // Same Grid
         int sr = (row/3)*3;
-        
+        int sc = (col/3)*3; 
     }
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
