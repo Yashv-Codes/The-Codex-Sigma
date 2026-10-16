@@ -22,7 +22,6 @@ public class Sudoku_Solver {
             for(int j=sc; j<sc+3; j++){
                 if(sudoku[i][j] == digit)
                     return false;
-  
             }
         }
     }
