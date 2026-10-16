@@ -1,5 +1,6 @@
 public class Sudoku_Solver {
-    // CHECK IF 
+    
+    // Check if digits are safe to place
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
         // Base Case
