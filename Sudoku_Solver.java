@@ -5,6 +5,7 @@ public class Sudoku_Solver {
             print(sudoku);
             return;
         }
+        
 
     }
     public static void print(int sudoku[][]){
@@ -12,6 +13,7 @@ public class Sudoku_Solver {
             for(int j=0; j<9; j++){
                 System.out.print(sudoku[i][j]+" ");
             }
+            System.out.println();
         }
     }
     public static void main(String[] args){
