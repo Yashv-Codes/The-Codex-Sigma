@@ -24,6 +24,7 @@ public class Sudoku_Solver {
                     return false;
             }
         }
+        return true;
     }
     // Placing digits
     public static boolean sudoku(int sudoku[][], int row, int col){
