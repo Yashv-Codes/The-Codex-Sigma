@@ -14,7 +14,7 @@ public class Sudoku_Solver {
             nxtrow = row+1;
             nxtcol = 0;
         }
-        
+
         // Current column is already full
         if(sudoku[row][col] != 0)
             return sudoku(sudoku, nxtrow, nxtcol);
@@ -27,7 +27,6 @@ public class Sudoku_Solver {
                     return true;
                 sudoku[row][col] = 0;
             }
-
         }
         return false;
     }
