@@ -5,7 +5,9 @@ public class practice{
             return 1;
         else if(x == n || y == n)
             return 0;
-        if(isSafe(maze, x, y))
+        if(isSafe(maze, x, y)){
+            int w1
+        }
     }
     
     
