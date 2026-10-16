@@ -1,6 +1,6 @@
 // import java.util.Arrays;
 public class practice{
-    public static int ways()
+    public static int ways(int maze[][], int x, int y, int n)
     
     
     
