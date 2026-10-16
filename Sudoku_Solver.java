@@ -6,7 +6,7 @@ public class Sudoku_Solver {
             print(sudoku);
             return;
         }
-        
+        int nxtrow = 0, nxtcol = col+1;
 
 
     }
