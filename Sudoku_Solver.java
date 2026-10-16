@@ -5,7 +5,7 @@ public class Sudoku_Solver {
 
         // Same Column
         for(int i=0; i<9; i++){
-            if(is)
+            if(sudoku[row])
         }
     }
     // Placing digits
