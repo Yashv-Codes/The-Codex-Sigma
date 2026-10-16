@@ -6,7 +6,7 @@ public class practice{
         else if(x == n || y == n)
             return 0;
         if(isSafe(maze, x, y)){
-            int up = 
+            int up = ways(x)
         }
     }
     
