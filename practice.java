@@ -9,7 +9,7 @@ public class practice{
             int up = ways(maze, x, y-1);
             int down = ways(maze, x, y+1);
             int left = ways(maze, x-1, y);
-            int right = ways()
+            int right = ways(maze, x+1, y);
         }
         
     }
