@@ -5,6 +5,7 @@ public class Subsequence {
             return;
         }
         char currchar = str.charAt(i);
+        
         // to be part
         print(str, newStr+currchar, i+1);
 
@@ -15,5 +16,5 @@ public class Subsequence {
     public static void main(String[] args){
         print("abc","",0);
     }
-    
 }
+
