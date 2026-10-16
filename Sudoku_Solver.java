@@ -18,11 +18,11 @@ public class Sudoku_Solver {
 
         // Placing digits
         for(int digit=0; digit<=9; digit++){
-            if(isSafe(sudoku, row, col)){
+            if(isSafe(sudoku, row, col, digit)){
                 sudoku[row][col] = digit;
                 sudoku(sudoku, nxtrow, nxtcol);
             }
-            
+
         }
 
 
