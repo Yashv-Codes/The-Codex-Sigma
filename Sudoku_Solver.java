@@ -80,8 +80,6 @@ public class Sudoku_Solver {
         if(sudoku(sudoku,0,0))
             System.out.println("-----Solution Exists-----");
         else
-            System.out.println("Solution doesn")
-            
-        
+            System.out.println("Solution doesn't exists");
     }
 }
