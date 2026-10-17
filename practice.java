@@ -8,6 +8,7 @@ public class practice{
             return 0;
 
         visited[row][col] == true;
+        int up = 
         
     }
     
