@@ -3,7 +3,7 @@ public class practice{
         // Base Case
         if(row < 0 || col < 0 || row == n || col == n)
             return 0;
-        
+
         if(row == n-1 && col == n-1)
             return 1;
 
@@ -13,7 +13,7 @@ public class practice{
         visited[row][col] == true;
         int up = ways(maze, row-1, col, n);
         int down = ways(maze, row+1, col, n);
-        int left = 
+        int left = ways()
         
     }
     
