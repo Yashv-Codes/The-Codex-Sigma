@@ -50,7 +50,7 @@ public class practice {
         }
         board[0][0] = 0;
 
-        
+        if
 
     }
     
