@@ -3,7 +3,8 @@ public class practice{
         // Base Case
         if(row == n-1 && col == n-1)
             return 1;
-        
+
+        if(isSafe(maze))
         
     }
     
