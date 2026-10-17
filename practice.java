@@ -9,7 +9,7 @@ public class practice {
         int r[] = {2, 2, -2, -2, 1, 1, -1, -1};
         int c[] = {1, -1, 1, -1, -2, 2, 2, -2};
 
-        // Check if valid/
+        // Check if valid/unvisited cell
         for()
 
 
