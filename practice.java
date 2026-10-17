@@ -30,7 +30,7 @@ public class practice {
                 // Mark visited
                 board[nxtrow][nxtcol] = move;
 
-                if(Knight_jump(board, ))
+                if(Knight_jump(board, nxtrow, nxtcol))
             }
             
         
