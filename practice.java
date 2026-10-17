@@ -11,6 +11,7 @@ public class practice{
             return 0;
 
         visited[row][col] == true;
+        
         int up = ways(maze, row-1, col, n);
         int down = ways(maze, row+1, col, n);
         int left = ways(maze, row, col-1, n);
