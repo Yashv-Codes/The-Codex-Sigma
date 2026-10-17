@@ -11,7 +11,8 @@ public class practice {
 
         // Check if valid/unvisited cell
         for(int i=0; i<8; i++){
-            int nxtrow = row + 
+            int nxtrow = row + r[i];
+            int nxtcol = col + c[i];
         }
 
 
