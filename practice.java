@@ -6,7 +6,7 @@ public class practice {
             return;
         }
         char ch = str.charAt(i);
-        String letters = 
+        String letter = keypad[]
 
     }
     
