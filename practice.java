@@ -1,6 +1,6 @@
 public class practice {
 
-    public static 
+    public static void Knights
     public static void main(String[] args){
         int n = 8;
         int board[][] = new int[n][n];
