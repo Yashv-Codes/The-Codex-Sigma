@@ -25,8 +25,8 @@ public class practice{
 
         int up = ways(maze, row-1, col, n, visited);
         int down = ways(maze, row+1, col, n, visited);
-        int left = ways(maze, row, col-1, n);
-        int right = ways(maze, row, col+1, n);
+        int left = ways(maze, row, col-1, n, visited);
+        int right = ways(maze, row, col+1, n, visited);
 
         visited[row][col] = false;
 
