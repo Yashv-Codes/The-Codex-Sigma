@@ -9,7 +9,7 @@ public class practice{
 
         return true;
     }
-    
+
     public static int ways(int maze[][], int row, int col, int n, boolean[][] visited){
         // Base Case
         if(row < 0 || col < 0 || row == n || col == n)
@@ -23,8 +23,8 @@ public class practice{
 
         visited[row][col] == true;
 
-        int up = ways(maze, row-1, col, n);
-        int down = ways(maze, row+1, col, n);
+        int up = ways(maze, row-1, col, n, visited);
+        int down = ways(maze, row+1, col, n, visited);
         int left = ways(maze, row, col-1, n);
         int right = ways(maze, row, col+1, n);
 
