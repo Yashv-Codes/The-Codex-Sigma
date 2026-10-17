@@ -34,10 +34,9 @@ public class practice {
                     return true;
 
                 board[nxtrow][nxtcol] = -1; // Backtracking step
-
-
             }
         }
+        return false;
     }
     
     
