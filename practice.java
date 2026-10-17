@@ -1,6 +1,9 @@
 public class practice {
 
-    public static void Knight_jump(int board[][], int row, int col, int move, int n);
+    public static void Knight_jump(int board[][], int row, int col, int move, int n){
+        
+    }
+    // Base Case
     
     public static void main(String[] args){
         int n = 8;
