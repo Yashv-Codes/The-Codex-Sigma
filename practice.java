@@ -1,7 +1,7 @@
 public class practice{
     public static int ways(int maze[][], int row, int col){
         // Base Case
-        if()
+        if(row == n-1 && col == n-1)
         
     }
     
