@@ -1,4 +1,4 @@
-public class practice {
+public class Knight_Tour {
 
     public static boolean isSafe(int board[][], int row, int col, int n){
         // Boundary Condition
