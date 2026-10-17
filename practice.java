@@ -1,5 +1,5 @@
 public class practice{
-    public static int ways(int maze[][], int row, int col, int n, ){
+    public static int ways(int maze[][], int row, int col, int n, bole){
         // Base Case
         if(row < 0 || col < 0 || row == n || col == n)
             return 0;
