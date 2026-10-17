@@ -1,5 +1,5 @@
 public class practice{
-    public static int ways(int maze[][], int row, int col, int n){
+    public static int ways(int maze[][], int row, int col, int n, ){
         // Base Case
         if(row < 0 || col < 0 || row == n || col == n)
             return 0;
@@ -11,7 +11,7 @@ public class practice{
             return 0;
 
         visited[row][col] == true;
-        
+
         int up = ways(maze, row-1, col, n);
         int down = ways(maze, row+1, col, n);
         int left = ways(maze, row, col-1, n);
