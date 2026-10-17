@@ -26,6 +26,7 @@ public class practice {
             int nxtrow = row + r[i];
             int nxtcol = col + c[i];
         }
+        
 
 
         
