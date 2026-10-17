@@ -28,7 +28,9 @@ public class practice {
 
             if(isSafe(board, nxtrow, nxtcol, n)){
                 // Mark visited
-                board[nxtrow][nxtcol]
+                board[nxtrow][nxtcol] = move;
+
+                
             }
             
         
