@@ -1,4 +1,4 @@
-public class practice {
+public class Nokia_Keypad {
     public static void combinations(String str, String ans, int idx){
         String keypad[] = {" ", " ", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         if(idx == str.length()){
