@@ -48,8 +48,6 @@ public class practice{
         else{
             System.out.println("Total paths = "+ways(maze,0,0,n,visited));
         }
-
-    
     }
 }
 
