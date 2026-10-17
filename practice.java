@@ -42,7 +42,9 @@ public class practice{
         int n = maze.length;
         boolean[][] visited = new boolean[n][n];
         // Edge Case 
-        if(maze[0][0] == 0 || )
+        if(maze[0][0] == 0 || maze[n-1][n-1] == 0){
+            System.out.println("")
+        }
 
     
     }
