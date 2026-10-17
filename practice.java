@@ -4,7 +4,10 @@ public class practice{
         if(maze[r][c] == 0)
             return false;
 
-        
+        if(visited[r][c])
+            return false;
+
+        return true;
     }
     public static int ways(int maze[][], int row, int col, int n, boolean[][] visited){
         // Base Case
