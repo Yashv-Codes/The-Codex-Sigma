@@ -50,7 +50,7 @@ public class practice {
     
     
     public static void main(String[] args){
-        int n = 8;
+        int n = 5;
         int board[][] = new int[n][n];
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
@@ -62,6 +62,9 @@ public class practice {
         if(Knight_jump(board, 0, 0, 1, n)){
             System.out.println("-----Solution Exists-----");
             printboard(board, n);
+        }
+        else{
+            
         }
         System.out.println("Solution doesnt exists");
     }
