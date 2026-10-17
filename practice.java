@@ -30,8 +30,10 @@ public class practice {
                 // Mark visited
                 board[nxtrow][nxtcol] = move;
 
-                if(Knight_jump(board, nxtrow, nxtcol, move+1, n)) 
+                if(Knight_jump(board, nxtrow, nxtcol, move+1, n)) // Solution exists
                     return true;
+
+                
 
 
             }
