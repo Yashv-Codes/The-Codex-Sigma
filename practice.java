@@ -30,7 +30,7 @@ public class practice {
                 // Mark visited
                 board[nxtrow][nxtcol] = move;
 
-                
+                Knight_jump()
             }
             
         
