@@ -39,7 +39,9 @@ public class practice {
         return false;
     }
 
-    public static 
+    public static void printboard(int board[][], int n){
+        
+    }
     
     
     public static void main(String[] args){
