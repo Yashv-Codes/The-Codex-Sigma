@@ -2,6 +2,8 @@ public class practice{
     public static int ways(int maze[][], int row, int col, int n){
         // Base Case
         if(row == n-1 && col == n-1)
+            return 1;
+        
         
     }
     
