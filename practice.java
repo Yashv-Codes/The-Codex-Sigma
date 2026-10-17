@@ -5,6 +5,8 @@ public class practice {
         if(move == n * n)
             return true;
 
+        int r[] = {}
+
     }
     
     
