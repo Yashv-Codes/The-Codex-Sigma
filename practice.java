@@ -5,7 +5,7 @@ public class practice {
             System.out.println(ans);
             return;
         }
-        char ch = str.charAt(i);
+        char ch = str.charAt(str);
         String letter = keypad[ch - '0'];
 
     }
