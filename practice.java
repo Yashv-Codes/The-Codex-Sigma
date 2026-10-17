@@ -26,7 +26,9 @@ public class practice {
             int nxtrow = row + r[i];
             int nxtcol = col + c[i];
 
-            if(isSafe(board, nxtrow, nxtcol))
+            if(isSafe(board, nxtrow, nxtcol, n)){
+                
+            }
             
         
         
