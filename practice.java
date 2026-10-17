@@ -10,7 +10,9 @@ public class practice {
         int c[] = {1, -1, 1, -1, -2, 2, 2, -2};
 
         // Check if valid/unvisited cell
-        for(int i=0; i<8; i++)
+        for(int i=0; i<8; i++){
+            int nxtrow = row + 
+        }
 
 
         
