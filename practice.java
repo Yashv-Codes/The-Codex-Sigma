@@ -14,7 +14,7 @@ public class practice {
         if(move == n * n)
             return true;
         
-        // All directions of knight moves
+        // All directions a knight can move
         int r[] = {2, 2, -2, -2, 1, 1, -1, -1};
         int c[] = {1, -1, 1, -1, -2, 2, 2, -2};
 
