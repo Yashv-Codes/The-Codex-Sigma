@@ -44,6 +44,7 @@ public class practice {
             for(int j=0; j<n; j++){
                 System.out.print(board[i][j]+" ");
             }
+            System.out.println();
         }
     }
     
@@ -60,6 +61,7 @@ public class practice {
 
         if(Knight_jump(board, 0, 0, 1, n)){
             System.out.println("-----Solution Exists-----");
+            
 
         }
 
