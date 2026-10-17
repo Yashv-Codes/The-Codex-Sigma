@@ -5,6 +5,9 @@ public class practice{
             return 1;
 
         if(!isSafe(maze[row][col]))
+            return 0;
+
+        
         
     }
     
