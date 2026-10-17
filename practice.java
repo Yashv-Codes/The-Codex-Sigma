@@ -1,6 +1,7 @@
 public class practice {
 
     public static void Knight_jump(int board[][], int row, int col, int move, int n);
+    
     public static void main(String[] args){
         int n = 8;
         int board[][] = new int[n][n];
