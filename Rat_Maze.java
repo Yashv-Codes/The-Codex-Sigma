@@ -28,7 +28,8 @@ public class Rat_Maze{
         int down = ways(maze, row+1, col, n, visited);
         int left = ways(maze, row, col-1, n, visited);
         int right = ways(maze, row, col+1, n, visited);
-
+        
+        // Unmark for other alternative paths (Backtracking)
         visited[row][col] = false;
 
         return up + down + left + right;
