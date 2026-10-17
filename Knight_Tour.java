@@ -64,7 +64,7 @@ public class Knight_Tour {
             printboard(board, n);
         }
         else
-            System.out.println("Solution doesnt exists");
+            System.out.println("Solution does'nt exists");
     }
 }
 
