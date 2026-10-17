@@ -5,7 +5,8 @@ public class practice {
         if(row < 0 || row >= n || col < 0 || col >= n)
             return false;
 
-        // 
+        // If already visited
+        if
     }
 
     public static boolean Knight_jump(int board[][], int row, int col, int move, int n){
