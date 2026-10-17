@@ -1,8 +1,9 @@
 public class practice {
 
-    public static void Knight_jump(int board[][], int row, int col, int move, int n){
+    public static boolean Knight_jump(int board[][], int row, int col, int move, int n){
         // Base Case
         if(move == n * n)
+            return true;
 
     }
     
