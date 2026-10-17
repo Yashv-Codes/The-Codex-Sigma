@@ -45,7 +45,9 @@ public class practice{
         if(maze[0][0] == 0 || maze[n-1][n-1] == 0){
             System.out.println("No paths");
         }
-        
+        else{
+            
+        }
 
     
     }
