@@ -1,4 +1,4 @@
-public class practice{
+public class Rat_Maze{
     
     public static boolean isSafe(int maze[][], int r, int c, boolean[][] visited){
         // Blocked Path
