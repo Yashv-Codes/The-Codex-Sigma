@@ -1,5 +1,7 @@
 public class practice{
-    public static boolean isSafe(int maze[][], int r, int c)
+    public static boolean isSafe(int maze[][], int r, int c, boolean[][] visited){
+        
+    }
     public static int ways(int maze[][], int row, int col, int n, boolean[][] visited){
         // Base Case
         if(row < 0 || col < 0 || row == n || col == n)
