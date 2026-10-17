@@ -17,7 +17,6 @@ public class Rat_Maze{
             return 0;
 
         // Base Case
-        
         if(row == n-1 && col == n-1)
             return 1;
 
