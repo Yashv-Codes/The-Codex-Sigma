@@ -41,6 +41,7 @@ public class practice{
                          { 1, 1, 1, 1 } };
         int n = maze.length;
         boolean[][] visited = new boolean[n][n];
+        
 
     
     }
