@@ -14,7 +14,9 @@ public class practice{
         int up = ways(maze, row-1, col, n);
         int down = ways(maze, row+1, col, n);
         int left = ways(maze, row, col-1, n);
-        int right = ways(maze, row)
+        int right = ways(maze, row, col+1, n);
+
+        return up + down + left + right;
         
     }
     
