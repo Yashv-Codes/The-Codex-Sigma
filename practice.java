@@ -1,12 +1,13 @@
 public class practice {
 
-    public static boolean isSafe(int baord[][], int row, int col, int n){
+    public static boolean isSafe(int board[][], int row, int col, int n){
         // Boundary Condition
         if(row < 0 || row >= n || col < 0 || col >= n)
             return false;
 
         // Already Visited
-        if
+        if(board[row][col] != -1)
+            return false;
     }
 
     public static boolean Knight_jump(int board[][], int row, int col, int move, int n){
