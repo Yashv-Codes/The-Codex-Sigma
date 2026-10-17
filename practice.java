@@ -65,9 +65,7 @@ public class practice {
         }
         else
             System.out.println("Solution doesnt exists");
-
-        
-        
     }
 }
+
 
