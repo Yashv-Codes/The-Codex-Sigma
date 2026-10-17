@@ -63,10 +63,11 @@ public class practice {
             System.out.println("-----Solution Exists-----");
             printboard(board, n);
         }
-        else{
-            
-        }
-        System.out.println("Solution doesnt exists");
+        else
+            System.out.println("Solution doesnt exists");
+
+        
+        
     }
 }
 
