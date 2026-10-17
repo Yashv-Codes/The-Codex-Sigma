@@ -62,8 +62,8 @@ public class practice {
         if(Knight_jump(board, 0, 0, 1, n)){
             System.out.println("-----Solution Exists-----");
             printboard(board, n);
-
         }
+        else
 
     }
     
