@@ -1,7 +1,8 @@
 public class practice {
 
     public static void Knight_jump(int board[][], int row, int col, int move, int n){
-        
+        // Base Case
+        if(move == n * n)
 
     }
     
