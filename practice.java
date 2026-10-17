@@ -40,8 +40,10 @@ public class practice {
     }
 
     public static void printboard(int board[][], int n){
-        for(int i=0; i<n, i++){
-            for(int j=0; j<n; j++)
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                Syste
+            }
         }
     }
     
