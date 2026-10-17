@@ -1,4 +1,5 @@
 public class practice {
+    
 
     public static boolean Knight_jump(int board[][], int row, int col, int move, int n){
         // Base Case
