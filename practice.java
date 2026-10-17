@@ -1,11 +1,11 @@
 public class practice {
 
     public static boolean isSafe(int baord[][], int row, int col, int n){
-        // Boundary condition
+        // Boundary Condition
         if(row < 0 || row >= n || col < 0 || col >= n)
             return false;
 
-        // If already visited
+        // Already Visited
         if
     }
 
