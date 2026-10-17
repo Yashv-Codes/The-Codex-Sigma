@@ -38,6 +38,8 @@ public class practice {
         }
         return false;
     }
+
+    public static 
     
     
     public static void main(String[] args){
@@ -51,7 +53,8 @@ public class practice {
         board[0][0] = 0;
 
         if(Knight_jump(board, 0, 0, 1, n)){
-            System.out.println()
+            System.out.println("-----Solution Exists-----");
+
         }
 
     }
