@@ -25,6 +25,10 @@ public class practice {
         for(int i=0; i<8; i++){
             int nxtrow = row + r[i];
             int nxtcol = col + c[i];
+
+            if(isSafe(board, nxtrow, nxtcol))
+            
+        
         
 
         
