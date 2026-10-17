@@ -8,6 +8,8 @@ public class practice {
         // Already Visited
         if(board[row][col] != -1)
             return false;
+
+        return true;
     }
 
     public static boolean Knight_jump(int board[][], int row, int col, int move, int n){
