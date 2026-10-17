@@ -33,15 +33,7 @@ public class practice {
                 if(Knight_jump(board, nxtrow, nxtcol, move+1, n))
                     return true;
             }
-            
-        
-        
-
-        
-
-
-        
-
+        }
     }
     
     
