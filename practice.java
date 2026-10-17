@@ -16,6 +16,8 @@ public class practice{
         int left = ways(maze, row, col-1, n);
         int right = ways(maze, row, col+1, n);
 
+        visited[row][col] = false;
+
         return up + down + left + right;
         
     }
