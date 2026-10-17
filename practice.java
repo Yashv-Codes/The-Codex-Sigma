@@ -18,10 +18,10 @@ public class practice{
         if(row == n-1 && col == n-1)
             return 1;
 
-        if(!isSafe(maze, row, c, visited))
+        if(!isSafe(maze, row, col, visited))
             return 0;
 
-        visited[row][col] == true;
+        visited[row][col] = true;
 
         int up = ways(maze, row-1, col, n, visited);
         int down = ways(maze, row+1, col, n, visited);
