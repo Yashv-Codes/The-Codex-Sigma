@@ -27,7 +27,8 @@ public class practice {
             int nxtcol = col + c[i];
 
             if(isSafe(board, nxtrow, nxtcol, n)){
-                
+                // Mark visited
+                board[nxtrow][nxtcol]
             }
             
         
