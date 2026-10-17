@@ -18,7 +18,7 @@ public class practice{
         if(row == n-1 && col == n-1)
             return 1;
 
-        if(!isSafe(maze, r, c))
+        if(!isSafe(maze, row, c, visited))
             return 0;
 
         visited[row][col] == true;
