@@ -1,4 +1,5 @@
 public class practice{
+    
     public static boolean isSafe(int maze[][], int r, int c, boolean[][] visited){
         // Blocked Path
         if(maze[r][c] == 0)
