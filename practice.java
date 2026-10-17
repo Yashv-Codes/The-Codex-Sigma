@@ -8,7 +8,7 @@ public class practice{
             return 0;
 
         visited[row][col] == true;
-        int up = 
+        int up = ways(maze, row)
         
     }
     
