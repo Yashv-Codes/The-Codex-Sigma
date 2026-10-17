@@ -1,4 +1,6 @@
 public class practice {
+
+    public 
     public static void main(String[] args){
         int n = 8;
         int board[][] = new int[n][n];
@@ -7,7 +9,7 @@ public class practice {
                 board[i][j] = -1;
             }
         }
-        
+
     }
     
 }
