@@ -46,7 +46,7 @@ public class practice{
             System.out.println("No paths");
         }
         else{
-            System.out.println("Total paths = "+countways())
+            System.out.println("Total paths = "+ways(maze,0,0))
         }
 
     
