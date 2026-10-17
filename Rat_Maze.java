@@ -12,9 +12,11 @@ public class Rat_Maze{
     }
 
     public static int ways(int maze[][], int row, int col, int n, boolean[][] visited){
-        // Base Case
+        // Boundary Condition
         if(row < 0 || col < 0 || row == n || col == n)
             return 0;
+
+        
 
         if(row == n-1 && col == n-1)
             return 1;
