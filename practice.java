@@ -1,6 +1,10 @@
 public class practice{
     public static boolean isSafe(int maze[][], int r, int c, boolean[][] visited){
-        if()
+        // Blocked Path
+        if(maze[r][c] == 0)
+            return false;
+
+        
     }
     public static int ways(int maze[][], int row, int col, int n, boolean[][] visited){
         // Base Case
