@@ -63,7 +63,7 @@ public class practice {
             System.out.println("-----Solution Exists-----");
             printboard(board, n);
         }
-        else
+        System.out.println("S")
 
     }
     
