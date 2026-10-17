@@ -7,6 +7,7 @@ public class practice {
         }
         char ch = str.charAt(i);
         String letter = keypad[ch - '0'];
+        for(int i=0; i<)
 
     }
     
