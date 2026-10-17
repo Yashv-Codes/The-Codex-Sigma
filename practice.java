@@ -4,7 +4,7 @@ public class practice{
         if(row == n-1 && col == n-1)
             return 1;
 
-        if(isSafe(maze))
+        if(!isSafe(maze[row][col]))
         
     }
     
