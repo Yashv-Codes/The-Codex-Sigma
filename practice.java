@@ -7,7 +7,7 @@ public class practice{
         if(!isSafe(maze[row][col]))
             return 0;
 
-        
+        visited[row][col] == true;
         
     }
     
