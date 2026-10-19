@@ -19,7 +19,8 @@ public class Array_list {
         list.remove(2);
         System.out.println(list);
 
-        // 
+        // Set element
+        list.set(1)
 
     }
     
