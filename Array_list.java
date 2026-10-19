@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class practice {
+public class Array_list {
     
     
 }
