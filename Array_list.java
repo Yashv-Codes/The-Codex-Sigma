@@ -16,7 +16,7 @@ public class Array_list {
         System.out.println(element);
 
         // Remove element
-        list.remove
+        list.remove()
 
     }
     
