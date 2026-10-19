@@ -12,6 +12,8 @@ public class Array_list {
         System.out.println(list);
 
         // Get element
+        int element = list.get(2);
+        System.out.println(element);
 
     }
     
