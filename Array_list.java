@@ -28,7 +28,8 @@ public class Array_list {
         System.out.println(list.contains(2));
 
         // Size of list
-        System.out.println
+        System.out.println(list.size());
+        for(int i=0; i<list.size(); i++)
 
     }
 }
