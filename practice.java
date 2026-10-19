@@ -8,6 +8,9 @@ public class practice {
         mainlist.add(list);
         mainlist.add(list2);
         System.out.println(mainlist);
+    }
+}
+
         
 
 
