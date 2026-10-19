@@ -10,7 +10,10 @@ public class practice {
         System.out.println(mainlist);
         for(int i=0; i<mainlist.size(); i++){
             
+            
 
     }
+}
+}
 
 
