@@ -1,8 +1,8 @@
 import java.util.*;
 public class practice {
     public static void swap(ArrayList<Integer>list){
-        // int idx1 = 1, idx2 = 3;
-        int temp = list.get(1);
+        int idx1 = 1, idx2 = 3;
+        int temp = list.get(idx1);
         list.set(1, list.get(2));
         list.set()
     }
