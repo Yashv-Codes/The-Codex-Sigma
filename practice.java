@@ -6,6 +6,7 @@ public class practice {
         for(int i=0; i<list.size(); i++){
             max = Math.max(i, max);
         }
+        System.out.println("Max element = "+max);
 
         
     }
