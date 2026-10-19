@@ -4,7 +4,7 @@ public class practice {
     public static void main(String[] args){
         ArrayList <ArrayList<Integer>> mainlist = new ArrayList<>();
         ArrayList <Integer> list = new ArrayList<>(List.of(2, 5, 9, 3, 6));
-        ArrayList<String> list2 = new ArrayList<>(List.of("mango", "banana", "guava"));
+        ArrayList<Integer> list2 = new ArrayList<>(List.of());
         mainlist.add(list);
         mainlist.add(list2);
         System.out.println(mainlist);
