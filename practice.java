@@ -9,7 +9,7 @@ public class practice {
         mainlist.add(list2);
         System.out.println(mainlist);
         for(int i=0; i<mainlist.size(); i++){
-            ArrayList<Integer>
+            ArrayList<Integer>currlist = mainlist
         }
 
     }
