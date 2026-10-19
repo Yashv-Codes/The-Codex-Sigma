@@ -20,7 +20,8 @@ public class Array_list {
         System.out.println(list);
 
         // Set element
-        list.set(1)
+        list.set(2, 3);
+        System.out.println(list);
 
     }
     
