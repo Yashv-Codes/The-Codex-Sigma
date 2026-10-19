@@ -11,7 +11,7 @@ public class practice {
         for(int i=0; i<mainlist.size(); i++){
             ArrayList<Integer>currlist = mainlist.get(i);
             for(int j=0; j<currlist.size(); j++){
-                System.out.print()
+                System.out.print(currlist.get(i)+" ");
             }
         }
 
