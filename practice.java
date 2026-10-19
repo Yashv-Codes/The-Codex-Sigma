@@ -13,6 +13,7 @@ public class practice {
             for(int j=0; j<currlist.size(); j++){
                 System.out.print(currlist.get(i)+" ");
             }
+            System.out.println();
         }
 
     }
