@@ -33,7 +33,6 @@ public class Array_list {
             System.out.print(list.get(i)+" ");
         }
         System.out.println();
-
     }
 }
 
