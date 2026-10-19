@@ -27,6 +27,9 @@ public class Array_list {
         System.out.println(list.contains(4));
         System.out.println(list.contains(2));
 
+        // Size of list
+        System.out.println
+
     }
 }
 
