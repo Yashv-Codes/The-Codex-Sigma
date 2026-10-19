@@ -9,7 +9,8 @@ public class practice {
         mainlist.add(list2);
         System.out.println(mainlist);
         for(int i=0; i<mainlist.size(); i++){
-            ArrayList<Integer>currlist = mainlist
+            ArrayList<Integer>currlist = mainlist.get(i);
+            for(int j=0; j<currlist.size)
         }
 
     }
