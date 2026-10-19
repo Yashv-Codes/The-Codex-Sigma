@@ -6,7 +6,7 @@ public class SearchIn_RotatedSorted_Array {
         int mid = si+(ei-si)/2;
 
         // Case found
-        if(arr[mid]==tar)
+        if(arr[mid] == tar)
             return mid;
 
         // mid on L1
