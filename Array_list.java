@@ -39,7 +39,8 @@ public class Array_list {
         System.out.println(list);
 
         // Reverse order sorting
-        
+        Collections.sort(list, Collections.reverseOrder());
+        System.out.println(list);
 
         
     }
