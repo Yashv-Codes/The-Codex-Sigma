@@ -8,10 +8,7 @@ public class practice {
         mainlist.add(list);
         mainlist.add(list2);
         System.out.println(mainlist);
-        for(int i=0; i<mainlist.size(); i++){
-            System.out.print(mainlist.get(i)+" ");
-    }
-}
-}
+        
+
 
 
