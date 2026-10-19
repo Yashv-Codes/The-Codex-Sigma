@@ -23,6 +23,9 @@ public class Array_list {
         list.set(2, 3);
         System.out.println(list);
 
+        // Contains element
+        S
+
     }
 }
 
