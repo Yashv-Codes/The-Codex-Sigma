@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 public class Array_list {
     public static void main(String[] args){
-        ArrayList < 
+        ArrayList < String > list = new ArrayList <> ();
     }
     
 }
