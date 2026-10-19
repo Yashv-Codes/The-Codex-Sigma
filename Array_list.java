@@ -36,6 +36,7 @@ public class Array_list {
 
         // Sorting an ArrayList
         Collections.sort(list);
+        System.out.println(list);
 
         
     }
