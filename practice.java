@@ -2,9 +2,9 @@ import java.util.*;
 public class practice {
     
     public static void main(String[] args){
-        ArrayList <ArrayList<Integer>> mainlist = new ArrayList<>();
+        ArrayList <ArrayList<Integer>> mainlist = new ArrayList<>(list.of(list));
         ArrayList <Integer> list = new ArrayList<>(List.of(2, 5, 9, 3, 6));
-        
+
     }
 }
 
