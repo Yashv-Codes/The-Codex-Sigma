@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 public class Array_list {
     public static void main(String[] args){
         // ArrayList <String> lis1 = new ArrayList <> ();
@@ -33,6 +33,9 @@ public class Array_list {
             System.out.print(list.get(i)+" ");
         }
         System.out.println();
+
+        // Sorting an ArrayList
+        Collections.sort(list);
 
         
     }
