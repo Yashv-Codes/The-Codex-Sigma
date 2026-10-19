@@ -24,7 +24,8 @@ public class Array_list {
         System.out.println(list);
 
         // Contains element
-        S
+        System.out.println(list.contains(4));
+        System.out.println(list.contains(2));
 
     }
 }
