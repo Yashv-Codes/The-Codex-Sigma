@@ -15,6 +15,9 @@ public class Array_list {
         int element = list.get(2); 
         System.out.println(element);
 
+        // Remove element
+        list.remove
+
     }
     
 }
