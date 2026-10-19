@@ -6,6 +6,7 @@ public class practice {
         ArrayList <Integer> list = new ArrayList<>(List.of(2, 5, 9, 3, 6));
         mainlist.add(list);
         System.out.println(mainlist);
+        for(int i=0; )
 
     }
 }
