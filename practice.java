@@ -5,6 +5,6 @@ public class practice {
         ArrayList <ArrayList<Integer>> mainlist = new ArrayList<>();
         ArrayList <Integer> list = new ArrayList<>(List.of(2, 5, 9, 3, 6));
         
-}
+    }
 }
 
