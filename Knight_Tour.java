@@ -57,7 +57,7 @@ public class Knight_Tour {
                 board[i][j] = -1;
             }
         }
-        board[0][0] = 0; // Placed the Knight
+        board[0][0] = 0; // Placing Knight
 
         if(Knight_jump(board, 0, 0, 1, n)){
             System.out.println("-----Solution Exists-----");
