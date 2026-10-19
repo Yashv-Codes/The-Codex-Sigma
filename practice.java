@@ -7,8 +7,6 @@ public class practice {
             max = Math.max(list.get(i), max);
         }
         System.out.println("Max element = "+max);
-
-        
     }
-    
 }
+
