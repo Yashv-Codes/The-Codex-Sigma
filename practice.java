@@ -1,7 +1,8 @@
 import java.util.*;
 public class practice {
     public static int store_water(ArrayList<Integer>height){
-        int max
+        int maxwater = 0;
+        
 
     }
     
