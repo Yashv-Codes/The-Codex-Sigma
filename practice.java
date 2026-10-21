@@ -1,4 +1,4 @@
 public class practice {
-    public static 
+    public static boolean pair_sum(ArrayList)
     
 }
