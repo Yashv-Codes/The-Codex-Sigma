@@ -10,11 +10,12 @@ public class practice {
                 maxwater = Math.max(maxwater, curr_water);
             }
         }
-
+        return maxwater;
     }
     
     public static void main(String[] args){
         ArrayList<Integer>height = new ArrayList<>(List.of(1, 8, 6, 2, 5, 4, 8, 3, 7));
+        
         
     }
 }
