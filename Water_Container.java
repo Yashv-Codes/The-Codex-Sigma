@@ -5,7 +5,9 @@ public class Water_Container {
         int left = 0;
         int right = height.size()-1;
         
-        while(left < right)
+        while(left < right){
+            int ht = Math.min(height.get(left), height.get(right));
+        }
     }
     
     public static void main(String[] args){
