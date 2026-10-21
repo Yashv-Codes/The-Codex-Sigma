@@ -11,7 +11,7 @@ public class Water_Container {
             int curr_water = ht * width;
             max_water = Math.max(max_water, curr_water);
 
-            if()
+            if(left < right)
         }
     }
     
