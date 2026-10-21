@@ -1,5 +1,5 @@
 import java.util.*;
-public class practice {
+public class Water_Container {
     public static int store_water(ArrayList<Integer>height){
         int maxwater = 0;
         for(int i=0; i<height.size(); i++){
