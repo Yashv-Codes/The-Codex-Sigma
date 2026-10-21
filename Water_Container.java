@@ -9,7 +9,9 @@ public class Water_Container {
             int ht = Math.min(height.get(left), height.get(right));
             int width = right - left;
             int curr_water = ht * width;
-            max
+            max_water = Math.max(max_water, curr_water);
+
+            if()
         }
     }
     
