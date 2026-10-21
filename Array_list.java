@@ -1,7 +1,7 @@
 import java.util.*;
 public class Array_list {
      public static boolean pair_sum(ArrayList<Integer>list, int tar){
-        
+        while(left)
         
     }
 
