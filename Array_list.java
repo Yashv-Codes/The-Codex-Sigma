@@ -7,9 +7,12 @@ public class Array_list {
                 return true;
 
             else if(list.get(left) + list.get(right) < tar)
-                
+                left++;
+
+            else
+                right--;
         }
-        
+        return false;
     }
 
     public static void main(String[] args){
