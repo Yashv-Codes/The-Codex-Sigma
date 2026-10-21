@@ -12,6 +12,9 @@ public class Water_Container {
             max_water = Math.max(max_water, curr_water);
 
             if(left < right)
+                left++;
+            else
+                right--;
         }
     }
     
