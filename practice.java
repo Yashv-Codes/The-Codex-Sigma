@@ -5,7 +5,7 @@ public class practice {
     }
     
     public static void main(String[] args){
-        ArrayList
+        ArrayList<Integer>height = new ArrayList
         
     }
 }
