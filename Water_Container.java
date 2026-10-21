@@ -16,6 +16,7 @@ public class Water_Container {
             else
                 right--;
         }
+        return max_water;
     }
     
     public static void main(String[] args){
