@@ -3,7 +3,8 @@ public class Water_Container {
     public static int store_water(ArrayList<Integer>height){
         int max_water = 0;
         int left = 0;
-        int right = 
+        int right = height.size()-1;
+        
     }
     
     public static void main(String[] args){
