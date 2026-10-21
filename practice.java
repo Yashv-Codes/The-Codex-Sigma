@@ -6,6 +6,7 @@ public class practice {
             for(int j=i+1; j<height.size(); j++){
                 int width = j-i;
                 int ht = Math.min(height.get(i), height.get(j));
+                
             }
         }
 
