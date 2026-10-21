@@ -7,7 +7,7 @@ public class practice {
                 int width = j-i;
                 int ht = Math.min(height.get(i), height.get(j));
                 int curr_water = ht * width;
-                maxwater = Math.max(maxwater, water);
+                maxwater = Math.max(maxwater, curr_water);
             }
         }
 
