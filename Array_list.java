@@ -1,8 +1,8 @@
 import java.util.*;
 public class Array_list {
-    public static boolean pair_sum(ArrayList<Integer>list, int tar){
+    // public static boolean pair_sum(ArrayList<Integer>list, int tar){
         
-    }
+    //}
 
     public static void main(String[] args){
         // ArrayList <String> lis1 = new ArrayList <> ();
