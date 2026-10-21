@@ -1,18 +1,7 @@
 import java.util.*;
 public class practice {
     public static boolean pair_sum2(ArrayList<Integer>list, int tar){
-        int left = 0, right = list.size()-1;
-        while(left != right){
-            if(list.get(left) + list.get(right) == tar)
-                return true;
-
-            else if(list.get(left) + list.get(right) < tar)
-                left++;
-
-            else
-                right--;
-        }
-        return false;
+        
     }
     
     public static void main(String[] args){
