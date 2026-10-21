@@ -9,5 +9,7 @@ public class practice {
         }
         return false;
     }
-    
+    public static void main(String[] args){
+        ArrayList<Integer> list = 
+    }
 }
