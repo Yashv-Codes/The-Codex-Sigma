@@ -2,7 +2,11 @@ import java.util.*;
 public class practice {
     public static int store_water(ArrayList<Integer>height){
         int maxwater = 0;
-        
+        for(int i=0; i<height.size(); i++){
+            for(int j=i+1; j<height.size(); j++){
+                
+            }
+        }
 
     }
     
