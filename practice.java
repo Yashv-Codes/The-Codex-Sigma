@@ -4,7 +4,7 @@ public class practice {
         int maxwater = 0;
         for(int i=0; i<height.size(); i++){
             for(int j=i+1; j<height.size(); j++){
-                
+                int width = j-
             }
         }
 
