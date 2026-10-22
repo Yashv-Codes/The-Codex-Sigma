@@ -4,9 +4,9 @@ public class Monotonic_Array {
         if(list.size() <= 2)
             return true;
 
-        boolean up = true, down = false;
+        boolean up = true, down = true;
 
-        for(int i=0; i<list.size(); i++){
+        for(int i=0; i<list.size()-1; i++){
             int current = list.get(i), next = list.get(i+1);
             if(current < next)
                 down = false;
