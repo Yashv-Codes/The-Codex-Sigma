@@ -21,6 +21,7 @@ public class Monotonic_Array {
     }
 
     public static void main(String[] args){
-        ArrayList<Integer> = new ArrayList<>(List.of(1,2,23))
+        ArrayList<Integer>list = new ArrayList<>(List.of(1,2,2,3));
+
     }
 }
