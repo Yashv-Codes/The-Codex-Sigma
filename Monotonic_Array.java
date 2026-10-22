@@ -22,7 +22,7 @@ public class Monotonic_Array {
 
     public static void main(String[] args){
         ArrayList<Integer>list = new ArrayList<>(List.of(1,2,2,3));
-        ArrayList<Integer>list = new ArrayList<>(List.of(1,2,2,3));
+        ArrayList<Integer>list1 = new ArrayList<>(List.of(1,2,2,3));
 
     }
 }
