@@ -14,6 +14,7 @@ public class Pair_Sum2 {
                 return true;
 
             else if(list.get(left) + list.get(right) < tar)
+                left = (left+1)%
         }
 
 
