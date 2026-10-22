@@ -17,7 +17,7 @@ public class Pair_Sum2 {
                 left = (left+1) % n;
 
             else
-                right = 
+                right = (n+right-1) % n;
         }
 
 
