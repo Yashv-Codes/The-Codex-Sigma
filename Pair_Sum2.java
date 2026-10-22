@@ -1,4 +1,5 @@
-import java.util.*;public class Pair_Sum2 {
+import java.util.*;
+public class Pair_Sum2 {
     public static boolean pair_sum(ArrayList<Integer>list, int tar){
 
     }
