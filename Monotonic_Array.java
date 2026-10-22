@@ -1,5 +1,5 @@
 import java.util.*;
 public class Monotonic_Array {
-    public
+    public static boolean isMonotonic(ArrayList<Integer>list)
     
 }
