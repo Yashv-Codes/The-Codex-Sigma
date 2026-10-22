@@ -22,7 +22,7 @@ public class Monotonic_Array {
 
     public static void main(String[] args){
         ArrayList<Integer>list = new ArrayList<>(List.of(1,2,2,3));
-        ArrayList<Integer> list2 = List.of(9, 5, 2, 1); // true (decreasing)
+        ArrayList<Integer> list2 = newList.of(9, 5, 2, 1); // true (decreasing)
         ArrayList<Integer> list3 = List.of(1, 5, 2, 4); // false (fluctuates)
         ArrayList<Integer> list4 = List.of(4, 4, 4, 4);
 
