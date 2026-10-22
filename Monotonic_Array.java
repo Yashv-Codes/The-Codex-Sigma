@@ -26,5 +26,8 @@ public class Monotonic_Array {
         ArrayList<Integer> list3 = new ArrayList<>(List.of(1, 5, 2, 4)); 
         ArrayList<Integer> list4 = new ArrayList<>(List.of(4, 4, 4, 4));
 
+        System.out.println(isMonotonic(list));
+        System.out.println(isMonotonic())
+
     }
 }
