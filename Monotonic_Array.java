@@ -29,7 +29,7 @@ public class Monotonic_Array {
         System.out.println(isMonotonic(list));
         System.out.println(isMonotonic(list2));
         System.out.println(isMonotonic(list3));
-        Sy
+        System.out.println(isMonotonic(list4));
 
     }
 }
