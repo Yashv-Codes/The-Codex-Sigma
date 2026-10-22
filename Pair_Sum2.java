@@ -9,7 +9,9 @@ public class Pair_Sum2 {
             }
         }
         int left = bp+1, right = bp;
-        while(left != right)
+        while(left != right){
+            if(list.get(left) + list.get(right))
+        }
 
 
     }
