@@ -19,8 +19,7 @@ public class Pair_Sum2 {
             else
                 right = (n+right-1) % n;
         }
-
-
+        return false;
     }
     public static void main(String[] args){
         ArrayList<Integer>list = new ArrayList<>(List.of(11, 15, 6, 8, 9, 10));
