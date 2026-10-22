@@ -1,4 +1,4 @@
 public class Pair_Sum2 {
-    public static boolean 
+    public static boolean sum
     
 }
