@@ -12,6 +12,10 @@ public class Monotonic_Array {
                 down = false;
 
             if(current > next)
+                up = false;
+
+            if(!up && !down)
+                return 
 
             
             
