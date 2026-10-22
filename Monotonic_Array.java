@@ -7,7 +7,8 @@ public class Monotonic_Array {
         boolean up = true, down = false;
 
         for(int i=0; i<list.size(); i++){
-            int current = list.get(i), 
+            int current = list.get(i), next = list.get(i+1);
+            
             
         }
     }
