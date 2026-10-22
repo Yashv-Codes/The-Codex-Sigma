@@ -8,7 +8,8 @@ public class Pair_Sum2 {
                 break;
             }
         }
-        int left = 
+        int left = bp+1, right = bp;
+        while
 
 
     }
