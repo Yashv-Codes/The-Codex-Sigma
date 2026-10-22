@@ -19,4 +19,8 @@ public class Monotonic_Array {
         }
         return true;
     }
+
+    public static void main(String[] args){
+        Array
+    }
 }
