@@ -15,7 +15,7 @@ public class Monotonic_Array {
                 up = false;
 
             if(!up && !down)
-                return 
+                return false;
 
             
             
