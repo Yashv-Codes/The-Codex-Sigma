@@ -13,7 +13,7 @@ public class Pair_Sum2 {
             if(list.get(left) + list.get(right) == tar)
                 return true;
 
-            else if()
+            else if(list.get(left) > list.get(right))
         }
 
 
