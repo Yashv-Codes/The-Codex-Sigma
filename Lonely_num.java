@@ -15,7 +15,7 @@ public class Lonely_num {
             int current = list.get(i);
 
             if(i > 0){
-                
+                if(current)
             }
         }
         
