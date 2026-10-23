@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice {
-    public static 
+    public static int lonely_num(ArrayList)
     
     
     public static void main(String[] args){
