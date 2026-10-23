@@ -12,7 +12,9 @@ public class Lonely_num {
 
         boolean islonely = true;
         for(int i=0; i<list.size(); i++){
-            
+            int current = list.get(i);
+
+            if(i > 0)
         }
         
     }
