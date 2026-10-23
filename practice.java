@@ -9,7 +9,7 @@ public class practice {
                 count[target]++;
 
                 if(count[target] > maxcount){
-                    maxcount = 
+                    maxcount = count[target];
                 }
             }
             
