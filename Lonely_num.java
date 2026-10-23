@@ -16,7 +16,7 @@ public class Lonely_num {
             boolean islonely = true;
             if(i > 0){
                 if((current - list.get(i-1)) <= 1)
-                    
+                    islonely = false;
             }
         }
         
