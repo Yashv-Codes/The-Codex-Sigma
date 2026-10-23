@@ -23,13 +23,14 @@ public class Lonely_num {
                 if(current - list.get(i-1) <= 1)
                     islonely = false;
             }
-
+            
+            // Check for adjacent right
             if(i < list.size()-1){
                 // Violates if identical (diff == 0) or adjacent (diff == 1)
                 if(list.get(i+1) - current <= 1)
                     islonely = false;
             }
-            
+
             if(islonely)
                 ans.add(current);
         }
