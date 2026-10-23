@@ -18,6 +18,10 @@ public class Lonely_num {
                 if((current - list.get(i-1)) <= 1)
                     islonely = false;
             }
+
+            if(i < list.size()-1){
+                if()
+            }
         }
         
     }
