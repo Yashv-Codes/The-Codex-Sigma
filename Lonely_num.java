@@ -12,10 +12,12 @@ public class Lonely_num {
         }
 
         Collections.sort(list);
-        
+
         for(int i=0; i<list.size(); i++){
             int current = list.get(i);
             boolean islonely = true;
+
+            // 
             if(i > 0){
                 if(current - list.get(i-1) <= 1)
                     islonely = false;
