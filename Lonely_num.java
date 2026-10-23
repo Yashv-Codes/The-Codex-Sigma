@@ -5,7 +5,9 @@ public class Lonely_num {
         if(list == null || list.isEmpty())
             return ans;
 
-        else if(list.size() == 1)
+        else if(list.size() == 1){
+            ans.add
+        }
 
         boolean islonely = true;
         for()
