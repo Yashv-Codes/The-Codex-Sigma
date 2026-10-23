@@ -20,7 +20,8 @@ public class Lonely_num {
             }
 
             if(i < list.size()-1){
-                if
+                if(list.get(i+1) - current <= 1)
+                    
             }
         }
         
