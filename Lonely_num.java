@@ -6,7 +6,8 @@ public class Lonely_num {
             return ans;
 
         else if(list.size() == 1){
-            ans.add
+            ans.add(list.get(0));
+            return ans;
         }
 
         boolean islonely = true;
