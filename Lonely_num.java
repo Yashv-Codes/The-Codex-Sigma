@@ -4,13 +4,15 @@ public class Lonely_num {
         ArrayList<Integer>ans = new ArrayList<>();
         if(list == null || list.isEmpty())
             return ans;
-
+        
+        // Single element is always lonely
         else if(list.size() == 1){
             ans.add(list.get(0));
             return ans;
         }
 
         Collections.sort(list);
+        
         for(int i=0; i<list.size(); i++){
             int current = list.get(i);
             boolean islonely = true;
