@@ -38,7 +38,6 @@ public class Lonely_num {
         
     }
     
-    
     public static void main(String[] args){
         ArrayList<Integer> list = new ArrayList<>(List.of(10,6,5,8));
         System.out.println(lonely(list));
