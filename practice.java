@@ -5,8 +5,9 @@ public class practice {
             int adj_1 = list.get(i+1), adj_2 = list.get(i-1);
             for(int j=i+1; j<list.size(); j++){
                 if(list.get(i) == list.get(j))
+                    return -1;
+                else if(list.get(j) == adj_1 || list.get(j) == adj_2)
                     return false;
-                else if(list.get(j) == adj_1 || list.get(j))
             }
         }
     }
