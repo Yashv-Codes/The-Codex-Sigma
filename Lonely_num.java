@@ -23,7 +23,7 @@ public class Lonely_num {
                 if(list.get(i+1) - current <= 1)
                     islonely = false;
             }
-            
+            if(islonely)
         }
         
     }
