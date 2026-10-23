@@ -8,7 +8,7 @@ public class practice {
                 int target = list.get(i+1);
                 count[target]++;
             }
-            if()
+            if(count[target] > maxcount)
         }
     }
     
