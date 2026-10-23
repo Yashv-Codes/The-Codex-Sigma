@@ -25,5 +25,4 @@ public class practice {
         System.out.println(mostfrequent(list,1));
         System.out.println(mostfrequent(list1,2));
     }
-    
 }
