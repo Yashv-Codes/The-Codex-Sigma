@@ -1,6 +1,7 @@
 import java.util.*;
 public class Lonely_num {
     public static ArrayList<Integer> lonely(ArrayList<Integer>list){
+        ArrayList<Integer>ans = new
         
     }
     
