@@ -7,8 +7,12 @@ public class practice {
             if(list.get(i) == key){
                 int target = list.get(i+1);
                 count[target]++;
+
+                if(count[target] > maxcount){
+                    
+                }
             }
-            if(count[target] > maxcount)
+            
         }
     }
     
