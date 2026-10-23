@@ -10,10 +10,10 @@ public class Lonely_num {
             return ans;
         }
 
-        
+        Collections.sort(list);
         for(int i=0; i<list.size(); i++){
             int current = list.get(i);
-
+            boolean islonely = true;
             if(i > 0){
                 if(current)
             }
