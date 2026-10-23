@@ -11,7 +11,9 @@ public class Lonely_num {
         }
 
         boolean islonely = true;
-        for()
+        for(int i=0; i<list.size(); i++){
+            
+        }
         
     }
     
