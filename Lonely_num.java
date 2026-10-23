@@ -26,6 +26,7 @@ public class Lonely_num {
             if(islonely)
                 ans.add(current);
         }
+        return ans;
         
     }
     
