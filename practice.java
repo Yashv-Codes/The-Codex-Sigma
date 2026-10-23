@@ -1,6 +1,6 @@
 import java.util.*;
 public class practice {
-    public static ArrayList<Integer> lonely_num(ArrayList<Integer>list){
+    public static ArrayList<Integer> lonely(ArrayList<Integer>list){
         
     }
     
