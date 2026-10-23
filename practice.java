@@ -21,7 +21,8 @@ public class practice {
     public static void main(String[] args){
         ArrayList<Integer>list = new ArrayList<>(List.of(1,100,200,1,100));
         ArrayList<Integer>list1 = new ArrayList<>(List.of(2,2,2,2,3));
-        System.out.println(mostfrequent(list,1))
+        System.out.println(mostfrequent(list,1));
+        System.out.println(mostfrequent(list1.2))
     }
     
 }
