@@ -4,6 +4,8 @@ public class Lonely_num {
         ArrayList<Integer>ans = new ArrayList<>();
         if(list == null || list.isEmpty())
             return ans;
+
+        
         
     }
     
