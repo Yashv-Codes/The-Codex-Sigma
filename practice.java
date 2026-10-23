@@ -6,6 +6,7 @@ public class practice {
             for(int j=i+1; j<list.size(); j++){
                 if(list.get(i) == list.get(j))
                     return false;
+                else if(list.get(j) == )
             }
         }
     }
