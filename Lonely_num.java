@@ -1,5 +1,5 @@
 import java.util.*;
-public class practice {
+public class Lonely_num {
     public static ArrayList<Integer> lonely(ArrayList<Integer>list){
         
     }
