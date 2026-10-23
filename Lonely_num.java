@@ -19,6 +19,7 @@ public class Lonely_num {
 
             // Check for adjacent left 
             if(i > 0){
+                // if diff == 0 
                 if(current - list.get(i-1) <= 1)
                     islonely = false;
             }
