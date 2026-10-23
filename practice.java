@@ -6,7 +6,7 @@ public class practice {
         for(int i=0; i<list.size()-1; i++){
             if(list.get(i) == key){
                 int target = list.get(i+1);
-                fr
+                count[target]++;
             }
         }
     }
