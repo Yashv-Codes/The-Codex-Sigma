@@ -8,6 +8,7 @@ public class practice {
                 int target = list.get(i+1);
                 count[target]++;
             }
+            
         }
     }
     
