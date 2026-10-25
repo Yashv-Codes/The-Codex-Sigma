@@ -22,10 +22,11 @@ public class Beautiful_Arraylist {
             }
             ans = fresh; // Update list
         }
-        re
+        return ans;
     }
     
     public static void main(String[] args){
+
         
-}
+
 }
