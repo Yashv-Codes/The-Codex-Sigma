@@ -20,9 +20,9 @@ public class Beautiful_Arraylist {
                 if(even <= n)
                     fresh.add(even);
             }
-
             ans = fresh; // Update list
         }
+        re
     }
     
     public static void main(String[] args){
