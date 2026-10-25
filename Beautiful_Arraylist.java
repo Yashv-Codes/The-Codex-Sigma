@@ -1,5 +1,5 @@
 import java.util.*;
-public class practice {
+public class Beautiful_Arraylist {
     
     public static void main(String[] args){
         
