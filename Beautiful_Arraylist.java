@@ -8,7 +8,7 @@ public class Beautiful_Arraylist {
             ArrayList<Integer> fresh = new ArrayList<>();
 
             // Odd element
-            
+            for(int i=0; i<ans.size(); i++)
         }
     }
     
