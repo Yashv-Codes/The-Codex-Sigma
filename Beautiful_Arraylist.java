@@ -6,6 +6,8 @@ public class Beautiful_Arraylist {
 
         while(ans.size() < n){
             ArrayList<Integer> fresh = new ArrayList<>();
+
+            // Odd element
             
         }
     }
