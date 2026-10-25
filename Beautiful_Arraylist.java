@@ -18,7 +18,7 @@ public class Beautiful_Arraylist {
             for(int i=0; i<ans.size(); i++){
                 int even = 2 * ans.get(i);
                 if(even <= n)
-                    
+                    fresh.add(even);
             }
         }
     }
