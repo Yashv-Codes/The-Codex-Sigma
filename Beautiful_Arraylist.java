@@ -13,6 +13,9 @@ public class Beautiful_Arraylist {
                 if(odd <= n)
                     fresh.add(odd);
             }
+
+            // Even element
+            
         }
     }
     
