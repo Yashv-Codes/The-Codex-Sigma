@@ -5,7 +5,8 @@ public class Beautiful_Arraylist {
         ans.add(1); // Base Case
 
         while(ans.size() < n){
-            ArrayList<Integer> next
+            ArrayList<Integer> fresh = new ArrayList<>();
+            
         }
     }
     
