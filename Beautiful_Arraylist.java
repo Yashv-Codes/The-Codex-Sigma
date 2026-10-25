@@ -26,7 +26,7 @@ public class Beautiful_Arraylist {
     }
     
     public static void main(String[] args){
-        System.out.println(isBeautiful(5));
+        System.out.println(isBeautiful(3));
 
     }
 }
