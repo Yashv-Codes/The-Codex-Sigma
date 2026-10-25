@@ -21,7 +21,7 @@ public class Beautiful_Arraylist {
                     fresh.add(even);
             }
 
-            ans = 
+            ans = fresh; // Update list
         }
     }
     
