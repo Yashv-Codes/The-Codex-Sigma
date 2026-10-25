@@ -10,7 +10,8 @@ public class Beautiful_Arraylist {
             // Odd element
             for(int i=0; i<ans.size(); i++){
                 int odd = 2 * ans.get(i) - 1;
-                if()
+                if(odd <= n)
+                    fresh.add(odd);
             }
         }
     }
