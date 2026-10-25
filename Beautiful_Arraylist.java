@@ -20,6 +20,8 @@ public class Beautiful_Arraylist {
                 if(even <= n)
                     fresh.add(even);
             }
+
+            ans = 
         }
     }
     
