@@ -15,7 +15,11 @@ public class Beautiful_Arraylist {
             }
 
             // Even element
-            
+            for(int i=0; i<ans.size(); i++){
+                int even = 2 * ans.get(i);
+                if(even <= n)
+                    
+            }
         }
     }
     
