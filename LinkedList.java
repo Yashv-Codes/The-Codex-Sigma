@@ -11,7 +11,7 @@ public class LinkedList {
         public static Node tail;
 
         public void addFirst(int data){
-            Node newnode = 
+            Node newnode = new Node(data);
         }
     }
 
