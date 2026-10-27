@@ -27,7 +27,9 @@ public class LinkedList {
         head = newnode;
     }
 
-    public void addLast(int data)
+    public void addLast(int data){
+        // 
+    }
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
