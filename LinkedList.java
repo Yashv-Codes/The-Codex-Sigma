@@ -31,7 +31,7 @@ public class LinkedList {
         // Create a new node
         Node newnode = new Node(data);
 
-        if(tail == null){
+        if(head == null){
             head = tail = newnode;
             return;
         }
