@@ -19,7 +19,8 @@ public class LinkedList {
                 return;
             }
 
-            // newnode next = head
+            // newnode next -> head
+            
         }
     }
 
