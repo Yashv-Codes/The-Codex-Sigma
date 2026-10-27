@@ -11,7 +11,10 @@ public class LinkedList {
         public static Node tail;
 
         public void addFirst(int data){
+            // Create new node
             Node newnode = new Node(data);
+
+            if(head)
         }
     }
 
