@@ -32,5 +32,5 @@ public class LinkedList {
         ll.addFirst(1);
         ll.addFirst(2);
     }
-    
 }
+
