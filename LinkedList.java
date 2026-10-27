@@ -7,9 +7,10 @@ public class LinkedList {
             this.data = data;
             this.next = null;
         }
-        public static Node head;
-        public static Node tail;
     }
+    public static Node head;
+    public static Node tail;
+    
     public void addFirst(int data){
             // Create new node
             Node newnode = new Node(data);
