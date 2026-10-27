@@ -30,6 +30,8 @@ public class LinkedList {
     public void addLast(int data){
         // Create a new node
         Node newnode = new Node(data);
+
+        if()
     }
 
     public static void main(String[] args){
