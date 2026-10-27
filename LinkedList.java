@@ -44,6 +44,9 @@ public class LinkedList {
         LinkedList ll = new LinkedList();
         ll.addFirst(1);
         ll.addFirst(2);
+
+        ll.addLast(1);
+        ll.addLast(2);
     }
 }
 
