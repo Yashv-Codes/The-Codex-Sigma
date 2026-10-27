@@ -13,10 +13,10 @@ public class LinkedList {
     
     public void addFirst(int data){
             // Create new node
-            Node newnode = new Node(data);
+        Node newnode = new Node(data);
 
-            if(head == null){
-                head = tail = newnode;
+        if(head == null){
+            head = tail = newnode;
                 return;
             }
 
