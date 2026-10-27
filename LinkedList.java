@@ -23,9 +23,9 @@ public class LinkedList {
         // newnode next -> head
         newnode.next = head;
 
-            // head = newnode
+        // head = newnode
         head = newnode;
-        }
+    }
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
