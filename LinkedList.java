@@ -15,8 +15,11 @@ public class LinkedList {
             Node newnode = new Node(data);
 
             if(head == null){
-                head = tail
+                head = tail = newnode;
+                return;
             }
+
+            // new node nex
         }
     }
 
