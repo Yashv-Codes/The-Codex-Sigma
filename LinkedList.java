@@ -9,6 +9,8 @@ public class LinkedList {
         }
         public static Node head;
         public static Node tail;
+
+        public void addFirst
     }
 
     public static void main(String[] args){
