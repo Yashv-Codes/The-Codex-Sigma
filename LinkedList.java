@@ -36,7 +36,8 @@ public class LinkedList {
             return;
         }
 
-        // 
+        tail.next = newnode;
+        
     }
 
     public static void main(String[] args){
