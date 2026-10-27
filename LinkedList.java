@@ -14,7 +14,9 @@ public class LinkedList {
             // Create new node
             Node newnode = new Node(data);
 
-            if(head)
+            if(head == null){
+                head = tail
+            }
         }
     }
 
