@@ -23,7 +23,7 @@ public class LinkedList {
             newnode.next = head;
 
             // head = newnode
-            
+            head = newnode;
         }
     }
 
