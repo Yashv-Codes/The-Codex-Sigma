@@ -31,7 +31,9 @@ public class LinkedList {
         // Create a new node
         Node newnode = new Node(data);
 
-        if()
+        if(tail == null){
+            
+        }
     }
 
     public static void main(String[] args){
