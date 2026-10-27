@@ -10,6 +10,21 @@ public class LinkedList {
         public static Node head;
         public static Node tail;
     }
+    public void addFirst(int data){
+            // Create new node
+            Node newnode = new Node(data);
+
+            if(head == null){
+                head = tail = newnode;
+                return;
+            }
+
+            // newnode next -> head
+            newnode.next = head;
+
+            // head = newnode
+            head = newnode;
+        }
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
