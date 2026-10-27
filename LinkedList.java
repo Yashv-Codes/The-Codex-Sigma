@@ -32,8 +32,11 @@ public class LinkedList {
         Node newnode = new Node(data);
 
         if(tail == null){
-            
+            head = tail = newnode;
+            return;
         }
+
+        // 
     }
 
     public static void main(String[] args){
