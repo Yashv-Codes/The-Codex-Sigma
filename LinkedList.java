@@ -20,7 +20,7 @@ public class LinkedList {
             }
 
             // newnode next -> head
-            
+            newnode.next = head;
         }
     }
 
