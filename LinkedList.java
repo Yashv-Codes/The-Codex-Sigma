@@ -56,7 +56,9 @@ public class LinkedList {
         }
         int i = 0;
         Node temp = head;
-        
+        while(i < idx-1){
+            
+        }
 
     }
 
