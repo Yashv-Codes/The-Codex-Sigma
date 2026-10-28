@@ -49,7 +49,9 @@ public class LinkedList {
         System.out.println("null");
     }
 
-    public void add
+    public void add_middle(int idx, int data){
+
+    }
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
