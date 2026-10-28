@@ -50,6 +50,9 @@ public class LinkedList {
     }
 
     public void add_middle(int idx, int data){
+        if(idx == 0){
+            addFirst
+        }
 
     }
 
