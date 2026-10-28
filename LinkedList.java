@@ -60,6 +60,8 @@ public class LinkedList {
             temp = temp.next;
             i++;
         }
+        // temp -> prev
+        
 
     }
 
