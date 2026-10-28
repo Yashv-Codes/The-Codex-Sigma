@@ -73,6 +73,7 @@ public class LinkedList {
 
         ll.addLast(3);
         ll.addLast(4);
+        ll.add_middle(2,9);
         ll.print();
     }
 }
