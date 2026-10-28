@@ -39,6 +39,7 @@ public class LinkedList {
         tail.next = newnode;
         tail = newnode;
     }
+
     public void print(){
         Node temp = head;
         while(temp != null){
@@ -47,6 +48,8 @@ public class LinkedList {
         }
         System.out.println("null");
     }
+
+    public void add
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
