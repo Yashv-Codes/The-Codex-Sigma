@@ -62,7 +62,8 @@ public class LinkedList {
             i++;
         }
         // temp -> prev
-        
+        newnode.next = temp.next;
+        temp.next = newnode;
         
 
     }
