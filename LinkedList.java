@@ -54,6 +54,8 @@ public class LinkedList {
             addFirst(data);
             return;
         }
+        int i = 0;
+        Node temp = head;
         
 
     }
