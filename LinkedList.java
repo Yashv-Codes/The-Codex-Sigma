@@ -45,6 +45,7 @@ public class LinkedList {
             System.out.print(temp.data+"->");
             temp = temp.next;
         }
+        System.out.println("null");
     }
 
     public static void main(String[] args){
