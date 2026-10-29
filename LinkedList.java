@@ -62,8 +62,9 @@ public class LinkedList {
             i++;
         }
         // temp -> prev
-        newnode.next = temp.next;
         temp.next = newnode;
+        newnode.next = temp.next;
+        
     }
 
     public static void main(String[] args){
