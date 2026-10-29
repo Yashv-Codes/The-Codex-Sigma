@@ -97,7 +97,10 @@ public class LinkedList {
             return val;
         }
         // prev : i = size - 2
-        Node
+        Node prev = head;
+        for(int i=0; i<size-2; i++){
+            
+        }
     }
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
