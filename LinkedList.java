@@ -90,6 +90,7 @@ public class LinkedList {
             System.out.println("ll is empty");
             return -1;
         }
+        else if(size == 1)
     }
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
