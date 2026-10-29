@@ -79,6 +79,8 @@ public class LinkedList {
             head = tail = null;
             return val;
         }
+        int val = head.data;
+        
     }
 
     public static void main(String[] args){
