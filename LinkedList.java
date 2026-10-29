@@ -101,7 +101,7 @@ public class LinkedList {
         for(int i=0; i<size-2; i++){
             prev = prev.next;
         }
-        
+
         int val = prev.next.data;
         prev.next = null;
         tail = prev;
@@ -121,7 +121,8 @@ public class LinkedList {
         // System.out.println(ll.size);
         ll.removeFirst();
         ll.print();
-        System.out.println(ll.size);
+        // System.out.println(ll.size);
+        
     }
 }
 
