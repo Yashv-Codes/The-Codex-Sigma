@@ -86,7 +86,7 @@ public class LinkedList {
         return val;
     }
     public int removeLast(){
-        
+        if(size == 0)
     }
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
