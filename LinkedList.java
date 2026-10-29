@@ -75,7 +75,9 @@ public class LinkedList {
             return -1;
         }
         else if(size == 1){
-            int val
+            int val = head.data;
+            head = tail = null;
+            return val;
         }
     }
 
