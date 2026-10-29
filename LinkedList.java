@@ -69,6 +69,10 @@ public class LinkedList {
         temp.next = newnode;
     }
 
+    public void removeFirst(){
+        
+    }
+
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
