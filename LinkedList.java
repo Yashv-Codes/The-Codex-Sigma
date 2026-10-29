@@ -86,7 +86,10 @@ public class LinkedList {
         return val;
     }
     public int removeLast(){
-        if(size == 0)
+        if(size == 0){
+            System.out.println("ll is empty");
+            return -1;
+        }
     }
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
