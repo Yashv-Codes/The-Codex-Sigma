@@ -94,6 +94,8 @@ public class LinkedList {
         ll.add_middle(2,9);
         ll.print();
         // System.out.println(ll.size);
+        ll.removeFirst();
+        ll.print();
     }
 }
 
