@@ -92,7 +92,8 @@ public class LinkedList {
         }
         else if(size == 1){
             int val = head.data;
-            
+            head = tail = null;
+            size = 0;
         }
     }
     public static void main(String[] args){
