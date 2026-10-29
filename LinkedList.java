@@ -69,10 +69,10 @@ public class LinkedList {
         temp.next = newnode;
     }
 
-    public void removeFirst(){
+    public int removeFirst(){
         if(size == 0){
             System.out.println("ll is empty");
-            return -1;
+            return Integer.MIN_VALUE;
         }
     }
 
