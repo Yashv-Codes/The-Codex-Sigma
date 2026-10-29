@@ -10,6 +10,7 @@ public class LinkedList {
     }
     public static Node head;
     public static Node tail;
+    public static int size;
     
     public void addFirst(int data){
         // Create new node
