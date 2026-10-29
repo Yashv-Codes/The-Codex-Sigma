@@ -80,7 +80,8 @@ public class LinkedList {
             return val;
         }
         int val = head.data;
-        
+        head = head.next;
+        return val;
     }
 
     public static void main(String[] args){
