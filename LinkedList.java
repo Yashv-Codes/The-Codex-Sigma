@@ -113,7 +113,6 @@ public class LinkedList {
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
         ll.addFirst(1);
-
         ll.addLast(3);
         ll.addLast(4);
         ll.add_middle(2,9);
@@ -122,7 +121,9 @@ public class LinkedList {
         ll.removeFirst();
         ll.print();
         // System.out.println(ll.size);
+        ll.removeLast();
         
+
     }
 }
 
