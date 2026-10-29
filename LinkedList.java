@@ -85,7 +85,9 @@ public class LinkedList {
         size--;
         return val;
     }
-
+    public int removeLast(){
+        
+    }
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
