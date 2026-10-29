@@ -102,7 +102,8 @@ public class LinkedList {
             prev = prev.next;
         }
         int val = prev.next.data;
-        
+        prev.next = null;
+        tail = prev;
     }
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
