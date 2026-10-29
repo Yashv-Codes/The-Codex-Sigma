@@ -94,7 +94,9 @@ public class LinkedList {
             int val = head.data;
             head = tail = null;
             size = 0;
+            return val;
         }
+        
     }
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
