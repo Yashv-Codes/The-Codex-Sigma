@@ -53,7 +53,7 @@ public class LinkedList {
     public void add_middle(int idx, int data){
         Node newnode = new Node(data);
         size++;
-        
+
         if(idx == 0){
             addFirst(data);
             return;
@@ -78,6 +78,7 @@ public class LinkedList {
         ll.addLast(4);
         ll.add_middle(2,9);
         ll.print();
+        System.out.println(ll.size);
     }
 }
 
