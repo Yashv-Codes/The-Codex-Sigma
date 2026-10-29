@@ -71,7 +71,8 @@ public class LinkedList {
 
     public void removeFirst(){
         if(size == 0){
-            System.out.println("")
+            System.out.println("ll is empty");
+            return -1;
         }
     }
 
