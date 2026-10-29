@@ -31,7 +31,7 @@ public class LinkedList {
     public void addLast(int data){
         // Create a new node
         Node newnode = new Node(data);
-
+        size++;
         if(head == null){
             head = tail = newnode;
             return;
