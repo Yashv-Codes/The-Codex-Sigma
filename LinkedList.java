@@ -96,7 +96,8 @@ public class LinkedList {
             size = 0;
             return val;
         }
-        
+        // prev : i = size - 2
+        Node
     }
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
