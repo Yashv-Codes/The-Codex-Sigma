@@ -104,7 +104,10 @@ public class LinkedList {
         int val = prev.next.data;
         prev.next = null;
         tail = prev;
+        size--;
+        return val;
     }
+
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
