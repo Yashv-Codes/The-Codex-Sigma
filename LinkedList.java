@@ -52,6 +52,8 @@ public class LinkedList {
 
     public void add_middle(int idx, int data){
         Node newnode = new Node(data);
+        size++;
+        
         if(idx == 0){
             addFirst(data);
             return;
