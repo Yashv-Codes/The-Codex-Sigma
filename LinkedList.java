@@ -91,6 +91,7 @@ public class LinkedList {
             return -1;
         }
         else if(size == 1){
+            int val = head.data;
             
         }
     }
