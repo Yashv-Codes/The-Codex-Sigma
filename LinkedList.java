@@ -70,7 +70,9 @@ public class LinkedList {
     }
 
     public void removeFirst(){
-        
+        if(size == 0){
+            System.out.println("")
+        }
     }
 
     public static void main(String[] args){
