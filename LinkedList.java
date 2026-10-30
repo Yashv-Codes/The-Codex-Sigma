@@ -110,7 +110,8 @@ public class LinkedList {
     }
 
     public int search(int key){
-        
+        Node temp = head;
+        int i = 0;
 
     }
 
