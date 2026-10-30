@@ -120,7 +120,7 @@ public class LinkedList {
         }
         return -1;
     }
-    
+    public int recursive_search(int key)
 
      public static void main(String[] args){
         LinkedList ll = new LinkedList();
