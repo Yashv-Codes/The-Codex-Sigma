@@ -148,6 +148,7 @@ public class LinkedList {
             prev = curr;
             curr = next;
         }
+        head = prev;
     }
 
     public int recursive_search(int key){
@@ -163,8 +164,8 @@ public class LinkedList {
         ll.add_middle(2,9);
         ll.print();
         // System.out.println(ll.size);
-        System.out.println(ll.recursive_search(2));
-        System.out.println(ll.recursive_search(3));
+        // System.out.println(ll.recursive_search(2));
+        // System.out.println(ll.recursive_search(3));
         
 
     }
