@@ -138,7 +138,13 @@ public class LinkedList {
     }
 
     public void reverse(){
-        
+        Node prev = null;
+        Node curr = tail = head;
+        Node next;
+
+        while(curr != null){
+            
+        }
     }
 
     public int recursive_search(int key){
