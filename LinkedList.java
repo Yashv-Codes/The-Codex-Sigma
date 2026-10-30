@@ -127,7 +127,9 @@ public class LinkedList {
         if(head.data == key)
             return 0;
 
-        int idx = helper(head.next, key)
+        int idx = helper(head.next, key);
+        
+        if(idx == )
 
     }
 
