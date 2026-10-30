@@ -118,7 +118,7 @@ public class LinkedList {
             temp = temp.next;
             i++;
         }
-
+        return -1;
     }
 
     public static void main(String[] args){
@@ -130,6 +130,7 @@ public class LinkedList {
         ll.add_middle(2,9);
         ll.print();
         // System.out.println(ll.size);
+        
         
 
     }
