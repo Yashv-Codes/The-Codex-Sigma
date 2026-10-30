@@ -174,7 +174,10 @@ public class LinkedList {
         int iToFind = size - n;
         Node prev = head;
 
-        for(i)
+        while(i < iToFind){
+            prev = prev.next;
+            i++;
+        }
 
         
     }
