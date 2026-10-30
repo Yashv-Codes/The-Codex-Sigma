@@ -166,6 +166,8 @@ public class LinkedList {
         // System.out.println(ll.size);
         // System.out.println(ll.recursive_search(2));
         // System.out.println(ll.recursive_search(3));
+        ll.reverse();
+        ll.print();
         
 
     }
