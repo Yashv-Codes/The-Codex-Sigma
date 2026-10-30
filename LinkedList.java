@@ -102,7 +102,7 @@ public class LinkedList {
             prev = prev.next;
         }
 
-        int val = prev.next.data;
+        int val = prev.next.data; // current tail.data
         prev.next = null;
         tail = prev;
         size--;
