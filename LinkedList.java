@@ -121,7 +121,7 @@ public class LinkedList {
         return -1;
     }
 
-    public static void main(String[] args){
+     public static void main(String[] args){
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
         ll.addFirst(1);
