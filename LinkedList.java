@@ -143,6 +143,7 @@ public class LinkedList {
         Node next;
 
         while(curr != null){
+            next = curr.next;
             
         }
     }
