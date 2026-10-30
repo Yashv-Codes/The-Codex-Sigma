@@ -109,7 +109,9 @@ public class LinkedList {
         return val;
     }
 
-    public int search
+    public int search(int key){
+        
+    }
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
