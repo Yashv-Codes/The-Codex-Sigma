@@ -170,6 +170,7 @@ public class LinkedList {
         }
 
         // sz - n
+        int i = 1;
         
 
         
