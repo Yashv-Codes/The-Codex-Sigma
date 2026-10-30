@@ -120,9 +120,9 @@ public class LinkedList {
         }
         return -1;
     }
-    
+
     public int helper(Node head, int key){
-        if(head == null)
+        if(head == null) // Base Case
             return -1;
 
         if(head.data == key)
