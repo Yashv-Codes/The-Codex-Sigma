@@ -114,6 +114,8 @@ public class LinkedList {
         int i = 0;
         while(temp != null){
             if(temp.data == key)
+                return i;
+            
         }
 
     }
