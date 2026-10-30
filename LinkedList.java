@@ -109,6 +109,8 @@ public class LinkedList {
         return val;
     }
 
+    public int search
+
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
