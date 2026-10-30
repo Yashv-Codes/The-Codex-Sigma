@@ -179,9 +179,8 @@ public class LinkedList {
             i++;
         }
         // Actual prev
-        prev.next = 
-
-        
+        prev.next = prev.next.next;
+        return;
     }
 
      public static void main(String[] args){
