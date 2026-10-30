@@ -164,8 +164,9 @@ public class LinkedList {
         }
 
         // Cornor Case
-        if(n == sz){
+        if(n == size){
             
+
         }
 
         
