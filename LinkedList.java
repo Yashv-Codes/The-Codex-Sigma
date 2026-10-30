@@ -155,6 +155,8 @@ public class LinkedList {
         head = prev;
     }
 
+    public void Remove
+
      public static void main(String[] args){
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
