@@ -165,9 +165,11 @@ public class LinkedList {
 
         // Cornor Case
         if(n == size){
-            
-
+            head = head.next;
+            return;
         }
+
+        
 
         
     }
