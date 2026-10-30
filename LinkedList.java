@@ -197,7 +197,7 @@ public class LinkedList {
         // System.out.println(ll.recursive_search(3));
         // ll.reverse();
         // ll.print();
-        ll.Remove
+        ll.RemoveNthfromEnd(3);
         
 
     }
