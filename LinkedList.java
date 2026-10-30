@@ -113,7 +113,7 @@ public class LinkedList {
         Node temp = head;
         int i = 0;
         while(temp != null){
-            
+            if(temp.data == key)
         }
 
     }
