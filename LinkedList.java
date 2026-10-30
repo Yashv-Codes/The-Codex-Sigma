@@ -129,7 +129,10 @@ public class LinkedList {
 
         int idx = helper(head.next, key);
         
-        if(idx == )
+        if(idx == -1)
+            return -1;
+
+        return idx + 1;
 
     }
 
