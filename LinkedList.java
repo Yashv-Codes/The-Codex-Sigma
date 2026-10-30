@@ -155,7 +155,7 @@ public class LinkedList {
         head = prev;
     }
 
-    public void RemoveNthfromEnd(){
+    public void RemoveNthfromEnd(int n){
         int size = 1;
         Node temp = head;
         while(temp != null){
@@ -164,7 +164,9 @@ public class LinkedList {
         }
 
         // Cornor Case
-        if(n == sz){}
+        if(n == sz){
+            
+        }
 
         
     }
