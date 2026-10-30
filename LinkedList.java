@@ -130,7 +130,7 @@ public class LinkedList {
         ll.add_middle(2,9);
         ll.print();
         // System.out.println(ll.size);
-        
+        System.out.println(ll.search(5))
         
 
     }
