@@ -158,6 +158,11 @@ public class LinkedList {
     public void RemoveNthfromEnd(){
         int size = 1;
         Node temp = head;
+        while(temp != null){
+            temp = temp.next;
+            size++;
+        }
+        
     }
 
      public static void main(String[] args){
