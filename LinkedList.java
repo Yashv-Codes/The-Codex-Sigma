@@ -144,6 +144,7 @@ public class LinkedList {
 
         while(curr != null){
             next = curr.next;
+            curr.next = prev;
             
         }
     }
