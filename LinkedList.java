@@ -104,7 +104,7 @@ public class LinkedList {
 
         int val = prev.next.data; // current tail.data
         prev.next = null;
-        tail = prev;
+        tail = prev; // new tail
         size--;
         return val;
     }
