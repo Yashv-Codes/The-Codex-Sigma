@@ -137,6 +137,10 @@ public class LinkedList {
 
     }
 
+    public void reverse(){
+        
+    }
+
     public int recursive_search(int key){
         return helper(head, key);
     }
