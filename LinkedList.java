@@ -120,6 +120,10 @@ public class LinkedList {
         }
         return -1;
     }
+    public int helper(Node head, int key){
+
+    }
+    
     public int recursive_search(int key){
         return helper(head, key);
     }
