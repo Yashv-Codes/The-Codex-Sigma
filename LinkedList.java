@@ -169,6 +169,7 @@ public class LinkedList {
             return;
         }
 
+        // sz - n
         
 
         
