@@ -121,7 +121,11 @@ public class LinkedList {
         return -1;
     }
     public int helper(Node head, int key){
-        if()
+        if(head == null)
+            return -1;
+
+        if(head.data == key)
+            return 0;
 
     }
 
