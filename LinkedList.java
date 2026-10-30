@@ -178,6 +178,7 @@ public class LinkedList {
             prev = prev.next;
             i++;
         }
+        // Actual prev
 
         
     }
