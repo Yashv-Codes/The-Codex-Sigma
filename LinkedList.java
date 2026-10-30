@@ -174,7 +174,7 @@ public class LinkedList {
         int iToFind = size - n;
         Node prev = head;
 
-        while()
+        for(i)
 
         
     }
