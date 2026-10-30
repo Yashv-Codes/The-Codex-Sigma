@@ -136,21 +136,7 @@ public class LinkedList {
         return idx + 1; // Return phase
 
     }
-
-    public void reverse(){
-        Node prev = null;
-        Node curr = tail = head;
-        Node next;
-
-        while(curr != null){
-            next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
-        }
-        head = prev;
-    }
-
+    
     public int recursive_search(int key){
         return helper(head, key);
     }
