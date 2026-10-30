@@ -171,7 +171,8 @@ public class LinkedList {
 
         // sz - n
         int i = 1;
-        
+        int iToFind = size - n;
+        Node 
 
         
     }
