@@ -133,7 +133,7 @@ public class LinkedList {
         if(idx == -1)
             return -1;
 
-        return idx + 1;
+        return idx + 1; // Return phase
 
     }
 
