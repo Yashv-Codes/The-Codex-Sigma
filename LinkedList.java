@@ -156,7 +156,8 @@ public class LinkedList {
     }
 
     public void RemoveNthfromEnd(){
-        
+        int size = 1;
+        Node temp = head;
     }
 
      public static void main(String[] args){
