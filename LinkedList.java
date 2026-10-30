@@ -198,6 +198,7 @@ public class LinkedList {
         // ll.reverse();
         // ll.print();
         ll.RemoveNthfromEnd(3);
+        ll.print();
         
 
     }
