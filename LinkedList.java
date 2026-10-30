@@ -115,7 +115,7 @@ public class LinkedList {
         while(temp != null){
             if(temp.data == key)
                 return i;
-            
+            temp = temp.next;
         }
 
     }
