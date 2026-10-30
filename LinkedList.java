@@ -110,7 +110,7 @@ public class LinkedList {
     }
 
     public int search(int key){
-        
+
     }
 
     public static void main(String[] args){
@@ -122,12 +122,7 @@ public class LinkedList {
         ll.add_middle(2,9);
         ll.print();
         // System.out.println(ll.size);
-        ll.removeFirst();
-        ll.print();
-        // System.out.println(ll.size);
-        ll.removeLast();
-        ll.print();
-        System.out.println(ll.size);
+        
 
     }
 }
