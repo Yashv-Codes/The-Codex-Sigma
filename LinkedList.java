@@ -190,8 +190,11 @@ public class LinkedList {
         Node fast = head;
 
         while(fast != null && fast.next != null){
-            slow = slow.next;
+            slow = slow.next; // +1
+            fast = fast.next.next; // +2
+
             
+
         }
     }
 
