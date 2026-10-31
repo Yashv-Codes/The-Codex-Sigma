@@ -196,7 +196,7 @@ public class LinkedList {
         return slow; // slow is mid 
     }
 
-    public boolean isPalindome
+    public boolean isPalindrome
 
      public static void main(String[] args){
         LinkedList ll = new LinkedList();
@@ -204,15 +204,7 @@ public class LinkedList {
         ll.addFirst(1);
         ll.addLast(3);
         ll.addLast(4);
-        ll.add_middle(2,9);
-        ll.print();
-        // System.out.println(ll.size);
-        // System.out.println(ll.recursive_search(2));
-        // System.out.println(ll.recursive_search(3));
-        // ll.reverse();
-        // ll.print();
-        ll.RemoveNthfromEnd(3);
-        ll.print();
+        
         
 
     }
