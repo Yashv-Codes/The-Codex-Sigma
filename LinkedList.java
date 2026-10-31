@@ -184,7 +184,8 @@ public class LinkedList {
         return;
     }
 
-    // 
+    // Linked List is Palindrome
+    
 
      public static void main(String[] args){
         LinkedList ll = new LinkedList();
