@@ -196,6 +196,8 @@ public class LinkedList {
         return slow; // slow is mid 
     }
 
+    public boolean isPalindome
+
      public static void main(String[] args){
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
