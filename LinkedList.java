@@ -208,8 +208,10 @@ public class LinkedList {
         Node next;
 
         while(curr != null){
-            curr.next = next;
+            next = curr.next;
+            curr.next = prev;
             
+
         }
     }
 
