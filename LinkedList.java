@@ -184,6 +184,8 @@ public class LinkedList {
         return;
     }
 
+    // 
+
      public static void main(String[] args){
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
