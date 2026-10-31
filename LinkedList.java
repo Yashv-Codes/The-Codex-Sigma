@@ -212,8 +212,8 @@ public class LinkedList {
             curr.next = prev;
             prev = curr;
             curr = next;
-
         }
+        Node right = prev;
     }
 
      public static void main(String[] args){
