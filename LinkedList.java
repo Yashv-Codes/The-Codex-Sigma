@@ -204,7 +204,12 @@ public class LinkedList {
 
         // Reverse 2nd Half
         Node prev = null;
-        Node curr = 
+        Node curr = mid;
+        Node next;
+
+        while(curr != null){
+            
+        }
     }
 
      public static void main(String[] args){
