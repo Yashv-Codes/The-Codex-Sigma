@@ -192,10 +192,8 @@ public class LinkedList {
         while(fast != null && fast.next != null){
             slow = slow.next; // +1
             fast = fast.next.next; // +2
-
-            
-
         }
+        return slow; // slow is mid 
     }
 
      public static void main(String[] args){
