@@ -201,7 +201,10 @@ public class LinkedList {
             return true;
 
         Node mid = findmid(head);
-        
+
+        // Reverse 2nd Half
+        Node prev = null;
+        Node curr = 
     }
 
      public static void main(String[] args){
