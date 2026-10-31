@@ -198,6 +198,9 @@ public class LinkedList {
 
     public boolean isPalindrome(){
         if(head == null || head.next == null)
+            return true;
+
+        Node mid = findmid
     }
 
      public static void main(String[] args){
