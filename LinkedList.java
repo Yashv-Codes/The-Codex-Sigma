@@ -186,7 +186,10 @@ public class LinkedList {
 
     // Linked List is Palindrome
     public Node findmid(Node head){
-        
+        Node slow = head;
+        Node fast = head;
+
+        while
     }
 
      public static void main(String[] args){
