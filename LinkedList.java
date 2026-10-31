@@ -196,7 +196,9 @@ public class LinkedList {
         return slow; // slow is mid 
     }
 
-    public boolean isPalindrome()
+    public boolean isPalindrome(){
+        if(head == null || head.next == null)
+    }
 
      public static void main(String[] args){
         LinkedList ll = new LinkedList();
