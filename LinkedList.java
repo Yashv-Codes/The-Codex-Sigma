@@ -214,6 +214,7 @@ public class LinkedList {
             curr = next;
         }
         Node right = prev;
+        Node left = head;
     }
 
      public static void main(String[] args){
