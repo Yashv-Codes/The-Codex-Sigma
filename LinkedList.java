@@ -234,7 +234,7 @@ public class LinkedList {
         ll.addLast(3);
         ll.addLast(4);
         ll.print();
-        ll.isPalindrome();
+        System.out.println(ll.isPalindrome());
         
         
         
