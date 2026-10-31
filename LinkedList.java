@@ -217,7 +217,9 @@ public class LinkedList {
         Node left = head;
 
         // Compare left and right
-        while()
+        while(right != null){
+            if(left.data != right.data)
+        }
     }
 
      public static void main(String[] args){
