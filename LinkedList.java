@@ -222,7 +222,7 @@ public class LinkedList {
                 return false;
 
             left = left.next;
-            right
+            right = right.next;
         }
     }
 
