@@ -200,7 +200,8 @@ public class LinkedList {
         if(head == null || head.next == null)
             return true;
 
-        Node mid = findmid
+        Node mid = findmid(head);
+        
     }
 
      public static void main(String[] args){
