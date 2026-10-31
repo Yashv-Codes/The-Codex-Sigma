@@ -189,7 +189,7 @@ public class LinkedList {
         Node slow = head;
         Node fast = head;
 
-        while
+        while(fast != null && fast.next)
     }
 
      public static void main(String[] args){
