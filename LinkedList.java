@@ -213,7 +213,7 @@ public class LinkedList {
             prev = curr;
             curr = next;
         }
-        Node right = prev; // right half head+_
+        Node right = prev; // right half head
         Node left = head;
     }
 
