@@ -233,6 +233,7 @@ public class LinkedList {
         ll.addFirst(1);
         ll.addLast(3);
         ll.addLast(4);
+        ll.print();
         
         
 
