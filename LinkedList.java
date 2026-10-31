@@ -224,6 +224,7 @@ public class LinkedList {
             left = left.next;
             right = right.next;
         }
+        return true;
     }
 
      public static void main(String[] args){
