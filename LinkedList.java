@@ -219,6 +219,10 @@ public class LinkedList {
         // Compare left and right
         while(right != null){
             if(left.data != right.data)
+                return false;
+
+            left = left.next;
+            right
         }
     }
 
