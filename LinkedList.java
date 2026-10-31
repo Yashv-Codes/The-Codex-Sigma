@@ -217,7 +217,7 @@ public class LinkedList {
         Node left = head;
 
         // Compare left and right
-        
+        while()
     }
 
      public static void main(String[] args){
