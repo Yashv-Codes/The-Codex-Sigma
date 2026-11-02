@@ -22,6 +22,7 @@ public class practice {
 
     public void addFirst(int data){
         Node newnode = new Node(data);
+        size++;
         if(head == null){
             head = tail = newnode;
             return;
@@ -41,7 +42,7 @@ public class practice {
     }
 
     public void add_middle(int data){
-        
+
     }
 
     public static void main(String[] args){
