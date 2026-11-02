@@ -105,6 +105,8 @@ public class practice {
         return -1;
     }
 
+    public int recursive_search()
+
     public static void main(String[] args){
         practice ll = new practice();
         ll.addFirst(2);
