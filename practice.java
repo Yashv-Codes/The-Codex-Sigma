@@ -31,6 +31,7 @@ public class practice {
 
     public void addLast(int data){
         Node newnode = new Node(data);
+        
     }
 
     public static void main(String[] args){
