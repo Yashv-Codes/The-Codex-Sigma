@@ -91,9 +91,10 @@ public class practice {
     }
 
     public int search(int key){
-        if(size == 0){
-            
-        }
+        if(size == 0)
+
+
+        
     }
 
     public static void main(String[] args){
