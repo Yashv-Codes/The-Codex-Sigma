@@ -64,6 +64,8 @@ public class practice {
             size = 0;
             return val;
         }
+        int val = head.data;
+
 
     }
 
