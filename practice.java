@@ -50,8 +50,9 @@ public class practice {
         while(i < idx - 1){
             temp = temp.next;
             i++;
-
         }
+        newnode.next = temp.next;
+        
 
     }
 
