@@ -85,6 +85,8 @@ public class practice {
         }
         int val = prev.next.data;
         prev.next = null;
+        tail = prev;
+        size--;
         return val;
     }
 
