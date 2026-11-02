@@ -58,8 +58,10 @@ public class practice {
     public int remove_first(){
         if(size == 0)
             return -1;
-        int val = head;
-        
+        else if(size == 1){
+            int val = head.data;
+        }
+
     }
 
     public static void main(String[] args){
