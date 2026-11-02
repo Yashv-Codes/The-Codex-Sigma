@@ -60,8 +60,8 @@ public class practice {
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
         ll.addFirst(1);
-        ll.addLast(3);
-        ll.add_middle(3);
+        ll.addLast(4);
+        ll.add_middle(2,3);
         ll.print();
         System.out.println("size = "+size);
     }
