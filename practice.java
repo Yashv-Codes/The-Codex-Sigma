@@ -44,11 +44,10 @@ public class practice {
 
     public void add_middle(int idx, int data){
         Node newnode = new Node(data);
-        Node prev = head;
-        Node temp = prev;
+        Node temp = head;
         int i = 0;
         while(i < idx - 1){
-            
+
         }
 
     }
