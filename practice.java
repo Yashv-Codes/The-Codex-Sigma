@@ -80,7 +80,9 @@ public class practice {
             return val;
         }
         Node prev = head;
-        for(int i=0; i<size-2; i++){}
+        for(int i=0; i<size-2; i++){
+            prev = prev.next;
+        }
     }
 
     public static void main(String[] args){
