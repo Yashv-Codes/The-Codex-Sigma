@@ -7,6 +7,8 @@ public class practice {
             this.next = null;
         }
     }
-    
+    public static Node head;
+    public static Node tail;
+    public static Node size;
     
 }
