@@ -92,9 +92,7 @@ public class practice {
 
     public int search(int key){
         if(size == 0)
-
-
-        
+            return -1;
     }
 
     public static void main(String[] args){
