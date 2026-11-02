@@ -61,6 +61,7 @@ public class practice {
         ll.addFirst(2);
         ll.addFirst(1);
         ll.addLast(3);
+        ll.add_middle()
         ll.print();
         System.out.println("size = "+size);
     }
