@@ -11,6 +11,9 @@ public class practice {
     public static Node tail;
     public static Node size;
 
-    public void print()
+    public void print(){
+        Node temp = head;
+        while
+    }
     
 }
