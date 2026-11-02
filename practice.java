@@ -13,7 +13,9 @@ public class practice {
 
     public void print(){
         Node temp = head;
-        while(temp != null)
+        while(temp != null){
+            System.out.print(temp+"->")
+        }
     }
     
 }
