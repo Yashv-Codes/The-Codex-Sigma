@@ -26,7 +26,8 @@ public class practice {
             head = tail = newnode;
             return;
         }
-        
+        newnode.next = head;
+        head = newnode;
     }
     
 }
