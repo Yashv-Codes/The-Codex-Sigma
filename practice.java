@@ -100,9 +100,9 @@ public class practice {
                 return i;
             }
             temp = temp.next;
-            i++;    
-
+            i++;
         }
+        return -1;
     }
 
     public static void main(String[] args){
