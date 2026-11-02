@@ -22,7 +22,9 @@ public class practice {
 
     public void addFirst(){
         Node newnode = new Node(1);
-        
+        if(head == null){
+            
+        }
     }
     
 }
