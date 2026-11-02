@@ -72,6 +72,10 @@ public class practice {
 
     public int remove_last(){
         if(size == 0)
+            return -1;
+        else if(size == 1){
+            
+        }
     }
 
     public static void main(String[] args){
