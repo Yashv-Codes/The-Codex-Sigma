@@ -20,8 +20,8 @@ public class practice {
         System.out.println("null");
     }
 
-    public void addFirst(){
-        Node newnode = new Node(1);
+    public void addFirst(int data){
+        Node newnode = new Node(data);
         if(head == null){
             head = tail = newnode;
             return;
