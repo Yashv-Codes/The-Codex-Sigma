@@ -105,7 +105,7 @@ public class practice {
         return -1;
     }
     public int helper(Node head, int key){
-        
+        if(head == null)
 
     }
     public int recursive_search(int key){
