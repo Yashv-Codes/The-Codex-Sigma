@@ -98,6 +98,7 @@ public class practice {
         while(temp != null){
             if(temp.data == key)
                 
+
         }
     }
 
