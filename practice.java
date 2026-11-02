@@ -43,6 +43,7 @@ public class practice {
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
         ll.addFirst(1);
+        ll.addLast(3);
         ll.print();
     }
     
