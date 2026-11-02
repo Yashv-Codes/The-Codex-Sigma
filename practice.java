@@ -53,8 +53,9 @@ public class practice {
         }
         newnode.next = temp.next;
         temp.next = newnode;
-
     }
+
+    public int remove_first(int data)
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
