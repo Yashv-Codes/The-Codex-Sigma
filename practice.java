@@ -106,8 +106,9 @@ public class practice {
     }
     public int helper(Node head, int key){
         
+
     }
-    public int recursive_search(){
+    public int recursive_search(int key){
         return helper(head, key);
     }
 
