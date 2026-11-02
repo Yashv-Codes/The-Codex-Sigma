@@ -99,7 +99,8 @@ public class practice {
             if(temp.data == key){
                 return i;
             }
-                
+            temp = temp.next;
+            i++;    
 
         }
     }
