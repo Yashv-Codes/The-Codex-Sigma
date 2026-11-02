@@ -35,8 +35,8 @@ public class practice {
             head = tail = newnode;
             return;
         }
-        // newnode.next = null;
-        // tail = newnode;
+        tail.next = newnode;
+        tail = newnode;
     }
 
     public static void main(String[] args){
