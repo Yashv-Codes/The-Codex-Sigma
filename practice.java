@@ -47,6 +47,9 @@ public class practice {
         Node prev = head;
         Node temp = prev;
         int i = 0;
+        while(i < idx - 1){
+            
+        }
 
     }
 
