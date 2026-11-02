@@ -70,6 +70,8 @@ public class practice {
         return val;
     }
 
+    public int 
+
     public static void main(String[] args){
         practice ll = new practice();
         ll.addFirst(2);
