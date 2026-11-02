@@ -111,7 +111,7 @@ public class practice {
         ll.addFirst(1);
         ll.addLast(4);
         ll.add_middle(2,3);
-        System.out.println(ll.search
+        System.out.println(ll.search(3));
         ll.print();
         System.out.println("size = "+ll.size);
     }
