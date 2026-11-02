@@ -83,6 +83,8 @@ public class practice {
         for(int i=0; i<size-2; i++){
             prev = prev.next;
         }
+        int val = prev.next.data;
+        
     }
 
     public static void main(String[] args){
