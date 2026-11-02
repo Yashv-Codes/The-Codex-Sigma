@@ -93,7 +93,9 @@ public class practice {
     public int search(int key){
         if(size == 0)
             return -1;
-        
+        Node temp = head;
+        int i = 0;
+        while(temp != null)
     }
 
     public static void main(String[] args){
