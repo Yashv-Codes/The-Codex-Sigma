@@ -42,7 +42,7 @@ public class practice {
         tail = newnode;
     }
 
-    public void add_middle(int data){
+    public void add_middle(int idx, int data){
 
     }
 
