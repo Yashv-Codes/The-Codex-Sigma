@@ -21,7 +21,7 @@ public class practice {
     }
 
     public void addFirst(){
-        Node newnode = new Node(int data);
+        Node newnode = new Node(1);
     }
     
 }
