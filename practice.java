@@ -95,7 +95,10 @@ public class practice {
             return -1;
         Node temp = head;
         int i = 0;
-        while(temp != null)
+        while(temp != null){
+            if(temp.data == key)
+                
+        }
     }
 
     public static void main(String[] args){
