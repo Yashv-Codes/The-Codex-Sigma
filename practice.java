@@ -57,6 +57,7 @@ public class practice {
 
     public int remove_first(){
         if(size == 0)
+            return -1;
     }
 
     public static void main(String[] args){
