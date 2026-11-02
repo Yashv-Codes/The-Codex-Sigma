@@ -63,7 +63,7 @@ public class practice {
         ll.addLast(4);
         ll.add_middle(2,3);
         ll.print();
-        System.out.println("size = "+ll.size);
+        System.out.println("size = "+Node.size);
     }
     
 }
