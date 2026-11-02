@@ -40,7 +40,9 @@ public class practice {
         tail = newnode;
     }
 
-    public void add_middle
+    public void add_middle(int data){
+        
+    }
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
