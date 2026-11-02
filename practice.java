@@ -13,7 +13,7 @@ public class practice {
 
     public void print(){
         Node temp = head;
-        while
+        while(temp != null)
     }
     
 }
