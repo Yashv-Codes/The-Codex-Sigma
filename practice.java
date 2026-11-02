@@ -40,7 +40,7 @@ public class practice {
     }
 
     public static void main(String[] args){
-        practice ll = new practice();
+        practice ll = new LinkedList();
         ll.addFirst(2);
         ll.addFirst(1);
         ll.addLast(3);
