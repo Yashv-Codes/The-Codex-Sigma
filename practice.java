@@ -70,7 +70,9 @@ public class practice {
         return val;
     }
 
-    public int remove_last(int data){}
+    public int remove_last(){
+        if(size == 0)
+    }
 
     public static void main(String[] args){
         practice ll = new practice();
