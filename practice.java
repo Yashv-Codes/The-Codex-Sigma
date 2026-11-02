@@ -71,7 +71,7 @@ public class practice {
     }
 
     public static void main(String[] args){
-        LinkedList ll = new LinkedList();
+        practice ll = new practice();
         ll.addFirst(2);
         ll.addFirst(1);
         ll.addLast(4);
