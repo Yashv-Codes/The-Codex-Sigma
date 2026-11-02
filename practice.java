@@ -90,7 +90,9 @@ public class practice {
         return val;
     }
 
-    public 
+    public int search(int key){
+        
+    }
 
     public static void main(String[] args){
         practice ll = new practice();
