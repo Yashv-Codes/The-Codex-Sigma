@@ -65,8 +65,9 @@ public class practice {
             return val;
         }
         int val = head.data;
-
-
+        head.next = head;
+        size--;
+        return val;
     }
 
     public static void main(String[] args){
