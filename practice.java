@@ -29,5 +29,10 @@ public class practice {
         newnode.next = head;
         head = newnode;
     }
+
+    public static void main(String[] args){
+        LinkedList ll = new LinkedList();
+        ll.addFirst();
+    }
     
 }
