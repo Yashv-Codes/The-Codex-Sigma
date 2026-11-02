@@ -35,7 +35,7 @@ public class practice {
             head = tail = newnode;
             return;
         }
-        newnode.next = null;
+        // newnode.next = null;
         tail = newnode;
     }
 
