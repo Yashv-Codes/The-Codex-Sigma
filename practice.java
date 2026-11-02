@@ -84,7 +84,8 @@ public class practice {
             prev = prev.next;
         }
         int val = prev.next.data;
-        
+        prev.next = null;
+        return val;
     }
 
     public static void main(String[] args){
