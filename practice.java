@@ -36,7 +36,7 @@ public class practice {
             return;
         }
         newnode.next = null;
-        
+        tail = newnode;
     }
 
     public static void main(String[] args){
