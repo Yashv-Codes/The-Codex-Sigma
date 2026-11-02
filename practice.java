@@ -48,6 +48,8 @@ public class practice {
         Node temp = head;
         int i = 0;
         while(i < idx - 1){
+            temp = temp.next;
+            i++;
 
         }
 
