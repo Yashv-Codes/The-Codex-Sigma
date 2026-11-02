@@ -43,6 +43,7 @@ public class practice {
     }
 
     public void add_middle(int idx, int data){
+        int i = 0;
 
     }
 
