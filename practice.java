@@ -31,7 +31,11 @@ public class practice {
 
     public void addLast(int data){
         Node newnode = new Node(data);
-        if(head == null)
+        if(head == null){
+            head = tail = newnode;
+            return;
+        }
+        
     }
 
     public static void main(String[] args){
