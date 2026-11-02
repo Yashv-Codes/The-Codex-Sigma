@@ -52,7 +52,7 @@ public class practice {
             i++;
         }
         newnode.next = temp.next;
-        
+        temp.next = newnode;
 
     }
 
