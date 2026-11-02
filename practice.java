@@ -111,7 +111,7 @@ public class practice {
             return 0;
 
         int idx = helper(head.next, key);
-        if(idx == -1)
+        if(idx = -1)
 
     }
     public int recursive_search(int key){
