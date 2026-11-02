@@ -74,6 +74,7 @@ public class practice {
         if(size == 0)
             return -1;
         else if(size == 1){
+            int val = head.data;
             
         }
     }
