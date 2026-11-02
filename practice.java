@@ -79,7 +79,8 @@ public class practice {
             size = 0;
             return val;
         }
-        
+        Node prev = head;
+        for(int i=0; i<size-2; i++)
     }
 
     public static void main(String[] args){
