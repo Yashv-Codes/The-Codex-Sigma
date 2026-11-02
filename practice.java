@@ -90,7 +90,7 @@ public class practice {
         return val;
     }
 
-    
+    public 
 
     public static void main(String[] args){
         practice ll = new practice();
