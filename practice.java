@@ -128,7 +128,7 @@ public class practice {
         ll.addLast(4);
         ll.add_middle(2,3);
         ll.print();
-        System.out.println(ll.search(3));
+        System.out.println(ll.recursive_search(3));
         System.out.println("size = "+ll.size);
     }
     
