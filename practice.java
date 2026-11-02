@@ -10,7 +10,7 @@ public class practice {
     public static Node head;
     public static Node tail;
     public static int size;
-    
+
     public void print(){
         Node temp = head;
         while(temp != null){
@@ -39,6 +39,8 @@ public class practice {
         tail.next = newnode;
         tail = newnode;
     }
+
+    public void add_middle
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
