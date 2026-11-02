@@ -32,7 +32,8 @@ public class practice {
 
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
-        ll.addFirst();
+        ll.addFirst(1);
+        ll.print();
     }
     
 }
