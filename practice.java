@@ -20,6 +20,8 @@ public class practice {
         System.out.println("null");
     }
 
-    public void addFirst()
+    public void addFirst(){
+        Node newnode = new Node(data);
+    }
     
 }
