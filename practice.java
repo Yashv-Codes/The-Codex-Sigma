@@ -65,7 +65,7 @@ public class practice {
             return val;
         }
         int val = head.data;
-        head.next = head;
+        head = head.next;
         size--;
         return val;
     }
