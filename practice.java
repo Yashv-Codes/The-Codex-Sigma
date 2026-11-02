@@ -30,6 +30,8 @@ public class practice {
         head = newnode;
     }
 
+    public void addLast(int data)
+
     public static void main(String[] args){
         LinkedList ll = new LinkedList();
         ll.addFirst(2);
