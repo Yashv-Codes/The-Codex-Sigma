@@ -114,6 +114,8 @@ public class practice {
         if(idx == -1)
             return -1;
 
+        return idx+1;
+
     }
     public int recursive_search(int key){
         return helper(head, key);
