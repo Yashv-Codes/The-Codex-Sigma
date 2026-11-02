@@ -11,6 +11,6 @@ public class practice {
     public static Node tail;
     public static Node size;
 
-    
+    public void print()
     
 }
