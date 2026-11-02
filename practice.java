@@ -20,6 +20,6 @@ public class practice {
         System.out.println("null");
     }
 
-    public 
+    public void addFirst()
     
 }
