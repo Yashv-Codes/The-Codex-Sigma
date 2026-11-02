@@ -10,5 +10,7 @@ public class practice {
     public static Node head;
     public static Node tail;
     public static Node size;
+
+    
     
 }
