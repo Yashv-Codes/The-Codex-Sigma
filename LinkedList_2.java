@@ -7,5 +7,7 @@ public class LinkedList_2 {
             this.next = null;
         }
     }
+    public static Node head;
+    public static Node tail;
     
 }
