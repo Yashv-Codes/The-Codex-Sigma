@@ -41,7 +41,7 @@ public class LinkedList_2 {
         if(!exists)
             return;
 
-        // SPECIAL Case
+        // SPECIAL CASE
         if(slow == head){
             // Find last node
             Node prev = head;
