@@ -24,7 +24,7 @@ public class LinkedList_2 {
         return false;
     }
 
-    public void removeCycle(){
+    public static void removeCycle(){
         // Detect Cycle
         Node slow = head;
         Node fast = head;
