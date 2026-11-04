@@ -34,7 +34,7 @@ public class LinkedList_2 {
             fast = fast.next.next;
 
             if(fast == slow){
-
+                
             }
         }
     }
