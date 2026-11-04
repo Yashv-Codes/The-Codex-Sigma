@@ -25,7 +25,8 @@ public class LinkedList_2 {
     }
 
     public void removeCycle(){
-        /
+        // Detect Cycle
+        Node 
     }
 
     public static void main(String[] args){
