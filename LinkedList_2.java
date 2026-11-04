@@ -11,7 +11,12 @@ public class LinkedList_2 {
     public static Node tail;
 
     public static boolean isCycle(){
-        
+        Node slow = head;
+        Node fast = head;
+
+        while(fast != null && fast.next != null){
+            
+        }
     }
     
 }
