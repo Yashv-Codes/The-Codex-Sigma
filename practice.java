@@ -122,14 +122,7 @@ public class practice {
     }
 
     public static void main(String[] args){
-        practice ll = new practice();
-        ll.addFirst(2);
-        ll.addFirst(1);
-        ll.addLast(4);
-        ll.add_middle(2,3);
-        ll.print();
-        System.out.println(ll.recursive_search(3));
-        System.out.println("size = "+ll.size);
+        
     }
     
 }
