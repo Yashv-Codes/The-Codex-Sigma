@@ -38,7 +38,8 @@ public class LinkedList_2 {
                 break;
             }
         }
-        if
+        if(!exists)
+            return;
     }
 
     public static void main(String[] args){
