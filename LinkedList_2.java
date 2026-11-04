@@ -10,4 +10,5 @@ public class LinkedList_2 {
     public static Node head;
     public static Node tail;
     
+    
 }
