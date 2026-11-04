@@ -28,13 +28,13 @@ public class LinkedList_2 {
         // Detect Cycle
         Node slow = head;
         Node fast = head;
-
+        boolean exists = false;
         while(fast != null && fast.next != null){
             slow = slow.next;
             fast = fast.next.next;
 
             if(fast == slow){
-                
+
             }
         }
     }
