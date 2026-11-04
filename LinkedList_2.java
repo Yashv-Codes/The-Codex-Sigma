@@ -34,9 +34,10 @@ public class LinkedList_2 {
             fast = fast.next.next;
 
             if(fast == slow){
-            exists = true;
-            break;
+                exists = true;
+                break;
             }
+            
         }
     }
 
