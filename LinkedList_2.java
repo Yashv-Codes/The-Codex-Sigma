@@ -40,7 +40,11 @@ public class LinkedList_2 {
         }
         if(!exists)
             return;
-        
+
+        // Famous Edge Case
+        if(slow == head){
+            // 
+        }
     }
 
     public static void main(String[] args){
