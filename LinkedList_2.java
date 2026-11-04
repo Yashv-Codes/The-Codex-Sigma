@@ -45,7 +45,9 @@ public class LinkedList_2 {
         if(slow == head){
             // Find last node
             Node prev = head;
-            while(prev.next != head)
+            while(prev.next != head){
+                prev = prev.next;
+            }
         }
     }
 
