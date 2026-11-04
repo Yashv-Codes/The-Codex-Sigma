@@ -48,6 +48,8 @@ public class LinkedList_2 {
             while(prev.next != head){
                 prev = prev.next;
             }
+            prev.next = null;
+            return;
         }
     }
 
