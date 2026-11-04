@@ -23,5 +23,9 @@ public class LinkedList_2 {
         }
         return false;
     }
+
+    public static void main(String[] args){
+        
+    }
     
 }
