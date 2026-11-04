@@ -44,7 +44,7 @@ public class LinkedList_2 {
         // Famous Edge Case
         if(slow == head){
             // Find last node
-            prev = head;
+            Node prev = head;
         }
     }
 
