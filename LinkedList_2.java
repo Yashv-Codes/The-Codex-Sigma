@@ -59,8 +59,8 @@ public class LinkedList_2 {
             prev = fast;
             slow = slow.next; // +1
             fast = fast.next; // +1
-            
         }
+        prev.next = null; // Break Cycle 
     }
 
     public static void main(String[] args){
