@@ -18,9 +18,10 @@ public class LinkedList_2 {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow == fast)
+            if(slow == fast) // Cycle exists
                 return true;
         }
+        return false;
     }
     
 }
