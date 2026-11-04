@@ -60,7 +60,8 @@ public class LinkedList_2 {
             slow = slow.next; // +1
             fast = fast.next; // +1
         }
-        prev.next = null; // Break Cycle 
+        prev.next = null; // Break Cycle
+        return; 
     }
 
     public static void main(String[] args){
