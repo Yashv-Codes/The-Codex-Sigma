@@ -54,7 +54,10 @@ public class LinkedList_2 {
 
         // Normal Case
         slow = head;
-        Node prev = 
+        Node prev = null;
+        while(slow != fast){
+            
+        }
     }
 
     public static void main(String[] args){
