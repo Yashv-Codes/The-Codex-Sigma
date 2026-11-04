@@ -56,6 +56,9 @@ public class LinkedList_2 {
         slow = head;
         Node prev = null;
         while(slow != fast){
+            prev = fast;
+            slow = slow.next; // +1
+            fast = fast.next; // +1
             
         }
     }
