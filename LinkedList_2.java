@@ -51,6 +51,10 @@ public class LinkedList_2 {
             prev.next = null;
             return;
         }
+
+        // Normal Case
+        slow = head;
+        Node prev = 
     }
 
     public static void main(String[] args){
