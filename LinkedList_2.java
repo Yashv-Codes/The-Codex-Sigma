@@ -26,7 +26,15 @@ public class LinkedList_2 {
 
     public void removeCycle(){
         // Detect Cycle
-        Node 
+        Node slow = head;
+        Node fast = head;
+
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if(fast == slow)
+        }
     }
 
     public static void main(String[] args){
