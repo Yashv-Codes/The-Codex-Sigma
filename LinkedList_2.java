@@ -24,6 +24,10 @@ public class LinkedList_2 {
         return false;
     }
 
+    public void removeCycle(){
+        /
+    }
+
     public static void main(String[] args){
         head = new Node(1);
         head.next = new Node(2);
