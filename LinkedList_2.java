@@ -71,6 +71,7 @@ public class LinkedList_2 {
         head.next.next.next = head;
         System.out.println(isCycle());
         removeCycle();
+        System.out.println(isCycle());
     }
 }
 
