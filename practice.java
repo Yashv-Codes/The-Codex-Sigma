@@ -5,7 +5,7 @@ public class practice {
         ll.addFirst(1);
         ll.addLast(2);
         ll.addLast(3);
-        ll.removeLast(3);
+        ll.removeLast();
         System.out.println(ll);
     }
     
