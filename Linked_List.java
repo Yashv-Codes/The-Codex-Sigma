@@ -1,4 +1,4 @@
-public class LinkedList {
+public class Linked_List {
     public static class Node{
         int data; 
         Node next;
@@ -228,7 +228,7 @@ public class LinkedList {
     }
 
      public static void main(String[] args){
-        LinkedList ll = new LinkedList();
+        Linked_List ll = new Linked_List();
         ll.addFirst(2);
         ll.addFirst(1);
         ll.addLast(2);
