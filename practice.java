@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 public class practice {
     public static void main(String[] args){
-        LinkedList<Integer>ll = new LinkedList<>();
+        LinkedList<Integer> ll = new LinkedList<>();
     }
     
     
