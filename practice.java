@@ -6,6 +6,7 @@ public class practice {
         ll.addLast(2);
         ll.addLast(3);
         ll.removeLast();
+        ll.removeFirst();
         System.out.println(ll);
     }
     
