@@ -80,7 +80,8 @@ public class MergeSortLL{
         ll.addFirst(2);
         ll.addFirst(3);
         ll.addLast(4);
-        
+        System.out.println(ll);
+        mergeSort()
     }
 }
    
