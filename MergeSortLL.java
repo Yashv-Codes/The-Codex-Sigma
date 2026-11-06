@@ -83,6 +83,7 @@ public class MergeSortLL{
     }
 
     public static void main(String[] args){
+        LinkedList
         head = new Node(4);
         head.next = new Node(3);
         head.next.next = new Node(2);
