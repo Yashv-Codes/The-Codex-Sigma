@@ -47,7 +47,13 @@ public class MergeSortLL{
             temp = temp.next;
         }
 
-        while()
+        while(head2 != null){
+            temp.next = head2;
+            head2 = head2.next;
+            temp = temp.next;
+        }
+
+        
     }
 
     public Node mergeSort(Node head){
