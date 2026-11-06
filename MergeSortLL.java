@@ -8,9 +8,9 @@ public class MergeSortLL {
         this.data = data;
         this.next = null;
     }
+}
 
     public static Node head;
-}
 
     public Node mergeSort(Node head){
 
