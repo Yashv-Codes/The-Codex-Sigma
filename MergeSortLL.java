@@ -31,7 +31,7 @@ public class MergeSortLL{
         while(head1 != null && head2 != null){
             if(head1.data <= head2.data){
                 temp.next = head1;
-                head1 = head.next
+                head1 = head1.next;
             }
         }
     }
