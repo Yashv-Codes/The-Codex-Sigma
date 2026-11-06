@@ -82,12 +82,7 @@ public class MergeSortLL{
         head = mergeSort(head);
 
         // Print the sorted list
-        Node temp = head;
-        while (temp != null){
-            System.out.print(temp.data + " -> ");
-            temp = temp.next;
-        }
-        System.out.println("null");
+        
     }
 }
         
