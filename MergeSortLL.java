@@ -11,7 +11,7 @@ public class MergeSortLL{
     }
     public static Node head;
 
-    public Node getMid
+    public Node getMid(Node head)
 
     public Node mergeSort(Node head){
         // Base Case
