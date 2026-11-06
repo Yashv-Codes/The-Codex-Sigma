@@ -28,7 +28,11 @@ public class MergeSortLL{
         Node temp = mergedll;
         
         // Compare
-        
+        while(head1 != null && head2 != null){
+            if(head1.data <= head2.data){
+                
+            }
+        }
     }
 
     public Node mergeSort(Node head){
