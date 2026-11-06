@@ -27,6 +27,8 @@ public class MergeSortLL{
         Node mergedll = new Node(-1);
         Node temp = mergedll;
         
+        // Compare
+        
     }
 
     public Node mergeSort(Node head){
