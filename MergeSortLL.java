@@ -87,7 +87,7 @@ public class MergeSortLL{
             System.out.print(temp.data + " -> ");
             temp = temp.next;
         }
-        System.out.println(null);
+        System.out.println("null");
         
 
     
