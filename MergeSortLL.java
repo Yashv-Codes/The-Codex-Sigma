@@ -22,7 +22,9 @@ public class MergeSortLL{
         return slow;
     }
 
-    public Node merge
+    public Node merge(Node head1, Node head2){
+        head1
+    }
 
     public Node mergeSort(Node head){
         // Base Case
