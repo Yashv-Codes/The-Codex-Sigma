@@ -54,7 +54,7 @@ public class MergeSortLL{
         }
 
         // Delete Dummy Node
-        return 
+        return mergedll.next;
     }
 
     public Node mergeSort(Node head){
