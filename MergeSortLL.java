@@ -11,6 +11,8 @@ public class MergeSortLL{
     }
     public static Node head;
 
+    public static 
+
     public Node mergeSort(Node head){
         // Base Case
         if(head == null || head.next == null)
