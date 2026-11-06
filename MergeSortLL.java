@@ -57,7 +57,7 @@ public class MergeSortLL{
         return mergedll.next;
     }
 
-    public Node mergeSort(Node head){
+    public static Node mergeSort(Node head){
         // Base Case
         if(head == null || head.next == null)
             return head;
@@ -81,7 +81,7 @@ public class MergeSortLL{
         ll.addFirst(3);
         ll.addLast(4);
         System.out.println(ll);
-        mergeSort()
+        mergeSort(head);
     }
 }
    
