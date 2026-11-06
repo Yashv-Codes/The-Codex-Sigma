@@ -88,6 +88,8 @@ public class MergeSortLL{
             temp = temp.next;
         }
         System.out.println("null");
+    }
+}
         
 
     
