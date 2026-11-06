@@ -47,7 +47,7 @@ public class MergeSortLL{
             temp = temp.next;
         }
 
-        
+        while()
     }
 
     public Node mergeSort(Node head){
