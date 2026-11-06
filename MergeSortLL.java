@@ -81,7 +81,7 @@ public class MergeSortLL{
         ll.addFirst(3);
         ll.addLast(4);
         System.out.println(ll);
-        mergeSort(head);
+        ll.head = ll.mergeSort(ll.head);
     }
 }
    
