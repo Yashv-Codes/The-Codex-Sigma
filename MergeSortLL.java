@@ -39,6 +39,9 @@ public class MergeSortLL{
             }
             temp = temp.next;
         }
+        
+        // Leftover elements
+        while(head1 != null)
     }
 
     public Node mergeSort(Node head){
