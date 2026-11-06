@@ -9,6 +9,11 @@ public class MergeSortLL{
             this.next = null;
         }
     }
+    public static Node head;
+
+    public Node mergeSort(Node head){
+        
+    }
 }
    
 
