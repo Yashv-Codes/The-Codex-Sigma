@@ -30,7 +30,8 @@ public class MergeSortLL{
         // Compare
         while(head1 != null && head2 != null){
             if(head1.data <= head2.data){
-                
+                temp.next = head1;
+                head1 = head.next
             }
         }
     }
