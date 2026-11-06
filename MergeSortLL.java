@@ -78,6 +78,8 @@ public class MergeSortLL{
         LinkedList<Integer>ll = new LinkedList<>();
         ll.addFirst(1);
         ll.addFirst(2);
+        ll.addFirst(3);
+        ll.addLast(4);
         
     }
 }
