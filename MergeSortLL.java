@@ -1,5 +1,7 @@
 import java.util.*;
-
+public class Node{
+    
+}
 public class MergeSortLL {
     public Node mergeSort(Node head){
 
