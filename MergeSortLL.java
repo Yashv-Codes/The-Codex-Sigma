@@ -11,8 +11,16 @@ public class MergeSortLL{
     }
     public static Node head;
 
-    public Node getMid(){
-        
+    public Node getMid(Node head){
+        Node slow = head;
+        Node fast = head.next;
+
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+
     }
 
     public Node mergeSort(Node head){
