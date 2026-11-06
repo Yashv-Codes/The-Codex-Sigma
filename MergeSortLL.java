@@ -85,9 +85,9 @@ public class MergeSortLL{
     public static void main(String[] args){
         MergeSortLL ll = new MergeSortLL();
         head = new Node(4);
-        head.next = new Node();
+        head.next = new Node(2);
         head.next.next = new Node(7);
-        head.next.next.next = new Node(1);
+        head.next.next.next = new Node(5);
 
         ll.print();
 
