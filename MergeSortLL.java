@@ -24,7 +24,7 @@ public class MergeSortLL{
 
     public Node merge(Node head1, Node head2){
         // Dummy node
-        Node mer
+        Node mergedll = 
     }
 
     public Node mergeSort(Node head){
