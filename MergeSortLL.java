@@ -10,9 +10,9 @@ public class MergeSortLL {
     }
 }
 
-    public static Node head;
+public static Node head;
 
-    public Node mergeSort(Node head){
+public Node mergeSort(Node head){
 
     }
 
