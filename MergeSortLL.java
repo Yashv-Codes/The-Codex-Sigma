@@ -11,7 +11,7 @@ public class MergeSortLL{
     }
     public static Node head;
 
-    public Node getMid(Node head){
+    public static Node getMid(Node head){
         Node slow = head;
         Node fast = head.next;
 
@@ -22,7 +22,7 @@ public class MergeSortLL{
         return slow;
     }
 
-    public Node merge(Node head1, Node head2){
+    public static Node merge(Node head1, Node head2){
         // Dummy node
         Node mergedll = new Node(-1);
         Node temp = mergedll;
