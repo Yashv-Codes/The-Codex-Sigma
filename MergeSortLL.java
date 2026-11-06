@@ -12,6 +12,11 @@ public class MergeSortLL{
     public static Node head;
 
     public Node mergeSort(Node head){
+        // Base Case
+        if(head == null || head.next == null)
+            return head;
+
+        // Mid
         
     }
 }
