@@ -89,9 +89,12 @@ public class MergeSortLL{
         head.next.next = new Node(2);
         head.next.next.next = new Node(1);
 
+        ll.print();
+
         head = mergeSort(head);
 
         // Print the sorted list
+        ll.print();
         
     }
 }
