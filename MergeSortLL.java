@@ -76,7 +76,9 @@ public class MergeSortLL{
 
     public static void main(String[] args){
         LinkedList<Integer>ll = new LinkedList<>();
-        ll.addFirst()
+        ll.addFirst(1);
+        ll.addFirst(2);
+        
     }
 }
    
