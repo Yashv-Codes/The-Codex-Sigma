@@ -11,7 +11,7 @@ public class MergeSortLL{
     }
     public static Node head;
 
-    public static 
+    public Node 
 
     public Node mergeSort(Node head){
         // Base Case
