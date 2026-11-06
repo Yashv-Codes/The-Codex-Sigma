@@ -79,8 +79,8 @@ public class MergeSortLL{
         head.next.next = new Node(2);
         head.next.next.next = new Node(1);
 
-    // 2. Call your own mergeSort directly (no "ll." prefix)
-    head = mergeSort(head);
+    
+        head = mergeSort(head);
 
     // 3. Print the sorted list
     Node temp = head;
