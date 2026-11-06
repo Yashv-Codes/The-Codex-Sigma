@@ -73,7 +73,14 @@ public class MergeSortLL{
         return merge(newleft, newright);
     }
 
-    public void print
+    public void print(){
+        Node temp = head;
+        while (temp != null){
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+        }
+        System.out.println("null");
+    }
 
     public static void main(String[] args){
         head = new Node(4);
