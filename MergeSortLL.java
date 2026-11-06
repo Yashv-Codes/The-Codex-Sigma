@@ -53,7 +53,7 @@ public class MergeSortLL{
             temp = temp.next;
         }
 
-        // Delete Dummy Node
+        // Skip Dummy Node
         return mergedll.next;
     }
 
