@@ -93,7 +93,6 @@ public class MergeSortLL{
 
         head = mergeSort(head);
 
-        // Print the sorted list
         ll.print();
         
     }
