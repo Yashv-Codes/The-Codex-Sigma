@@ -22,6 +22,8 @@ public class MergeSortLL{
         return slow;
     }
 
+    public Node merge
+
     public Node mergeSort(Node head){
         // Base Case
         if(head == null || head.next == null)
