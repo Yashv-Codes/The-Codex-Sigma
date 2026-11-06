@@ -12,12 +12,6 @@ public class MergeSortLL {
 
 public static Node head;
 
-public Node mergeSort(Node head){
 
-    }
-
-    public static void main(String[] args){
-        LinkedList<Integer>ll = new LinkedList<>();
-    }
     
 }
