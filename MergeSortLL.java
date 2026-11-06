@@ -79,7 +79,6 @@ public class MergeSortLL{
         head.next.next = new Node(2);
         head.next.next.next = new Node(1);
 
-    
         head = mergeSort(head);
 
     // 3. Print the sorted list
@@ -89,7 +88,6 @@ public class MergeSortLL{
         temp = temp.next;
     }
     System.out.println("null");
-        
     }
 }
    
