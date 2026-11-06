@@ -23,7 +23,7 @@ public class MergeSortLL{
         Node rightHead = mid.next;
         mid.next = null;
         Node newleft = mergeSort(head);
-        Node newright = mergeSort()
+        Node newright = mergeSort(rightHead);
 
 
     }
