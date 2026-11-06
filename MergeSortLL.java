@@ -20,7 +20,10 @@ public class MergeSortLL{
         Node mid = getmid(head);
 
         // Left & Right Half
-        Node right
+        Node rightHead = mid.next;
+        mid.next = null;
+
+        
     }
 }
    
