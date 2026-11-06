@@ -20,7 +20,6 @@ public class MergeSortLL{
             fast = fast.next.next;
         }
         return slow;
-
     }
 
     public Node mergeSort(Node head){
