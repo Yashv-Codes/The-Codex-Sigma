@@ -60,7 +60,7 @@ public class ZigZagLL {
     }
 
     public static void main(String[] args){
-        ZigZag 
+        ZigZagLL ll = new ZigZagLL();
         head = new Node(1);
         head.next = new Node(2);
         head.next.next = new Node(3);
