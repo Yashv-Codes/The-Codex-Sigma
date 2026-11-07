@@ -36,7 +36,9 @@ public class ZigZagLL {
         Node right = prev; // 2nd half head
         Node nextL, nextR;
 
-        while()
+        while(left != null && right != null){
+            
+        }
     }
 
     
