@@ -9,7 +9,7 @@ public class ZigZagLL {
     }
     public static Node head;
 
-    // Find Mid
-    
+    public static 
+
     
 }
