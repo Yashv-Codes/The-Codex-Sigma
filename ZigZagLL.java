@@ -50,5 +50,7 @@ public class ZigZagLL {
         }
     }
 
+    public void print(){}
+
     
 }
