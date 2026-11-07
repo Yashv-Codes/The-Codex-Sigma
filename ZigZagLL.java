@@ -38,7 +38,8 @@ public class ZigZagLL {
         Node nextL, nextR;
 
         while(left != null && right != null){
-            nextL = 
+            nextL = left.next;
+            left.next = 
 
         }
     }
