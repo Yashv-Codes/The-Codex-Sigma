@@ -26,7 +26,8 @@ public class ZigZagLL {
 
         while(curr != null){
             next = curr.next;
-            curr = 
+            curr.next = prev;
+            
         }
     }
 
