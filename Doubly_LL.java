@@ -34,6 +34,9 @@ public class Doubly_LL {
 
     public static void main(String[] args){
         Doubly_LL dll = new Doubly_LL();
+        dll.addFirst(3);
+        dll.addFirst(2);
+        dll.addFirst(1);
         
     }
 }
