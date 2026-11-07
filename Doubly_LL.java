@@ -11,4 +11,8 @@ public class Doubly_LL {
     }
     public static Node head;
     public static Node tail;
+
+    public void addFirst(){
+        
+    }
 }
