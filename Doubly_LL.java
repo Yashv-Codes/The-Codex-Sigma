@@ -34,6 +34,6 @@ public class Doubly_LL {
 
     public static void main(String[] args){
         Doubly_LL dll = new Doubly_LL();
-        d
+        
     }
 }
