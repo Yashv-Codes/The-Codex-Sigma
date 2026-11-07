@@ -38,7 +38,7 @@ public class ZigZagLL {
         Node nextL, nextR;
 
         while(left != null && right != null){
-            // Zig
+            // ZigZag Fashion
             nextL = left.next;
             left.next = right;
             nextR = right.next;
