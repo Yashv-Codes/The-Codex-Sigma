@@ -14,6 +14,10 @@ public class Doubly_LL {
 
     public void addFirst(int data){
         Node newnode = new Node(data);
-        if(head == null)
+        if(head == null){
+            head = tail = newnode;
+            return;
+        }
+        
     }
 }
