@@ -9,7 +9,7 @@ public class ZigZagLL {
     }
     public static Node head;
 
-    public static void zigZag(){
+    public void zigZag(){
         // Find mid
         Node slow = head;
         Node fast = head.next;
@@ -71,6 +71,5 @@ public class ZigZagLL {
         ll.zigZag();
         ll.print();
     }
-
-    
 }
+
