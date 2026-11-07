@@ -9,5 +9,6 @@ public class Doubly_LL {
             this.prev = null;
         }
     }
-    
+    public static Node head;
+    public static Node tail;
 }
