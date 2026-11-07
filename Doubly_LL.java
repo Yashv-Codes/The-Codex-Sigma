@@ -19,6 +19,7 @@ public class Doubly_LL {
             return;
         }
         newnode.next = head;
-        
+        head.prev = newnode;
+        head = newnode;
     }
 }
