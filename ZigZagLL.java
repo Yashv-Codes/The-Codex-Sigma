@@ -7,5 +7,7 @@ public class ZigZagLL {
             this.next = null;
         }
     }
+    public static Node head;
+    
     
 }
