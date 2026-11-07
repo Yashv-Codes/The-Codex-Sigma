@@ -40,7 +40,8 @@ public class ZigZagLL {
         while(left != null && right != null){
             nextL = left.next;
             left.next = right;
-
+            nextR = right.next;
+            
         }
     }
 
