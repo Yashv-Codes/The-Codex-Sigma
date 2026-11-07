@@ -18,6 +18,8 @@ public class ZigZagLL {
             fast = fast.next.next;
         }
         Node mid = slow;
+
+        // 
     }
 
     
