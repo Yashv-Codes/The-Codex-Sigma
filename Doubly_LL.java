@@ -22,4 +22,9 @@ public class Doubly_LL {
         head.prev = newnode;
         head = newnode;
     }
+
+    public static void main(String[] args){
+        Doubly_LL dll = new Doubly_LL();
+        d
+    }
 }
