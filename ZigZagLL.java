@@ -19,7 +19,8 @@ public class ZigZagLL {
         }
         Node mid = slow;
 
-        // 
+        // Reverse 2nd Half
+        Node curr = mid.next;
     }
 
     
