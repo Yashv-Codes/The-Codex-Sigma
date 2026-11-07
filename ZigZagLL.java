@@ -41,7 +41,7 @@ public class ZigZagLL {
             nextL = left.next;
             left.next = right;
             nextR = right.next;
-            
+            right.next = nextL;
         }
     }
 
