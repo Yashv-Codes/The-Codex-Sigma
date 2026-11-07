@@ -9,7 +9,9 @@ public class ZigZagLL {
     }
     public static Node head;
 
-    public static 
+    public static void zigZag(){
+        
+    }
 
     
 }
