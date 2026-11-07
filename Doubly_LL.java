@@ -14,6 +14,6 @@ public class Doubly_LL {
 
     public void addFirst(){
         Node newnode = new Node(data);
-        
+
     }
 }
