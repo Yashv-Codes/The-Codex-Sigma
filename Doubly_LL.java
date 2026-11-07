@@ -23,6 +23,10 @@ public class Doubly_LL {
         head = newnode;
     }
 
+    public void print(){
+        
+    }
+
     public static void main(String[] args){
         Doubly_LL dll = new Doubly_LL();
         d
