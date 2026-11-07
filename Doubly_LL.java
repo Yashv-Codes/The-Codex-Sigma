@@ -24,7 +24,10 @@ public class Doubly_LL {
     }
 
     public void print(){
-        
+        Node temp = head;
+        while(temp != null){
+            System.out.print(temp.data)
+        }
     }
 
     public static void main(String[] args){
