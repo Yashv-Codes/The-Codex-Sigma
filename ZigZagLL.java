@@ -56,6 +56,7 @@ public class ZigZagLL {
             System.out.print(temp+" -> ");
             temp = temp.next;
         }
+        System.out.println("null");
     }
 
     
