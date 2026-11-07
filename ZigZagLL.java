@@ -25,6 +25,7 @@ public class ZigZagLL {
         Node next;
 
         while(curr != null){
+            next = curr.next;
             
         }
     }
