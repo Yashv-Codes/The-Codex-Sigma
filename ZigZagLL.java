@@ -53,7 +53,8 @@ public class ZigZagLL {
     public void print(){
         Node temp = head;
         while(temp != null){
-            System.out.print(temp)
+            System.out.print(temp+" -> ");
+            temp = temp.next;
         }
     }
 
