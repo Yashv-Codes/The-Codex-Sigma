@@ -21,7 +21,12 @@ public class ZigZagLL {
 
         // Reverse 2nd Half
         Node curr = mid.next;
-        Node prev = 
+        Node prev = null;
+        Node next;
+
+        while(curr != null){
+            
+        }
     }
 
     
