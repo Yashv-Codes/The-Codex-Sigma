@@ -38,10 +38,13 @@ public class ZigZagLL {
         Node nextL, nextR;
 
         while(left != null && right != null){
+            // Zig
             nextL = left.next;
             left.next = right;
             nextR = right.next;
             right.next = nextL;
+
+            // Update
         }
     }
 
