@@ -59,5 +59,9 @@ public class ZigZagLL {
         System.out.println("null");
     }
 
+    public static void main(String[] args){
+        
+    }
+
     
 }
