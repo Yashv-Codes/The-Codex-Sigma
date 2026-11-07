@@ -68,7 +68,8 @@ public class ZigZagLL {
         head.next.next.next.next = new Node(5);
 
         ll.print();
-        
+        ll.zigZag();
+        ll.print();
     }
 
     
