@@ -50,7 +50,12 @@ public class ZigZagLL {
         }
     }
 
-    public void print(){}
+    public void print(){
+        Node temp = head;
+        while(temp != null){
+            System.out.print(temp)
+        }
+    }
 
     
 }
