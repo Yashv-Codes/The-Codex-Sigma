@@ -30,7 +30,7 @@ public class ZigZagLL {
             prev = curr;
             curr = next;
         }
-        Node left = head; // 
+        Node left = head; // 1st half head
         Node right = prev; 
     }
 
