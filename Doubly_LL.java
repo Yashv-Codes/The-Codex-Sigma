@@ -34,7 +34,7 @@ public class Doubly_LL {
             prev = curr;
             curr = next;
         }
-        head = prev;
+        head = curr;
     }
 
     public void print(){
