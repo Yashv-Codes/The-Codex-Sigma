@@ -52,5 +52,7 @@ public class Doubly_LL {
         dll.addFirst(2);
         dll.addFirst(1);
         dll.print();
+        dll.reverse();
+        dll.print();
     }
 }
