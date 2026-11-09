@@ -23,6 +23,10 @@ public class Doubly_LL {
         head = newnode;
     }
 
+    public void reverse(){
+        Node prev
+    }
+
     public void print(){
         Node temp = head;
         while(temp != null){
