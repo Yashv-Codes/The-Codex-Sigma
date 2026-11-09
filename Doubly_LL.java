@@ -24,7 +24,12 @@ public class Doubly_LL {
     }
 
     public void reverse(){
-        Node prev
+        Node curr = head;
+        Node prev = null;
+        Node next;
+        while(curr != null){
+            
+        }
     }
 
     public void print(){
