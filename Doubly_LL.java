@@ -29,7 +29,8 @@ public class Doubly_LL {
         Node next;
         while(curr != null){
             next = curr.next;
-            
+            curr.next = prev;
+            curr.prev = next;
         }
     }
 
