@@ -31,7 +31,10 @@ public class Doubly_LL {
             next = curr.next;
             curr.next = prev;
             curr.prev = next;
+            prev = curr;
+            curr = next;
         }
+        head = prev;
     }
 
     public void print(){
