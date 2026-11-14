@@ -7,7 +7,7 @@ public class practice {
             this.next = null;
         }
     }
-    
+    public void addFirst()
     public static void main(String[] args){
         
     }
