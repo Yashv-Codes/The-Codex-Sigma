@@ -163,7 +163,10 @@ public class practice {
 
         if(left.data != right.data)
             return false;
-        
+        left = left.next;
+        right = right.next;
+
+        return true;
     }
     public void print(){
         Node temp = head;
@@ -180,6 +183,7 @@ public class practice {
         ll.addLast(3);
         ll.addLast(4);
         ll.print();
+        ll.isPalindrome();
         System.out.println("size = "+practice.size);
         
     }
