@@ -139,7 +139,7 @@ public class practice {
         return;
     }
     public boolean isPalindrome(){
-        if(head == null )
+        if(head == null || head.next == null)
             return true;
         Node slow = head;
         Node fast = head;
