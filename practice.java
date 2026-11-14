@@ -130,7 +130,10 @@ public class practice {
         int i = 1;
         int idx = size-n;
         Node prev = head;
-        while(i < idx)
+        while(i < idx){
+            prev = prev.next;
+        }
+        prev.next = 
     }
     public void print(){
         Node temp = head;
