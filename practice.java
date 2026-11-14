@@ -106,7 +106,7 @@ public class practice {
         Node curr = head = tail;
         Node next;
         while(curr != null){
-            
+            next = curr.next;
         }
     }
     public void print(){
