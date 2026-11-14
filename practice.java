@@ -48,7 +48,7 @@ public class practice {
         return val;
     }
     public int removeLast(){
-        
+        if(size == 0)
     }
     public void print(){
         Node temp = head;
