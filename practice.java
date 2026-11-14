@@ -60,9 +60,10 @@ public class practice {
         }
         Node prev = head;
         int i = 0;
-        while(i < size-1){
+        while(i < size-2){
             prev = prev.next;
         }
+        
     }
     public void print(){
         Node temp = head;
