@@ -163,6 +163,9 @@ public class practice {
 
         while(right != null){
             if(left.data != right.data)
+                return false;
+            left = left.next;
+            right = right.next;
         }
 
         return true;
