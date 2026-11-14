@@ -74,7 +74,8 @@ public class practice {
         Node newnode = new Node(data);
         size++;
         if(idx == 0){
-            addFirst()
+            addFirst(data);
+            return;
         }
     }
     public void print(){
