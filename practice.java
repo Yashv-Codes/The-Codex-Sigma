@@ -127,8 +127,8 @@ public class practice {
             return;
         }
 
-        int i = 0;
-        int idx = size
+        int i = 1;
+        int idx = size-n;
     }
     public void print(){
         Node temp = head;
