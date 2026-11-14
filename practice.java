@@ -70,7 +70,10 @@ public class practice {
         tail = prev;
         return val;
     }
-    public void add
+    public void add_middle(int data, int idx){
+        Node newnode = new Node(data);
+        
+    }
     public void print(){
         Node temp = head;
         while(temp != null){
