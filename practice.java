@@ -39,6 +39,7 @@ public class practice {
         else if(size == 1){
             int val = head.data;
             head = tail = null;
+            size--;
             return val;
         }
         int val = head.data;
