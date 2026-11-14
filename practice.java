@@ -115,7 +115,11 @@ public class practice {
         head = prev;
     }
     public void removeNth(int n){
-        
+        int size = 0;
+        Node temp = head;
+        while(temp != null){
+            temp
+        }
     }
     public void print(){
         Node temp = head;
