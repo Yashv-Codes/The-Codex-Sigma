@@ -72,6 +72,7 @@ public class practice {
     }
     public void add_middle(int data, int idx){
         Node newnode = new Node(data);
+        size++;
         
     }
     public void print(){
