@@ -138,7 +138,10 @@ public class practice {
         size--;
         return;
     }
-    public boolean isPalindrome(){}
+    public boolean isPalindrome(){
+        if(size == 1)
+            return true;
+    }
     public void print(){
         Node temp = head;
         while(temp != null){
