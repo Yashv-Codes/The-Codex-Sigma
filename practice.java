@@ -77,6 +77,7 @@ public class practice {
             addFirst(data);
             return;
         }
+        
     }
     public void print(){
         Node temp = head;
