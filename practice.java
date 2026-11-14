@@ -9,10 +9,14 @@ public class practice {
     }
     public static Node head;
     public static Node tail;
-    
+
     public void addFirst(int data){
         Node newnode = new Node(data);
-        if(head == null)
+        if(head == null){
+            head = tail = newnode;
+            return;
+        }
+        
     }
     public static void main(String[] args){
         
