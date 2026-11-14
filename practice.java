@@ -170,6 +170,7 @@ public class practice {
 
         return true;
     }
+
     public void print(){
         Node temp = head;
         while(temp != null){
@@ -186,7 +187,7 @@ public class practice {
         ll.addLast(1);
         ll.print();
         System.out.println("size = "+practice.size);
-        System.out.println(ll.isPalindrome());
+        // System.out.println(ll.isPalindrome());
         
         
     }
