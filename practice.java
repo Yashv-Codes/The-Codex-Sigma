@@ -71,8 +71,6 @@ public class practice {
         return val;
     }
     public void add_middle(int data, int idx){
-        Node newnode = new Node(data);
-        size++;
         if(idx == 0){
             addFirst(data);
             return;
