@@ -160,6 +160,8 @@ public class practice {
         }
         Node left = head;
         Node right = prev;
+
+        if(left.data != right.data)
     }
     public void print(){
         Node temp = head;
