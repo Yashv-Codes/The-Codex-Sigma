@@ -148,6 +148,7 @@ public class practice {
             fast = fast.next.next;
         }
         Node mid = slow;
+
         
     }
     public void print(){
