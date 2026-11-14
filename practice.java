@@ -158,7 +158,8 @@ public class practice {
             prev = curr;
             curr = next;
         }
-        Node 
+        Node left = head;
+        Node right
     }
     public void print(){
         Node temp = head;
