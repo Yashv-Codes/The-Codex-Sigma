@@ -150,7 +150,7 @@ public class practice {
         Node mid = slow;
 
         Node prev = null;
-        Node curr = mid.next;
+        Node curr = mid;
         Node next;
         while(curr != null){
             next = curr.next;
@@ -161,10 +161,10 @@ public class practice {
         Node left = head;
         Node right = prev;
 
-        if(left.data != right.data)
+        ft.next;
+        right = right.next;if(left.data != right.data)
             return false;
-        left = left.next;
-        right = right.next;
+        left = le
 
         return true;
     }
