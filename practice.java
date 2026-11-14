@@ -84,7 +84,7 @@ public class practice {
             i++;
         }
         newnode.next = prev.next;
-        
+        prev.next = newnode;
     }
     public void print(){
         Node temp = head;
