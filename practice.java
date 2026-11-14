@@ -83,6 +83,7 @@ public class practice {
             prev = prev.next;
             i++;
         }
+        newnode.next = prev.next;
         
     }
     public void print(){
