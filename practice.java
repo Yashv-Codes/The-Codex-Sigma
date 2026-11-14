@@ -19,6 +19,9 @@ public class practice {
         newnode.next = head;
         head = newnode;
     }
+    public void addLast(data){
+        
+    }
     public void print(){
         Node temp = head;
         while(temp != null){
