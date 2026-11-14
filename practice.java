@@ -118,6 +118,7 @@ public class practice {
         // ll.removeFirst();
         // ll.removeLast();
         ll.add_middle(5,2);
+        ll.search(5);
         ll.print();
         System.out.println("size = "+practice.size);
         
