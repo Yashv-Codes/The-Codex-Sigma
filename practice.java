@@ -48,7 +48,9 @@ public class practice {
         return val;
     }
     public int removeLast(){
-        if(size == 0)
+        if(size == 0){
+            System.out.println("ll is empty")
+        }
     }
     public void print(){
         Node temp = head;
