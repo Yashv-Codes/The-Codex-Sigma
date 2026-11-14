@@ -60,7 +60,7 @@ public class practice {
         ll.addFirst(2);
         ll.addFirst(1);
         ll.addLast(3);
-        ll.removeFirst();
+        // ll.removeFirst();
         ll.print();
         System.out.println("size = "+practice.size);
         
