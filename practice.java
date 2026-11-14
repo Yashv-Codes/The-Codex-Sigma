@@ -147,7 +147,8 @@ public class practice {
             slow = slow.next;
             fast = fast.next.next;
         }
-        return slow;
+        Node mid = slow;
+        
     }
     public void print(){
         Node temp = head;
