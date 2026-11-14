@@ -38,8 +38,10 @@ public class practice {
         }
         else if(size == 1){
             int val = head.data;
-            head = head.next;
+            head = tail = null;
+            return val;
         }
+        
     }
     public void print(){
         Node temp = head;
