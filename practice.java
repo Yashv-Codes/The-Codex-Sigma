@@ -151,7 +151,7 @@ public class practice {
         ll.addLast(3);
         ll.addLast(4);
         ll.print();
-        ll.reverse();
+        ll.removeNth(2);
         ll.print();
         System.out.println("size = "+practice.size);
         
