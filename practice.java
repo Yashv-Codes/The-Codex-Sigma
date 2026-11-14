@@ -37,7 +37,8 @@ public class practice {
             return Integer.MIN_VALUE;
         }
         else if(size == 1){
-            int val = 
+            int val = head;
+            head = head.next;
         }
     }
     public void print(){
