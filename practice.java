@@ -149,7 +149,8 @@ public class practice {
         }
         Node mid = slow;
 
-        
+        Node prev = null;
+        Node curr = mid.next;
     }
     public void print(){
         Node temp = head;
