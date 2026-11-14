@@ -50,7 +50,7 @@ public class practice {
     public int removeLast(){
         if(size == 0){
             System.out.println("ll is empty");
-            return;
+            return Integer.MIN_VALUE;
         }
     }
     public void print(){
