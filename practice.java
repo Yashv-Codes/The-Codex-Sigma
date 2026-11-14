@@ -180,8 +180,8 @@ public class practice {
         practice ll = new practice();
         ll.addFirst(2);
         ll.addFirst(1);
-        ll.addLast(3);
-        ll.addLast(4);
+        ll.addLast(2);
+        ll.addLast(1);
         ll.print();
         System.out.println("size = "+practice.size);
         System.out.println(ll.isPalindrome());
