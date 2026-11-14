@@ -141,7 +141,8 @@ public class practice {
     public boolean isPalindrome(){
         if(size == 1)
             return true;
-        Node slow, fast;
+        Node slow = head;
+        Node fast = head;
         while(fast)
     }
     public void print(){
