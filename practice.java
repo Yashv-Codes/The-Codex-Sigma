@@ -128,6 +128,7 @@ public class practice {
         ll.addFirst(1);
         ll.addLast(3);
         ll.addLast(4);
+        ll.print();
         ll.reverse();
         ll.print();
         System.out.println("size = "+practice.size);
