@@ -162,6 +162,8 @@ public class practice {
         Node right = prev;
 
         if(left.data != right.data)
+            return false;
+        
     }
     public void print(){
         Node temp = head;
