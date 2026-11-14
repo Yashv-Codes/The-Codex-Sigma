@@ -133,7 +133,8 @@ public class practice {
         while(i < idx){
             prev = prev.next;
         }
-        prev.next = 
+        prev.next = prev.next.next;
+        return;
     }
     public void print(){
         Node temp = head;
