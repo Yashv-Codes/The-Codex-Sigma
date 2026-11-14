@@ -101,7 +101,7 @@ public class practice {
         ll.addLast(3);
         ll.addLast(4);
         // ll.removeFirst();
-        ll.removeLast();
+        // ll.removeLast();
         ll.print();
         System.out.println("size = "+practice.size);
         
