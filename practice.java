@@ -135,6 +135,7 @@ public class practice {
             i++;
         }
         prev.next = prev.next.next;
+        size--;
         return;
     }
     public void print(){
@@ -152,7 +153,7 @@ public class practice {
         ll.addLast(3);
         ll.addLast(4);
         ll.print();
-        ll.removeNth(2);
+        ll.removeNth(3);
         ll.print();
         System.out.println("size = "+practice.size);
         
