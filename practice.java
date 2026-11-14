@@ -132,6 +132,7 @@ public class practice {
         Node prev = head;
         while(i < idx){
             prev = prev.next;
+            i++;
         }
         prev.next = prev.next.next;
         return;
