@@ -43,7 +43,8 @@ public class practice {
         }
         int val = head.data;
         head = head.next;
-        
+        size--;
+        return val;
     }
     public void print(){
         Node temp = head;
