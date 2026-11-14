@@ -13,6 +13,7 @@ public class practice {
 
     public void addFirst(int data){
         Node newnode = new Node(data);
+        size++;
         if(head == null){
             head = tail = newnode;
             return;
@@ -22,6 +23,7 @@ public class practice {
     }
     public void addLast(int data){
         Node newnode = new Node(data);
+        size++;
         if(head == null){
             head = tail = newnode;
             return;
@@ -29,6 +31,7 @@ public class practice {
         tail.next = newnode;
         tail = newnode;
     }
+    
     public void print(){
         Node temp = head;
         while(temp != null){
