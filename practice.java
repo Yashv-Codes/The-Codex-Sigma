@@ -87,7 +87,10 @@ public class practice {
         prev.next = newnode;
     }
     public int search(int key){
-        if(size == 0)
+        if(size == 0){
+            System.out.println("ll is empty");
+            return Integer.MIN_VALUE;
+        }
     }
     public void print(){
         Node temp = head;
