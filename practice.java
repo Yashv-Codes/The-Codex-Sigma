@@ -63,7 +63,8 @@ public class practice {
         while(i < size-2){
             prev = prev.next;
         }
-        int val = prev
+        int val = prev.next.data;
+        
     }
     public void print(){
         Node temp = head;
