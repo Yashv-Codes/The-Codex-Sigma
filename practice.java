@@ -34,7 +34,7 @@ public class practice {
     public int removeFirst(){
         if(size == 0){
             System.out.println("LL is empty");
-            return I
+            return Integer.MIN_VALUE;
         }
     }
     public void print(){
