@@ -70,6 +70,7 @@ public class practice {
         tail = prev;
         return val;
     }
+    public void add
     public void print(){
         Node temp = head;
         while(temp != null){
