@@ -83,6 +83,7 @@ public class practice {
         ll.addFirst(2);
         ll.addFirst(1);
         ll.addLast(3);
+        ll.addLast(4);
         // ll.removeFirst();
         ll.removeLast();
         ll.print();
