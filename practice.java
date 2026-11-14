@@ -83,6 +83,7 @@ public class practice {
         ll.addFirst(1);
         ll.addLast(3);
         // ll.removeFirst();
+        ll.removeLast();
         ll.print();
         System.out.println("size = "+practice.size);
         
