@@ -38,8 +38,8 @@ public class practice {
     }
     public static void main(String[] args){
         practice ll = new practice();
+        ll.addFirst(2);
         ll.addFirst(1);
-        ll.addFirst(0);
         ll.print();
         
     }
