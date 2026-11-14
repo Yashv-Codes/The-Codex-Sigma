@@ -58,7 +58,9 @@ public class practice {
             size--;
             return val;
         }
-        
+        Node prev;
+        int i = 0;
+        while
     }
     public void print(){
         Node temp = head;
