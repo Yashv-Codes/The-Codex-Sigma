@@ -58,7 +58,7 @@ public class practice {
             size--;
             return val;
         }
-        Node prev;
+        Node prev = head;
         int i = 0;
         while(i < size-1){
             prev = prev.next;
