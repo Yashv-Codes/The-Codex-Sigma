@@ -161,10 +161,9 @@ public class practice {
         Node left = head;
         Node right = prev;
 
-        ft.next;
-        right = right.next;if(left.data != right.data)
-            return false;
-        left = le
+        while(right != null){
+            if(left.data != right.data)
+        }
 
         return true;
     }
