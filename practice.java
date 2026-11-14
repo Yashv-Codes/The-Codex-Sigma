@@ -31,7 +31,9 @@ public class practice {
         tail.next = newnode;
         tail = newnode;
     }
-    public int removeFirst()
+    public int removeFirst(){
+        
+    }
     public void print(){
         Node temp = head;
         while(temp != null){
