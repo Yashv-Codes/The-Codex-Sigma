@@ -25,7 +25,8 @@ public class practice {
             head = tail = newnode;
             return;
         }
-        
+        newnode.next = null;
+        tail = newnode;
     }
     public void print(){
         Node temp = head;
