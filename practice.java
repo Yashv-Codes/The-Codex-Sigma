@@ -53,8 +53,12 @@ public class practice {
             return Integer.MIN_VALUE;
         }
         else if(size == 1){
-            
+            int val = head.data;
+            head = tail = null;
+            size--;
+            return val;
         }
+        
     }
     public void print(){
         Node temp = head;
