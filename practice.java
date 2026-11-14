@@ -122,6 +122,8 @@ public class practice {
             size++;
         }
 
+        if(n == size)
+
         int i = 0;
         int idx = size
     }
