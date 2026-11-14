@@ -111,6 +111,7 @@ public class practice {
             prev = curr;
             curr = next;
         }
+        
     }
     public void print(){
         Node temp = head;
