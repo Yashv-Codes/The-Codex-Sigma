@@ -144,8 +144,10 @@ public class practice {
         Node slow = head;
         Node fast = head;
         while(fast != null && fast.next != null){
-            slow = slow
+            slow = slow.next;
+            fast = fast.next.next;
         }
+        return slow;
     }
     public void print(){
         Node temp = head;
