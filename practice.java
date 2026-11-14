@@ -62,6 +62,7 @@ public class practice {
         int i = 0;
         while(i < size-2){
             prev = prev.next;
+            i++;
         }
         int val = prev.next.data;
         prev.next = null;
