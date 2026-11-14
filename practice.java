@@ -16,7 +16,7 @@ public class practice {
             head = tail = newnode;
             return;
         }
-        
+        newnode.next = 
     }
     public static void main(String[] args){
         
