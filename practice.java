@@ -138,6 +138,7 @@ public class practice {
         size--;
         return;
     }
+    public 
     public void print(){
         Node temp = head;
         while(temp != null){
