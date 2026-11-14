@@ -40,6 +40,7 @@ public class practice {
         practice ll = new practice();
         ll.addFirst(2);
         ll.addFirst(1);
+        ll.addLast(3);
         ll.print();
         
     }
