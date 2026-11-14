@@ -62,7 +62,7 @@ public class practice {
         ll.addLast(3);
         ll.removeFirst();
         ll.print();
-        System.out.println("size = "+ll.size);
+        System.out.println("size = "+practice.size);
         
     }
     
