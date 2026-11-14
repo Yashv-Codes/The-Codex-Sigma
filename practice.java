@@ -32,7 +32,7 @@ public class practice {
         tail = newnode;
     }
     public int removeFirst(){
-        
+        if(size == 0)
     }
     public void print(){
         Node temp = head;
