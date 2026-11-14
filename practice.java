@@ -122,7 +122,10 @@ public class practice {
             size++;
         }
 
-        if(n == size)
+        if(n == size){
+            head = head.next;
+            return;
+        }
 
         int i = 0;
         int idx = size
