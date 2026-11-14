@@ -90,6 +90,5 @@ public class practice {
         System.out.println("size = "+practice.size);
         
     }
-    
-    
 }
+
