@@ -138,7 +138,9 @@ public class practice {
         size--;
         return;
     }
-    public 
+    public void boolean isPalindrome(){
+        
+    }
     public void print(){
         Node temp = head;
         while(temp != null){
