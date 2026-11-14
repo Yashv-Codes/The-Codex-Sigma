@@ -27,7 +27,8 @@ public class practice {
         System.out.println("null");
     }
     public static void main(String[] args){
-        
+        practice ll = new practice();
+        ll.addFirst(2)
         
     }
     
