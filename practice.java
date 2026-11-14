@@ -95,7 +95,11 @@ public class practice {
         int i = 0;
         while(temp != null){
             if(temp.data == key)
+                return i ;
+            temp = temp.next;
+            i++;
         }
+        return -1;
     }
     public void print(){
         Node temp = head;
