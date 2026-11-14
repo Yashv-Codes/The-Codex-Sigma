@@ -94,7 +94,7 @@ public class practice {
         Node temp = head;
         int i = 0;
         while(temp != null){
-            
+            if(temp.data == key)
         }
     }
     public void print(){
