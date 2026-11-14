@@ -75,6 +75,9 @@ public class practice {
             addFirst(data);
             return;
         }
+        Node newnode = new Node(data);
+        size++;
+
         Node prev = head;
         int i = 0;
         while(i < idx-1){
@@ -101,7 +104,7 @@ public class practice {
     }
     public void reverse(){
         Node prev = null;
-        Node curr = head = tail;
+        Node curr = head = tail = head;
         Node next;
         while(curr != null){
             next = curr.next;
