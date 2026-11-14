@@ -186,8 +186,8 @@ public class practice {
         ll.addLast(2);
         ll.addLast(1);
         ll.print();
-        System.out.println("size = "+practice.size);
-        // System.out.println(ll.isPalindrome());
+        // System.out.println("size = "+practice.size);
+         System.out.println(ll.isPalindrome());
         
         
     }
