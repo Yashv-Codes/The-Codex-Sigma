@@ -101,6 +101,9 @@ public class practice {
         }
         return -1;
     }
+    public void reverse(){
+        Node prev = head
+    }
     public void print(){
         Node temp = head;
         while(temp != null){
