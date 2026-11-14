@@ -118,8 +118,11 @@ public class practice {
         int size = 0;
         Node temp = head;
         while(temp != null){
-            temp
+            temp = temp.next;
+            size++;
         }
+
+        
     }
     public void print(){
         Node temp = head;
