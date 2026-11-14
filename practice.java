@@ -41,6 +41,8 @@ public class practice {
             head = tail = null;
             return val;
         }
+        int val = head.data;
+        head = head.next;
         
     }
     public void print(){
