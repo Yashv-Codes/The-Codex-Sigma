@@ -7,7 +7,10 @@ public class practice {
             this.next = null;
         }
     }
-    public void addFirst(int data)
+    public void addFirst(int data){
+        Node newnode = new Node(data);
+        if(head == null)
+    }
     public static void main(String[] args){
         
     }
