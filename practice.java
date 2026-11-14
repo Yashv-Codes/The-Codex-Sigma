@@ -91,7 +91,11 @@ public class practice {
             System.out.println("ll is empty");
             return Integer.MIN_VALUE;
         }
-        else if(size == 1)
+        Node temp = head;
+        int i = 0;
+        while(temp != null){
+            
+        }
     }
     public void print(){
         Node temp = head;
