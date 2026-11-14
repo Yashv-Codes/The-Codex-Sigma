@@ -139,7 +139,7 @@ public class practice {
         return;
     }
     public boolean isPalindrome(){
-        
+
 
     }
     public void print(){
@@ -156,8 +156,6 @@ public class practice {
         ll.addFirst(1);
         ll.addLast(3);
         ll.addLast(4);
-        ll.print();
-        ll.removeNth(3);
         ll.print();
         System.out.println("size = "+practice.size);
         
