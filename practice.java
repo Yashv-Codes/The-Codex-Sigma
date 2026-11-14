@@ -122,7 +122,8 @@ public class practice {
             size++;
         }
 
-        
+        int i = 0;
+        int idx = size
     }
     public void print(){
         Node temp = head;
