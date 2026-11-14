@@ -153,6 +153,7 @@ public class practice {
         Node curr = mid.next;
         Node next;
         while(curr != null){
+            next = curr.next;
             
         }
     }
