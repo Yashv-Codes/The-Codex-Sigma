@@ -159,7 +159,7 @@ public class practice {
             curr = next;
         }
         Node left = head;
-        Node right
+        Node right = prev;
     }
     public void print(){
         Node temp = head;
