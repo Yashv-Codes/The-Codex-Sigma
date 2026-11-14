@@ -104,7 +104,7 @@ public class practice {
     }
     public void reverse(){
         Node prev = null;
-        Node curr = tail = head;
+        Node curr = head;
         Node next;
         while(curr != null){
             next = curr.next;
