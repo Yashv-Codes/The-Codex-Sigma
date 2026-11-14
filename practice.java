@@ -114,6 +114,7 @@ public class practice {
         }
         head = prev;
     }
+    public void removeNth
     public void print(){
         Node temp = head;
         while(temp != null){
