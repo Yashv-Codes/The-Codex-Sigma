@@ -32,7 +32,10 @@ public class practice {
         tail = newnode;
     }
     public int removeFirst(){
-        if(size == 0)
+        if(size == 0){
+            System.out.println("LL is empty");
+            return I
+        }
     }
     public void print(){
         Node temp = head;
