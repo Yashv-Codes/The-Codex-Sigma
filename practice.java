@@ -102,7 +102,7 @@ public class practice {
         return -1;
     }
     public void reverse(){
-        Node prev = head;
+        Node prev = null;
         Node curr, next;
     }
     public void print(){
