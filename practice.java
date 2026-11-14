@@ -9,6 +9,7 @@ public class practice {
     }
     public static Node head;
     public static Node tail;
+    public static int size;
 
     public void addFirst(int data){
         Node newnode = new Node(data);
