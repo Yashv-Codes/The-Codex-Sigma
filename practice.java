@@ -151,6 +151,10 @@ public class practice {
 
         Node prev = null;
         Node curr = mid.next;
+        Node next;
+        while(curr != null){
+            
+        }
     }
     public void print(){
         Node temp = head;
