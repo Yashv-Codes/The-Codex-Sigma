@@ -36,7 +36,9 @@ public class practice {
             System.out.println("LL is empty");
             return Integer.MIN_VALUE;
         }
-        else if(size)
+        else if(size == 1){
+            int val = 
+        }
     }
     public void print(){
         Node temp = head;
