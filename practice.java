@@ -86,6 +86,7 @@ public class practice {
         newnode.next = prev.next;
         prev.next = newnode;
     }
+    public int search
     public void print(){
         Node temp = head;
         while(temp != null){
