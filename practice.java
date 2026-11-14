@@ -19,6 +19,10 @@ public class practice {
         newnode.next = head;
         head = newnode;
     }
+    public void print(){
+        Node temp = head;
+        while()
+    }
     public static void main(String[] args){
         
     }
