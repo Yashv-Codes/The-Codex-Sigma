@@ -66,7 +66,8 @@ public class practice {
         int val = prev.next.data;
         prev.next = null;
         size--;
-        
+        tail = prev;
+        return val;
     }
     public void print(){
         Node temp = head;
