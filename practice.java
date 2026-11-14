@@ -77,6 +77,12 @@ public class practice {
             addFirst(data);
             return;
         }
+        Node prev = head;
+        int i = 0;
+        while(i < idx-1){
+            prev = prev.next;
+            i++;
+        }
         
     }
     public void print(){
