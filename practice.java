@@ -129,6 +129,8 @@ public class practice {
 
         int i = 1;
         int idx = size-n;
+        Node prev = head;
+        while(i < idx)
     }
     public void print(){
         Node temp = head;
