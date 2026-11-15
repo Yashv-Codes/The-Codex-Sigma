@@ -282,7 +282,9 @@ public class practice {
         Node next;
         while(curr != null){
             next = curr.next;
-            
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
     }
     public static void main(String[] args){
