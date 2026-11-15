@@ -224,6 +224,8 @@ public class practice {
         System.out.println("null");
     }
     public Node mid(Node head){
+        Node slow = head;
+        Node fast = head.next;
         
     }
 
