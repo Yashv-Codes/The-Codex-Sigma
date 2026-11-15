@@ -178,7 +178,6 @@ public class practice {
             fast = fast.next.next;
             if(slow == fast)
                 return true;
-            
         }
         return false;
     }
@@ -197,6 +196,7 @@ public class practice {
         head.next.next = new Node(3);
         head.next.next.next = new Node(4);
         head.next.next.next.next = head;
+        
         
     }
 }
