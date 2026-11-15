@@ -290,7 +290,7 @@ public class practice {
         Node left = head;
         Node nextl, nextr;
         while(left!=null && right!=null){
-            
+            nextl = 
 
         }
     }
