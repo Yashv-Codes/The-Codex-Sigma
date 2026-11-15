@@ -290,8 +290,9 @@ public class practice {
         Node left = head;
         Node nextl, nextr;
         while(left!=null && right!=null){
-            nextl = 
-
+            nextl = left.next;
+            nextr = right.next;
+            
         }
     }
     public static void main(String[] args){
