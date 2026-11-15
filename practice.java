@@ -180,14 +180,9 @@ public class practice {
         System.out.println("null");
     }
     public static void main(String[] args){
-        practice ll = new practice();
-        ll.addFirst(2);
-        ll.addFirst(1);
-        ll.addLast(2);
-        ll.addLast(1);
+        
         ll.print();
-        // System.out.println("size = "+practice.size);
-         System.out.println(ll.isPalindrome());
+        
         
         
     }
