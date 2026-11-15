@@ -181,6 +181,7 @@ public class practice {
         }
         return false;
     }
+    
 
     public static void print(){
         Node temp = head;
