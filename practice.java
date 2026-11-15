@@ -235,6 +235,11 @@ public class practice {
     public static Node merge(Node head1, Node head2){
         Node mergedll = new Node(-1);
         Node temp = mergedll;
+        while(head1!=null && head2!= null){
+            if(head1.data <= head2.data){
+                
+            }
+        }
     }
     public static Node mergeSort(Node head){
         if(head == null || head.next == null)
