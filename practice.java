@@ -294,6 +294,8 @@ public class practice {
             nextr = right.next;
             left.next = right;
             right.next = nextl;
+            left = nextl;
+            right = nextr;
         }
     }
     public static void main(String[] args){
