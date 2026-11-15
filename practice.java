@@ -226,7 +226,8 @@ public class practice {
     public Node mid(Node head){
         Node slow = head;
         Node fast = head.next;
-        while()
+        while(fast!= null && fast.next!=null)
+
     }
 
     public static void main(String[] args){
