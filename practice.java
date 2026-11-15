@@ -223,7 +223,7 @@ public class practice {
         }
         System.out.println("null");
     }
-    public Node mid(Node head){
+    public static Node mid(Node head){
         Node slow = head;
         Node fast = head.next;
         while(fast!= null && fast.next!=null){
@@ -232,7 +232,9 @@ public class practice {
         }
         return slow;
     }
-    public static Node mergeSort()
+    public static Node mergeSort(Node head){
+
+    }
 
     public static void main(String[] args){
         head = new Node(1);
