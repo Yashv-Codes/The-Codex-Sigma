@@ -170,7 +170,7 @@ public class practice {
 
         return true;
     }
-    public boolean isCycle(){
+    public static boolean isCycle(){
         Node slow = head;
         Node fast = head;
         while(fast!=null && fast.next!= null){
@@ -182,7 +182,7 @@ public class practice {
         return false;
     }
 
-    public void print(){
+    public static void print(){
         Node temp = head;
         while(temp != null){
             System.out.print(temp.data+" -> ");
