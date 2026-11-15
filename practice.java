@@ -246,6 +246,9 @@ public class practice {
             }
             temp = temp.next;
         }
+        while(head1!=null){
+            temp.next = 
+        }
     }
     public static Node mergeSort(Node head){
         if(head == null || head.next == null)
