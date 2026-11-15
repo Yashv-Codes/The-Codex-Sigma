@@ -1,5 +1,5 @@
 public class practice {
-    class Node{
+    static class Node{
         int data;
         Node next;
         public Node(int data){
