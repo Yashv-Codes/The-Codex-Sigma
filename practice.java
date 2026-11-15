@@ -232,6 +232,9 @@ public class practice {
         }
         return slow;
     }
+    public static Node merge(Node head1, Node head2){
+        
+    }
     public static Node mergeSort(Node head){
         if(head == null || head.next == null)
             return head;
