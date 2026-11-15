@@ -233,7 +233,9 @@ public class practice {
         return slow;
     }
     public static Node merge(Node head1, Node head2){
-        
+        Node mergedll = new Node(-1);
+        Node temp = mergedll;
+
     }
     public static Node mergeSort(Node head){
         if(head == null || head.next == null)
