@@ -240,6 +240,10 @@ public class practice {
                 temp.next = head1;
                 head1 = head1.next;
             }
+            else{
+                temp.next = head2;
+                head2 = head2.next;
+            }
         }
     }
     public static Node mergeSort(Node head){
