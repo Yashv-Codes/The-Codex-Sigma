@@ -237,6 +237,7 @@ public class practice {
             return head;
         Node mid = getmid(head);
         Node righthead = mid.next;
+        mid.next = null;
     }
 
     public static void main(String[] args){
