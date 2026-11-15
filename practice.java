@@ -229,6 +229,7 @@ public class practice {
         head.next.next.next.next = head;
         System.out.println(isCycle());
         removeCycle();
+        System.out.println(isCycle());
     }
 }
 
