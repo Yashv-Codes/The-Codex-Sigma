@@ -274,7 +274,7 @@ public class practice {
         head.next = new Node(1);
         head.next.next = new Node(9);
         head.next.next.next = new Node(4);
-        
+        print();
         
     }
 }
