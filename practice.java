@@ -203,7 +203,7 @@ public class practice {
         }
         slow = head;
         Node prev = null;
-
+        
 
     }
 
