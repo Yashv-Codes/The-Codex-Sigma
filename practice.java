@@ -195,7 +195,10 @@ public class practice {
             return;
         if(slow == head){
             Node prev = head;
-            while(prev.next!= head)
+            while(prev.next!= head){
+                prev = prev.next;
+            }
+            
         }
 
     }
