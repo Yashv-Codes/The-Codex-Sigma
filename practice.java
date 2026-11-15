@@ -173,6 +173,7 @@ public class practice {
     public boolean isCycle(){
         Node slow = head;
         Node fast = head;
+        while(fast)
     }
 
     public void print(){
