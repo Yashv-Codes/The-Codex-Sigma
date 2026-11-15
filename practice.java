@@ -188,8 +188,11 @@ public class practice {
         while(fast!=null && fast.next!= null){
             slow = slow.next;
             fast = fast.next.next;
-            if(slow == fast)
+            if(slow == fast){
                 exists = true;
+                break;
+            }
+                
         }
         if(!exists)
             return;
