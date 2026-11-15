@@ -208,6 +208,8 @@ public class practice {
             slow = slow.next;
             fast = fast.next;
         }
+        prev.next = null;
+        return;
 
     }
 
@@ -226,6 +228,7 @@ public class practice {
         head.next.next.next = new Node(4);
         head.next.next.next.next = head;
         System.out.println(isCycle());
+        
     }
 }
 
