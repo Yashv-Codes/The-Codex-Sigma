@@ -223,7 +223,9 @@ public class practice {
         }
         System.out.println("null");
     }
-    public 
+    public Node mid(Node head){
+        
+    }
 
     public static void main(String[] args){
         head = new Node(1);
