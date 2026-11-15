@@ -268,7 +268,7 @@ public class practice {
         Node newright = mergeSort(righthead);
         return merge(newleft, newright);
     }
-    public 
+    public static void ZigZagll()
     public static void main(String[] args){
         head = new Node(2);
         head.next = new Node(1);
