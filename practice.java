@@ -230,8 +230,9 @@ public class practice {
             slow = slow.next;
             fast = fast.next.next;
         }
-
+        return slow;
     }
+    
 
     public static void main(String[] args){
         head = new Node(1);
