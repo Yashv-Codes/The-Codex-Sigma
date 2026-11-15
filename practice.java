@@ -279,6 +279,7 @@ public class practice {
         Node prev = null;
         Node curr = mid.next;
         mid.next = null;
+        Node next;
     }
     public static void main(String[] args){
         head = new Node(2);
