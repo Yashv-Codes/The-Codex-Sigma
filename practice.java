@@ -237,7 +237,8 @@ public class practice {
         Node temp = mergedll;
         while(head1!=null && head2!= null){
             if(head1.data <= head2.data){
-                
+                temp.next = head1.data;
+                head1 = head1.next;
             }
         }
     }
