@@ -292,7 +292,8 @@ public class practice {
         while(left!=null && right!=null){
             nextl = left.next;
             nextr = right.next;
-            left.next = 
+            left.next = right;
+            right.next = 
         }
     }
     public static void main(String[] args){
