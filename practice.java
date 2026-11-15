@@ -276,7 +276,9 @@ public class practice {
             fast = fast.next.next;
         }
         Node mid = slow;
-        
+        Node prev = null;
+        Node curr = mid.next;
+        mid.next = null;
     }
     public static void main(String[] args){
         head = new Node(2);
