@@ -293,7 +293,7 @@ public class practice {
             nextl = left.next;
             nextr = right.next;
             left.next = right;
-            right.next = 
+            right.next = nextl;
         }
     }
     public static void main(String[] args){
