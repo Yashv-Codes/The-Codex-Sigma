@@ -244,6 +244,7 @@ public class practice {
                 temp.next = head2;
                 head2 = head2.next;
             }
+            temp = temp.next;
         }
     }
     public static Node mergeSort(Node head){
