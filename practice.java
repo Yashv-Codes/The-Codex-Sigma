@@ -232,7 +232,7 @@ public class practice {
         }
         return slow;
     }
-    
+    public 
 
     public static void main(String[] args){
         head = new Node(1);
