@@ -191,6 +191,7 @@ public class practice {
             if(slow == fast)
                 exists = true;
         }
+        if
 
     }
 
