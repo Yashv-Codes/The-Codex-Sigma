@@ -182,7 +182,11 @@ public class practice {
         return false;
     }
     public static void removeCycle(){
-        
+        Node slow = head;
+        Node fast = head;
+        while(fast!=null && fast.next!= null){
+            
+        }
 
     }
 
