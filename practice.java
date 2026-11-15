@@ -238,7 +238,8 @@ public class practice {
         Node mid = getmid(head);
         Node righthead = mid.next;
         mid.next = null;
-        Node newleft = mergeSort
+        Node newleft = mergeSort(head);
+        Node newright = mergeSort()
     }
 
     public static void main(String[] args){
