@@ -192,7 +192,6 @@ public class practice {
                 exists = true;
                 break;
             }
-                
         }
         if(!exists)
             return;
