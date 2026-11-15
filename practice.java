@@ -201,7 +201,9 @@ public class practice {
             prev.next = null;
             return;
         }
-        
+        slow = head;
+        Node prev = null;
+
 
     }
 
