@@ -275,7 +275,7 @@ public class practice {
         head.next.next = new Node(9);
         head.next.next.next = new Node(4);
         print();
-        mergeSort(head);
+        head = mergeSort(head);
         print();
     }
 }
