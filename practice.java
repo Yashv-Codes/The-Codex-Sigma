@@ -248,6 +248,7 @@ public class practice {
         }
         while(head1!=null){
             temp.next = head1;
+            head1 = head1.next;
             temp = temp.next;
         }
     }
