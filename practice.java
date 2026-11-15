@@ -276,7 +276,6 @@ public class practice {
             fast = fast.next.next;
         }
         Node mid = slow;
-
         
     }
     public static void main(String[] args){
