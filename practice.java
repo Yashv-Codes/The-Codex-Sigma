@@ -170,6 +170,7 @@ public class practice {
 
         return true;
     }
+    public 
 
     public void print(){
         Node temp = head;
