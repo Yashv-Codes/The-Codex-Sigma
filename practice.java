@@ -194,7 +194,8 @@ public class practice {
         if(!exists)
             return;
         if(slow == head){
-            
+            Node prev = head;
+            while(prev.next!= head)
         }
 
     }
