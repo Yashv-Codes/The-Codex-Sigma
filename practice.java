@@ -198,7 +198,8 @@ public class practice {
             while(prev.next!= head){
                 prev = prev.next;
             }
-            
+            prev.next = null;
+            return;
         }
 
     }
