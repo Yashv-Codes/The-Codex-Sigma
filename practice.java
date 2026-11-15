@@ -288,6 +288,7 @@ public class practice {
         }
         Node right = prev;
         Node left = head;
+        while()
     }
     public static void main(String[] args){
         head = new Node(2);
