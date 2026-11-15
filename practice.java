@@ -235,8 +235,8 @@ public class practice {
     public static Node mergeSort(Node head){
         if(head == null || head.next == null)
             return head;
-        Node mid = 
-
+        Node mid = getmid(head);
+        
     }
 
     public static void main(String[] args){
