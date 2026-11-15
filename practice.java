@@ -281,6 +281,7 @@ public class practice {
         mid.next = null;
         Node next;
         while(curr != null){
+            next = curr.next;
             
         }
     }
