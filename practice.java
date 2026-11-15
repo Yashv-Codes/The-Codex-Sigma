@@ -256,6 +256,7 @@ public class practice {
             head2 = head2.next;
             temp = temp.next;
         }
+        return mergedll.next;
     }
     public static Node mergeSort(Node head){
         if(head == null || head.next == null)
