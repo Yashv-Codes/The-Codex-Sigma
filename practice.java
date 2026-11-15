@@ -193,7 +193,7 @@ public class practice {
         }
         if(!exists)
             return;
-        
+        if(slow == head)
 
     }
 
