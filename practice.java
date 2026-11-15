@@ -181,7 +181,10 @@ public class practice {
         }
         return false;
     }
-    public void removeCycle
+    public static void removeCycle(){
+        
+
+    }
 
     public static void print(){
         Node temp = head;
