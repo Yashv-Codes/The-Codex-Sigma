@@ -247,7 +247,8 @@ public class practice {
             temp = temp.next;
         }
         while(head1!=null){
-            temp.next = 
+            temp.next = head1;
+            temp = temp.next;
         }
     }
     public static Node mergeSort(Node head){
