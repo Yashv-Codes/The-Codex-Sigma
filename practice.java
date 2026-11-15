@@ -269,6 +269,8 @@ public class practice {
         return merge(newleft, newright);
     }
     public static void ZigZagll(){
+        Node slow = head;
+        Node fast = head.next;
         
     }
     public static void main(String[] args){
