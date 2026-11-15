@@ -288,8 +288,10 @@ public class practice {
         }
         Node right = prev;
         Node left = head;
+        Node nextl, nextr;
         while(left!=null && right!=null){
             
+
         }
     }
     public static void main(String[] args){
