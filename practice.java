@@ -170,7 +170,10 @@ public class practice {
 
         return true;
     }
-    public 
+    public boolean isCycle(){
+        Node slow = head;
+        Node fast = head;
+    }
 
     public void print(){
         Node temp = head;
