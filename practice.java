@@ -223,7 +223,7 @@ public class practice {
         }
         System.out.println("null");
     }
-    
+    public 
 
     public static void main(String[] args){
         head = new Node(1);
