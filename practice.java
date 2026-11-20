@@ -19,13 +19,14 @@ public class practice {
         return ptr1;
     }
     public void print(){
-        
+        Node temp = head;
+
     }
  
    
     
     public static void main(String[] args){
-        Node head = new Node(1);
+        static Node head = new Node(1);
         head.next = new Node(2);
         head.next.next = new Node(3);
         head.next.next.next = new Node(4);
