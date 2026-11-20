@@ -13,7 +13,7 @@ public class practice {
         Node ptr1 = head1;
         Node ptr2 = head2;
         while(ptr1 != ptr2){
-            if(ptr)
+            ptr
         }
     }
     
