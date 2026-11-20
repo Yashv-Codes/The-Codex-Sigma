@@ -38,6 +38,7 @@ public class practice {
         newnode = new Node(30);
         head1.next.next = newnode;
         head1.next.next.next = null;
+        
     }
 }
 
