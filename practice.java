@@ -32,6 +32,9 @@ public class practice {
             for(int i=1; i<m && curr!=null; i++){
                 curr = curr.next;
             }
+            if(curr == null)
+                return;
+            
         }
     }
    
