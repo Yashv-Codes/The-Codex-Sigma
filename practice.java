@@ -40,7 +40,7 @@ public class practice {
         head.next.next.next.next.next = new Node(6);
         head.next.next.next.next.next.next = new Node(7);
         head.next.next.next.next.next.next.next = new Node(8);
-         
+        print(head);
     }
         
 }
