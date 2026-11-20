@@ -1,4 +1,4 @@
-public class practice {
+public class Assign_LL {
     static class Node{
         int data;
         Node next;
@@ -81,7 +81,7 @@ public class practice {
     }
     
     public static void main(String[] args){
-        practice list = new practice();
+        Assign_LL list = new Assign_LL();
         Node head = new Node(1);
         head.next = new Node(2);
         head.next.next = new Node(3);
