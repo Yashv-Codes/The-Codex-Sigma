@@ -38,7 +38,8 @@ public class practice {
             for(int j=1; j<=n && temp!=null; j++){
                 temp = temp.next;
             }
-            
+            curr.next = temp;
+            curr = temp;
         }
     }
    
