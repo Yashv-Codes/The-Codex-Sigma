@@ -8,7 +8,13 @@ public class practice {
         }
     }
     public Node getpoint(Node head1, Node head2){
-        
+        if(head1 == null || head2 == null)
+            return null;
+        Node ptr1 = head1;
+        Node ptr2 = head2;
+        while(ptr1 != ptr2){
+            if(ptr)
+        }
     }
     
 
