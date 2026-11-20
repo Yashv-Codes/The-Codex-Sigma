@@ -29,7 +29,9 @@ public class practice {
     public void deleteNode(Node head, int m, int n){
         Node curr = head;
         while(curr != null){
-            for(int i=1; i<m && curr!=null)
+            for(int i=1; i<m && curr!=null; i++){
+                cu
+            }
         }
     }
    
