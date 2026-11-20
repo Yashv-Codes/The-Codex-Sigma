@@ -21,7 +21,8 @@ public class practice {
         head2.next = newnode;
         newnode = new Node(9);
         head2.next.next = newnode;
-        
+        newnode = new Node(15);
+        head1
     }
 }
 
