@@ -20,6 +20,7 @@ public class practice {
         Node newnode = new Node(6);
         head2.next = newnode;
         newnode = new Node(9);
+        head2.next.next = newnode;
         
     }
 }
