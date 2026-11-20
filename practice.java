@@ -39,7 +39,7 @@ public class practice {
         head1.next.next = newnode;
         head1.next.next.next = null;
         Node intersection = list.getpoint(head1,head2);
-        
+        if(intersection)
     }
 }
 
