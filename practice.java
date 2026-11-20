@@ -30,7 +30,7 @@ public class practice {
         Node curr = head;
         while(curr != null){
             for(int i=1; i<m && curr!=null; i++){
-                cu
+                curr = curr.next;
             }
         }
     }
