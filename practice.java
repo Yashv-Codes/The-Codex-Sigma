@@ -11,9 +11,7 @@ public class practice {
     public static Node tail;
     public static int size;
 
-   
-
-    public static void print(){
+   public static void print(){
         Node temp = head;
         while(temp != null){
             System.out.print(temp.data+" -> ");
