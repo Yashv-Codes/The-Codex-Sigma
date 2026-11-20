@@ -34,7 +34,7 @@ public class practice {
             }
             if(curr == null)
                 return;
-            
+            Node temp = 
         }
     }
    
