@@ -42,7 +42,7 @@ public class practice {
         if(intersection == null)
             System.out.println("No intersection point");
         else
-            System.out.println("Intersection point = "+)
+            System.out.println("Intersection point = "+intersection.data);
     }
 }
 
