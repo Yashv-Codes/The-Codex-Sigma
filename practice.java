@@ -7,7 +7,7 @@ public class practice {
             this.next = null;
         }
     }
-    public static Node getpoint(Node head1, Node head2){
+    public Node getpoint(Node head1, Node head2){
         while(head2!=null){
             Node temp = head1;
             while(temp!=null){
@@ -39,6 +39,7 @@ public class practice {
         head1.next.next = newnode;
         head1.next.next.next = null;
         Node intersection = list.getpoint(head1,head2);
+        
     }
 }
 
