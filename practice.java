@@ -18,7 +18,9 @@ public class practice {
         }
         return ptr1;
     }
-    public void 
+    public void print(){
+        
+    }
  
    
     
