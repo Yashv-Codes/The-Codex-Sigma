@@ -71,6 +71,9 @@ public class practice {
             currX.next = currY;
             currY.next = nextX;
         }
+        else{
+            
+        }
         
     }
     
