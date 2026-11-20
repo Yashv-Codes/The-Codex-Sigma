@@ -42,8 +42,9 @@ public class practice {
             curr = temp;
         }
     }
-    public void swapNodes(Node head, int x, int y){
-        if(x==y )
+    public Node swapNodes(Node head, int x, int y){
+        if(x==y || head == null)
+            return head;
     }
     
     public static void main(String[] args){
