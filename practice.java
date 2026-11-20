@@ -75,6 +75,7 @@ public class practice {
             prevX.next = currY;
             currY.next = nextX;
             nextX.next = currX;
+            currX.next = nextY;
         }
         
     }
