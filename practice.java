@@ -61,6 +61,7 @@ public class practice {
             return head;
         Node nextX = currX.next;
         Node nextY = currY.next;
+        if(currX.next == )
     }
     
     public static void main(String[] args){
