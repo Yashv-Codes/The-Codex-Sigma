@@ -77,7 +77,7 @@ public class practice {
             nextX.next = currX;
             currX.next = nextY;
         }
-        
+        return dummy.next;
     }
     
     public static void main(String[] args){
