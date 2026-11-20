@@ -29,7 +29,7 @@ public class practice {
     public void deleteNode(Node head, int m, int n){
         Node curr = head;
         while(curr != null){
-            for
+            for(int i=1; i<m && )
         }
     }
    
