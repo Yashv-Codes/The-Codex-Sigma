@@ -52,6 +52,7 @@ public class practice {
             prevX = prevX.next;
             currX = currX.next;
         }
+        while(currY!=)
     }
     
     public static void main(String[] args){
