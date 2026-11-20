@@ -63,7 +63,7 @@ public class practice {
         Node nextY = currY.next;
         if(currX.next == currY){
             prevX.next = currY;
-            prevY.next = currX;
+            currY.next = currX;
             currX.next = nextY;
         }
         else if(currY.next == currX){
