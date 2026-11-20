@@ -48,7 +48,7 @@ public class practice {
         Node dummy = new Node(0);
         dummy.next = head;
         Node prevX = dummy, currX = head;
-        while(currX != null && currX!=x){
+        while(currX != null && currX.data!=x){
             prevX = prevX.next;
             currX = currX.next;
         }
