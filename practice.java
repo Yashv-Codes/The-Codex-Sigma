@@ -9,7 +9,7 @@ public class practice {
     }
     public static Node head;
     public static Node tail;
-    public static int size;
+    
 
    public static void print(){
         Node temp = head;
