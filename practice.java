@@ -35,7 +35,9 @@ public class practice {
             if(curr == null)
                 return;
             Node temp = curr.next;
-            for
+            for(int j=1; j<=n && temp!=null; j++){
+                
+            }
         }
     }
    
