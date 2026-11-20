@@ -22,7 +22,11 @@ public class practice {
         newnode = new Node(9);
         head2.next.next = newnode;
         newnode = new Node(15);
-        head1
+        head1.next = newnode;
+        head2.next.next.next = newnode;
+        newnode = new Node(30);
+        head1.next.next = newnode;
+        head1.next.next.next = null;
     }
 }
 
