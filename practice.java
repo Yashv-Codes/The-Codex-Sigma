@@ -7,7 +7,7 @@ public class practice {
             this.next = null;
         }
     }
-    
+    public static Node get
     
 
    
