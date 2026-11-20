@@ -23,7 +23,8 @@ public class practice {
     public static void print1(){
         Node temp = head1;
         while(temp!=null){
-            yste
+            System.out.print(temp.data+" -> ");
+            temp = temp.next;
         }
     }
     
