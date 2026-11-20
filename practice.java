@@ -27,7 +27,7 @@ public class practice {
         System.out.println("null");
     }
     public void deleteNode(Node head, int m, int n){
-        
+        Node curr = head;
     }
    
     
