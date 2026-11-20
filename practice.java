@@ -7,7 +7,9 @@ public class practice {
             this.next = null;
         }
     }
-    public static Node get
+    public static Node getpoint(Node head1, Node head2){
+        
+    }
     
 
    
