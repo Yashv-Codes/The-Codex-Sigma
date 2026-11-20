@@ -18,7 +18,7 @@ public class practice {
         }
         return ptr1;
     }
-    public void print(){
+    public void print(Node head){
         Node temp = head;
 
     }
@@ -26,7 +26,7 @@ public class practice {
    
     
     public static void main(String[] args){
-        static Node head = new Node(1);
+        Node head = new Node(1);
         head.next = new Node(2);
         head.next.next = new Node(3);
         head.next.next.next = new Node(4);
