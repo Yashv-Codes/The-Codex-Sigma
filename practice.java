@@ -49,10 +49,10 @@ public class practice {
         dummy.next = head;
         Node prevX = dummy, currX = head;
         while(currX != null && currX.data!=x){
-            prevX = prevX.next;
+            prevX = currX;
             currX = currX.next;
         }
-        Node prevY = 
+        Node prevY = dummy, 
     }
     
     public static void main(String[] args){
