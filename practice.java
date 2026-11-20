@@ -36,8 +36,9 @@ public class practice {
                 return;
             Node temp = curr.next;
             for(int j=1; j<=n && temp!=null; j++){
-                
+                temp = temp.next;
             }
+            
         }
     }
    
