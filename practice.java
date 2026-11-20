@@ -55,7 +55,7 @@ public class practice {
         head.next.next.next.next.next.next = new Node(7);
         head.next.next.next.next.next.next.next = new Node(8);
         list.print(head);
-        list.deleteNode(head,3,2);
+        list.deleteNode(head,2,3);
         list.print(head);
     } 
 }
