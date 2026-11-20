@@ -37,7 +37,8 @@ public class practice {
         head.next.next = new Node(3);
         head.next.next.next = new Node(6);
         head.next.next.next.next = new Node(7);
-       
+        print();
+        print1();
     }
 }
 
