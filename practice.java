@@ -26,7 +26,9 @@ public class practice {
         }
         System.out.println("null");
     }
-    public void deleteNode(Node head)
+    public void deleteNode(Node head, int m, int n){
+        
+    }
    
     
     public static void main(String[] args){
