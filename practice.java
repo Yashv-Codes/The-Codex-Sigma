@@ -74,7 +74,7 @@ public class practice {
         else{
             prevX.next = currY;
             currY.next = nextX;
-            nextX.next = currX;
+            prevY.next = currX;
             currX.next = nextY;
         }
         return dummy.next;
