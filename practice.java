@@ -39,7 +39,10 @@ public class practice {
         head1.next.next = newnode;
         head1.next.next.next = null;
         Node intersection = list.getpoint(head1,head2);
-        if(intersection)
+        if(intersection == null)
+            System.out.println("No intersection point");
+        else
+            System.out.println("Intersection point = "+)
     }
 }
 
