@@ -13,6 +13,7 @@ public class practice {
             while(temp!=null){
                 if(temp == head2)
                     return temp;
+                temp = temp.next;
             }
         }
     }
