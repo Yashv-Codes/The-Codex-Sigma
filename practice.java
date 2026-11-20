@@ -68,7 +68,7 @@ public class practice {
         }
         else if(currY.next == currX){
             prevY.next = currX;
-            currX.next = 
+            currX.next = currY;
         }
         
     }
