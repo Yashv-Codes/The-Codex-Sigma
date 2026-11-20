@@ -52,7 +52,8 @@ public class practice {
             prevX = currX;
             currX = currX.next;
         }
-        Node prevY = dummy, 
+        Node prevY = dummy, currY = head;
+        while(currY!= null && )
     }
     
     public static void main(String[] args){
