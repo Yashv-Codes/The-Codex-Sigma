@@ -60,6 +60,7 @@ public class practice {
         if(currX == null || currY == null)
             return head;
         Node nextX = currX.next;
+        Node nextY = currY.next;
     }
     
     public static void main(String[] args){
