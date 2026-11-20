@@ -64,6 +64,7 @@ public class practice {
         if(currX.next == currY){
             prevX.next = currY;
             prevY.next = currX;
+            currX.next = 
         }
 
         
