@@ -8,6 +8,7 @@ public class practice {
         }
     }
     public static Node head;
+    public static Node head1;
     public static Node tail;
     
 
