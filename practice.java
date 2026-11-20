@@ -53,7 +53,9 @@ public class practice {
             currX = currX.next;
         }
         Node prevY = dummy, currY = head;
-        while(currY!= null && )
+        while(currY!= null && currY.data!=y){
+            prevY = 
+        }
     }
     
     public static void main(String[] args){
