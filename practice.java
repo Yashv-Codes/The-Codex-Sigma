@@ -8,7 +8,7 @@ public class practice {
         }
     }
     public static Node getpoint(Node head1, Node head2){
-        
+        while(head2)
     }
     
 
