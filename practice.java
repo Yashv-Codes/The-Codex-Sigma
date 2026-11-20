@@ -54,7 +54,8 @@ public class practice {
         }
         Node prevY = dummy, currY = head;
         while(currY!= null && currY.data!=y){
-            prevY = 
+            prevY = currY;
+            currY = currY.next;
         }
     }
     
