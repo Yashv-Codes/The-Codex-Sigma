@@ -62,7 +62,8 @@ public class practice {
         Node nextX = currX.next;
         Node nextY = currY.next;
         if(currX.next == currY){
-            prevX.next = 
+            prevX.next = currY;
+            
         }
 
         
