@@ -57,7 +57,7 @@ public class practice {
             prevY = currY;
             currY = currY.next;
         }
-        if()
+        if(currX == null )
     }
     
     public static void main(String[] args){
