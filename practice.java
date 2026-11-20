@@ -43,7 +43,7 @@ public class practice {
         }
     }
     public void swapNodes(Node head, int x, int y){
-        
+        if(x==y )
     }
     
     public static void main(String[] args){
