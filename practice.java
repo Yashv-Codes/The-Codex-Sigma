@@ -30,6 +30,7 @@ public class practice {
         head.next.next.next.next = new Node(5);
         head.next.next.next.next.next = new Node(6);
         head.next.next.next.next.next.next = new Node(7);
+        head.next.next.next.next.next.next.next = new Node(8);
          
     }
         
