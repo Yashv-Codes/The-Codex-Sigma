@@ -88,7 +88,7 @@ public class practice {
         head.next.next.next = new Node(4);
         head.next.next.next.next = new Node(5);
         list.print(head);
-        list.swapNodes(head,1,3);
+        head = list.swapNodes(head,1,3);
         list.print(head);
     } 
 }
