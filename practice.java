@@ -34,7 +34,8 @@ public class practice {
             }
             if(curr == null)
                 return;
-            Node temp = 
+            Node temp = curr.next;
+            for
         }
     }
    
