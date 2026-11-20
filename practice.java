@@ -45,6 +45,8 @@ public class practice {
     public Node swapNodes(Node head, int x, int y){
         if(x==y || head == null)
             return head;
+        Node dummy = new Node(0);
+        dummy.next = head;
         
     }
     
