@@ -16,6 +16,7 @@ public class practice {
             ptr1 = (ptr1 == null)? head2 : ptr1.next;
             ptr2 = (ptr2 == null)? head1: ptr2.next;
         }
+        return ptr1;
     }
     
 
