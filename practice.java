@@ -52,7 +52,7 @@ public class practice {
             prevX = prevX.next;
             currX = currX.next;
         }
-        while(currY!=)
+        Node prevY = 
     }
     
     public static void main(String[] args){
