@@ -72,7 +72,7 @@ public class practice {
             currY.next = nextX;
         }
         else{
-            prevX
+            prevX.next = 
         }
         
     }
