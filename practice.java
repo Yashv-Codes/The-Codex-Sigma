@@ -13,7 +13,9 @@ public class practice {
    
     
     public static void main(String[] args){
-        Node 
+        practice list = new practice();
+        Node head1, head2;
+        head1 = new Node(10)
     }
 }
 
