@@ -43,6 +43,5 @@ public class practice {
         head.next.next.next.next.next.next.next = new Node(8);
         list.print(head);
     }
-        
 }
 
