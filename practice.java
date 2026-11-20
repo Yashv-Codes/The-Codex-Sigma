@@ -18,8 +18,8 @@ public class practice {
         }
         return ptr1;
     }
-    
-
+    public void 
+ 
    
     
     public static void main(String[] args){
