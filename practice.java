@@ -18,7 +18,8 @@ public class practice {
         head1 = new Node(10);
         head2 = new Node(3);
         Node newnode = new Node(6);
-        
+        head2.next = newnode;
+        Node newnode = new Node(9);
     }
 }
 
