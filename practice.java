@@ -11,7 +11,8 @@ public class practice {
         while(head2!=null){
             Node temp = head1;
             while(temp!=null){
-                if(temp == )
+                if(temp == head2)
+                    return temp;
             }
         }
     }
