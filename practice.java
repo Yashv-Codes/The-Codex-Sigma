@@ -23,7 +23,9 @@ public class practice {
    
     
     public static void main(String[] args){
-        Node head
+        Node head;
+        head = new Node(1);
+        head.next = 
     }
         
 }
