@@ -42,7 +42,7 @@ public class practice {
             curr = temp;
         }
     }
-   
+    public void swap
     
     public static void main(String[] args){
         practice list = new practice();
