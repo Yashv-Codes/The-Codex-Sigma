@@ -15,7 +15,8 @@ public class practice {
     public static void main(String[] args){
         practice list = new practice();
         Node head1, head2;
-        head1 = new Node(10)
+        head1 = new Node(10);
+        head2 = new Node(3);
     }
 }
 
