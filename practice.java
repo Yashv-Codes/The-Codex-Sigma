@@ -7,9 +7,7 @@ public class practice {
             this.next = null;
         }
     }
-    public static Node head;
-    public static Node head1;
-    public static Node tail;
+    
     
 
    public static void print(){
