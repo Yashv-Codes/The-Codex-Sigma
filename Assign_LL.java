@@ -20,8 +20,8 @@ public class Assign_LL {
     }
     public void print(Node head){
         Node temp = head;
-        while(temp != null){
-            System.out.print(temp.data+" -> ");
+        while(head != null){
+            System.out.print(head.data+" -> ");
             head = head.next;
         }
         System.out.println("null");
