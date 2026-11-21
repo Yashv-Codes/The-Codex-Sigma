@@ -107,9 +107,9 @@ public class Assign_LL {
         head.next = new Node(8);
         head.next.next = new Node(12);
         head.next.next.next = new Node(7);
-        head.next.next.next.next = new Node(5);
-        head.next.next.next.next.next = new Node(6);
-        head.next.next.next.next.next.next = new Node(7);
+        head.next.next.next.next = new Node(6);
+        head.next.next.next.next.next = new Node(4);
+        head.next.next.next.next.next.next = new Node(1);
         list.print(head);
         head = list.OddEvenLL(head);
         list.print(head);
