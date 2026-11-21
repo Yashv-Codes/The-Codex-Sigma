@@ -36,6 +36,8 @@ public class StackB {
 
         // peek
         public int peek(){
+            if(isEmpty())
+                return -1;
             return ;
         }
     }
