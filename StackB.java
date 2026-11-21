@@ -7,12 +7,12 @@ public class StackB {
         }
 
         // push
-        public static void push(int data){
+        public void push(int data){
             list.add(data);
         }
 
         // pop
-        public static int pop(){
+        public int pop(){
             int top = list.get(list.size()-1);
             list.remove(list.size()-1);
             return top;
