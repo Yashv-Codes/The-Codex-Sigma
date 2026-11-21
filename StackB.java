@@ -22,8 +22,7 @@ public class StackB {
                 return;
             }
             newnode.next = head;
-            head = newnode;    
-
+            head = newnode;   
         }
 
         // pop
