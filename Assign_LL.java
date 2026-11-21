@@ -110,6 +110,10 @@ public class Assign_LL {
                 temp.next = a;
                 a = a.next;
             }
+            else{
+                temp.next = b;
+                b = b.next;
+            }
         }
     }
     public Node merge(Node[] arr, int start, int end){
