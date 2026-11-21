@@ -92,7 +92,12 @@ public class Assign_LL {
                 eventail.next = curr;
                 eventail = eventail.next;
             }
+            else{
+                oddtail.next = curr;
+                oddtail = oddtail.next;
+            }
         }
+        
     }
     
     public static void main(String[] args){
