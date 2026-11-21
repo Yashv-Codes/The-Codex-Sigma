@@ -89,7 +89,7 @@ public class Assign_LL {
         Node curr = head;
         while(curr != null){
             if(curr.data % 2 == 0){
-                
+                eventail.next = 
             }
         }
     }
