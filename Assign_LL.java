@@ -123,7 +123,7 @@ public class Assign_LL {
             temp.next = b;
         return dummy.next;
     }
-    public Node merge(Node[] arr, int start, int end){
+    public static Node merge(Node[] arr, int start, int end){
         if(start > end)
             return null;
         if(start == end)
