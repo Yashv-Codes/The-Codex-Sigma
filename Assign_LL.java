@@ -82,6 +82,9 @@ public class Assign_LL {
     public Node OddEvenLL(Node head){
         if(head == null || head.next == null)
             return head;
+        Node evendummy = new Node(0);
+        Node odddummy = new Node(0);
+        
     }
     
     public static void main(String[] args){
