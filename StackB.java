@@ -16,7 +16,7 @@ public class StackB {
 
         // push
         public void push(int data){
-            
+            Node newnode = 
         }
 
         // pop
