@@ -103,6 +103,7 @@ public class Assign_LL {
     }
     // Merge K Soted lists
     public Node sortedMerge(Node a, Node b){
+        Node dummy = new Node(-1);
         
     }
     public Node merge(Node[] arr, int start, int end){
