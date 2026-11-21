@@ -5,6 +5,7 @@ public class StackB {
         public static boolean isEmpty(){
             return list.size() == 0;
         }
+        
     }
     
 }
