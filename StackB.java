@@ -12,14 +12,13 @@ public class StackB {
 
         // pop
         public int pop(){
-            int top = list.get(list.size()-1);
-            list.remove(list.size()-1);
+            
             return top;
         }
 
         // peek
         public int peek(){
-            return list.get(list.size()-1);
+            return ;
         }
     }
     
