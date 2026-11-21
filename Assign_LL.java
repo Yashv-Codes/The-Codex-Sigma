@@ -19,7 +19,6 @@ public class Assign_LL {
         return ptr1;
     }
     public void print(Node head){
-        Node temp = head;
         while(head != null){
             System.out.print(head.data+" -> ");
             head = head.next;
