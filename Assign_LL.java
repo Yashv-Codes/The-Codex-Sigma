@@ -102,7 +102,7 @@ public class Assign_LL {
         return evendummy.next;
     }
     // Merge K Soted lists
-    public Node merge(Node )
+    public Node merge(Node[] arr, )
     
     public static void main(String[] args){
         Assign_LL list = new Assign_LL();
