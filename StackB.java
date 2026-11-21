@@ -5,6 +5,12 @@ public class StackB {
         public static boolean isEmpty(){
             return list.size() == 0;
         }
+        // push
+        public static void push(int data){
+            list.add(data);
+        }
+
+        // pop
         
     }
     
