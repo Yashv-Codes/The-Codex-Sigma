@@ -21,7 +21,8 @@ public class StackB {
                 head = newnode;
                 return;
             }
-                
+            newnode.next = head;
+            head = newnode;    
 
         }
 
