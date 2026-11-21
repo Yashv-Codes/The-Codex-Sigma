@@ -109,7 +109,7 @@ public class Assign_LL {
         head.next.next.next = new Node(4);
         head.next.next.next.next = new Node(5);
         list.print(head);
-        head = list.swapNodes(head,2,3);
+       
         list.print(head);
     } 
 }
