@@ -103,7 +103,8 @@ public class Assign_LL {
     }
     // Merge K Soted lists
     public Node merge(Node[] arr, int start, int end){
-        
+        if(start > end)
+            return null;
     }
     
     public static void main(String[] args){
