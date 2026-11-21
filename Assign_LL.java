@@ -106,7 +106,9 @@ public class Assign_LL {
         Node dummy = new Node(-1);
         Node temp = dummy;
         while(a != null && b !=null){
-            if(a.data <= b.data)
+            if(a.data <= b.data){
+                temp.next = a;
+            }
         }
     }
     public Node merge(Node[] arr, int start, int end){
