@@ -15,10 +15,11 @@ public class StackB {
         }
 
         // push
-        public void push(int data){
+        public int push(int data){
             Node newnode = new Node(data);
             if(isEmpty())
                 return -1;
+            
         }
 
         // pop
