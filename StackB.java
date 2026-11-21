@@ -1,6 +1,6 @@
 public class StackB {
-    public class Stack{
-        
+    static class Stack{
+
     }
     
 }
