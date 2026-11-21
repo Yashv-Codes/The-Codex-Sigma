@@ -79,7 +79,9 @@ public class Assign_LL {
         }
         return dummy.next;
     }
-    public Node OddEvenLL()
+    public Node OddEvenLL(Node head){
+        
+    }
     
     public static void main(String[] args){
         Assign_LL list = new Assign_LL();
