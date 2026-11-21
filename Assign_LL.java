@@ -96,6 +96,7 @@ public class Assign_LL {
                 oddtail.next = curr;
                 oddtail = oddtail.next;
             }
+            curr = curr.next;
         }
         eventail.next = odddummy.next;
         oddtail.next = null;
