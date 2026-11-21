@@ -12,7 +12,9 @@ public class StackB {
         }
 
         // pop
-        public static int pop
+        public static int pop(){
+            
+        }
     }
     
 }
