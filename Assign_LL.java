@@ -136,12 +136,7 @@ public class Assign_LL {
     public static void main(String[] args){
         Assign_LL list = new Assign_LL();
         Node head = new Node(5);
-        head.next = new Node(8);
-        head.next.next = new Node(12);
-        head.next.next.next = new Node(7);
-        head.next.next.next.next = new Node(6);
-        head.next.next.next.next.next = new Node(4);
-        head.next.next.next.next.next.next = new Node(1);
+        
         list.print(head);
         
         list.print(head);
