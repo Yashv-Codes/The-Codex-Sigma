@@ -108,7 +108,8 @@ public class Assign_LL {
         if(start == end)
             return arr[start];
         int mid = start+(end-start)/2;
-        Node left = merge(arr,)
+        Node left = merge(arr,start,mid);
+        Node right = merge(arr, mid+1, end);
     }
     
     public static void main(String[] args){
