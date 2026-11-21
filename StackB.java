@@ -1,6 +1,10 @@
 import java.util.*;
 public class StackB {
-    public 
+    static class Node{
+        int data;
+        Node next;
+        
+    }
     static class Stack{
         public boolean isEmpty(){
             return 
