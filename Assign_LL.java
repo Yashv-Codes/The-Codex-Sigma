@@ -110,7 +110,7 @@ public class Assign_LL {
         int mid = start+(end-start)/2;
         Node left = merge(arr,start,mid);
         Node right = merge(arr, mid+1, end);
-        return sort
+        return sortedMerge(left, right);
     }
     
     public static void main(String[] args){
