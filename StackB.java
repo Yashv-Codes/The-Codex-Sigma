@@ -3,7 +3,10 @@ public class StackB {
     static class Node{
         int data;
         Node next;
-        
+        public Node(int data){
+            this.data = data;
+            this.next = null;
+        }
     }
     static class Stack{
         public boolean isEmpty(){
