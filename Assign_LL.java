@@ -90,7 +90,7 @@ public class Assign_LL {
         while(curr != null){
             if(curr.data % 2 == 0){
                 eventail.next = curr;
-                
+                eventail = eventail.next;
             }
         }
     }
