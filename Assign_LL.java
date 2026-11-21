@@ -137,9 +137,7 @@ public class Assign_LL {
         Assign_LL list = new Assign_LL();
         
         
-        list.print(head);
-        
-        list.print(head);
+       
     } 
 }
 
