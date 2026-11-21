@@ -1,46 +1,7 @@
 // import java.util.*;
 public class StackB {
-    static class Node{
-        int data;
-        Node next;
-        public Node(int data){
-            this.data = data;
-            this.next = null;
-        }
-    }
-    static Node head;
-    static class Stack{
-        public boolean isEmpty(){
-            return head == null;
-        }
-
-        // push
-        public void push(int data){
-            Node newnode = new Node(data);
-            if(isEmpty()){
-                head = newnode;
-                return;
-            }
-            newnode.next = head;
-            head = newnode;   
-        }
-
-        // pop
-        public int pop(){
-            if(isEmpty())
-                return -1;
-            int top = head.data;
-            head = head.next;
-            return top;
-        }
-
-        // peek
-        public int peek(){
-            if(isEmpty())
-                return -1;
-            return head.data;
-        }
-    }
+    
+            
     
     public static void main(String[] args){
         Stack s = new Stack();
