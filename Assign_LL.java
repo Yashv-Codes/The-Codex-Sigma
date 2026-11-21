@@ -117,6 +117,9 @@ public class Assign_LL {
             temp = temp.next;
         }
         if(a != null)
+            temp.next = a;
+        else
+            temp.next = b;
     }
     public Node merge(Node[] arr, int start, int end){
         if(start > end)
