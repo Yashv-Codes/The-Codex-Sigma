@@ -17,6 +17,11 @@ public class StackB {
             list.remove(list.size()-1);
             return top;
         }
+
+        // peek
+        public static int peek(){
+            
+        }
     }
     
 }
