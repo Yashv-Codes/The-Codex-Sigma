@@ -80,7 +80,8 @@ public class Assign_LL {
         return dummy.next;
     }
     public Node OddEvenLL(Node head){
-        
+        if(head == null || head.next == null)
+            return head;
     }
     
     public static void main(String[] args){
