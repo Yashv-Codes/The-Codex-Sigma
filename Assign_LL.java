@@ -7,6 +7,7 @@ public class Assign_LL {
             this.next = null;
         }
     }
+    public static Node head;
     public Node getpoint(Node head1, Node head2){
         if(head1 == null || head2 == null)
             return null;
