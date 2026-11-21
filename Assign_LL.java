@@ -97,7 +97,7 @@ public class Assign_LL {
                 oddtail = oddtail.next;
             }
         }
-        eventail.next = 
+        eventail.next = odddummy.next;
     }
     
     public static void main(String[] args){
