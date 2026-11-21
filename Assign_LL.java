@@ -85,6 +85,7 @@ public class Assign_LL {
         Node evendummy = new Node(0);
         Node odddummy = new Node(0);
         Node curr = head;
+        while(curr)
     }
     
     public static void main(String[] args){
