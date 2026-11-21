@@ -84,9 +84,13 @@ public class Assign_LL {
             return head;
         Node evendummy = new Node(0);
         Node odddummy = new Node(0);
+        Node eventail = evendummy;
+        Node oddtail = odddummy;
         Node curr = head;
         while(curr != null){
-            if(curr.data % 2 == 0){}
+            if(curr.data % 2 == 0){
+                
+            }
         }
     }
     
