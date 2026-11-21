@@ -103,7 +103,7 @@ public class Assign_LL {
         return evendummy.next;
     }
     // Merge K Soted lists
-    public Node sortedMerge(Node a, Node b){
+    public static Node sortedMerge(Node a, Node b){
         Node dummy = new Node(-1);
         Node temp = dummy;
         while(a != null && b !=null){
