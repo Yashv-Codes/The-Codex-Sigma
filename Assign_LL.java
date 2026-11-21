@@ -136,7 +136,26 @@ public class Assign_LL {
     
     public static void main(String[] args){
         Assign_LL list = new Assign_LL();
-        
+        int k = 3;
+        Node[] arr = new Node[k];
+
+        // List 0: 1 -> 4 -> 7
+        arr[0] = new Node(1);
+        arr[0].next = new Node(4);
+        arr[0].next.next = new Node(7);
+
+        // List 1: 2 -> 5 -> 8
+        arr[1] = new Node(2);
+        arr[1].next = new Node(5);
+        arr[1].next.next = new Node(8);
+
+        // List 2: 3 -> 6 -> 9
+        arr[2] = new Node(3);
+        arr[2].next = new Node(6);
+        arr[2].next.next = new Node(9);
+
+        Node mergedHead = mergeKLists(arr, 0, k - 1);
+        printList(mergedHead);
         
        
     } 
