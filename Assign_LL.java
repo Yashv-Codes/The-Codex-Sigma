@@ -107,6 +107,8 @@ public class Assign_LL {
             return null;
         if(start == end)
             return arr[start];
+        int mid = start+(end-start)/2;
+        
     }
     
     public static void main(String[] args){
