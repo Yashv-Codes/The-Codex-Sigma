@@ -27,7 +27,8 @@ public class StackB {
 
         // pop
         public int pop(){
-            
+            if(isEmpty())
+                return -1;
             return top;
         }
 
