@@ -143,7 +143,7 @@ public class Assign_LL {
         head.next.next.next.next.next = new Node(4);
         head.next.next.next.next.next.next = new Node(1);
         list.print(head);
-        head = list.OddEvenLL(head);
+        
         list.print(head);
     } 
 }
