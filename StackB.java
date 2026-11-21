@@ -8,6 +8,7 @@ public class StackB {
             this.next = null;
         }
     }
+    static Node head;
     static class Stack{
         public boolean isEmpty(){
             return 
