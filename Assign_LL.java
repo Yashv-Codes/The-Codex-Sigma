@@ -86,7 +86,7 @@ public class Assign_LL {
         Node odddummy = new Node(0);
         Node curr = head;
         while(curr != null){
-            if(curr.data )
+            if(curr.data % 2 == 0){}
         }
     }
     
