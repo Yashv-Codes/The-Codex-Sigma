@@ -1,5 +1,6 @@
 import java.util.*;
 public class StackB {
+    public 
     static class Stack{
         public boolean isEmpty(){
             return 
