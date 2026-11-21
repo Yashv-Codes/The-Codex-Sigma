@@ -11,7 +11,7 @@ public class StackB {
     static Node head;
     static class Stack{
         public boolean isEmpty(){
-            return 
+            return head == null;
         }
 
         // push
