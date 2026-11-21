@@ -105,6 +105,7 @@ public class Assign_LL {
     public Node sortedMerge(Node a, Node b){
         Node dummy = new Node(-1);
         Node temp = dummy;
+        while(a)
     }
     public Node merge(Node[] arr, int start, int end){
         if(start > end)
