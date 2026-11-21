@@ -105,6 +105,8 @@ public class Assign_LL {
     public Node merge(Node[] arr, int start, int end){
         if(start > end)
             return null;
+        if(start == end)
+            return arr[start];
     }
     
     public static void main(String[] args){
