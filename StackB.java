@@ -19,7 +19,7 @@ public class StackB {
         }
 
         // peek
-        public static int peek(){
+        public int peek(){
             return list.get(list.size()-1);
         }
     }
