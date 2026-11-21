@@ -2,12 +2,12 @@ import java.util.*;
 public class StackB {
     static class Stack{
         public boolean isEmpty(){
-            return list.size() == 0;
+            return 
         }
 
         // push
         public void push(int data){
-            list.add(data);
+            
         }
 
         // pop
