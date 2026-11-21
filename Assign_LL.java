@@ -102,6 +102,7 @@ public class Assign_LL {
         return evendummy.next;
     }
     // Merge K Soted lists
+    public Node sortedMerge(Node a)
     public Node merge(Node[] arr, int start, int end){
         if(start > end)
             return null;
