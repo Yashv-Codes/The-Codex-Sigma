@@ -17,7 +17,10 @@ public class StackB {
         // push
         public void push(int data){
             Node newnode = new Node(data);
-            if(isEmpty())
+            if(isEmpty()){
+                head = newnode;
+                return;
+            }
                 
 
         }
