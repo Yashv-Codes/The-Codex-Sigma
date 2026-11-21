@@ -155,7 +155,7 @@ public class Assign_LL {
         arr[2].next.next = new Node(9);
 
         Node mergedHead = mergeKLists(arr, 0, k - 1);
-        printList(mergedHead);
+        list.print(mergedHead);
         
        
     } 
