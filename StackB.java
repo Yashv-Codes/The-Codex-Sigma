@@ -20,7 +20,7 @@ public class StackB {
 
         // peek
         public static int peek(){
-            
+            return list.get(list.size()-1);
         }
     }
     
