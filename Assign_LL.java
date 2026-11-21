@@ -135,7 +135,7 @@ public class Assign_LL {
     
     public static void main(String[] args){
         Assign_LL list = new Assign_LL();
-        Node head = new Node(5);
+        
         
         list.print(head);
         
