@@ -136,7 +136,7 @@ public class Assign_LL {
     
     public static void main(String[] args){
         Assign_LL list = new Assign_LL();
-        list.print(head);
+        
         
        
     } 
