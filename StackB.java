@@ -2,7 +2,7 @@ import java.util.*;
 public class StackB {
     static class Stack{
         static ArrayList<Integer> list = new ArrayList<>();
-        public static boolean isEmpty(){
+        public boolean isEmpty(){
             return list.size() == 0;
         }
 
@@ -31,7 +31,7 @@ public class StackB {
         s.push(3);
 
         while(!s.isEmpty()){
-            
+
         }
     }
 }
