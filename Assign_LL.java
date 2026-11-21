@@ -22,7 +22,7 @@ public class Assign_LL {
         Node temp = head;
         while(temp != null){
             System.out.print(temp.data+" -> ");
-            temp = temp.next;
+            head = head.next;
         }
         System.out.println("null");
     }
