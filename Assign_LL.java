@@ -98,6 +98,7 @@ public class Assign_LL {
             }
         }
         eventail.next = odddummy.next;
+        oddtail.next = null;
         return evendummy.next;
     }
     
