@@ -32,7 +32,7 @@ public class StackB {
 
         while(!s.isEmpty()){
             System.out.println(s.peek());
-            // s.pop();
+            s.pop();
         }
     }
 }
