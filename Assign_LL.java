@@ -108,6 +108,7 @@ public class Assign_LL {
         while(a != null && b !=null){
             if(a.data <= b.data){
                 temp.next = a;
+                a = a.next;
             }
         }
     }
