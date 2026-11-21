@@ -13,7 +13,8 @@ public class StackB {
 
         // pop
         public static int pop(){
-            int top = list.get()
+            int top = list.get(list.size()-1);
+            
         }
     }
     
