@@ -12,7 +12,7 @@ public class StackB {
     }
 
     public static String reverseString(String str){
-        
+        Stack<Character> s = new Stack<>();
     }
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
