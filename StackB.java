@@ -18,6 +18,7 @@ public class StackB {
             s.push(str.charAt(i));
             i++;
         }
+        StringBuilder 
     }
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
