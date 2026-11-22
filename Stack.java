@@ -1,5 +1,5 @@
 import java.util.*;
-public class StackB {
+public class Stack {
     public static void pushAtBottom(Stack<Integer>s, int data){
         if(s.isEmpty()){
             s.push(data);
