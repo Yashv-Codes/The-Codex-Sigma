@@ -6,7 +6,7 @@ public class StackB {
             return;
         }
 
-        
+        int top = s.pop();
     }
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
