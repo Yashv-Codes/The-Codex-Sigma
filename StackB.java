@@ -15,7 +15,8 @@ public class StackB {
         Stack<Character> s = new Stack<>();
         int i = 0;
         while(i < str.length()){
-            s.push()
+            s.push(str.charAt(i));
+            i++;
         }
     }
     public static void main(String[] args){
