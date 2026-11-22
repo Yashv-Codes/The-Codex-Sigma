@@ -18,8 +18,7 @@ public class StackB {
         pushAtBottom(s,4);
 
         while(!s.isEmpty()){
-            System.out.println(s.peek());
-            s.pop();
+            
         }
     }
 }
