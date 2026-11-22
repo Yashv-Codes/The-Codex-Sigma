@@ -25,7 +25,9 @@ public class StackB {
         }
         return sb.toString();
     }
-
+    public static void reverseStack(Stack<Integer> s){
+        
+    }
     public static void main(String[] args){
         System.out.println(reverseString("abc"));
     }
