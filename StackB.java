@@ -31,6 +31,7 @@ public class StackB {
 
         int top = s.pop();
         reverseStack(s);
+        pushAtBottom(s,top);
 
     }
 
