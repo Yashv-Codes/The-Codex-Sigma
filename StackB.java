@@ -13,6 +13,10 @@ public class StackB {
 
     public static String reverseString(String str){
         Stack<Character> s = new Stack<>();
+        int i = 0;
+        while(i < str.length()){
+            s.push()
+        }
     }
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
