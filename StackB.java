@@ -34,6 +34,9 @@ public class StackB {
         pushAtBottom(s,top);
 
     }
+    public static void printStack(Stack<Integer> s){
+        while(!s.isEmpty())
+    }
 
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
