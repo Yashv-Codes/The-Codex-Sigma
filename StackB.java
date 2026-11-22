@@ -23,8 +23,9 @@ public class StackB {
             char curr = s.pop();
             sb.append(curr);
         }
-
+        return sb.toString();
     }
+    
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
         s.push(1);
