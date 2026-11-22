@@ -45,5 +45,7 @@ public class StackB {
         s.push(1);
         s.push(2);
         s.push(3);
+        reverseStack(s);
+        printStack(s);
     }
 }
