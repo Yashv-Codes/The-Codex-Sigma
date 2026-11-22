@@ -18,7 +18,8 @@ public class StackB {
             s.push(str.charAt(i));
             i++;
         }
-        StringBuilder 
+        StringBuilder sb = new StringBuilder("");
+        char curr = 
     }
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
