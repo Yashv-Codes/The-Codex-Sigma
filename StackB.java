@@ -10,6 +10,10 @@ public class StackB {
         pushAtBottom(s,data);
         s.push(top);
     }
+
+    public static String reverseString(String str){
+        
+    }
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
         s.push(1);
