@@ -35,7 +35,9 @@ public class StackB {
 
     }
     public static void printStack(Stack<Integer> s){
-        while(!s.isEmpty())
+        while(!s.isEmpty()){
+            System.out.println(s.pop());
+        }
     }
 
     public static void main(String[] args){
