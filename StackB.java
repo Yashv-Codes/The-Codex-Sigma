@@ -1,6 +1,6 @@
 import java.util.*;
 public class StackB {
-    public static void 
+    public static void pushAtBottom(Stack<Integer>s, int )
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
         s.push(1);
