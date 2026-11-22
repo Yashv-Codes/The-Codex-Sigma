@@ -26,7 +26,11 @@ public class StackB {
         return sb.toString();
     }
     public static void reverseStack(Stack<Integer> s){
-        
+        if(s.isEmpty())
+            return;
+
+        int top = s.pop();
+        reverseStack(s);
 
     }
 
