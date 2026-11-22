@@ -20,7 +20,8 @@ public class StackB {
         }
         StringBuilder sb = new StringBuilder("");
         while(!s.isEmpty()){
-            
+            char curr = s.pop();
+            sb.append(curr);
         }
 
     }
