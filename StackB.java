@@ -19,7 +19,10 @@ public class StackB {
             i++;
         }
         StringBuilder sb = new StringBuilder("");
-        char curr = 
+        while(!s.isEmpty()){
+            
+        }
+
     }
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
