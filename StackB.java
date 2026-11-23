@@ -54,7 +54,7 @@ public class StackB {
                     return false;
             }
         }
-
+        if(s.isEmpty())
     }
 
     public static void main(String[] args){
