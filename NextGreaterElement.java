@@ -17,7 +17,9 @@ public class NextGreaterElement {
     }
 
     public static void main(String[] args){
-        int arr[] = {6, 8, 0, 1, 3}
+        int arr[] = {6, 8, 0, 1, 3};
+        int nxtGreater[] = new int[arr.length];
+        Greater()
     }
     
 }
