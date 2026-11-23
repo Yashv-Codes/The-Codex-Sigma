@@ -40,6 +40,8 @@ public class StackB {
         }
     }
     public static boolean isValid(String str){
+        Stack<Character> s = new Stack<>();
+        
 
     }
 
