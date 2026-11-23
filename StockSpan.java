@@ -4,7 +4,7 @@ public class StockSpan {
         Stack<Integer> s = new Stack<>();
         span[0] = 1;
         s.push(0); // Person 0 enters the line
-        
+
         for(int i=1; i<stocks.length; i++){
             int currprice = stocks[i];
 
@@ -15,7 +15,8 @@ public class StockSpan {
 
             // Who is left on top of the stack now?
             if(s.isEmpty())
-                span[i] = i+1;
+                span[i] = i+1; // Nobody taller! Count everyone from 0 to i.
+            
             else{
                 int prevHigh = s.peek();
                 span[i] = i - prevHigh;
