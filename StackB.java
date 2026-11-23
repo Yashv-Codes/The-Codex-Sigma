@@ -55,6 +55,8 @@ public class StackB {
             }
         }
         if(s.isEmpty())
+            return true;
+        return false;
     }
 
     public static void main(String[] args){
