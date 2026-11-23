@@ -11,6 +11,8 @@ public class StockSpan {
             while(!s.isEmpty() && currprice >= stocks[s.peek()]){
                 s.pop();
             }
+
+            // Who is left on top of the stack now?
             if(s.isEmpty())
                 span[i] = i+1;
             else{
