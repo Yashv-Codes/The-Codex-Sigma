@@ -39,7 +39,7 @@ public class StackB {
             System.out.println(s.pop());
         }
     }
-    
+    public static 
 
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
