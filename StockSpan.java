@@ -1,6 +1,7 @@
 import java.util.*;
 public class StockSpan {
     public static void stock_span(int stocks[], int span[]){
+        Stack<Integer> s = new Stack<>();
         
     }
  
