@@ -6,6 +6,8 @@ public class StockSpan {
         int stocks[] = {100, 80, 60, 70, 60, 85, 100};
         int span[] = new int[stocks.length];
         stock_span(stocks, span);
-        for(int i=0; i<stoc)
+        for(int i=0; i<span.length; i++){
+            System.out.print(span[i]+" ");
+        }
     }
 }
