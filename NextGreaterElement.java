@@ -21,8 +21,9 @@ public class NextGreaterElement {
         int nxtGreater[] = new int[arr.length];
         Greater(arr, nxtGreater);
         for(int i=0; i<nxtGreater.length; i++){
-            
+            System.out.print(nxtGreater[i]+" ");
         }
+        System.out.println();
     }
     
 }
