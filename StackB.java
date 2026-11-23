@@ -47,6 +47,8 @@ public class StackB {
                 s.push(ch);
             else{
                 if(s.isEmpty())
+                    return false;
+                
             }
         }
 
