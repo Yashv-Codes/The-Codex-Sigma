@@ -12,7 +12,7 @@ public class StockSpan {
             if(s.isEmpty())
                 span[i] = i+1;
             else{
-                
+                int prevHigh = s.peek();
             }
         }
     }
