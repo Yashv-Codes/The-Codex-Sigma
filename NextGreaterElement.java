@@ -7,6 +7,7 @@ public class NextGreaterElement {
             while(!s.isEmpty() && arr[s.peek()] <= arr[i]){
                 s.pop();
             }
+            if(s.isEmpty())
         }
 
     }
