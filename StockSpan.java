@@ -3,7 +3,7 @@ public class StockSpan {
     public static void stock_span(int stocks[], int span[]){
         Stack<Integer> s = new Stack<>();
         span[0] = 1;
-        s.push(0);
+        s.push(0); // Person 0 enters the line
         for(int i=1; i<stocks.length; i++){
             int currprice = stocks[i];
             while(!s.isEmpty() && currprice >= stocks[s.peek()]){
