@@ -39,7 +39,7 @@ public class StackB {
             System.out.println(s.pop());
         }
     }
-    public static boolean isValid(String str, Stack<Cha){
+    public static boolean isValid(String str){
 
     }
 
