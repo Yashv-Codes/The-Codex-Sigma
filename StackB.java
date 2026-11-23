@@ -61,6 +61,6 @@ public class StackB {
 
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
-        System.out.println(isValid("("))
+        System.out.println(isValid("({[]}())"));
     }
 }
