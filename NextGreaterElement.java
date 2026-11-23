@@ -1,4 +1,4 @@
 public class NextGreaterElement {
-    public static void
+    public static void 
     
 }
