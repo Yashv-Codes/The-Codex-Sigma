@@ -9,7 +9,7 @@ public class StockSpan {
             while(!s.isEmpty() && currprice >= stocks[i]){
                 s.pop();
             }
-            if(s.isEmpty)
+            if(s.isEmpty())
         }
     }
  
