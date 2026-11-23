@@ -8,6 +8,9 @@ public class NextGreaterElement {
                 s.pop();
             }
             if(s.isEmpty())
+                nxtGreater[i] = -1;
+            else
+                
         }
 
     }
