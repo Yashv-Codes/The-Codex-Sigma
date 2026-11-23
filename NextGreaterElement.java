@@ -11,6 +11,8 @@ public class NextGreaterElement {
                 nxtGreater[i] = -1;
             else
                 nxtGreater[i] = arr[s.peek()];
+            
+            s.push(i);
         }
 
     }
