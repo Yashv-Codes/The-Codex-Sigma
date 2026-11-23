@@ -6,7 +6,7 @@ public class StockSpan {
         s.push(0);
         for(int i=1; i<stocks.length; i++){
             int currprice = stocks[i];
-            while(!s.isEmpty() && )
+            while(!s.isEmpty() && currprice >= stocks[i])
 
         }
     }
