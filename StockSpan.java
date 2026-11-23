@@ -4,6 +4,7 @@ public class StockSpan {
         Stack<Integer> s = new Stack<>();
         span[0] = 1;
         s.push(0);
+        for
     }
  
 
