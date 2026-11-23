@@ -10,6 +10,10 @@ public class StockSpan {
                 s.pop();
             }
             if(s.isEmpty())
+                span[i] = i+1;
+            else{
+                
+            }
         }
     }
  
