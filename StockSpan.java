@@ -5,7 +5,7 @@ public class StockSpan {
         span[0] = 1;
         s.push(0);
         for(int i=1; i<stocks.length; i++){
-            int currprice = span[i];
+            int currprice = stocks[i];
 
         }
     }
