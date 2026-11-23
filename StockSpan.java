@@ -4,7 +4,10 @@ public class StockSpan {
         Stack<Integer> s = new Stack<>();
         span[0] = 1;
         s.push(0);
-        for
+        for(int i=1; i<stocks.length; i++){
+            int currprice = span[i];
+
+        }
     }
  
 
