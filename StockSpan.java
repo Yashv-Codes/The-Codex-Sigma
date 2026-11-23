@@ -18,7 +18,7 @@ public class StockSpan {
                 span[i] = i+1; // Nobody taller! Count everyone from 0 to i.
             
             else{
-                int prevHigh = s.peek();
+                int prevHigh = s.peek(); // The first taller person blocking me!
                 span[i] = i - prevHigh;
             }
             s.push(i);
