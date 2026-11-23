@@ -14,7 +14,10 @@ public class NextGreaterElement {
             
             s.push(i);
         }
+    }
 
+    public static void main(String[] args){
+        int arr[] = 
     }
     
 }
