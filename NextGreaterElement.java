@@ -10,7 +10,7 @@ public class NextGreaterElement {
             if(s.isEmpty())
                 nxtGreater[i] = -1;
             else
-                
+                nxtGreater[i]
         }
 
     }
