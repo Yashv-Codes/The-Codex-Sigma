@@ -20,7 +20,9 @@ public class NextGreaterElement {
         int arr[] = {6, 8, 0, 1, 3};
         int nxtGreater[] = new int[arr.length];
         Greater(arr, nxtGreater);
-        for(int i=0; i<)
+        for(int i=0; i<nxtGreater.length; i++){
+            
+        }
     }
     
 }
