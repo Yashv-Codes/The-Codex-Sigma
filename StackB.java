@@ -46,7 +46,7 @@ public class StackB {
             if(ch == '(' || ch == '{' || ch=='[')
                 s.push(ch);
             else{
-                
+                if(s.isEmpty())
             }
         }
 
