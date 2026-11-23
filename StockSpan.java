@@ -1,4 +1,4 @@
 public class StockSpan {
-    public static void span(int stocks[], int )
+    public static void (int stocks[], int span[])
     
 }
