@@ -4,6 +4,7 @@ public class StockSpan {
         Stack<Integer> s = new Stack<>();
         span[0] = 1;
         s.push(0); // Person 0 enters the line
+        
         for(int i=1; i<stocks.length; i++){
             int currprice = stocks[i];
 
