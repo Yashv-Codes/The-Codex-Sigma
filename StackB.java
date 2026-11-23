@@ -48,7 +48,7 @@ public class StackB {
             else{
                 if(s.isEmpty())
                     return false;
-                if((s.peek() == '(' && ch == ')') || s.peek() == '{' )
+                if((s.peek() == '(' && ch == ')') || s.peek() == '{' && ch == '}')
             }
         }
 
