@@ -19,8 +19,10 @@ public class StockSpan {
             
             else{
                 int prevHigh = s.peek(); // The first taller person blocking me!
-                span[i] = i - prevHigh;
+                span[i] = i - prevHigh; // Distance between me and that taller person.
             }
+
+            // Rule 3: Push MY index onto the stack for the next person to check
             s.push(i);
         }
     }
