@@ -6,6 +6,8 @@ public class StockSpan {
         s.push(0); // Person 0 enters the line
         for(int i=1; i<stocks.length; i++){
             int currprice = stocks[i];
+            
+            // Rule 1: Kick out everyone behind me who is shorter/equal (they don't block me!)
             while(!s.isEmpty() && currprice >= stocks[s.peek()]){
                 s.pop();
             }
