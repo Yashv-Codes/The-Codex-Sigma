@@ -15,6 +15,7 @@ public class StockSpan {
                 int prevHigh = s.peek();
                 span[i] = i - prevHigh;
             }
+            s.push(i);
         }
     }
  
