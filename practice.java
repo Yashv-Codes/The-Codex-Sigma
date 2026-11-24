@@ -27,6 +27,10 @@ public class practice {
         }
         Node left = head;
         Node right = prev;
-        while()
+        while(right != null){
+            if(left.data != right.data)
+                return false;
+            
+        }
     }
 }
