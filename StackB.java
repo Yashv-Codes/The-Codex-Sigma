@@ -58,10 +58,11 @@ public class StackB {
             return true;
         return false;
     }
-    public static boolean 
+    public static boolean isDuplicate(String str){
+        Stack<Character>
+    }
 
     public static void main(String[] args){
-        Stack<Integer> s = new Stack<>();
         System.out.println(isValid("({[]}())"));
     }
 }
