@@ -8,5 +8,5 @@ public class practice {
             this.next = null;
         }
     }
-    
+    public static 
 }
