@@ -25,6 +25,7 @@ public class practice {
             prev = curr;
             curr = next;
         }
-        
+        Node left = head;
+        Node right = prev;
     }
 }
