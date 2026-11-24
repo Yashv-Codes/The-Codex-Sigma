@@ -15,7 +15,7 @@ public class MaxAreaHistogram {
             if(s.isEmpty())
                 nsr[i] = n;
             else
-                nsr[i] = height[s.peek()];
+                nsr[i] = s.peek();
             s.push(i);
         }
 
@@ -28,7 +28,7 @@ public class MaxAreaHistogram {
             if(s.isEmpty())
                 nsl[i] = -1;
             else
-                nsl[i] = height[s.peek()];
+                nsl[i] = heights.peek();
             s.push(i);
         }
 
