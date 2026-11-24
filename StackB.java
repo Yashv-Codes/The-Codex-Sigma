@@ -65,7 +65,7 @@ public class StackB {
             // Closing
             if(ch == ')'){
                 int count = 0;
-                while
+                while(s.peek() != '(')
             }
         }
         
