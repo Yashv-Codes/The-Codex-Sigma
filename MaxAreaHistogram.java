@@ -41,5 +41,5 @@ public class MaxAreaHistogram {
         }
         return maxArea;
     }
-    
 }
+
