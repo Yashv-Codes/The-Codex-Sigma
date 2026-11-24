@@ -74,6 +74,8 @@ public class StackB {
                 else
                     s.pop(); // opening pair
             }
+            else
+                s.push(ch); // Opening
         }
         
     }
