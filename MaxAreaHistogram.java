@@ -41,5 +41,9 @@ public class MaxAreaHistogram {
         }
         return maxArea;
     }
+
+    public static void main(String[] args){
+        
+    }
 }
 
