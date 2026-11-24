@@ -37,6 +37,6 @@ public class practice {
     }
     public static void main(String[] args){
         Node head = new Node('A');
-        head.next
+        head.next = new Node('B')
     }
 }
