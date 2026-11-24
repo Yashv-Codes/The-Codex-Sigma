@@ -14,5 +14,6 @@ public class practice {
             slow = slow.next;
             fast = fast.next;
         }
+        Node mid = slow;
     }
 }
