@@ -60,7 +60,7 @@ public class StackB {
     }
     public static boolean isDuplicate(String str){
         Stack<Character> s = new Stack<>();
-        
+        char ch = str.charAt
     }
 
     public static void main(String[] args){
