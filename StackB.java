@@ -59,7 +59,8 @@ public class StackB {
         return false;
     }
     public static boolean isDuplicate(String str){
-        Stack<Character>
+        Stack<Character> s = new Stack<>();
+        
     }
 
     public static void main(String[] args){
