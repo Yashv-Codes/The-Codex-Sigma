@@ -41,5 +41,6 @@ public class practice {
         head.next.next = new Node('C');
         head.next.next.next = new Node('B');
         head.next.next.next.next = new Node('A');
+        
     }
 }
