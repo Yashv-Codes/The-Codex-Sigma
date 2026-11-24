@@ -20,7 +20,7 @@ public class practice {
         Node curr = mid;
         Node next;
         while(curr != null){
-            
+            next = curr.next;
         }
     }
 }
