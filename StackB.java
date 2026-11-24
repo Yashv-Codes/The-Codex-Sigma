@@ -58,6 +58,7 @@ public class StackB {
             return true;
         return false;
     }
+    public static boolean 
 
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
