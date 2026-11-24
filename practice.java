@@ -1,6 +1,6 @@
 public class practice {
     static class Node{
-        char data;
+        int data;
         Node next;
         public Node(char data){
             this.data = data;
@@ -36,7 +36,7 @@ public class practice {
         return true;
     }
     public static void main(String[] args){
-        Node head = new Node(A);
+        Node head = new Node('A');
         head.next
     }
 }
