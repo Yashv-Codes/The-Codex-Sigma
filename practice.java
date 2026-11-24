@@ -27,5 +27,6 @@ public class practice {
         }
         Node left = head;
         Node right = prev;
+        while()
     }
 }
