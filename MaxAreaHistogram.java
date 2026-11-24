@@ -13,7 +13,8 @@ public class MaxAreaHistogram {
                 s.pop();
             }
             if(s.isEmpty())
-                nsr[i] = 
+                nsr[i] = n;
+            else
         }
     }
     
