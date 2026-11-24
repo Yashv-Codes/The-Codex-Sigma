@@ -18,6 +18,10 @@ public class MaxAreaHistogram {
                 nsr[i] = height[s.peek()];
             s.push(i);
         }
+
+        // NSL
+        s = new Stack<>(); // Reset Stack
+        
     }
     
 }
