@@ -71,6 +71,7 @@ public class StackB {
                 }
                 if(count < 1)
                     return true; // Duplicate
+                else
             }
         }
         
