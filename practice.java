@@ -16,6 +16,11 @@ public class practice {
         }
         Node mid = slow;
 
-        
+        Node prev = null;
+        Node curr = mid;
+        Node next;
+        while(curr != null){
+            
+        }
     }
 }
