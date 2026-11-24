@@ -1,4 +1,3 @@
-import java.util.*;
 public class practice {
     static class Node{
         int data;
@@ -9,6 +8,6 @@ public class practice {
         }
     }
     public static boolean isPalindrome(Node head){
-        
+
     }
 }
