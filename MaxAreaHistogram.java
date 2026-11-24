@@ -44,7 +44,7 @@ public class MaxAreaHistogram {
 
     public static void main(String[] args){
         int height[] = {2, 1, 5, 6, 2, 3};
-        System.out.println()
+        System.out.println("Max area = "+maxArea())
     }
 }
 
