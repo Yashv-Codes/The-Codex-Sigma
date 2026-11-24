@@ -21,7 +21,7 @@ public class MaxAreaHistogram {
 
         // NSL
         s = new Stack<>(); // Reset Stack
-        
+        for(int i=0; i<n; i++){}
     }
     
 }
