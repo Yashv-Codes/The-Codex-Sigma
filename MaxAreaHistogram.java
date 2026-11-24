@@ -35,6 +35,7 @@ public class MaxAreaHistogram {
         // Calc Area
         for(int i=0; i<n; i++){
             int ht = height[i];
+            int width = 
         }
     }
     
