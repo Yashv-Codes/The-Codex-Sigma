@@ -33,5 +33,6 @@ public class practice {
             left = left.next;
             right = right.next;
         }
+        return true;
     }
 }
