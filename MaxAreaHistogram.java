@@ -7,7 +7,7 @@ public class MaxAreaHistogram {
         int nsl[] = new int[n]; // Next Smaller Left
 
         // NSR
-        
+        Stack<Integer>
     }
     
 }
