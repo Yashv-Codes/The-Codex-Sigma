@@ -1,8 +1,8 @@
 public class practice {
     static class Node{
-        int data;
+        char data;
         Node next;
-        public Node(int data){
+        public Node(char data){
             this.data = data;
             this.next = null;
         }
