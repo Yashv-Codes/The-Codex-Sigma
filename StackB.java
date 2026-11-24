@@ -69,6 +69,8 @@ public class StackB {
                     s.pop();
                     count++;
                 }
+                if(count < 1)
+                    return true; // Duplicate
             }
         }
         
