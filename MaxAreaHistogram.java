@@ -37,8 +37,9 @@ public class MaxAreaHistogram {
             int ht = height[i];
             int width = nsr[i] - nsl[i] - 1;
             int currArea = ht * width;
-            maxArea = Math.max(maxArea, )
+            maxArea = Math.max(maxArea, currArea);
         }
+        return maxArea;
     }
     
 }
