@@ -8,6 +8,7 @@ public class MaxAreaHistogram {
 
         // NSR
         Stack<Integer> s = new Stack<>();
+        
     }
     
 }
