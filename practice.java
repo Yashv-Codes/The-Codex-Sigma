@@ -7,5 +7,9 @@ public class practice {
             this.next = null;
         }
     }
-    public static boolean isPalindrome(Node head){}
+    public static boolean isPalindrome(Node head){
+        Node slow = head;
+        Node fast = head;
+        while()
+    }
 }
