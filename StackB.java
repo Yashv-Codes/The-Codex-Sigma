@@ -64,7 +64,8 @@ public class StackB {
             char ch = str.charAt(i);
             // Closing
             if(ch == ')'){
-                
+                int count = 0;
+                while
             }
         }
         
