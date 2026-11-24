@@ -25,7 +25,8 @@ public class MaxAreaHistogram {
             while(!s.isEmpty() && height[s.peek()] >= height[i]){
                 s.pop();
             }
-            if
+            if(s.isEmpty())
+                
         }
     }
     
