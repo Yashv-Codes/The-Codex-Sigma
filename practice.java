@@ -10,6 +10,6 @@ public class practice {
     public static boolean isPalindrome(Node head){
         Node slow = head;
         Node fast = head;
-        while()
+        while(fast!= null && fast.next!)
     }
 }
