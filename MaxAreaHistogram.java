@@ -28,8 +28,12 @@ public class MaxAreaHistogram {
             if(s.isEmpty())
                 nsl[i] = -1;
             else
-                nsl[i] = height[]
+                nsl[i] = height[s.peek()];
+            s.push(i);
         }
+
+        // Calc Area
+        
     }
     
 }
