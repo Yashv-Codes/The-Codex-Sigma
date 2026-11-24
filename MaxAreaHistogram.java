@@ -33,7 +33,7 @@ public class MaxAreaHistogram {
         }
 
         // Calc Area
-        
+        for(int i=0; i)
     }
     
 }
