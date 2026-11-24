@@ -21,6 +21,7 @@ public class practice {
         Node next;
         while(curr != null){
             next = curr.next;
+            curr.next = prev;
             
         }
     }
