@@ -20,7 +20,7 @@ public class UnixStyle {
             else if(!dir.equals("."))
                 s.push(dir);
         }
-        
+
         if(s.isEmpty())
             return "/";
 
@@ -28,6 +28,7 @@ public class UnixStyle {
         for(int i=0; i<s.size(); i++){
             sb.append("/").append(s.get(i));
         }
+        
         return sb.toString();
     }
 
