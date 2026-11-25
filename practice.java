@@ -31,7 +31,7 @@ public class practice {
     }
     public static void stockspan(int[] stocks, int[] span){
         Stack<Integer>s = new Stack<>();
-        for(int i=0; i<span.length; i++){
+        for(int i=0; i<stocks.length; i++){
             while(!s.isEmpty() && stocks[s.peek()] <= stocks[i]){
                 s.pop();
             }
