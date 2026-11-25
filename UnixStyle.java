@@ -1,7 +1,7 @@
 import java.util.*;
 public class UnixStyle {
     public static String Simplify(String str){
-        Stack>
+        Stack<Character> s = new Stack<>();
     }
     
 }
