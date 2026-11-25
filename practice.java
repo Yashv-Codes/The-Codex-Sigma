@@ -47,7 +47,10 @@ public class practice {
             System.out.print(span[i]+" ");
         }
     }
-    public static void nxt_greater(int[] arr){}
+    public static void nxt_greater(int[] arr){
+
+    }
+    
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
