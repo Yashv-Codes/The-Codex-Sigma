@@ -31,7 +31,7 @@ public class practice {
     }
     public static void stockspan(int[] stocks){
         Stack<Integer>s = new Stack<>();
-        
+
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
@@ -42,6 +42,7 @@ public class practice {
         Stack<Integer> s = new Stack<>();
         //Stack<Character> s = new Stack<>();
         int[] stocks = {100, 80, 60, 70, 60, 85, 100};
+        int[] span = new int[stocks.length];
         s.push(1);
         s.push(2);
         s.push(3);
