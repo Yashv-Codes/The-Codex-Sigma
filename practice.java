@@ -81,7 +81,7 @@ public class practice {
                 return true;
         return false;
     }
-    
+
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
@@ -96,6 +96,6 @@ public class practice {
         s.push(1);
         s.push(2);
         s.push(3);
-        nxt_greater(arr);
+        System.out.println(isValid("(("))
     }
 }
