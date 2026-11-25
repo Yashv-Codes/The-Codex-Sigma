@@ -7,7 +7,7 @@ public class UnixStyle {
             if(curr == '/')
                 continue;
             int st = i;
-            while(i < str.length() && curr != '/'){
+            while(i < str.length() && str.charAt(i) != '/'){
                 i++;
             }
             String dir = str.substring(st, i);
