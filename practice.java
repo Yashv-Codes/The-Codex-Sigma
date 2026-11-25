@@ -16,7 +16,7 @@ public class practice {
             s.push(str.charAt(i));
             i++;
         }
-        StringBuilder sb = new StringBuilder("")
+        StringBuilder sb = new StringBuilder("");
         char curr = s.pop();
 
     }
