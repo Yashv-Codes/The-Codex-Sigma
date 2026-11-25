@@ -9,7 +9,9 @@ public class practice {
         pushAtBottom(s, data);
         s.push(top);
     }
-    public static String reverse(St)
+    public static String reverse(String str){
+        Stack<Integer> s = new Stack<>();
+    }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
