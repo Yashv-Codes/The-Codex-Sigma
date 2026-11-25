@@ -20,5 +20,10 @@ public class UnixStyle {
         }
         if(s.isEmpty())
             return "/";
+
+        StringBuilder sb = new StringBuilder("");
+        for(int i=0; i<s.size(); i++){
+            s
+        }
     }
 }
