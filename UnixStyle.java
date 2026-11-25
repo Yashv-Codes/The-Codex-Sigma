@@ -16,7 +16,7 @@ public class UnixStyle {
                     s.pop();
             }
             else if(dir != ".")
-                s.push(curr);
+                s.push(dir);
         }
     }
 }
