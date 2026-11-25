@@ -18,7 +18,7 @@ public class practice {
         }
         StringBuilder sb = new StringBuilder("");
         char curr = s.pop();
-
+        sb.append(curr);
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
