@@ -11,7 +11,7 @@ public class UnixStyle {
                 i++;
             }
             String dir = str.substring(st, i);
-            if(dir == ".."){
+            if(dir.equals("..")){
                 if(!s.isEmpty())
                     s.pop();
             }
