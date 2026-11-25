@@ -12,8 +12,10 @@ public class UnixStyle {
             }
             String dir = str.substring(st, i);
             if(dir == ".."){
-                if(!s.isEmpty)
+                if(!s.isEmpty())
+                    s.pop();
             }
+            else 
         }
     }
 }
