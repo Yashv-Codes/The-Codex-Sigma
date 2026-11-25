@@ -9,6 +9,7 @@ public class practice {
         pushAtBottom(s, data);
         s.push(top);
     }
+    public static String
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
