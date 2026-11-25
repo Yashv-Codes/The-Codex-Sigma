@@ -56,12 +56,10 @@ public class practice {
             }
             if(s.isEmpty())
                 nxt[i] = -1;
-            else{
-
-            
+            else
+                nxt[i] = arr[s.peek()];
+            }
         }
-
-    }
 
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
