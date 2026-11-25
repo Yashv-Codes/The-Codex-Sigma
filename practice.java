@@ -36,6 +36,8 @@ public class practice {
                 s.pop();
             }
             if(s.isEmpty())
+                span[i] = i+1;
+            
         }
     }
     public static void print(Stack<Integer> s){
