@@ -58,8 +58,8 @@ public class practice {
                 nxt[i] = -1;
             else
                 nxt[i] = arr[s.peek()];
-            }
         }
+    }
 
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
