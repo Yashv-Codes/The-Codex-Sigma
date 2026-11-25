@@ -73,6 +73,8 @@ public class practice {
             else{
                 if(s.peek() == '(' && curr == ')' || s.peek() == '{' && curr == '}' || s.peek() == '[' && curr == ']')
                     s.pop();
+                else
+                    return false;
             }
         }
 
