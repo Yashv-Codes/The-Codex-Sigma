@@ -97,8 +97,9 @@ public class practice {
                     s.pop();
             }
             else
-                s.push(i);
+                s.push(ch);
         }
+        return false;
     }
 
     public static void print(Stack<Integer> s){
