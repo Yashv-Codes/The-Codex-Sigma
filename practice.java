@@ -58,6 +58,7 @@ public class practice {
                 nxt[i] = -1;
             else
                 nxt[i] = arr[s.peek()];
+            s.push(i);
         }
     }
 
