@@ -81,7 +81,10 @@ public class practice {
                 return true;
         return false;
     }
-    public static 
+    public static boolean isDuplicate(String str){
+  
+    }
+
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
