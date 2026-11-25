@@ -1,4 +1,4 @@
 public class UnixStyle {
-    pub
+    public static 
     
 }
