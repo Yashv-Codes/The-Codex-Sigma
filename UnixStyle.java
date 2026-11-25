@@ -6,7 +6,8 @@ public class UnixStyle {
             char curr = str.charAt(i);
             if(curr == '/')
                 continue;
-            int i = start;
+            int st = i;
+            while(i < n && curr != '/')
         }
     }
 }
