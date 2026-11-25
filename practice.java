@@ -82,7 +82,9 @@ public class practice {
         return false;
     }
     public static boolean isDuplicate(String str){
-        
+        for(int i=0; i<str.length(); i++){
+            char 
+        }
     }
 
     public static void print(Stack<Integer> s){
