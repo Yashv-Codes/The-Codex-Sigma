@@ -76,9 +76,10 @@ public class practice {
                 else
                     return false;
             }
-            
         }
-
+        if(s.isEmpty())
+                return true;
+        return false;
         
     }
     public static void print(Stack<Integer> s){
