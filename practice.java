@@ -22,7 +22,7 @@ public class practice {
         }
         return sb.toString();
     }
-    public static void print(Stack<Character> s){
+    public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
         }
@@ -30,7 +30,6 @@ public class practice {
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
         //Stack<Character> s = new Stack<>();
-        reverse(s,"abc");
-        print(s);
+        
     }
 }
