@@ -28,7 +28,7 @@ public class practice {
         }
     }
     public static void main(String[] args){
-        Stack<Integer> s = new Stack<>();
-        
+        // Stack<Integer> s = new Stack<>();
+        Stack<Character> s = new Stack<>();
     }
 }
