@@ -64,7 +64,9 @@ public class practice {
             System.out.print(nxt[i]+" ");
         }
     }
-    public static boolean isValid
+    public static boolean isValid(String str){
+        
+    }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
