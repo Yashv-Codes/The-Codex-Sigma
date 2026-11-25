@@ -93,7 +93,8 @@ public class practice {
                 }
                 if(count < 1)
                     return true;
-                elses.pop()
+                else
+                    s.pop();
             }
         }
     }
