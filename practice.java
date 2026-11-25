@@ -1,3 +1,4 @@
+import java.util.*;
 public class practice {
     static class Node{
         int data;
