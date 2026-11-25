@@ -9,7 +9,7 @@ public class practice {
         pushAtBottom(s, data);
         s.push(top);
     }
-    public static String reverse(String str){
+    public static String reverse(Stack<Character>s, String str){
         int i = 0;
         while(i < str.length()){
             s.push(str.charAt(i));
@@ -22,7 +22,7 @@ public class practice {
         }
         return sb.toString();
     }
-    public static void print(Stack<Integer> s){
+    public static void print(Stack<Character> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
         }
