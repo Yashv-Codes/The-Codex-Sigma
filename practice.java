@@ -30,7 +30,7 @@ public class practice {
         pushAtBottom(s, top);
     }
     public static void stockspan(int[] stocks){
-        
+        Stack<Integer>s = 
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
