@@ -51,7 +51,7 @@ public class practice {
         Stack<Integer> s = new Stack<>();
         int[] nxt = new int[arr.length];
         for(int i=arr.length-1; i>=0; i--){
-            while(!s.isEmpty() && arr[s.peek()])
+            while(!s.isEmpty() && arr[s.peek()] >= arr[i])
         }
 
     }
