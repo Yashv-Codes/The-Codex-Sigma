@@ -43,6 +43,7 @@ public class practice {
             }
             s.push(i);
         }
+        for()
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
