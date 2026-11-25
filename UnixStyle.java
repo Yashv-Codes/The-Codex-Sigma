@@ -7,7 +7,10 @@ public class UnixStyle {
             if(curr == '/')
                 continue;
             int st = i;
-            while(i < n && curr != '/')
+            while(i < n && curr != '/'){
+                i++;
+            }
+            String 
         }
     }
 }
