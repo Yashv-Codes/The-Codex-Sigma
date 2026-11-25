@@ -60,6 +60,7 @@ public class practice {
                 nxt[i] = arr[s.peek()];
             s.push(i);
         }
+        for(int i=0; i<nxt.length; i++)
     }
 
     public static void print(Stack<Integer> s){
