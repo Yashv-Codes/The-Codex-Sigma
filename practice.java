@@ -65,6 +65,7 @@ public class practice {
         }
     }
     public static boolean isValid(String str){
+        Stack<Character> s = new Stack<>();
         
     }
     public static void print(Stack<Integer> s){
