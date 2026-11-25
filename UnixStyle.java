@@ -15,7 +15,7 @@ public class UnixStyle {
                 if(!s.isEmpty())
                     s.pop();
             }
-            else if(!dir.equals(".")
+            else if(!dir.equals("."))
                 s.push(dir);
         }
         if(s.isEmpty())
