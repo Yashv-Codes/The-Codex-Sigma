@@ -1,107 +1,5 @@
 import java.util.*;
 public class practice {
-    public static void pushAtBottom(Stack<Integer>s, int data){
-        if(s.isEmpty()){
-            s.push(data);
-            return;
-        }
-        int top = s.pop();
-        pushAtBottom(s, data);
-        s.push(top);
-    }
-    public static String reverse(Stack<Character>s, String str){
-        int i = 0;
-        while(i < str.length()){
-            s.push(str.charAt(i));
-            i++;
-        }
-        StringBuilder sb = new StringBuilder("");
-        while(s.isEmpty()){
-            char curr = s.pop();
-            sb.append(curr);
-        }
-        return sb.toString();
-    }
-    public static void reverseStack(Stack<Integer>s){
-        if(s.isEmpty())
-            return;
-        int top = s.pop();
-        reverseStack(s);
-        pushAtBottom(s, top);
-    }
-    public static void stockspan(int[] stocks, int[] span){
-        Stack<Integer>s = new Stack<>();
-        for(int i=0; i<stocks.length; i++){
-            while(!s.isEmpty() && stocks[s.peek()] <= stocks[i]){
-                s.pop();
-            }
-            if(s.isEmpty())
-                span[i] = i+1;
-            else{
-                int prevhigh = s.peek();
-                span[i] = i - prevhigh;
-            }
-            s.push(i);
-        }
-        for(int i=0; i<span.length; i++){
-            System.out.print(span[i]+" ");
-        }
-    }
-    public static void nxt_greater(int[] arr){
-        Stack<Integer> s = new Stack<>();
-        int[] nxt = new int[arr.length];
-        for(int i=arr.length-1; i>=0; i--){
-            while(!s.isEmpty() && arr[s.peek()] <= arr[i]){
-                s.pop();
-            }
-            if(s.isEmpty())
-                nxt[i] = -1;
-            else
-                nxt[i] = arr[s.peek()];
-            s.push(i);
-        }
-        for(int i=0; i<nxt.length; i++){
-            System.out.print(nxt[i]+" ");
-        }
-    }
-    public static boolean isValid(String str){
-        Stack<Character> s = new Stack<>();
-        for(int i=0; i<str.length(); i++){
-            char curr = str.charAt(i);
-            if(curr == '(' || curr == '{' || curr == '[')
-                s.push(curr);
-            else{
-                if(s.peek() == '(' && curr == ')' || s.peek() == '{' && curr == '}' || s.peek() == '[' && curr == ']')
-                    s.pop();
-                else
-                    return false;
-            }
-        }
-        if(s.isEmpty())
-                return true;
-        return false;
-    }
-    public static boolean isDuplicate(String str){
-        Stack<Character> s = new Stack<>();
-        for(int i=0; i<str.length(); i++){
-            char ch = str.charAt(i);
-            if(ch == ')'){
-                int count = 0;
-                while(s.peek() != '('){
-                    s.pop();
-                    count++;
-                }
-                if(count < 1)
-                    return true;
-                else
-                    s.pop();
-            }
-            else
-                s.push(ch);
-        }
-        return false;
-    }
-
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
@@ -110,6 +8,5 @@ public class practice {
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
         //Stack<Character> s = new Stack<>();
-        
     }
 }
