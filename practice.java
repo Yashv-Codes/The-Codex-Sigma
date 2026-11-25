@@ -43,7 +43,9 @@ public class practice {
             }
             s.push(i);
         }
-        for()
+        for(int i=0; i<span.length; i++){
+            System.out.print(span[i]+" ");
+        }
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
