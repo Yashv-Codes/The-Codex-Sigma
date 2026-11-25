@@ -68,7 +68,7 @@ public class practice {
         Stack<Character> s = new Stack<>();
         for(int i=0; i<str.length(); i++){
             char curr = str.charAt(i);
-            if(curr == '(' || curr == '')
+            if(curr == '(' || curr == '{' || curr == '[')
         }
 
         
