@@ -10,7 +10,9 @@ public class practice {
         s.push(top);
     }
     public static void print(Stack<Integer> s){
-        while(!s.isEmpty())
+        while(!s.isEmpty()){
+            System.out.println(s.pop());
+        }
     }
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
