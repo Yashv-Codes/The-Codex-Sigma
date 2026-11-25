@@ -91,6 +91,9 @@ public class practice {
                     s.pop();
                     count++;
                 }
+                if(count < 1)
+                    return true;
+                elses.pop()
             }
         }
     }
