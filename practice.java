@@ -61,7 +61,7 @@ public class practice {
             s.push(i);
         }
         for(int i=0; i<nxt.length; i++){
-            System.out.print(nxt[i])
+            System.out.print(nxt[i]+" ");
         }
     }
 
