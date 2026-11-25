@@ -25,5 +25,6 @@ public class UnixStyle {
         for(int i=0; i<s.size(); i++){
             sb.append("/").append(s.get(i));
         }
+        return sb.toString();
     }
 }
