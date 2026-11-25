@@ -29,7 +29,9 @@ public class practice {
         reverseStack(s);
         pushAtBottom(s, top);
     }
-    public static void stockspan(int[] stocks){}
+    public static void stockspan(int[] stocks){
+        
+    }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
