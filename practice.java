@@ -5,6 +5,7 @@ public class practice {
             s.push(data);
             return;
         }
+        int top = s.pop();
     }
     public static void main(String[] args){
         
