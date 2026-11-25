@@ -23,7 +23,7 @@ public class UnixStyle {
 
         StringBuilder sb = new StringBuilder("");
         for(int i=0; i<s.size(); i++){
-            s
+            sb.append("/").append(s.get(i));
         }
     }
 }
