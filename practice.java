@@ -51,7 +51,7 @@ public class practice {
         Stack<Integer> s = new Stack<>();
         int[] nxt = new int[arr.length];
         for(int i=arr.length-1; i>=0; i--){
-            while()
+            while(!s.isEmpty() && )
         }
 
     }
