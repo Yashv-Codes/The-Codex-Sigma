@@ -14,6 +14,6 @@ public class practice {
         s.push(1);
         s.push(2);
         s.push(3);
-        System.out.println()
+        System.out.println(pushAtBottom(s, 4));
     }
 }
