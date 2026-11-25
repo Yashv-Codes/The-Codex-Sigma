@@ -9,7 +9,9 @@ public class practice {
         pushAtBottom(s, data);
         s.push(top);
     }
-    public static void print()
+    public static void print(Stack<Integer> s){
+        while(!s.isEmpty())
+    }
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
         s.push(1);
