@@ -1,4 +1,4 @@
 public class UnixStyle {
-    public static 
+    public static String Simplify(String str){}
     
 }
