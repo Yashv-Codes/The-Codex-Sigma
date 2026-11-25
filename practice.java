@@ -41,6 +41,7 @@ public class practice {
                 int prevhigh = s.peek();
                 span[i] = i - prevhigh;
             }
+            s.push(i);
         }
     }
     public static void print(Stack<Integer> s){
