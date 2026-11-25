@@ -47,6 +47,7 @@ public class practice {
             System.out.print(span[i]+" ");
         }
     }
+    public 
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
