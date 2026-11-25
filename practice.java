@@ -83,7 +83,7 @@ public class practice {
     }
     public static boolean isDuplicate(String str){
         for(int i=0; i<str.length(); i++){
-            char 
+            char ch = str.charAt(i);
         }
     }
 
