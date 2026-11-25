@@ -71,7 +71,8 @@ public class practice {
             if(curr == '(' || curr == '{' || curr == '[')
                 s.push(curr);
             else{
-                if(s.peek() == '(' && curr == ')' || s.peek() == '{' && curr == '}' || s.peek() == '[')
+                if(s.peek() == '(' && curr == ')' || s.peek() == '{' && curr == '}' || s.peek() == '[' && curr == ']')
+                    s.pop();
             }
         }
 
