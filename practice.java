@@ -26,6 +26,7 @@ public class practice {
         if(s.isEmpty())
             return;
         int top = s.pop();
+        reverseStack
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
