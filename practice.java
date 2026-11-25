@@ -40,6 +40,7 @@ public class practice {
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
         //Stack<Character> s = new Stack<>();
+        int[] stocks = {100, 80, 60, 70}
         s.push(1);
         s.push(2);
         s.push(3);
