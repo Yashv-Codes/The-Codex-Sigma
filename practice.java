@@ -87,7 +87,7 @@ public class practice {
             char ch = str.charAt(i);
             if(ch == ')'){
                 int count = 0;
-                while(s.peek() == '('){
+                while(s.peek() != '('){
                     s.pop();
                     count++;
                 }
