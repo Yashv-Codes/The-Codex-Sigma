@@ -31,7 +31,9 @@ public class practice {
     }
     public static void stockspan(int[] stocks, int[] span){
         Stack<Integer>s = new Stack<>();
-        
+        for(int i=0; i<stocks.length; i++){
+            
+        }
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
