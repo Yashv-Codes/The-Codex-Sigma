@@ -49,7 +49,7 @@ public class practice {
     }
     public static void nxt_greater(int[] arr){
         Stack<Integer> s = new Stack<>();
-        int[] nxt
+        int[] nxt = 
 
     }
 
