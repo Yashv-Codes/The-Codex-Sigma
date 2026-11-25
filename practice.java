@@ -56,7 +56,9 @@ public class practice {
             }
             if(s.isEmpty())
                 nxt[i] = -1;
-            else
+            else{
+
+            
         }
 
     }
