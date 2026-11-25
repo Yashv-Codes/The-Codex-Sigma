@@ -29,6 +29,6 @@ public class UnixStyle {
     }
 
     public static void main(String[] args){
-        System.out.println(Simplify_Path("/a/.."));
+        System.out.println(Simplify_Path("/a./b/../c/"));
     }
 }
