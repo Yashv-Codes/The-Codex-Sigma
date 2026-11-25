@@ -82,7 +82,7 @@ public class practice {
         return false;
     }
     public static boolean isDuplicate(String str){
-  
+        
     }
 
     public static void print(Stack<Integer> s){
