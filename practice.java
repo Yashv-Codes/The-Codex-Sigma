@@ -67,8 +67,10 @@ public class practice {
     public static boolean isValid(String str){
         Stack<Character> s = new Stack<>();
         for(int i=0; i<str.length(); i++){
-
+            if()
         }
+
+        
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
