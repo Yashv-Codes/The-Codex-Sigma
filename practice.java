@@ -35,6 +35,7 @@ public class practice {
             while(!s.isEmpty() && stocks[s.peek()] <= stocks[i]){
                 s.pop();
             }
+            if(s.isEmpty())
         }
     }
     public static void print(Stack<Integer> s){
