@@ -55,6 +55,8 @@ public class practice {
                 s.pop();
             }
             if(s.isEmpty())
+                nxt[i] = -1;
+            else
         }
 
     }
