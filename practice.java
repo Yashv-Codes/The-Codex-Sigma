@@ -11,6 +11,10 @@ public class practice {
     }
     public static String reverse(String str){
         Stack<Integer> s = new Stack<>();
+        int i = 0;
+        while(i < str.length()){
+            
+        }
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
