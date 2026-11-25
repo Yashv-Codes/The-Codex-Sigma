@@ -13,7 +13,7 @@ public class practice {
         Stack<Integer> s = new Stack<>();
         int i = 0;
         while(i < str.length()){
-            s.push()
+            s.push(str.charAt(i));
         }
     }
     public static void print(Stack<Integer> s){
