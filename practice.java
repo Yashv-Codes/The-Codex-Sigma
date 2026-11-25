@@ -22,7 +22,7 @@ public class practice {
         }
         return sb.toString();
     }
-    pu
+    public static 
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
