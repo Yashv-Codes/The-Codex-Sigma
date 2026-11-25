@@ -10,7 +10,7 @@ public class UnixStyle {
             while(i < n && curr != '/'){
                 i++;
             }
-            String 
+            String dir = str.substring(st, i);
         }
     }
 }
