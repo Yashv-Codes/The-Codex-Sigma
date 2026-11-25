@@ -21,6 +21,7 @@ public class practice {
             char curr = s.pop();
             sb.append(curr);
         }
+        return sb.toString();
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
