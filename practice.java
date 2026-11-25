@@ -69,6 +69,7 @@ public class practice {
         for(int i=0; i<str.length(); i++){
             char curr = str.charAt(i);
             if(curr == '(' || curr == '{' || curr == '[')
+                s.push(curr);
         }
 
         
