@@ -6,10 +6,12 @@ public class UnixStyle {
             char curr = str.charAt(i);
             if(curr == '/')
                 continue;
+
             int st = i;
             while(i < str.length() && str.charAt(i) != '/'){
                 i++;
             }
+
             String dir = str.substring(st, i);
             if(dir.equals("..")){
                 if(!s.isEmpty())
@@ -18,6 +20,7 @@ public class UnixStyle {
             else if(!dir.equals("."))
                 s.push(dir);
         }
+        
         if(s.isEmpty())
             return "/";
 
