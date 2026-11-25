@@ -17,8 +17,10 @@ public class practice {
             i++;
         }
         StringBuilder sb = new StringBuilder("");
-        char curr = s.pop();
-        sb.append(curr);
+        while(s.isEmpty()){
+            char curr = s.pop();
+            sb.append(curr);
+        }
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
