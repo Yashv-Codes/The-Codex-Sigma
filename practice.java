@@ -6,6 +6,7 @@ public class practice {
             return;
         }
         int top = s.pop();
+        pushAtBottom(s, data);
     }
     public static void main(String[] args){
         
