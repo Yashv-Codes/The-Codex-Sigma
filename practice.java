@@ -96,6 +96,8 @@ public class practice {
                 else
                     s.pop();
             }
+            else
+                s.push(i);
         }
     }
 
