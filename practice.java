@@ -16,6 +16,8 @@ public class practice {
             s.push(str.charAt(i));
             i++;
         }
+        char curr = s.pop();
+        
     }
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
