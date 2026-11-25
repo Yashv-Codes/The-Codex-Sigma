@@ -48,9 +48,11 @@ public class practice {
         }
     }
     public static void nxt_greater(int[] arr){
+        Stack<Integer> s = new Stack<>();
+        int[] nxt
 
     }
-    
+
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
