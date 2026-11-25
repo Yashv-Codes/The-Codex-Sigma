@@ -22,7 +22,7 @@ public class practice {
         }
         return sb.toString();
     }
-    public static void reverseStack(Stack<Integer>)
+    public static void reverseStack(Stack<Integer>s)
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
