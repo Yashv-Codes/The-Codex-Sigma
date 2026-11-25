@@ -37,7 +37,10 @@ public class practice {
             }
             if(s.isEmpty())
                 span[i] = i+1;
-            
+            else{
+                int prevhigh = s.peek();
+                span[i] = i - prevhigh;
+            }
         }
     }
     public static void print(Stack<Integer> s){
