@@ -70,7 +70,9 @@ public class practice {
             char curr = str.charAt(i);
             if(curr == '(' || curr == '{' || curr == '[')
                 s.push(curr);
-            
+            else{
+                if(s.peek() ==)
+            }
         }
 
         
