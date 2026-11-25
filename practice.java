@@ -110,12 +110,6 @@ public class practice {
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
         //Stack<Character> s = new Stack<>();
-        int[] stocks = {100, 80, 60, 70, 60, 85, 100};
-        int[] span = new int[stocks.length];
-        int[] arr = {6, 8, 0, 1, 3};
-        s.push(1);
-        s.push(2);
-        s.push(3);
-        System.out.println(isDuplicate("()"));
+        
     }
 }
