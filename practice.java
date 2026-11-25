@@ -10,10 +10,11 @@ public class practice {
         s.push(top);
     }
     public static String reverse(String str){
-        Stack<Integer> s = new Stack<>();
+        Stack<Character> s = new Stack<>();
         int i = 0;
         while(i < str.length()){
             s.push(str.charAt(i));
+            i++;
         }
     }
     public static void print(Stack<Integer> s){
