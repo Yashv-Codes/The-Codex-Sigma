@@ -80,8 +80,8 @@ public class practice {
         if(s.isEmpty())
                 return true;
         return false;
-        
     }
+    
     public static void print(Stack<Integer> s){
         while(!s.isEmpty()){
             System.out.println(s.pop());
