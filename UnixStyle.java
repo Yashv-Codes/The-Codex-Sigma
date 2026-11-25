@@ -18,5 +18,7 @@ public class UnixStyle {
             else if(dir != ".")
                 s.push(dir);
         }
+        if(s.isEmpty())
+            return "/";
     }
 }
