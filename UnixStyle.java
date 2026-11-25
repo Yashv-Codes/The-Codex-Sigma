@@ -7,10 +7,11 @@ public class UnixStyle {
             if(curr == '/')
                 continue;
             int st = i;
-            while(i < n && curr != '/'){
+            while(i < str.length() && curr != '/'){
                 i++;
             }
             String dir = str.substring(st, i);
+            if()
         }
     }
 }
