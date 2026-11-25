@@ -1,6 +1,6 @@
 import java.util.*;
 public class UnixStyle {
-    public static String Simplify(String str){
+    public static String Simplify_Path(String str){
         Stack<String> s = new Stack<>();
         for(int i=0; i<str.length(); i++){
             char curr = str.charAt(i);
@@ -29,6 +29,6 @@ public class UnixStyle {
     }
 
     public static void main(String[] args){
-        
+        System.out.println(Simplify)
     }
 }
