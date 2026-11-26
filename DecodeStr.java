@@ -14,8 +14,8 @@ public class DecodeStr{
             else if(ch == '['){
                 numstack.push(currnum);
                 strstack.push(currstr.toString());
-                currstr = new StringBuilder();
-                currnum = 0;
+                currstr = new StringBuilder(); // reset for upcoming values
+                currnum = 0; // same
             }
 
             else if(ch == ']'){
