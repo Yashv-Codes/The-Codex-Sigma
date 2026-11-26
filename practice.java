@@ -11,7 +11,7 @@ public class practice{
             if(Character.isDigit(ch))
                 currnum = currnum * 10 + (ch - '0');
             else if(ch == '['){
-                
+                numstack.push(currnum)
             }
         }
     }
