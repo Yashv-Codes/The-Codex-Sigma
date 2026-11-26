@@ -9,7 +9,7 @@ public class practice{
         for(int i=0; i<str.length(); i++){
             char ch = str.charAt(i);
             if(Character.isDigit(ch))
-                currnum = 
+                currnum = currnum * 10 + (ch - '0');
         }
     }
 }
