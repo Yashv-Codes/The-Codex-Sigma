@@ -7,7 +7,7 @@ public class practice{
         int currnum = 0;
 
         for(int i=0; i<str.length(); i++){
-            
+            char ch = str.charAt(i);
         }
     }
 }
