@@ -24,7 +24,7 @@ public class practice{
                 for(int k=0; k<repeat; k++){
                     prev.append(currstr);
                 }
-                currstr = prev; // 2[a]
+                currstr = prev; // 2[a[2[b]]] -> 2[]
             }
             else
                 currstr.append(ch);
