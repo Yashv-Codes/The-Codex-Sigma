@@ -9,7 +9,7 @@ public class DecodeStr{
         for(int i=0; i<str.length(); i++){
             char ch = str.charAt(i);
             if(Character.isDigit(ch))
-                currnum = currnum * 10 + (ch - '0');
+                currnum = currnum * 10 + (ch - '0'); // what if 
 
             else if(ch == '['){
                 numstack.push(currnum);
