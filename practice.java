@@ -5,7 +5,7 @@ public class practice {
         Stack<Integer> s = new Stack<>();
         int[] left = new int[n];
         int[] right = new int[n];
-        left[0] = arr[0];
+        left[0] = s.push(arr[0]);
         right[n-1] = arr[n-1];
         for(int i=1; i<n; i++){}
     }
