@@ -17,7 +17,7 @@ public class practice{
                 currnum = 0;
             }
             else if(ch == ']'){
-                
+                int repeat = numstack.pop();
             }
         }
     }
