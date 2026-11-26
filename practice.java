@@ -19,8 +19,9 @@ public class practice {
         int trapped_water = 0;
         for(int i=n-1; i>=0; i--){
             int waterlvl = Math.min(left.pop(), rightAligned.pop());
-            trapped_water += waterlvl
+            trapped_water += waterlvl - arr[i];
         }
+        return trapped_water;
     }
 
     public static void main(String[] args){
