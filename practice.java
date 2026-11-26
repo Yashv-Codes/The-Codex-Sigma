@@ -9,7 +9,7 @@ public class practice {
         }
         Stack<Integer> right = new Stack<>();
         right.push(arr[n-1]);
-        for(int i=n-1; i>=0; i--){
+        for(int i=n-2; i>=0; i--){
             right.push(Math.max(arr[i], right.peek()));
         }
     }
