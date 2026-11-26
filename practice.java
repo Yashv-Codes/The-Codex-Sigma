@@ -18,7 +18,7 @@ public class practice{
             }
             else if(ch == ']'){
                 int repeat = numstack.pop();
-                StringBuilder prev = 
+                StringBuilder prev = new StringBuilder()
             }
         }
     }
