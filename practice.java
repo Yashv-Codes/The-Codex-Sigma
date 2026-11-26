@@ -12,7 +12,8 @@ public class practice{
                 currnum = currnum * 10 + (ch - '0');
             else if(ch == '['){
                 numstack.push(currnum);
-                strstack.push(currstr);
+                strstack.push(currstr.toString());
+                
             }
         }
     }
