@@ -27,7 +27,7 @@ public class practice{
             else
                 currstr.append(ch);
         }
-
+        
     }
 }
    
