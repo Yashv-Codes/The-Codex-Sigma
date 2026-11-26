@@ -31,6 +31,10 @@ public class practice{
         }
         return currstr.toString();
     }
+
+    public static void main(String[] args){
+        
+    }
 }
    
 
