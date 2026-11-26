@@ -8,7 +8,7 @@ public class practice {
         left[0] = s.push(arr[0]);
         right[n-1] = s.push(arr[n-1]);
         for(int i=1; i<n; i++){
-            
+            s.push(i) = M
         }
     }
 
