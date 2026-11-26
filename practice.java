@@ -33,7 +33,7 @@ public class practice{
     }
 
     public static void main(String[] args){
-        System.out.println(decode("2["))
+        System.out.println(decode("2[a2[b]]"));
     }
 }
    
