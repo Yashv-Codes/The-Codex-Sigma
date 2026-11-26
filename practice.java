@@ -4,7 +4,8 @@ public class practice {
         int n = arr.length;
         Stack<Integer> s = new Stack<>();
         int[] left = new int[n];
-        i
+        int[] right = new int[n];
+        left[0]
     }
 
     public static void main(String[] args){
