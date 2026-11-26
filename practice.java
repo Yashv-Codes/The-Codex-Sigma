@@ -14,6 +14,7 @@ public class practice{
                 numstack.push(currnum);
                 strstack.push(currstr.toString());
                 currstr = new StringBuilder();
+                currnum = 0;
             }
         }
     }
