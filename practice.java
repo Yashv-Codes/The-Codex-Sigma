@@ -1,4 +1,6 @@
 import java.util.*;
-public class practice {
+public class practice{
+    public static String decode()
+}
    
 
