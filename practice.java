@@ -16,6 +16,9 @@ public class practice{
                 currstr = new StringBuilder();
                 currnum = 0;
             }
+            else if(ch == ']'){
+                
+            }
         }
     }
 }
