@@ -10,13 +10,14 @@ public class practice{
             char ch = str.charAt(i);
             if(Character.isDigit(ch))
                 currnum = currnum * 10 + (ch - '0');
-            
+
             else if(ch == '['){
                 numstack.push(currnum);
                 strstack.push(currstr.toString());
                 currstr = new StringBuilder();
                 currnum = 0;
             }
+
             else if(ch == ']'){
                 int repeat = numstack.pop();
                 StringBuilder prev = new StringBuilder(strstack.pop());
@@ -25,6 +26,7 @@ public class practice{
                 }
                 currstr = prev;
             }
+            
             else
                 currstr.append(ch);
         }
