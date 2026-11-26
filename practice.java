@@ -1,7 +1,8 @@
 import java.util.*;
 public class practice {
     public static int trappingWater(int arr[]){
-
+        Stack<Integer> s = new Stack<>();
+        
     }
 
     public static void main(String[] args){
