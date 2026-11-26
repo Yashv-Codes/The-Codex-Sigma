@@ -7,6 +7,8 @@ public class practice {
         for(int i=1; i<n; i++){
             left.push(Math.max(arr[i], left.peek()));
         }
+        Stack<Integer> right = new Stack<>();
+        
     }
 
     public static void main(String[] args){
