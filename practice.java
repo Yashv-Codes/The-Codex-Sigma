@@ -19,7 +19,10 @@ public class practice{
             else if(ch == ']'){
                 int repeat = numstack.pop();
                 StringBuilder prev = new StringBuilder(strstack.pop());
-                for(int k=0; k<repeat; k++)
+                for(int k=0; k<repeat; k++){
+                    prev.append(currstr);
+                }
+                currstr = prevstr;
             }
         }
     }
