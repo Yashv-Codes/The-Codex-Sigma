@@ -24,6 +24,8 @@ public class practice{
                 }
                 currstr = prevstr;
             }
+            else
+                s
         }
     }
 }
