@@ -6,7 +6,9 @@ public class practice{
         StringBuilder currstr = new StringBuilder("");
         int currnum = 0;
 
-        for
+        for(int i=0; i<str.length(); i++){
+            
+        }
     }
 }
    
