@@ -22,11 +22,12 @@ public class practice{
                 for(int k=0; k<repeat; k++){
                     prev.append(currstr);
                 }
-                currstr = prevstr;
+                currstr = prev;
             }
             else
-                s
+                currstr.append(ch);
         }
+
     }
 }
    
