@@ -18,7 +18,7 @@ public class practice {
         }
         int trapped_water = 0;
         for(int i=n-1; i>=0; i--){
-            
+            int waterlvl = Math.min(left.pop())
         }
     }
 
