@@ -5,7 +5,7 @@ public class practice {
         Stack<Integer> left = new Stack<>();
         left.push(arr[0]);
         for(int i=1; i<n; i++){
-            
+            left.push(Math.max(arr[i]))
         }
     }
 
