@@ -13,7 +13,7 @@ public class practice{
             else if(ch == '['){
                 numstack.push(currnum);
                 strstack.push(currstr.toString());
-                
+                currstr = new StringBuilder();
             }
         }
     }
