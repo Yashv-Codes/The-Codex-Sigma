@@ -2,7 +2,7 @@ import java.util.*;
 public class practice {
     public static int trappingWater(int arr[]){
         Stack<Integer> s = new Stack<>();
-        int[] left = 
+        int[] left = new int[]
     }
 
     public static void main(String[] args){
