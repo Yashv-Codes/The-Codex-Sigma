@@ -26,7 +26,6 @@ public class practice{
                 }
                 currstr = prev;
             }
-            
             else
                 currstr.append(ch);
         }
