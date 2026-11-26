@@ -1,8 +1,10 @@
 import java.util.*;
 public class practice {
     public static int trappingWater(int arr[]){
+        int n = arr.length;
         Stack<Integer> s = new Stack<>();
-        int[] left = new int[]
+        int[] left = new int[n];
+        i
     }
 
     public static void main(String[] args){
