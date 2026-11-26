@@ -1,5 +1,5 @@
 import java.util.*;
-public class practice{
+public class DecodeStr{
     public static String decode(String str){
         Stack<Integer> numstack = new Stack<>();
         Stack<String> strstack = new Stack<>();
