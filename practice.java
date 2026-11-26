@@ -4,6 +4,9 @@ public class practice{
         Stack<Integer> numstack = new Stack<>();
         Stack<String> strstack = new Stack<>();
         StringBuilder currstr = new StringBuilder("");
+        int currnum = 0;
+
+        for
     }
 }
    
