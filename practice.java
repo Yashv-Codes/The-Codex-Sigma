@@ -10,6 +10,7 @@ public class practice{
             char ch = str.charAt(i);
             if(Character.isDigit(ch))
                 currnum = currnum * 10 + (ch - '0');
+            else if(ch == '['){}
         }
     }
 }
