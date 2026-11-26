@@ -16,6 +16,10 @@ public class practice {
         while(!right.isEmpty()){
             rightAligned.push(right.pop());
         }
+        int trapped_water = 0;
+        for(int i=n-1; i>=0; i--){
+            
+        }
     }
 
     public static void main(String[] args){
