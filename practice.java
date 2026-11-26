@@ -24,7 +24,7 @@ public class practice{
                 for(int k=0; k<repeat; k++){
                     prev.append(currstr);
                 }
-                currstr = prev; // 2[a2[b]] -> 2[abb] i.e. 
+                currstr = prev; // 2[a2[b]] -> 2[abb] i.e. store "abb in strstack
             }
             else
                 currstr.append(ch);
