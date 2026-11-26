@@ -6,6 +6,8 @@ public class practice {
         int[] left = new int[n];
         int[] right = new int[n];
         left[0] = arr[0];
+        right[n-1] = arr[n-1];
+        for(int i=0; i<arr.length; i++)
     }
 
     public static void main(String[] args){
