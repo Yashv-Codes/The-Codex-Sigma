@@ -2,6 +2,7 @@ import java.util.*;
 public class practice {
     public static int trappingWater(int arr[]){
         int n = arr.length;
+        Stack<Integer> left = new Stack<>();
         
     }
 
