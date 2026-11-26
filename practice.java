@@ -13,7 +13,9 @@ public class practice {
             right.push(Math.max(arr[i], right.peek()));
         }
         Stack<Integer> rightAligned = new Stack<>();
-        while(!s.isEmpty)
+        while(!s.isEmpty){
+            rightAligned.push(right.pop());
+        }
     }
 
     public static void main(String[] args){
