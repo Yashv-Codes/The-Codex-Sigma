@@ -27,7 +27,7 @@ public class DecodeStr{
                 currstr = prev; // 2[a2[b]] -> 2[abb] i.e. store "abb" in strstack
             }
             else
-                currstr.append(ch);
+                currstr.append(ch); // store str in strstack
         }
         return currstr.toString();
     }
