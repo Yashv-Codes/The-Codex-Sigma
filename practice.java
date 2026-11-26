@@ -12,6 +12,7 @@ public class practice {
         for(int i=n-2; i>=0; i--){
             right.push(Math.max(arr[i], right.peek()));
         }
+        Stack<Integer>
     }
 
     public static void main(String[] args){
