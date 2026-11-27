@@ -7,6 +7,7 @@ public class CircularQueue {
         static int rear;
 
         Queue(int n){
+            arr = new int[n];
             
         }
 
