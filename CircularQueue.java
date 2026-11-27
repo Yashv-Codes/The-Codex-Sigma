@@ -60,8 +60,6 @@ public class CircularQueue {
     
     public static void main(String[] args){
         Queue q = new Queue(5);
-        q.add(1);
-        q.add(2);
-        q.add(3);
+        Cir
     }
 }
