@@ -21,6 +21,10 @@ public class CircularQueue {
             return (rear + 1) % size == front;
         }
 
+        public static void add(int data){
+            
+        }
+
     }
     
     
