@@ -1,5 +1,5 @@
 // import java.util.*;
-public class practice {
+public class QueueB {
     
     public static void main(String[] args){
         
