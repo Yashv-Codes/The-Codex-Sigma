@@ -18,7 +18,8 @@ public class QueueB {
 
     public static int add(int data){
         if(rear == size-1){
-            
+            System.out.println("queue is full");
+            return -1;
         }
     }
 }
