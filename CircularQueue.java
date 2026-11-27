@@ -39,10 +39,11 @@ public class CircularQueue {
                 System.out.println("queue is empty");
                 return -1;
             }
-            // last element
+            // last element remove -> queue becomes empty
             int val = arr[front];
             if(front == rear)
                 rear = front = -1;
+            e
         }
     }
     
