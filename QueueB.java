@@ -5,7 +5,9 @@ public class QueueB {
         static int size;
         static int rear;
 
-        Queue(n){}
+        Queue(int n){
+            
+        }
     }
     
 
