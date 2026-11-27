@@ -58,5 +58,8 @@ public class CircularQueue {
         }
     }
     
-    
+    public static void main(String[] args){
+        Queue q = new Queue(5);
+
+    }
 }
