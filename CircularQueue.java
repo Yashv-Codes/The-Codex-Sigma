@@ -6,7 +6,7 @@ public class CircularQueue {
     static int rear;
 
     static class Queue{
-        
+        Queue
     }
     
 }
