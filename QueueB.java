@@ -35,6 +35,7 @@ public class QueueB {
             arr[i] = arr[i+1]; // Shift elements to left
         }
         rear = rear-1;
+        return front;
     }
 }
     
