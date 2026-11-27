@@ -12,7 +12,10 @@ public class CircularQueue {
             rear = -1;
             front = -1;
         }
-        
+
+        public static void isEmpty(){
+            
+        }
 
     }
     
