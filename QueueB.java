@@ -11,7 +11,8 @@ public class QueueB {
             rear = -1;
         }
     }
-    
+
+    public static boolean isEmpty()
     
 
     public static void main(String[] args){
