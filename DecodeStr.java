@@ -24,7 +24,7 @@ public class DecodeStr{
                 for(int k=0; k<repeat; k++){
                     prev.append(currstr); // 2[a2[b]] -> 2[abb]
                 }
-                currstr = prev; //  i.e. store "abb" in strstack
+                currstr = prev; // store "abb" in strstack
             }
             else
                 currstr.append(ch); // store str in strstack
