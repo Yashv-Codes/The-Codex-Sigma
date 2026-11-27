@@ -35,7 +35,11 @@ public class CircularQueue {
         }
         
         public static int remove(){
-            if(isEmpty())
+            if(isEmpty()){
+                System.out.println("queue is empty");
+                return -1;
+            }
+            
         }
     }
     
