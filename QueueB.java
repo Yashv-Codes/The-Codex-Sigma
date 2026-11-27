@@ -24,6 +24,10 @@ public class QueueB {
         rear = rear+1;
         arr[rear] = data;
     }
+
+    public static int remove(int data){
+        
+    }
 }
     
 
