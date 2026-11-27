@@ -14,8 +14,7 @@ public class CircularQueue {
         }
 
         public static boolean isEmpty(){
-
-        }
+            
 
     }
     
