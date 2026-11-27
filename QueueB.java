@@ -38,7 +38,11 @@ public class QueueB {
         return front;
     }
 
-    public static int peek()
+    public static int peek(){
+        if(isEmpty()){
+            System.out.println
+        }
+    }
 }
     
 
