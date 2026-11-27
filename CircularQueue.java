@@ -50,7 +50,10 @@ public class CircularQueue {
         }
 
         public static int peek(){
-            if(isEmpty())
+            if(isEmpty()){
+                System.out.println("queue is empty");
+                return -1;
+            }
         }
     }
     
