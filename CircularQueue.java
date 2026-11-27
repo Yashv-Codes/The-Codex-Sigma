@@ -1,5 +1,5 @@
 public class CircularQueue {
-    class Queue{
+    static class Queue{
         static int arr[];
         static int size;
         static int n;
