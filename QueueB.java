@@ -1,6 +1,6 @@
 // import java.util.*;
 public class QueueB {
-    class Queue{
+    static class Queue{
         static int arr[];
         static int size;
         static int rear;
