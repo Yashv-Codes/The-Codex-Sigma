@@ -13,8 +13,8 @@ public class CircularQueue {
             front = -1;
         }
 
-        public static void isEmpty(){
-            
+        public static boolean isEmpty(){
+
         }
 
     }
