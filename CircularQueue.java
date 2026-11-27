@@ -50,7 +50,7 @@ public class CircularQueue {
         }
 
         public static int peek(){
-            
+            if(isEmpty())
         }
     }
     
