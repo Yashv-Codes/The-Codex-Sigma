@@ -30,7 +30,11 @@ public class QueueB {
             System.out.println("queue is empty");
             return -1;
         }
-        
+        int front = arr[0];
+        for(int i=0; i<rear; i++){
+            arr[i] = arr[i+1]; // Shift elements to left
+        }
+        rear = rear-1;
     }
 }
     
