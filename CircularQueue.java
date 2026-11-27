@@ -49,7 +49,9 @@ public class CircularQueue {
             return val;
         }
 
-        public static 
+        public static int peek(){
+            
+        }
     }
     
     
