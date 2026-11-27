@@ -10,11 +10,12 @@ public class QueueB {
             size = n;
             rear = -1;
         }
-    }
+    
 
     public static boolean isEmpty(){
         return rear == -1;
     }
+}
     
 
     public static void main(String[] args){
