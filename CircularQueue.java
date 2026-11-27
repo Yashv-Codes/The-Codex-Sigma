@@ -43,7 +43,8 @@ public class CircularQueue {
             int val = arr[front];
             if(front == rear)
                 rear = front = -1;
-            e
+            else
+                front = (front + 1) % size;
         }
     }
     
