@@ -27,8 +27,10 @@ public class QueueB {
 
     public static int remove(int data){
         if(isEmpty()){
-            System.out.println("queue is empty")
+            System.out.println("queue is empty");
+            return -1;
         }
+        
     }
 }
     
