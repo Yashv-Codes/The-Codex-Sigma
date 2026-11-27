@@ -25,7 +25,7 @@ public class QueueB {
         arr[rear] = data;
     }
 
-    public static int remove(int data){
+    public static int remove(){
         if(isEmpty()){
             System.out.println("queue is empty");
             return -1;
@@ -54,7 +54,6 @@ public class QueueB {
 
         while(!q.isEmpty()){
             System.out.println(q.remove());
-            
         }
     }
 }
