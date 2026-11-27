@@ -64,6 +64,8 @@ public class CircularQueue {
         Queue.add(2);
         Queue.add(3);
 
-        while(!Queue.isEmpty)
+        while(!Queue.isEmpty()){
+            System.out.println(Queue.remove());
+        }
     }
 }
