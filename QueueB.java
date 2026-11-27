@@ -40,7 +40,7 @@ public class QueueB {
 
     public static int peek(){
         if(isEmpty()){
-            System.out.println
+            System.out.println("queue is empty")
         }
     }
 }
