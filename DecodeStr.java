@@ -22,9 +22,9 @@ public class DecodeStr{
                 int repeat = numstack.pop();
                 StringBuilder prev = new StringBuilder(strstack.pop());
                 for(int k=0; k<repeat; k++){
-                    prev.append(currstr);
+                    prev.append(currstr); // 2[a2[b]] -> 2[abb]
                 }
-                currstr = prev; // 2[a2[b]] -> 2[abb] i.e. store "abb" in strstack
+                currstr = prev; //  i.e. store "abb" in strstack
             }
             else
                 currstr.append(ch); // store str in strstack
