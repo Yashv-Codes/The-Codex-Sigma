@@ -37,6 +37,8 @@ public class QueueB {
         rear = rear-1;
         return front;
     }
+
+    public static int peek()
 }
     
 
