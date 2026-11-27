@@ -42,7 +42,7 @@ public class CircularQueue {
             // last element
             int val = arr[front];
             if(front == rear)
-                
+                rear = front = -1;
         }
     }
     
