@@ -8,9 +8,10 @@ public class QueueB {
         Queue(int n){
             arr = new int[n];
             size = n;
-            
+            rear = -1;
         }
     }
+    
     
 
     public static void main(String[] args){
