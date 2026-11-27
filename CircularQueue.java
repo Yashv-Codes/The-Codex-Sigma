@@ -6,6 +6,10 @@ public class CircularQueue {
         static int front;
         static int rear;
 
+        Queue(int n){
+            
+        }
+
     }
     
     
