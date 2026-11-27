@@ -16,10 +16,10 @@ public class QueueB {
         return rear == -1;
     }
 
-    public static int add(int data){
+    public static void add(int data){
         if(rear == size-1){
             System.out.println("queue is full");
-            return -1;
+            return;
         }
         rear = rear+1;
         arr[rear] = data;
