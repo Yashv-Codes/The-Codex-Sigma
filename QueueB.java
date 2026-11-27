@@ -26,7 +26,7 @@ public class QueueB {
     }
 
     public static int remove(int data){
-        if(is)
+        if(isEmpty())
     }
 }
     
