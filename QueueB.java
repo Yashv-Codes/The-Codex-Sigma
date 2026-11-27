@@ -48,11 +48,11 @@ public class QueueB {
     public static void main(String[] args){
         Queue q = new Queue(5);
         Queue.add(1);
-        q.add(2);
-        q.add(3);
+        Queue.add(2);
+        Queue.add(3);
 
         while(!Queue.isEmpty()){
-            System.out.println(q.remove());
+            System.out.println(Queue.remove());
         }
     }
 }
