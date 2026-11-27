@@ -47,6 +47,6 @@ public class QueueB {
     }
 }
     public static void main(String[] args){
-        Queue q = new Queue();
+        Queue q = new Queue(5);
     }
 }
