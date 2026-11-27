@@ -47,11 +47,11 @@ public class QueueB {
 }
     public static void main(String[] args){
         Queue q = new Queue(5);
-        q.add(1);
+        Queue.add(1);
         q.add(2);
         q.add(3);
 
-        while(!q.isEmpty()){
+        while(!Queue.isEmpty()){
             System.out.println(q.remove());
         }
     }
