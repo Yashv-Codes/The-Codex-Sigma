@@ -6,6 +6,8 @@ public class QueueB {
         static int rear;
 
         Queue(int n){
+            arr = new int[n];
+            size = n;
             
         }
     }
