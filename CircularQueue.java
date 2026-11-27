@@ -9,8 +9,10 @@ public class CircularQueue {
         Queue(int n){
             arr = new int[n];
             size = n;
-            rear
+            rear = -1;
+            front = -1;
         }
+        
 
     }
     
