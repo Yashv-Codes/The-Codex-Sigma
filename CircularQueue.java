@@ -22,7 +22,7 @@ public class CircularQueue {
         }
 
         public static void add(int data){
-            
+            if(isFull())
         }
 
     }
