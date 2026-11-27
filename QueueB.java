@@ -16,7 +16,11 @@ public class QueueB {
         return rear == -1;
     }
 
-    public static int add()
+    public static int add(int data){
+        if(rear == size-1){
+            
+        }
+    }
 }
     
 
