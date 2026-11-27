@@ -29,7 +29,9 @@ public class CircularQueue {
             // Add 1st element
             if(front == -1)
                 front = 0;
+            
             rear = (rear + 1) % size;
+            arr[rear] = data;
         }
 
     }
