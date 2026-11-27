@@ -14,7 +14,8 @@ public class QueueB {
         public static boolean isEmpty(){
         return rear == -1;
     }
-public static void add(int data){
+    
+    public static void add(int data){
         if(rear == size-1){
             System.out.println("queue is full");
             return;
