@@ -34,7 +34,9 @@ public class CircularQueue {
             arr[rear] = data;
         }
         
-        public static int remove()
+        public static int remove(){
+            if(isEmpty())
+        }
     }
     
     
