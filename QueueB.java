@@ -53,7 +53,7 @@ public class QueueB {
         q.add(3);
 
         while(!q.isEmpty()){
-            System.out.println(q.remove());
+            System.out.println(q.peek());
         }
     }
 }
