@@ -23,7 +23,7 @@ public class QueueB {
         }
         rear = rear+1;
         arr[rear] = data;
-  }
+    }
 }
     
 
