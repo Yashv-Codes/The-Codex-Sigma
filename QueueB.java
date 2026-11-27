@@ -15,6 +15,8 @@ public class QueueB {
     public static boolean isEmpty(){
         return rear == -1;
     }
+
+    public static int add()
 }
     
 
