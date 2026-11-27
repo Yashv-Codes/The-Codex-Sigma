@@ -1,9 +1,12 @@
 // import java.util.*;
 public class QueueB {
-    static int arr[];
+    class Queue{
+        static int arr[];
     static int size;
     static int rear;
+    }
     
+
     public static void main(String[] args){
         
     }
