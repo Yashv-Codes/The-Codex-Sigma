@@ -38,7 +38,9 @@ public class QueueUsingStack{
         Queue.remove();
         Queue.add(3);
 
-        while(!Queue.isEmpty())
+        while(!Queue.isEmpty()){
+            System.out.println(Queue.remove());
+        }
     }
 }
 
