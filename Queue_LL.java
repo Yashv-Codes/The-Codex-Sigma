@@ -10,6 +10,8 @@ public class Queue_LL {
     }
     
     static class Queue{
-        static 
+        static Node head = null;
+        static Node tail = null;
+        
     }
 }
