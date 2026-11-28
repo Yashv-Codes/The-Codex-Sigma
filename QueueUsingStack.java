@@ -21,7 +21,7 @@ public class QueueUsingStack{
                 System.out.println("Queue is empty");
                 return -1;
             }
-            
+            return s1.pop();
         }
     }
 }
