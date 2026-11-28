@@ -12,6 +12,11 @@ public class Queue_LL {
     static class Queue{
         static Node head = null;
         static Node tail = null;
-        
+
+        static boolean isEmpty(){
+            return head == null && tail == null;
+        }
+
+        static v
     }
 }
