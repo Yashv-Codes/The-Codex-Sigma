@@ -8,7 +8,6 @@ public class Queue_LL {
             this.next = null;
         }
     }
-    
     static class Queue{
         static Node head = null;
         static Node tail = null;
