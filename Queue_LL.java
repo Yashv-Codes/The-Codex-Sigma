@@ -51,6 +51,12 @@ public class Queue_LL {
     }
 
     public static void main(String[] args){
-        
+        Queue.add(1);
+        Queue.add(2);
+        Queue.add(3);
+
+        while(!Q.isEmpty()){
+            
+        }
     }
 }
