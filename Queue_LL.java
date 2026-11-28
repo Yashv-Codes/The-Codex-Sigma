@@ -23,6 +23,8 @@ public class Queue_LL {
                 head = tail = newnode;
                 return;
             }
+            tail.next = newnode;
+            tail = newnode;
         }
     }
 }
