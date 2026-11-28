@@ -16,6 +16,13 @@ public class QueueUsingStack{
                 s1.push(s2.pop());
             }
         }
+        public static int remove(){
+            if(isEmpty()){
+                System.out.println("Queue is empty");
+                return -1;
+            }
+            
+        }
     }
 }
 
