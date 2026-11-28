@@ -33,6 +33,10 @@ public class Queue_LL {
                 return -1;
             }
             int val = head.data;
+            // Single element
+            if(head == tail)
+
+            
         }
     }
 }
