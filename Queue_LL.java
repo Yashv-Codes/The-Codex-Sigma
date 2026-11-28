@@ -56,7 +56,7 @@ public class Queue_LL {
         Queue.add(3);
 
         while(!Queue.isEmpty()){
-
+            System.out.println(Queue.remove());
         }
     }
 }
