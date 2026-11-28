@@ -8,7 +8,9 @@ public class QueueUsingStack{
             return s1.isEmpty();
         }
         public static void add(int data){
-            while(!s1.isEmpty())
+            while(!s1.isEmpty()){
+                s2.push(s1.pop());
+            }
         }
     }
 }
