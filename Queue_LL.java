@@ -32,7 +32,7 @@ public class Queue_LL {
                 System.out.println("Queue is empty");
                 return -1;
             }
-            
+            int val = head.data;
         }
     }
 }
