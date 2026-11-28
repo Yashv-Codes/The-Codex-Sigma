@@ -55,8 +55,8 @@ public class Queue_LL {
         Queue.add(2);
         Queue.add(3);
 
-        while(!Q.isEmpty()){
-            
+        while(!Queue.isEmpty()){
+
         }
     }
 }
