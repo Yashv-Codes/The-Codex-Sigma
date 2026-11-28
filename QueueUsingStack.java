@@ -33,7 +33,9 @@ public class QueueUsingStack{
     }
 
     public static void main(String[] args){
-        Queue.add
+        Queue.add(1);
+        Queue.add(2);
+        Queue.remove(2);
     }
 }
 
