@@ -26,5 +26,7 @@ public class Queue_LL {
             tail.next = newnode;
             tail = newnode;
         }
+
+        static 
     }
 }
