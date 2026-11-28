@@ -27,6 +27,8 @@ public class Queue_LL {
             tail = newnode;
         }
 
-        static 
+        static int remove(){
+            if(isEmpty())
+        }
     }
 }
