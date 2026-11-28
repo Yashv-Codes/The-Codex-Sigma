@@ -17,6 +17,9 @@ public class Queue_LL {
             return head == null && tail == null;
         }
 
-        static v
+        static void add(int data){
+            Node newnode = new Node(data);
+            
+        }
     }
 }
