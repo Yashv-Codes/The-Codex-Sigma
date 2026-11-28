@@ -1,5 +1,7 @@
 import java.util.*;
-public class QueueUsingStack{}
+public class QueueUsingStack{
+    
+}
 
     
 
