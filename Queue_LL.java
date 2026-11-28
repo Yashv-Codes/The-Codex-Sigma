@@ -49,4 +49,8 @@ public class Queue_LL {
             return head.data;
         }
     }
+
+    public static void main(String[] args){
+        
+    }
 }
