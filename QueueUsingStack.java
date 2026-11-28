@@ -23,6 +23,12 @@ public class QueueUsingStack{
             }
             return s1.pop();
         }
+        public static int peek(){
+            if(isEmpty()){
+                System.out.println("Queue is empty");
+                return -1;
+            }
+        }
     }
 }
 
