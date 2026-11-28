@@ -7,7 +7,9 @@ public class QueueUsingStack{
         public static boolean isEmpty(){
             return s1.isEmpty();
         }
-
+        public static void add(int data){
+            
+        }
     }
 }
 
