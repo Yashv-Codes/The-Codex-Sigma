@@ -40,5 +40,9 @@ public class Queue_LL {
                 head = head.next;
             return val;
         }
+
+        static int peek(){
+            
+        }
     }
 }
