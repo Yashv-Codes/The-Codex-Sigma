@@ -38,7 +38,7 @@ public class Queue_LL {
                 head = tail = null;
             else
                 head = head.next;
-            return 
+            return val;
         }
     }
 }
