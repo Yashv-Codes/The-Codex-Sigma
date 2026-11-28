@@ -33,7 +33,7 @@ public class QueueUsingStack{
     }
 
     public static void main(String[] args){
-        Queue
+        Queue<Integer> q = new LinkedList<>();
     }
 }
 
