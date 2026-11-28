@@ -28,7 +28,11 @@ public class Queue_LL {
         }
 
         static int remove(){
-            if(isEmpty())
+            if(isEmpty()){
+                System.out.println("Queue is empty");
+                return -1;
+            }
+            
         }
     }
 }
