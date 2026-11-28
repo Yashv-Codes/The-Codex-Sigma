@@ -1,12 +1,12 @@
 import java.util.*;
 public class QueueB {
      public static void main(String[] args){
-        Queue q = new LinkedList<>();
+        Queue<Integer> q = new LinkedList<>();
         q.add(1);
         q.add(2);
-        Queue.add(3);
+        q.add(3);
 
-        while(!Queue.isEmpty()){
+        while(!q.isEmpty()){
             System.out.println(Queue.remove());
         }
     }
