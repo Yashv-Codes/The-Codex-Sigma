@@ -31,6 +31,10 @@ public class QueueUsingStack{
             return s1.peek();
         }
     }
+
+    public static void main(String[] args){
+        Queue
+    }
 }
 
     
