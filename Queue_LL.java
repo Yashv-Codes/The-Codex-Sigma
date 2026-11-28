@@ -35,6 +35,8 @@ public class Queue_LL {
             int val = head.data;
             // Single element
             if(head == tail)
+                head = tail = null;
+            else
 
         }
     }
